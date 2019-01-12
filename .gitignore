@@ -1,0 +1,13 @@
+.minecraft/coremods/
+.minecraft/logs/
+.minecraft/crash-reports/
+.minecraft/resourcepacks/
+.minecraft/saves/
+.minecraft/screenshots/
+.minecraft/server-resource-packs/
+.minecraft/texturepacks/
+.minecraft/crafttweaker.log
+.minecraft/options.txt
+.minecraft/usercache.json
+.minecraft/usernamecache.json
+natives/
