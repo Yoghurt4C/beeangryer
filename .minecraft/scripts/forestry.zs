@@ -33,3 +33,4 @@ recipes.addShaped(<forestry:grafter_proven>,[
 [null,null,<ore:ingotIridium>],
 [null,<ore:stickWood>,null],
 [<ore:stickWood>,null,null]]);
+	

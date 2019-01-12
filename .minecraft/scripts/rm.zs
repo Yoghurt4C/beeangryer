@@ -34,11 +34,19 @@ val rmOreArray=[
 <ore:nuggetSteel>,
 <ore:nuggetElectrum>,
 <ore:nuggetInvar>,
+<ore:nuggetBrass>,
 <ore:nuggetBronze>,
+<ore:nuggetChrome>,
 <ore:nuggetConstantan>,
 <ore:nuggetSignalum>,
 <ore:nuggetLumium>,
 <ore:nuggetEnderium>,
+<ore:nuggetTitanium>,
+<ore:nuggetTungsten>,
+<ore:nuggetHotTungstensteel>,
+<ore:nuggetTungstensteel>,
+<ore:nuggetZinc>,
+<ore:nuggetRefinedIron>,
 //ingots
 <ore:ingotIron>,
 <ore:ingotGold>,
@@ -54,11 +62,19 @@ val rmOreArray=[
 <ore:ingotSteel>,
 <ore:ingotElectrum>,
 <ore:ingotInvar>,
+<ore:ingotBrass>,
 <ore:ingotBronze>,
+<ore:ingotChrome>,
 <ore:ingotConstantan>,
 <ore:ingotSignalum>,
 <ore:ingotLumium>,
 <ore:ingotEnderium>,
+<ore:ingotTitanium>,
+<ore:ingotTungsten>,
+<ore:ingotHotTungstensteel>,
+<ore:ingotTungstensteel>,
+<ore:ingotZinc>,
+<ore:ingotRefinedIron>,
 //blocks
 <ore:blockIron>,
 <ore:blockGold>,
@@ -74,11 +90,19 @@ val rmOreArray=[
 <ore:blockSteel>,
 <ore:blockElectrum>,
 <ore:blockInvar>,
+<ore:blockBrass>,
 <ore:blockBronze>,
+<ore:blockChrome>,
 <ore:blockConstantan>,
 <ore:blockSignalum>,
 <ore:blockLumium>,
 <ore:blockEnderium>,
+<ore:blockTitanium>,
+<ore:blockTungsten>,
+<ore:blockHotTungstensteel>,
+<ore:blockTungstensteel>,
+<ore:blockZinc>,
+<ore:blockRefinedIron>,
 //gears
 <ore:gearIron>,
 <ore:gearGold>,
@@ -94,13 +118,28 @@ val rmOreArray=[
 <ore:gearSteel>,
 <ore:gearElectrum>,
 <ore:gearInvar>,
+<ore:gearBrass>,
 <ore:gearBronze>,
+<ore:gearChrome>,
 <ore:gearConstantan>,
 <ore:gearSignalum>,
 <ore:gearLumium>,
-<ore:gearEnderium>
+<ore:gearEnderium>,
+<ore:gearTitanium>,
+<ore:gearTungsten>,
+<ore:gearHotTungstensteel>,
+<ore:gearTungstensteel>,
+<ore:gearZinc>,
+<ore:gearRefinedIron>
 ] as IOreDictEntry[];
 for item in rmOreArray {recipes.remove(item);}
+//recipeid array, rather pointless but it exists
+val k=0;
+for k in 1 .. 20{
+val rmIDArray=[	
+//"techreborn:nuggets_"+k
+]as string[];
+for name in rmIDArray{recipes.removeByRecipeName(name);}}
 //furnace rm
 val rmFurnaceArray=[
 <ore:nuggetIron>,

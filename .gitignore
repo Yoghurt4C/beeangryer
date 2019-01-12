@@ -1,6 +1,7 @@
 .minecraft/coremods/
 .minecraft/logs/
 .minecraft/crash-reports/
+.minecraft/mods/memory_repo/
 .minecraft/resourcepacks/
 .minecraft/saves/
 .minecraft/screenshots/
@@ -10,6 +11,7 @@
 .minecraft/texturepacks/
 .minecraft/crafttweaker.log
 .minecraft/options.txt
+.minecraft/recipenames.log
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 natives/

@@ -643,6 +643,490 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+techreborn:thermal_generator, Thermal Generator
+techreborn:quantum_tank, Quantum Tank
+techreborn:creative_quantum_tank, Creative Quantum Tank
+techreborn:quantum_chest, Quantum Chest
+techreborn:creative_quantum_chest, Creative Quantum Chest
+techreborn:digital_chest, Digital Chest
+techreborn:industrial_centrifuge, Industrial Centrifuge
+techreborn:rolling_machine, Rolling Machine
+techreborn:industrial_blast_furnace, Industrial Blast Furnace
+techreborn:alloy_smelter, Alloy Smelter
+techreborn:industrial_grinder, Industrial Grinder
+techreborn:implosion_compressor, Implosion Compressor
+techreborn:matter_fabricator, Matter Fabricator
+techreborn:chunk_loader, Industrial Chunkloader
+techreborn:charge_o_mat, Charge-O-Mat
+techreborn:player_detector:0, Player Detector (All)
+techreborn:player_detector:1, Player Detector (Others)
+techreborn:player_detector:2, Player Detector (You)
+techreborn:cable:0, Copper Cable
+techreborn:cable:1, Tin Cable
+techreborn:cable:2, Gold Cable
+techreborn:cable:3, HV Cable
+techreborn:cable:4, Glass Fiber Cable
+techreborn:cable:5, Insulated Copper Cable
+techreborn:cable:6, Insulated Gold Cable
+techreborn:cable:7, Insulated HV Cable
+techreborn:machine_casing:0, Standard Machine Casing
+techreborn:machine_casing:1, Reinforced Machine Casing
+techreborn:machine_casing:2, Advanced Machine Casing
+techreborn:ore:0, Galena Ore
+techreborn:ore:1, Iridium Ore
+techreborn:ore:2, Ruby Ore
+techreborn:ore:3, Sapphire Ore
+techreborn:ore:4, Bauxite Ore
+techreborn:ore:5, Pyrite Ore
+techreborn:ore:6, Cinnabar Ore
+techreborn:ore:7, Sphalerite Ore
+techreborn:ore:8, Tungsten Ore
+techreborn:ore:9, Sheldonite Ore
+techreborn:ore:10, Peridot Ore
+techreborn:ore:11, Sodalite Ore
+techreborn:ore:12, Lead Ore
+techreborn:ore:13, Silver Ore
+techreborn:ore2:0, Copper Ore
+techreborn:ore2:1, Tin Ore
+techreborn:storage:0, Block of Silver
+techreborn:storage:1, Block of Aluminium
+techreborn:storage:2, Block of Titanium
+techreborn:storage:3, Block of Chrome
+techreborn:storage:4, Block of Steel
+techreborn:storage:5, Block of Brass
+techreborn:storage:6, Block of Lead
+techreborn:storage:7, Block of Electrum
+techreborn:storage:8, Block of Zinc
+techreborn:storage:9, Block of Platinum
+techreborn:storage:10, Block of Tungsten
+techreborn:storage:11, Block of Nickel
+techreborn:storage:12, Block of Invar
+techreborn:storage:13, Block of Iridium
+techreborn:storage:14, Block of Bronze
+techreborn:storage2:0, Block of Tungstensteel
+techreborn:storage2:1, Iridium Reinforced Tungstensteel Block
+techreborn:storage2:2, Iridium Reinforced Stone
+techreborn:storage2:3, Block of Ruby
+techreborn:storage2:4, Block of Sapphire
+techreborn:storage2:5, Block of Peridot
+techreborn:storage2:6, Block of Yellow Garnet
+techreborn:storage2:7, Block of Red Garnet
+techreborn:storage2:8, Block of Copper
+techreborn:storage2:9, Block of Tin
+techreborn:storage2:10, Block of Refined Iron
+techreborn:dragon_egg_syphon, Dragon Egg Energy Siphon
+techreborn:magic_energy_converter, Magic Energy Converter
+techreborn:assembly_machine, Assembling Machine
+techreborn:diesel_generator, Diesel Generator
+techreborn:industrial_electrolyzer, Industrial Electrolyzer
+techreborn:magic_energy_absorber, Magic Energy Absorber
+techreborn:semi_fluid_generator, Semi Fluid Generator
+techreborn:gas_turbine, Gas Turbine
+techreborn:iron_alloy_furnace, Iron Alloy Furnace
+techreborn:chemical_reactor, Chemical Reactor
+techreborn:interdimensional_su, Interdimensional SU
+techreborn:adjustable_su, Adjustable SU
+techreborn:lapotronic_su, LESU Controller
+techreborn:lsu_storage, LESU Storage
+techreborn:distillation_tower, Distillation Tower
+techreborn:vacuum_freezer, Vacuum Freezer
+techreborn:fusion_control_computer, Fusion Control Computer
+techreborn:fusion_coil, Fusion Coil
+techreborn:lightning_rod, Lightning Rod
+techreborn:industrial_sawmill, Sawmill
+techreborn:machine_frame:0, Basic Machine Frame
+techreborn:machine_frame:1, Advanced Machine Frame
+techreborn:machine_frame:2, Highly Advanced Machine Frame
+techreborn:grinder, Grinder
+techreborn:solid_fuel_generator, Generator
+techreborn:extractor, Extractor
+techreborn:compressor, Compressor
+techreborn:electric_furnace, Electric Furnace
+techreborn:solar_panel:0, Basic Solar Panel
+techreborn:solar_panel:1, Hybrid Solar Panel
+techreborn:solar_panel:2, Advanced Solar Panel
+techreborn:solar_panel:3, Ultimate Solar Panel
+techreborn:solar_panel:4, Quantum Solar Panel
+techreborn:creative_solar_panel, Creative Solar Panel
+techreborn:water_mill, Water Mill
+techreborn:wind_mill, Wind Mill
+techreborn:rubber_log, Rubber Wood
+techreborn:rubber_planks, Rubber Wood Planks
+techreborn:rubber_plank_double_slab:0, Rubber Plank Slab
+techreborn:rubber_plank_stair, Rubber Plank Stair
+techreborn:rubber_leaves, Rubber Leaves
+techreborn:rubber_sapling, Rubber Sapling
+techreborn:refined_iron_fence, Iron Fence
+techreborn:reinforced_glass, Reinforced Glass
+techreborn:recycler, Recycler
+techreborn:low_voltage_su, Battery Box
+techreborn:medium_voltage_su, MFE
+techreborn:high_voltage_su, MFSU
+techreborn:lv_transformer, LV Transformer
+techreborn:mv_transformer, MV Transformer
+techreborn:hv_transformer, HV Transformer
+techreborn:auto_crafting_table, Auto Crafting Table
+techreborn:iron_furnace, Iron Furnace
+techreborn:nuke, Nuke
+techreborn:scrapboxinator, Scrapbox-inator
+techreborn:computer_cube, Tech Reborn Computer Cube
+techreborn:plasma_generator, Plasma Generator
+techreborn:lamp_incandescent, Incandescent Lamp
+techreborn:lamp_led, LED Lamp
+techreborn:alarm, Alarm
+techreborn:fluid_replicator, Fluid Replicator
+techreborn:techreborn_techreborn.berylium, Beryllium
+techreborn:techreborn_techreborn.calcium, Calcium
+techreborn:techreborn_techreborn.calciumcarbonate, Calciumcarbonate
+techreborn:techreborn_techreborn.chlorite, Chlorite
+techreborn:techreborn_techreborn.deuterium, Deuterium
+techreborn:techreborn_techreborn.glyceryl, Glyceryl
+techreborn:techreborn_techreborn.helium, Helium
+techreborn:techreborn_techreborn.helium3, Helium3
+techreborn:techreborn_techreborn.heliumplasma, Heliumplasma
+techreborn:techreborn_techreborn.hydrogen, Hydrogen
+techreborn:techreborn_techreborn.lithium, Lithium
+techreborn:techreborn_techreborn.mercury, Mercury
+techreborn:techreborn_techreborn.methane, Methane
+techreborn:techreborn_techreborn.nitrocoalfuel, Nitrocoalfuel
+techreborn:techreborn_techreborn.nitrofuel, Nitrofuel
+techreborn:techreborn_techreborn.nitrogen, Nitrogen
+techreborn:techreborn_techreborn.nitrogendioxide, Nitrogendioxide
+techreborn:techreborn_techreborn.potassium, Potassium
+techreborn:techreborn_techreborn.silicon, Silicon
+techreborn:techreborn_techreborn.sodium, Sodium
+techreborn:techreborn_techreborn.sodiumpersulfate, Sodiumpersulfate
+techreborn:techreborn_techreborn.tritium, Tritium
+techreborn:techreborn_techreborn.wolframium, Wolframium
+techreborn:techreborn_techreborn.carbon, Carbon
+techreborn:techreborn_techreborn.carbonfiber, Carbon Fiber
+techreborn:techreborn_techreborn.nitrocarbon, Nitrocarbon
+techreborn:techreborn_techreborn.sulfur, Sulfur
+techreborn:techreborn_techreborn.sodiumsulfide, Sodium Sulfide
+techreborn:techreborn_techreborn.diesel, Diesel
+techreborn:techreborn_techreborn.nitrodiesel, Nitrodiesel
+techreborn:techreborn_techreborn.oil, Oil
+techreborn:techreborn_techreborn.sulfuricacid, Sulfuric Acid
+techreborn:techreborn_techreborn.compressedair, Compressed Air
+techreborn:techreborn_techreborn.electrolyzedwater, Electrolyzed Water
+techreborn:dust:0, Almandine Dust
+techreborn:dust:1, Aluminium Dust
+techreborn:dust:2, Andradite Dust
+techreborn:dust:3, Ashes
+techreborn:dust:4, Basalt Dust
+techreborn:dust:5, Bauxite Dust
+techreborn:dust:6, Brass Dust
+techreborn:dust:7, Bronze Dust
+techreborn:dust:8, Calcite Dust
+techreborn:dust:9, Charcoal Dust
+techreborn:dust:10, Chrome Dust
+techreborn:dust:11, Cinnabar Dust
+techreborn:dust:12, Clay Dust
+techreborn:dust:13, Coal Dust
+techreborn:dust:14, Copper Dust
+techreborn:dust:15, Dark Ashes
+techreborn:dust:16, Diamond Dust
+techreborn:dust:17, Electrum Dust
+techreborn:dust:18, Emerald Dust
+techreborn:dust:19, Ender Eye Dust
+techreborn:dust:20, Ender Pearl Dust
+techreborn:dust:21, Endstone Dust
+techreborn:dust:22, Flint Dust
+techreborn:dust:23, Galena Dust
+techreborn:dust:24, Gold Dust
+techreborn:dust:25, Grossular Dust
+techreborn:dust:26, Invar Dust
+techreborn:dust:27, Iron Dust
+techreborn:dust:28, Lazurite Dust
+techreborn:dust:29, Lead Dust
+techreborn:dust:30, Magnesium Dust
+techreborn:dust:31, Manganese Dust
+techreborn:dust:32, Marble Dust
+techreborn:dust:33, Netherrack Dust
+techreborn:dust:34, Nickel Dust
+techreborn:dust:35, Obsidian Dust
+techreborn:dust:36, Peridot Dust
+techreborn:dust:37, Phosphorous Dust
+techreborn:dust:38, Platinum Dust
+techreborn:dust:39, Pyrite Dust
+techreborn:dust:40, Pyrope Dust
+techreborn:dust:41, Red Garnet Dust
+techreborn:dust:43, Ruby Dust
+techreborn:dust:44, Saltpeter Dust
+techreborn:dust:45, Sapphire Dust
+techreborn:dust:46, Saw Dust
+techreborn:dust:47, Silver Dust
+techreborn:dust:48, Sodalite Dust
+techreborn:dust:49, Spessartine Dust
+techreborn:dust:50, Sphalerite Dust
+techreborn:dust:51, Steel Dust
+techreborn:dust:52, Sulfur Dust
+techreborn:dust:53, Tin Dust
+techreborn:dust:54, Titanium Dust
+techreborn:dust:55, Tungsten Dust
+techreborn:dust:56, Uvarovite Dust
+techreborn:dust:58, Yellow Garnet Dust
+techreborn:dust:59, Zinc Dust
+techreborn:dust:61, Andesite Dust
+techreborn:dust:62, Diorite Dust
+techreborn:dust:63, Granite Dust
+techreborn:gem:0, Ruby
+techreborn:gem:1, Sapphire
+techreborn:gem:2, Peridot
+techreborn:gem:3, Red Garnet
+techreborn:gem:4, Yellow Garnet
+techreborn:ingot:0, Aluminium Ingot
+techreborn:ingot:1, Brass Ingot
+techreborn:ingot:2, Bronze Ingot
+techreborn:ingot:3, Chrome Ingot
+techreborn:ingot:4, Copper Ingot
+techreborn:ingot:5, Electrum Ingot
+techreborn:ingot:6, Invar Ingot
+techreborn:ingot:7, Iridium Ingot
+techreborn:ingot:8, Lead Ingot
+techreborn:ingot:9, Nickel Ingot
+techreborn:ingot:10, Platinum Ingot
+techreborn:ingot:11, Silver Ingot
+techreborn:ingot:12, Steel Ingot
+techreborn:ingot:13, Tin Ingot
+techreborn:ingot:14, Titanium Ingot
+techreborn:ingot:15, Tungsten Ingot
+techreborn:ingot:16, Hot Tungstensteel Ingot
+techreborn:ingot:17, Tungstensteel Ingot
+techreborn:ingot:18, Zinc Ingot
+techreborn:ingot:19, Refined Iron Ingot
+techreborn:ingot:20, Advanced Alloy Ingot
+techreborn:ingot:21, Mixed Metal Ingot
+techreborn:ingot:22, Iridium Alloy Ingot
+techreborn:nuggets:0, Aluminium Nugget
+techreborn:nuggets:1, Brass Nugget
+techreborn:nuggets:2, Bronze Nugget
+techreborn:nuggets:3, Chrome Nugget
+techreborn:nuggets:4, Copper Nugget
+techreborn:nuggets:5, Electrum Nugget
+techreborn:nuggets:6, Invar Nugget
+techreborn:nuggets:7, Iridium Nugget
+techreborn:nuggets:8, Lead Nugget
+techreborn:nuggets:9, Nickel Nugget
+techreborn:nuggets:10, Platinum Nugget
+techreborn:nuggets:11, Silver Nugget
+techreborn:nuggets:12, Steel Nugget
+techreborn:nuggets:13, Tin Nugget
+techreborn:nuggets:14, Titanium Nugget
+techreborn:nuggets:15, Tungsten Nugget
+techreborn:nuggets:16, Hot Tungstensteel Nugget
+techreborn:nuggets:17, Tungstensteel Nugget
+techreborn:nuggets:18, Zinc Nugget
+techreborn:nuggets:19, Refined Iron Nugget
+techreborn:nuggets:23, Iron Nugget
+techreborn:nuggets:24, Diamond Nugget
+techreborn:part:0, Energy Flow Circuit
+techreborn:part:1, Data Control Circuit
+techreborn:part:2, Data Storage Circuit
+techreborn:part:3, Data Orb
+techreborn:part:4, Diamond Grinding Head
+techreborn:part:5, Diamond Saw Blade
+techreborn:part:6, Tungsten Grinding Head
+techreborn:part:7, 60k Helium Coolant Cell
+techreborn:part:8, 180k Helium Coolant Cell
+techreborn:part:9, 360k Helium Coolant Cell
+techreborn:part:10, 60k nak Coolant Cell
+techreborn:part:11, 180k nak Coolant Cell
+techreborn:part:12, 360k nak Coolant Cell
+techreborn:part:13, Cupronickel Heating Coil
+techreborn:part:14, Nichrome Heating Coil
+techreborn:part:15, Kanthal Heating Coil
+techreborn:part:17, Superconductor
+techreborn:part:18, Fuel Rod (Thorium)
+techreborn:part:19, Dual Fuel Rod (Thorium)
+techreborn:part:20, Quad Fuel Rod (Thorium)
+techreborn:part:21, Fuel Rod (Plutonium)
+techreborn:part:22, Dual Fuel Rod (Plutonium)
+techreborn:part:23, Quad Fuel Rod (Plutonium)
+techreborn:part:24, Computer Monitor
+techreborn:part:25, Machine Parts
+techreborn:part:26, Neutron Reflector
+techreborn:part:27, Iridium Neutron Reflector
+techreborn:part:28, Thick Neutron Reflector
+techreborn:part:29, Electronic Circuit
+techreborn:part:30, Advanced Electronic Circuit
+techreborn:part:31, Sap
+techreborn:part:32, Rubber
+techreborn:part:33, Scrap
+techreborn:part:34, Carbon Mesh
+techreborn:part:35, Carbon Fiber
+techreborn:part:36, 10k Coolant Cell
+techreborn:part:37, 30k Coolant Cell
+techreborn:part:38, 60k Coolant Cell
+techreborn:plates:0, Iron Plate
+techreborn:plates:1, Gold Plate
+techreborn:plates:2, Carbon Plate
+techreborn:plates:3, Wooden Plate
+techreborn:plates:4, Redstone Plate
+techreborn:plates:5, Diamond Plate
+techreborn:plates:6, Emerald Plate
+techreborn:plates:8, Coal Plate
+techreborn:plates:9, Obsidian Plate
+techreborn:plates:10, Lazurite Plate
+techreborn:plates:11, Ruby Plate
+techreborn:plates:12, Sapphire Plate
+techreborn:plates:13, Peridot Plate
+techreborn:plates:14, Red Garnet Plate
+techreborn:plates:15, Yellow Garnet Plate
+techreborn:plates:16, Aluminium Plate
+techreborn:plates:17, Brass Plate
+techreborn:plates:18, Bronze Plate
+techreborn:plates:19, Chrome Plate
+techreborn:plates:20, Copper Plate
+techreborn:plates:21, Electrum Plate
+techreborn:plates:22, Invar Plate
+techreborn:plates:23, Iridium Plate
+techreborn:plates:24, Lead Plate
+techreborn:plates:25, Nickel Plate
+techreborn:plates:26, Platinum Plate
+techreborn:plates:27, Silver Plate
+techreborn:plates:28, Steel Plate
+techreborn:plates:29, Tin Plate
+techreborn:plates:30, Titanium Plate
+techreborn:plates:31, Tungsten Plate
+techreborn:plates:32, Tungstensteel Plate
+techreborn:plates:33, Zinc Plate
+techreborn:plates:34, Refined Iron Plate
+techreborn:plates:35, Advanced Alloy Plate
+techreborn:plates:36, Magnalium Plate
+techreborn:plates:37, Iridium Alloy Plate
+techreborn:smalldust:0, Small Pile of Almandine Dust
+techreborn:smalldust:1, Small Pile of Aluminium Dust
+techreborn:smalldust:2, Small Pile of Andradite Dust
+techreborn:smalldust:3, Small Pile of Ashes
+techreborn:smalldust:4, Small Pile of Basalt Dust
+techreborn:smalldust:5, Small Pile of Bauxite Dust
+techreborn:smalldust:6, Small Pile of Brass Dust
+techreborn:smalldust:7, Small Pile of Bronze Dust
+techreborn:smalldust:8, Small Pile of Calcite Dust
+techreborn:smalldust:9, Small Pile of Charcoal Dust
+techreborn:smalldust:10, Small Pile of Chrome Dust
+techreborn:smalldust:11, Small Pile of Cinnabar Dust
+techreborn:smalldust:12, Small Pile of Clay Dust
+techreborn:smalldust:13, Small Pile of Coal Dust
+techreborn:smalldust:14, Small Pile of Copper Dust
+techreborn:smalldust:15, Small Pile of Dark Ashes
+techreborn:smalldust:16, Small Pile of Diamond Dust
+techreborn:smalldust:17, Small Pile of Electrum Dust
+techreborn:smalldust:18, Small Pile of Emerald Dust
+techreborn:smalldust:19, Small Pile of Ender Eye Dust
+techreborn:smalldust:20, Small Pile of Ender Pearl Dust
+techreborn:smalldust:21, Small Pile of Endstone Dust
+techreborn:smalldust:22, Small Pile of Flint Dust
+techreborn:smalldust:23, Small Pile of Galena Dust
+techreborn:smalldust:24, Small Pile of Gold Dust
+techreborn:smalldust:25, Small Pile of Grossular Dust
+techreborn:smalldust:26, Small Pile of Invar Dust
+techreborn:smalldust:27, Small Pile of Iron Dust
+techreborn:smalldust:28, Small Pile of Lazurite Dust
+techreborn:smalldust:29, Small Pile of Lead Dust
+techreborn:smalldust:30, Small Pile of Magnesium Dust
+techreborn:smalldust:31, Small Pile of Manganese Dust
+techreborn:smalldust:32, Small Pile of Marble Dust
+techreborn:smalldust:33, Small Pile of Netherrack Dust
+techreborn:smalldust:34, Small Pile of Nickel Dust
+techreborn:smalldust:35, Small Pile of Obsidian Dust
+techreborn:smalldust:36, Small Pile of Peridot
+techreborn:smalldust:37, Small Pile of Phosphorous Dust
+techreborn:smalldust:38, Small Pile of Platinum Dust
+techreborn:smalldust:39, Small Pile of Pyrite Dust
+techreborn:smalldust:40, Small Pile of Pyrope Dust
+techreborn:smalldust:41, Small Pile of Red Garnet Dust
+techreborn:smalldust:43, Small Pile of Ruby Dust
+techreborn:smalldust:44, Small Pile of Saltpeter Dust
+techreborn:smalldust:45, Small Pile of Sapphire Dust
+techreborn:smalldust:46, Small Pile of Saw Dust
+techreborn:smalldust:47, Small Pile of Silver Dust
+techreborn:smalldust:48, Small Pile of Sodalite Dust
+techreborn:smalldust:49, Small Pile of Spessartine Dust
+techreborn:smalldust:50, Small Pile of Sphalerite Dust
+techreborn:smalldust:51, Small Pile of Steel Dust
+techreborn:smalldust:52, Small Pile of Sulfur Dust
+techreborn:smalldust:53, Small Pile of Tin Dust
+techreborn:smalldust:54, Small Pile of Titanium Dust
+techreborn:smalldust:55, Small Pile of Tungsten Dust
+techreborn:smalldust:56, Small Pile of Uvarovite Dust
+techreborn:smalldust:58, Small Pile of Yellow Garnet Dust
+techreborn:smalldust:59, Small Pile of Zinc Dust
+techreborn:smalldust:61, Small Pile of Redstone
+techreborn:smalldust:62, Small Pile of Glowstone Dust
+techreborn:smalldust:63, Small Pile of Andesite Dust
+techreborn:smalldust:64, Small Pile of Diorite Dust
+techreborn:smalldust:65, Small Pile of Granite Dust
+techreborn:uumatter, UU-Matter
+techreborn:cloakingdevice, Cloaking Device
+techreborn:lapotronpack, Lapotronic Orbpack
+techreborn:lithiumbatpack, Lithium Batpack
+techreborn:energycrystal, Energy Crystal
+techreborn:lapotroncrystal, Lapotron Crystal
+techreborn:lapotronicorb, Lapotronic Energy Orb
+techreborn:lithiumbattery, Lithium Battery
+techreborn:rebattery, Battery
+techreborn:advancedchainsaw, Advanced Chainsaw
+techreborn:advanceddrill, Advanced Drill
+techreborn:ironjackhammer, Advanced Jackhammer
+techreborn:debug, Debug Tool
+techreborn:diamondchainsaw, Diamond Chainsaw
+techreborn:diamonddrill, Diamond Drill
+techreborn:diamondjackhammer, Diamond Jackhammer
+techreborn:electrictreetap, Electric Treetap
+techreborn:nanosaber, Nanosaber
+techreborn:omnitool, Omni-Tool
+techreborn:rockcutter, Rockcutter
+techreborn:ironchainsaw, Steel Chainsaw
+techreborn:irondrill, Steel Drill
+techreborn:steeljackhammer, Steel Jackhammer
+techreborn:treetap, Treetap
+techreborn:wrench, Wrench
+techreborn:dynamiccell, Empty Cell
+techreborn:frequencytransmitter, Frequency Transmitter
+techreborn:techmanuel, Tech Reborn Manual
+techreborn:missingrecipe, item.missingRecipe.name
+techreborn:scrapbox, Scrap Box
+techreborn:upgrades:0, Overclocker Upgrade
+techreborn:upgrades:1, Transformer Upgrade
+techreborn:upgrades:2, Energy Storage Upgrade
+techreborn:bronzesword, Bronze Sword
+techreborn:bronzepickaxe, Bronze Pickaxe
+techreborn:bronzespade, Bronze Shovel
+techreborn:bronzeaxe, Bronze Axe
+techreborn:bronzehoe, Bronze Hoe
+techreborn:bronzehelmet, Bronze Helmet
+techreborn:bronzechestplate, Bronze Chestplate
+techreborn:bronzeleggings, Bronze Leggings
+techreborn:bronzeboots, Bronze Boots
+techreborn:rubysword, Ruby Sword
+techreborn:rubypickaxe, Ruby Pickaxe
+techreborn:rubyspade, Ruby Shovel
+techreborn:rubyaxe, Ruby Axe
+techreborn:rubyhoe, Ruby Hoe
+techreborn:rubyhelmet, Ruby Helmet
+techreborn:rubychestplate, Ruby Chestplate
+techreborn:rubyleggings, Ruby Leggings
+techreborn:rubyboots, Ruby Boots
+techreborn:sapphiresword, Sapphire Sword
+techreborn:sapphirepickaxe, Sapphire Pickaxe
+techreborn:sapphirespade, Sapphire Shovel
+techreborn:sapphireaxe, Sapphire Axe
+techreborn:sapphirehoe, Sapphire Hoe
+techreborn:sapphirehelmet, Sapphire Helmet
+techreborn:sapphirechestplate, Sapphire Chestplate
+techreborn:sapphireleggings, Sapphire Leggings
+techreborn:sapphireboots, Sapphire Boots
+techreborn:peridotsword, Peridot Sword
+techreborn:peridotpickaxe, Peridot Pickaxe
+techreborn:peridotspade, Peridot Shovel
+techreborn:peridotaxe, Peridot Axe
+techreborn:peridothoe, Peridot Hoe
+techreborn:peridothelmet, Peridot Helmet
+techreborn:peridotchestplate, Peridot Chestplate
+techreborn:peridotleggings, Peridot Leggings
+techreborn:peridotboots, Peridot Boots
 forestry:fertilizer_bio, Compost
 forestry:fertilizer_compound, Fertilizer
 forestry:apatite, Apatite
@@ -713,68 +1197,56 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:habitat_locator, Habitat Locator
-forestry:imprinter, Imprinter
-forestry:cart.beehouse:0, Minecart with Bee House
-forestry:cart.beehouse:1, Minecart with Apiary
-forestry:frame_untreated, Untreated Frame
-forestry:frame_impregnated, Impregnated Frame
-forestry:frame_proven, Proven Frame
-forestry:honey_drop:0, Honey Drop
-forestry:pollen:0, Pollen Cluster
-forestry:pollen:1, Crystalline Pollen Cluster
-forestry:propolis:0, Propolis
-forestry:propolis:1, Sticky Propolis
-forestry:propolis:3, Silky Propolis
-forestry:honeydew, Honeydew
-forestry:royal_jelly, Royal Jelly
-forestry:wax_cast, Wax Cast
-forestry:bee_combs:0, Honey Comb
-forestry:bee_combs:2, Simmering Comb
-forestry:bee_combs:3, Stringy Comb
-forestry:bee_combs:4, Frozen Comb
-forestry:bee_combs:5, Dripping Comb
-forestry:bee_combs:6, Silky Comb
-forestry:bee_combs:7, Parched Comb
-forestry:bee_combs:15, Mossy Comb
-forestry:bee_combs:16, Mellow Comb
-forestry:apiarist_helmet, Apiarist's Hat
-forestry:apiarist_chest, Apiarist's Shirt
-forestry:apiarist_legs, Apiarist's Pants
-forestry:apiarist_boots, Apiarist's Shoes
-forestry:scoop, Scoop
-forestry:smoker, Bee Smoker
-forestry:apiary:0, Apiary
-forestry:bee_house:0, Bee House
-forestry:bee_chest:0, Apiarist's Chest
-forestry:beehives:0, Forest Hive
-forestry:beehives:1, Meadows Hive
-forestry:beehives:2, Modest Hive
-forestry:beehives:3, Tropical Hive
-forestry:beehives:4, Ender Hive
-forestry:beehives:5, Wintry Hive
-forestry:beehives:6, Marshy Hive
-forestry:candle:0, Unlit Candle
-forestry:stump:0, Candle Stump
-forestry:bee_combs_0:0, Honey Comb Block
-forestry:bee_combs_0:2, Simmering Comb Block
-forestry:bee_combs_0:3, Stringy Comb Block
-forestry:bee_combs_0:4, Frozen Comb Block
-forestry:bee_combs_0:5, Dripping Comb Block
-forestry:bee_combs_0:6, Silky Comb Block
-forestry:bee_combs_0:7, Parched Comb Block
-forestry:bee_combs_0:15, Mossy Comb Block
-forestry:bee_combs_1:0, Mellow Comb Block
-forestry:alveary.plain:0, Alveary
-forestry:alveary.swarmer:0, Alveary Swarmer
-forestry:alveary.fan:0, Alveary Fan
-forestry:alveary.heater:0, Alveary Heater
-forestry:alveary.hygro:0, Alveary Hygroregulator
-forestry:alveary.stabiliser:0, Alveary Stabiliser
-forestry:alveary.sieve:0, Alveary Sieve
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
-forestry:worktable:0, Worktable
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:crate, Crate
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block_0:0, Ash Block
+forestry:ash_block_1:0, Ash Block
+forestry:ash_block_2:0, Ash Block
+forestry:ash_block_3:0, Ash Block
+forestry:loam:0, Loam
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse.window:0, Greenhouse Window
+forestry:greenhouse.window_up:0, Greenhouse Roof Window
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Farm Block
@@ -832,42 +1304,20 @@ forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
-forestry:fluid.bio.ethanol, Ethanol
-forestry:fluid.biomass, Biomass
-forestry:fluid.glass, Liquid Glass
-forestry:fluid.for.honey, Honey
-forestry:fluid.ice, Crushed Ice
-forestry:fluid.juice, Fruit Juice
-forestry:fluid.milk, Milk
-forestry:fluid.seed.oil, Seed Oil
-forestry:fluid.short.mead, Short Mead
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block_0:0, Ash Block
-forestry:ash_block_1:0, Ash Block
-forestry:ash_block_2:0, Ash Block
-forestry:ash_block_3:0, Ash Block
-forestry:loam:0, Loam
-forestry:book_forester, Forester's Manual
-forestry:crate, Crate
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse.window:0, Greenhouse Window
-forestry:greenhouse.window_up:0, Greenhouse Roof Window
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
 forestry:apiarist_bag, Apiarist's Backpack
 forestry:miner_bag, Mining Backpack
 forestry:miner_bag_t2, Woven Mining Backpack
@@ -881,22 +1331,22 @@ forestry:adventurer_bag, Adventuring Backpack
 forestry:adventurer_bag_t2, Woven Adventuring Backpack
 forestry:builder_bag, Building Backpack
 forestry:builder_bag_t2, Woven Building Backpack
+forestry:genetic_filter:0, Genetic Filter
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
 forestry:database:0, Database
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
+forestry:book_forester, Forester's Manual
+forestry:worktable:0, Worktable
 forestry:grafter, Grafter
 forestry:grafter_proven, Proven Grafter
 forestry:logs.0:0, Larch Wood
@@ -1349,31 +1799,65 @@ forestry:leaves.decorative.2:0, Papaya Leaves
 forestry:leaves.decorative.2:1, Date Palm Leaves
 forestry:leaves.decorative.2:2, White Poplar Leaves
 forestry:tree_chest:0, Arborist's Chest
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
-forestry:genetic_filter:0, Genetic Filter
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
+forestry:habitat_locator, Habitat Locator
+forestry:imprinter, Imprinter
+forestry:cart.beehouse:0, Minecart with Bee House
+forestry:cart.beehouse:1, Minecart with Apiary
+forestry:frame_untreated, Untreated Frame
+forestry:frame_impregnated, Impregnated Frame
+forestry:frame_proven, Proven Frame
+forestry:honey_drop:0, Honey Drop
+forestry:pollen:0, Pollen Cluster
+forestry:pollen:1, Crystalline Pollen Cluster
+forestry:propolis:0, Propolis
+forestry:propolis:1, Sticky Propolis
+forestry:propolis:3, Silky Propolis
+forestry:honeydew, Honeydew
+forestry:royal_jelly, Royal Jelly
+forestry:wax_cast, Wax Cast
+forestry:bee_combs:0, Honey Comb
+forestry:bee_combs:2, Simmering Comb
+forestry:bee_combs:3, Stringy Comb
+forestry:bee_combs:4, Frozen Comb
+forestry:bee_combs:5, Dripping Comb
+forestry:bee_combs:6, Silky Comb
+forestry:bee_combs:7, Parched Comb
+forestry:bee_combs:15, Mossy Comb
+forestry:bee_combs:16, Mellow Comb
+forestry:apiarist_helmet, Apiarist's Hat
+forestry:apiarist_chest, Apiarist's Shirt
+forestry:apiarist_legs, Apiarist's Pants
+forestry:apiarist_boots, Apiarist's Shoes
+forestry:scoop, Scoop
+forestry:smoker, Bee Smoker
+forestry:apiary:0, Apiary
+forestry:bee_house:0, Bee House
+forestry:bee_chest:0, Apiarist's Chest
+forestry:beehives:0, Forest Hive
+forestry:beehives:1, Meadows Hive
+forestry:beehives:2, Modest Hive
+forestry:beehives:3, Tropical Hive
+forestry:beehives:4, Ender Hive
+forestry:beehives:5, Wintry Hive
+forestry:beehives:6, Marshy Hive
+forestry:candle:0, Unlit Candle
+forestry:stump:0, Candle Stump
+forestry:bee_combs_0:0, Honey Comb Block
+forestry:bee_combs_0:2, Simmering Comb Block
+forestry:bee_combs_0:3, Stringy Comb Block
+forestry:bee_combs_0:4, Frozen Comb Block
+forestry:bee_combs_0:5, Dripping Comb Block
+forestry:bee_combs_0:6, Silky Comb Block
+forestry:bee_combs_0:7, Parched Comb Block
+forestry:bee_combs_0:15, Mossy Comb Block
+forestry:bee_combs_1:0, Mellow Comb Block
+forestry:alveary.plain:0, Alveary
+forestry:alveary.swarmer:0, Alveary Swarmer
+forestry:alveary.fan:0, Alveary Fan
+forestry:alveary.heater:0, Alveary Heater
+forestry:alveary.hygro:0, Alveary Hygroregulator
+forestry:alveary.stabiliser:0, Alveary Stabiliser
+forestry:alveary.sieve:0, Alveary Sieve
 binniecore:glass:0, Empty Bottle
 binniecore:cylinder:0, Empty Cylinder
 binniecore:cylinder:1, Growth Medium Cylinder
@@ -1498,6 +1982,8 @@ extrabees:hive:3, Marble Hive
 extrabees:misc:0, Scented Gear
 extrabees:misc:1, Diamond Fragment
 extrabees:misc:2, Emerald Fragment
+extrabees:misc:3, Ruby Fragment
+extrabees:misc:4, Sapphire Fragment
 extrabees:misc:5, Lapis Fragment
 extrabees:misc:6, Iron Grains
 extrabees:misc:7, Gold Grains
@@ -1507,6 +1993,9 @@ extrabees:misc:10, Copper Grains
 extrabees:misc:11, Tin Grains
 extrabees:misc:12, Nickel Grains
 extrabees:misc:13, Lead Grains
+extrabees:misc:14, Zinc Grains
+extrabees:misc:15, Titanium Grains
+extrabees:misc:16, Tungsten Grains
 extrabees:misc:17, Radioactive Fragments
 extrabees:misc:18, Coal Grains
 extrabees:misc:19, Red Dye
@@ -1519,6 +2008,11 @@ extrabees:misc:25, Brown Dye
 extrabees:misc:26, Clay Dust
 extrabees:dictionary:0, Apiarist Database
 extrabees:dictionary:1, Master Apiarist Database
+extrabees:hive_frame.cocoa, item.hive_frame.name
+extrabees:hive_frame.cage, item.hive_frame.name
+extrabees:hive_frame.soul, item.hive_frame.name
+extrabees:hive_frame.clay, item.hive_frame.name
+extrabees:hive_frame.debug, item.hive_frame.name
 extrabees:alveary:0, Mutator
 extrabees:alveary:1, Frame Housing
 extrabees:alveary:2, extrabees.alveay.rainShield
@@ -1526,11 +2020,6 @@ extrabees:alveary:3, Alveary Lighting
 extrabees:alveary:4, Electrical Stimulator
 extrabees:alveary:5, Hatchery
 extrabees:alveary:6, Alveary Transmission
-extrabees:hive_frame.cocoa, item.hive_frame.name
-extrabees:hive_frame.cage, item.hive_frame.name
-extrabees:hive_frame.soul, item.hive_frame.name
-extrabees:hive_frame.clay, item.hive_frame.name
-extrabees:hive_frame.debug, item.hive_frame.name
 genetics:punnett_square, item.punnett_square.name
 genetics:serum, item.serum.name
 genetics:serum_array, item.serum_array.name
@@ -2498,6 +2987,61 @@ thermaldynamics:cover:0, Brown Concrete Powder Cover
 thermaldynamics:cover:0, Green Concrete Powder Cover
 thermaldynamics:cover:0, Red Concrete Powder Cover
 thermaldynamics:cover:0, Black Concrete Powder Cover
+thermaldynamics:cover:0, Galena Ore Cover
+thermaldynamics:cover:0, Iridium Ore Cover
+thermaldynamics:cover:0, Ruby Ore Cover
+thermaldynamics:cover:0, Sapphire Ore Cover
+thermaldynamics:cover:0, Bauxite Ore Cover
+thermaldynamics:cover:0, Pyrite Ore Cover
+thermaldynamics:cover:0, Cinnabar Ore Cover
+thermaldynamics:cover:0, Sphalerite Ore Cover
+thermaldynamics:cover:0, Tungsten Ore Cover
+thermaldynamics:cover:0, Sheldonite Ore Cover
+thermaldynamics:cover:0, Peridot Ore Cover
+thermaldynamics:cover:0, Sodalite Ore Cover
+thermaldynamics:cover:0, Lead Ore Cover
+thermaldynamics:cover:0, Silver Ore Cover
+thermaldynamics:cover:0, Copper Ore Cover
+thermaldynamics:cover:0, Tin Ore Cover
+thermaldynamics:cover:0, Block of Silver Cover
+thermaldynamics:cover:0, Block of Aluminium Cover
+thermaldynamics:cover:0, Block of Titanium Cover
+thermaldynamics:cover:0, Block of Chrome Cover
+thermaldynamics:cover:0, Block of Steel Cover
+thermaldynamics:cover:0, Block of Brass Cover
+thermaldynamics:cover:0, Block of Lead Cover
+thermaldynamics:cover:0, Block of Electrum Cover
+thermaldynamics:cover:0, Block of Zinc Cover
+thermaldynamics:cover:0, Block of Platinum Cover
+thermaldynamics:cover:0, Block of Tungsten Cover
+thermaldynamics:cover:0, Block of Nickel Cover
+thermaldynamics:cover:0, Block of Invar Cover
+thermaldynamics:cover:0, Block of Iridium Cover
+thermaldynamics:cover:0, Block of Bronze Cover
+thermaldynamics:cover:0, Block of Tungstensteel Cover
+thermaldynamics:cover:0, Iridium Reinforced Tungstensteel Block Cover
+thermaldynamics:cover:0, Iridium Reinforced Stone Cover
+thermaldynamics:cover:0, Block of Ruby Cover
+thermaldynamics:cover:0, Block of Sapphire Cover
+thermaldynamics:cover:0, Block of Peridot Cover
+thermaldynamics:cover:0, Block of Yellow Garnet Cover
+thermaldynamics:cover:0, Block of Red Garnet Cover
+thermaldynamics:cover:0, Block of Copper Cover
+thermaldynamics:cover:0, Block of Tin Cover
+thermaldynamics:cover:0, Block of Refined Iron Cover
+thermaldynamics:cover:0, Fusion Coil Cover
+thermaldynamics:cover:0, Basic Machine Frame Cover
+thermaldynamics:cover:0, Advanced Machine Frame Cover
+thermaldynamics:cover:0, Highly Advanced Machine Frame Cover
+thermaldynamics:cover:0, Rubber Wood Cover
+thermaldynamics:cover:0, Rubber Wood Planks Cover
+thermaldynamics:cover:0, Rubber Plank Slab Cover
+thermaldynamics:cover:0, Rubber Plank Stair Cover
+thermaldynamics:cover:0, Rubber Leaves Cover
+thermaldynamics:cover:0, Rubber Sapling Cover
+thermaldynamics:cover:0, Iron Fence Cover
+thermaldynamics:cover:0, Reinforced Glass Cover
+thermaldynamics:cover:0, Nuke Cover
 thermaldynamics:cover:0, Bog Earth Cover
 thermaldynamics:cover:0, Humus Cover
 thermaldynamics:cover:0, Apatite Ore Cover
@@ -2509,16 +3053,6 @@ thermaldynamics:cover:0, Block of Tin Cover
 thermaldynamics:cover:0, Block of Bronze Cover
 thermaldynamics:cover:0, Ash Bricks Cover
 thermaldynamics:cover:0, Ash Brick Stairs Cover
-thermaldynamics:cover:0, Candle Stump Cover
-thermaldynamics:cover:0, Honey Comb Block Cover
-thermaldynamics:cover:0, Simmering Comb Block Cover
-thermaldynamics:cover:0, Stringy Comb Block Cover
-thermaldynamics:cover:0, Frozen Comb Block Cover
-thermaldynamics:cover:0, Dripping Comb Block Cover
-thermaldynamics:cover:0, Silky Comb Block Cover
-thermaldynamics:cover:0, Parched Comb Block Cover
-thermaldynamics:cover:0, Mossy Comb Block Cover
-thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Block of Charcoal Cover
 thermaldynamics:cover:0, Wood Pile Cover
 thermaldynamics:cover:0, Decorative Wood Pile Cover
@@ -2971,6 +3505,16 @@ thermaldynamics:cover:0, Sipiri Leaves Cover
 thermaldynamics:cover:0, Papaya Leaves Cover
 thermaldynamics:cover:0, Date Palm Leaves Cover
 thermaldynamics:cover:0, White Poplar Leaves Cover
+thermaldynamics:cover:0, Candle Stump Cover
+thermaldynamics:cover:0, Honey Comb Block Cover
+thermaldynamics:cover:0, Simmering Comb Block Cover
+thermaldynamics:cover:0, Stringy Comb Block Cover
+thermaldynamics:cover:0, Frozen Comb Block Cover
+thermaldynamics:cover:0, Dripping Comb Block Cover
+thermaldynamics:cover:0, Silky Comb Block Cover
+thermaldynamics:cover:0, Parched Comb Block Cover
+thermaldynamics:cover:0, Mossy Comb Block Cover
+thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Ectoplasm Cover
 thermaldynamics:cover:0, Copper Ore Cover
 thermaldynamics:cover:0, Tin Ore Cover
@@ -3039,6 +3583,36 @@ thermaldynamics:cover:0, Light Blue Rockwool Cover
 thermaldynamics:cover:0, Magenta Rockwool Cover
 thermaldynamics:cover:0, Orange Rockwool Cover
 thermaldynamics:cover:0, White Rockwool Cover
+thermalinnovation:drill:0, Fluxbore (Basic)
+thermalinnovation:drill:1, Fluxbore (Hardened)
+thermalinnovation:drill:2, Fluxbore (Reinforced)
+thermalinnovation:drill:3, Fluxbore (Signalum)
+thermalinnovation:drill:4, Fluxbore (Resonant)
+thermalinnovation:drill:32000, Fluxbore (Creative)
+thermalinnovation:saw:0, Fluxsaw (Basic)
+thermalinnovation:saw:1, Fluxsaw (Hardened)
+thermalinnovation:saw:2, Fluxsaw (Reinforced)
+thermalinnovation:saw:3, Fluxsaw (Signalum)
+thermalinnovation:saw:4, Fluxsaw (Resonant)
+thermalinnovation:saw:32000, Fluxsaw (Creative)
+thermalinnovation:magnet:0, Fluxomagnet (Basic)
+thermalinnovation:magnet:1, Fluxomagnet (Hardened)
+thermalinnovation:magnet:2, Fluxomagnet (Reinforced)
+thermalinnovation:magnet:3, Fluxomagnet (Signalum)
+thermalinnovation:magnet:4, Fluxomagnet (Resonant)
+thermalinnovation:magnet:32000, Fluxomagnet (Creative)
+thermalinnovation:injector:0, Hypoinfuser (Basic)
+thermalinnovation:injector:1, Hypoinfuser (Hardened)
+thermalinnovation:injector:2, Hypoinfuser (Reinforced)
+thermalinnovation:injector:3, Hypoinfuser (Signalum)
+thermalinnovation:injector:4, Hypoinfuser (Resonant)
+thermalinnovation:injector:32000, Hypoinfuser (Creative)
+thermalinnovation:quiver:0, Alchemical Quiver (Basic)
+thermalinnovation:quiver:1, Alchemical Quiver (Hardened)
+thermalinnovation:quiver:2, Alchemical Quiver (Reinforced)
+thermalinnovation:quiver:3, Alchemical Quiver (Signalum)
+thermalinnovation:quiver:4, Alchemical Quiver (Resonant)
+thermalinnovation:quiver:32000, Alchemical Quiver (Creative)
 fluidcows:stall, Cow Stall
 fluidcows:cow_halter, Cow Halter
 fluidcows:cow_displayer, Cow Displayer
@@ -3352,6 +3926,56 @@ appliedenergistics2:facade:0, Cable Facade - Brown Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Green Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Red Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Black Concrete Powder
+appliedenergistics2:facade:0, Cable Facade - Galena Ore
+appliedenergistics2:facade:0, Cable Facade - Iridium Ore
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore
+appliedenergistics2:facade:0, Cable Facade - Pyrite Ore
+appliedenergistics2:facade:0, Cable Facade - Cinnabar Ore
+appliedenergistics2:facade:0, Cable Facade - Sphalerite Ore
+appliedenergistics2:facade:0, Cable Facade - Tungsten Ore
+appliedenergistics2:facade:0, Cable Facade - Sheldonite Ore
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore
+appliedenergistics2:facade:0, Cable Facade - Sodalite Ore
+appliedenergistics2:facade:0, Cable Facade - Lead Ore
+appliedenergistics2:facade:0, Cable Facade - Silver Ore
+appliedenergistics2:facade:0, Cable Facade - Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Aluminium
+appliedenergistics2:facade:0, Cable Facade - Block of Titanium
+appliedenergistics2:facade:0, Cable Facade - Block of Chrome
+appliedenergistics2:facade:0, Cable Facade - Block of Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Brass
+appliedenergistics2:facade:0, Cable Facade - Block of Lead
+appliedenergistics2:facade:0, Cable Facade - Block of Electrum
+appliedenergistics2:facade:0, Cable Facade - Block of Zinc
+appliedenergistics2:facade:0, Cable Facade - Block of Platinum
+appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel
+appliedenergistics2:facade:0, Cable Facade - Block of Invar
+appliedenergistics2:facade:0, Cable Facade - Block of Iridium
+appliedenergistics2:facade:0, Cable Facade - Block of Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Tungstensteel
+appliedenergistics2:facade:0, Cable Facade - Iridium Reinforced Tungstensteel Block
+appliedenergistics2:facade:0, Cable Facade - Iridium Reinforced Stone
+appliedenergistics2:facade:0, Cable Facade - Block of Ruby
+appliedenergistics2:facade:0, Cable Facade - Block of Sapphire
+appliedenergistics2:facade:0, Cable Facade - Block of Peridot
+appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Tin
+appliedenergistics2:facade:0, Cable Facade - Block of Refined Iron
+appliedenergistics2:facade:0, Cable Facade - Fusion Coil
+appliedenergistics2:facade:0, Cable Facade - Basic Machine Frame
+appliedenergistics2:facade:0, Cable Facade - Advanced Machine Frame
+appliedenergistics2:facade:0, Cable Facade - Highly Advanced Machine Frame
+appliedenergistics2:facade:0, Cable Facade - Rubber Wood
+appliedenergistics2:facade:0, Cable Facade - Rubber Wood Planks
+appliedenergistics2:facade:0, Cable Facade - Rubber Leaves
+appliedenergistics2:facade:0, Cable Facade - Nuke
 appliedenergistics2:facade:0, Cable Facade - Bog Earth
 appliedenergistics2:facade:0, Cable Facade - Humus
 appliedenergistics2:facade:0, Cable Facade - Apatite Ore
@@ -3362,15 +3986,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Wood Pile
 appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
@@ -3551,6 +4166,15 @@ appliedenergistics2:facade:0, Cable Facade - Sipiri Leaves
 appliedenergistics2:facade:0, Cable Facade - Papaya Leaves
 appliedenergistics2:facade:0, Cable Facade - Date Palm Leaves
 appliedenergistics2:facade:0, Cable Facade - White Poplar Leaves
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Silver Ore
@@ -4151,6 +4775,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -4171,10 +4802,11 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
+forestry:crated.techreborn.part.33, item.crated.techreborn.part.33.name
+forestry:crated.techreborn.uumatter.0, item.crated.techreborn.uumatter.0.name
+forestry:crated.ingotlead, item.crated.ingotLead.name
+forestry:crated.ingotaluminum, item.crated.ingotAluminum.name
+forestry:crated.ingotbrass, item.crated.ingotBrass.name
+forestry:crated.ingotnickel, item.crated.ingotNickel.name
+forestry:crated.ingotsilver, item.crated.ingotSilver.name
+forestry:crated.itemrubber, item.crated.itemRubber.name
