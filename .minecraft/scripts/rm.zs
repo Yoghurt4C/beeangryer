@@ -4,8 +4,10 @@ import mods.jei.JEI;
 
 //JEI
 JEI.removeAndHide(<thermalexpansion:device:10>,false);
+JEI.removeAndHide(<thermalexpansion:device:416>,false);
 JEI.hideCategory("thermalexpansion.factorizer_combine");
 JEI.hideCategory("thermalexpansion.factorizer_split");
+JEI.hideCategory("thermalexpansion.centrifuge_mobs");
 
 //heuristic removal array, put in `<modid:item>` with commas after each, except the last, for removal
 val rmSpecArray=[
@@ -99,4 +101,9 @@ val rmOreArray=[
 <ore:gearEnderium>
 ] as IOreDictEntry[];
 for item in rmOreArray {recipes.remove(item);}
-//removal by id, arrays are prohibited?
+//furnace rm
+val rmFurnaceArray=[
+<ore:nuggetIron>,
+<ore:nuggetGold>
+] as IOreDictEntry[];
+for item in rmFurnaceArray{furnace.remove(item);}
