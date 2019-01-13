@@ -677,5 +677,53 @@
     "spawn_type": "NONE",
     "parent_1": "morechickens:tungstenchicken",
     "parent_2": "morechickens:steelchicken"
+  },
+  "morechickens:terrasteelchicken": {
+    "name": "terrasteelchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 4
+    },
+    "drop_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 4
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:enderchicken",
+    "parent_2": "chickens:pcrystalchicken"
+  },
+  "morechickens:manasteelchicken": {
+    "name": "manasteelchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:ironchicken",
+    "parent_2": "chickens:ghastchicken"
+  },
+  "morechickens:elementiumchicken": {
+    "name": "elementiumchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 19
+    },
+    "drop_item": {
+      "itemID": "botania:manaresource",
+      "metaID": 19
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:manasteelchicken",
+    "parent_2": "morechickens:terrasteelchicken"
   }
 }

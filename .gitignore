@@ -9,6 +9,9 @@
 .minecraft/server-resource-packs/
 .minecraft/signpic
 .minecraft/texturepacks/
+.minecraft/alleles.dump
+.minecraft/BotaniaVars.dat
+.minecraft/registry.dump
 .minecraft/crafttweaker.log
 .minecraft/options.txt
 .minecraft/recipenames.log
