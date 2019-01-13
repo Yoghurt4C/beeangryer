@@ -1,5 +1,7 @@
+.minecraft/backups/
 .minecraft/coremods/
 .minecraft/logs/
+.minecraft/local/ftbutilities/backups.json
 .minecraft/crash-reports/
 .minecraft/mods/memory_repo/
 .minecraft/resourcepacks/

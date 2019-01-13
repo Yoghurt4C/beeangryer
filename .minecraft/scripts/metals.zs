@@ -57,7 +57,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 
 			mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
 			mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
-			print("changed casting basin recipe");
+			print("changed casting basin recipe for " ~metalName);
 		} else {
 			var tinkersCast as IItemStack = null;
 			var consumeCast = false;

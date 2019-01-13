@@ -14,7 +14,7 @@ import crafttweaker.oredict.IOreDictEntry;
 */
 
 global metals as IOreDictEntry[string][string]={
-	aluminium:{
+	aluminum:{
 		block:<ore:blockAluminum>,
 		dust: <ore:dustAluminum>,
 		gear: <ore:gearAluminum>,
