@@ -30,7 +30,10 @@ function getMetalLiquid(metalName as string) as ILiquidStack {
 function handlePreferredMetalItem(metalName as string, metalPartName as string, metal as IOreDictEntry[string], preferredMetalItem as IItemStack, metalLiquid as ILiquidStack) {
 	var hasLiquid = metalLiquid as bool;
 	
+	if (metalPartName=="nugget"|metalPartName=="ingot"|metalPartName=="block"|metalPartName=="gear"){
+	recipes.remove(preferredMetalItem);}
 	
+	//ticon
 	if (hasLiquid) {
 		var fluidAmount as int = 0;
 
@@ -47,17 +50,16 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		}
 
 		mods.tconstruct.Melting.removeRecipe(metalLiquid * 1, preferredMetalItem);
-		if (fluidAmount != 0) {
+		if (fluidAmount != 0 & metalPartName=="block") {
 			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
 		}
 
-		//Casting
+		//tconstruct.Casting
 		if (metalPartName == "block") {
 			var consumeCast = false;
 
 			mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
 			mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
-			print("changed casting basin recipe for " ~metalName);
 		} else {
 			var tinkersCast as IItemStack = null;
 			var consumeCast = false;
@@ -74,12 +76,107 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 
 			if (tinkersCast as bool) {
 				mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
-				mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, tinkersCast, metalLiquid, fluidAmount, consumeCast);
+				//mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, tinkersCast, metalLiquid, fluidAmount, consumeCast);
 			}
 		}
 	}
-}
-for metalName, metal in metals {
+		//ie
+	var immersivePressMold as IItemStack = null;
+	var immersivePressInputCount = 1;
+	var immersivePressOutputCount = 1;
+	var immersivePressEnergy = 2400;
+
+	if (metalPartName == "plate") {
+		immersivePressMold = <immersiveengineering:mold>;
+	} else if (metalPartName == "gear") {
+		immersivePressMold = <immersiveengineering:mold:1>;
+		immersivePressInputCount = 4;
+	} else if (metalPartName == "rod") {
+		immersivePressOutputCount = 2;
+		immersivePressMold = <immersiveengineering:mold:2>;
+	}
+
+	//If immersive mold isnt null, remove/create recipes
+	if (immersivePressMold as bool) {
+		mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+		mods.immersiveengineering.MetalPress.addRecipe(
+			preferredMetalItem * immersivePressOutputCount, //Output
+			metalItems[metalName].ingot.items[0], //Input
+			immersivePressMold, //Mold
+			immersivePressEnergy, //Energy
+			immersivePressInputCount //Input Count
+		);
+
+		//Plates can do the same as ingots
+		if (metalPartName != "plate" & metalItems[metalName].plate as bool) {
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * immersivePressOutputCount, //Output
+				metalItems[metalName].plate.items[0], //Input
+				immersivePressMold, //Mold
+				immersivePressEnergy, //Energy
+				immersivePressInputCount //Input Count
+			);
+		}
+	}
+
+	//Plates should also be used in place of ingots for wire
+	if (metalName == "copper" | metalName == "electrum" | metalName == "aluminum" | metalName == "steel") {
+		if (metalPartName == "plate") {
+			var wires as IItemStack[string] = {
+				aluminum: <immersiveengineering:material:22>,
+				copper: <immersiveengineering:material:20>,
+				electrum: <immersiveengineering:material:21>,
+				steel: <immersiveengineering:material:23>
+			};
+
+			mods.immersiveengineering.MetalPress.addRecipe(
+				wires[metalName] * 2, //Output
+				preferredMetalItem, //Input
+				<immersiveengineering:mold:4>, //Mold
+				immersivePressEnergy, //Energy
+				1 //Input Count
+			);
+		}
+	}
+
+	//Remove ingot recipes, mainly for preventing ore doubling recipes
+	//alloys to recreate: constantan, electrum, brass, alubrass, manyullyn?
+	//smelting ingots (in order) are Al, Brass, Cr (omit?), Cu, Electrum, Au, Fe, Pt, Ti (omit?), W (omit?), Zi, Mithril, Constantan, Signalum, Lumium, Enderium, Uranium, HOP
+	if (metalPartName == "ingot") {
+		mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
+	}
+		if (metalPartName == "dust") {
+		//Arc Furnace
+		var defaultArcEnergyPerTick as int = 512;
+		var defaultArcTickTime as int = 100;
+		var arcGivesSlag as bool = false;
+		mods.immersiveengineering.ArcFurnace.addRecipe(
+			metalItems[metalName].ingot.items[0],
+			metal[metalPartName],
+			arcGivesSlag ? <ore:itemSlag>.firstItem : null,
+			defaultArcTickTime,
+			defaultArcEnergyPerTick
+		);}
+	//grains
+	if (metalPartName=="dust"){
+	recipes.removeByRecipeName("extrabees:" + metalName + "_dust_dust");
+	}
+	//combs!
+	if (metalPartName=="nugget"){
+	mods.forestry.Centrifuge.removeRecipe(metalItems[metalName].comb.items[0]);
+		if (metalName=="iron"|metalName=="gold"|metalName=="silver"|metalName=="platinum"|metalName=="copper"|metalName=="tin"|metalName=="nickel"|metalName=="lead"|metalName=="zinc"|metalName=="titanium"|metalName=="tungsten"|metalName=="aluminum"){
+	mods.thermalexpansion.Centrifuge.removeRecipe(metalItems[metalName].comb.items[0]);}
+		if (metalName=="aluminum"){
+		mods.forestry.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<techreborn:smalldust:5>%50,preferredMetalItem%100],metalItems[metalName].comb.items[0],10);
+		mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<techreborn:smalldust:5>%50,preferredMetalItem%100],metalItems[metalName].comb.items[0],null,2000);
+		} else {
+		mods.forestry.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,preferredMetalItem%100],metalItems[metalName].comb.items[0],10);
+		mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,preferredMetalItem%100],metalItems[metalName].comb.items[0],null,2000);
+	}}
+	
+} //don't touch this
+	
+	for metalName, metal in metals {
 	var metalLiquid = getMetalLiquid(metalName as string);
 	var hasLiquid = metalLiquid as bool;
 

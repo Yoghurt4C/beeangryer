@@ -22,3 +22,17 @@ for pair in metalStickPairs {
 		pair[1].add(item);
 	}
 }
+<ore:blockElvenElementium>.add(<botania:storage:2>);
+<ore:blockManasteel>.add(<botania:storage:0>);
+<ore:blockTerrasteel>.add(<botania:storage:1>);
+<ore:nuggetIron>.add(<extrabees:misc:6>);
+<ore:nuggetGold>.add(<extrabees:misc:7>);
+<ore:nuggetSilver>.add(<extrabees:misc:8>);
+<ore:nuggetPlatinum>.add(<extrabees:misc:9>);
+<ore:nuggetCopper>.add(<extrabees:misc:10>);
+<ore:nuggetTin>.add(<extrabees:misc:11>);
+<ore:nuggetNickel>.add(<extrabees:misc:12>);
+<ore:nuggetLead>.add(<extrabees:misc:13>);
+<ore:nuggetZinc>.add(<extrabees:misc:14>);
+<ore:nuggetTitanium>.add(<extrabees:misc:15>);
+<ore:nuggetTungsten>.add(<extrabees:misc:16>);

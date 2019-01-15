@@ -29,14 +29,11 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 
 				TODO: Currently if a mod is not loaded, the script wont be loaded, so this script will error. See if theres a way around that.
 			*/
-			if (loadedMods.contains("appliedenergistics2")) {
-				scripts.unification.supported_mods.appliedenergistics2.removeFromAll(item, liquid);}
-			if (loadedMods.contains("immersiveengineering")) {
-				scripts.unification.supported_mods.immersiveengineering.removeFromAll(item, liquid);}
-			if (loadedMods.contains("jei")) {
-				scripts.unification.supported_mods.jei.removeFromAll(item, liquid);}
-			if (loadedMods.contains("tconstruct")) {
-				scripts.unification.supported_mods.ticon.removeFromAll(item, liquid);}
+			if (loadedMods.contains("appliedenergistics2")) {scripts.unification.supported_mods.appliedenergistics2.removeFromAll(item, liquid);}
+			if (loadedMods.contains("immersiveengineering")) {scripts.unification.supported_mods.immersiveengineering.removeFromAll(item, liquid);}
+			if (loadedMods.contains("jei")) {scripts.unification.supported_mods.jei.removeFromAll(item, liquid);}
+			if (loadedMods.contains("tconstruct")) {scripts.unification.supported_mods.ticon.removeFromAll(item, liquid);}
+			if (loadedMods.contains("techreborn")){scripts.unification.supported_mods.techreborn.removeFromAll(item, liquid);}
 
 			//Remove from Ore Dict
 			oreDictEntry.remove(item);

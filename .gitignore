@@ -16,6 +16,7 @@
 .minecraft/registry.dump
 .minecraft/crafttweaker.log
 .minecraft/options.txt
+.minecraft/oredict.log
 .minecraft/recipenames.log
 .minecraft/usercache.json
 .minecraft/usernamecache.json

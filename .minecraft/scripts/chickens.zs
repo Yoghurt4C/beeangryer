@@ -1,5 +1,9 @@
 //file casually borrowed from badblock :)
 
+recipes.remove(<hatchery:nest>);
+recipes.addShaped(<hatchery:nest>,[
+[<ore:cropWheat>,null,<ore:cropWheat>],
+[null,<ore:cropWheat>]]);
 recipes.remove(<chickens:henhouse>);
 recipes.addShaped(<chickens:henhouse>, [
   [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
@@ -106,51 +110,25 @@ recipes.addShaped(<chickens:colored_egg:15>, [
 ]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:flintchicken"
-  }
-}), [
+  ChickenType: {id: "chickens:flintchicken"}}), [
   [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
   [<minecraft:flint>, <minecraft:egg>, <minecraft:flint>],
-  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]
-]);
+  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:sandchicken"
-  }
-}), [
+  ChickenType: {id: "chickens:sandchicken"}}), [
   [<ore:sand>, <ore:sand>, <ore:sand>],
   [<ore:sand>, <minecraft:egg>, <ore:sand>],
-  [<ore:sand>, <ore:sand>, <ore:sand>]
-]);
+  [<ore:sand>, <ore:sand>, <ore:sand>]]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:logchicken"
-  }
-}), [
+  ChickenType: {id: "chickens:logchicken"}}), [
   [<ore:logWood>, <ore:logWood>, <ore:logWood>],
   [<ore:logWood>, <minecraft:egg>, <ore:logWood>],
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>]
-]);
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:soulsandchicken"
-  }
-}), [
+  ChickenType: {id: "chickens:soulsandchicken"}}), [
   [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>],
   [<ore:soulSand>, <minecraft:egg>, <ore:soulSand>],
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]
-]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:quartzchicken"
-  }
-}), [
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <minecraft:egg>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]
-]);
+  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]]);

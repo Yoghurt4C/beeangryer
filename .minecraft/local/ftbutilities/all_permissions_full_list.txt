@@ -1,4 +1,4 @@
-4953 nodes in total
+4995 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1063,6 +1063,13 @@ ftbutilities.claims.block.edit.minecraft.wool: OP
 ftbutilities.claims.block.edit.minecraft.yellow_flower: OP
 ftbutilities.claims.block.edit.minecraft.yellow_glazed_terracotta: OP
 ftbutilities.claims.block.edit.minecraft.yellow_shulker_box: OP
+ftbutilities.claims.block.edit.pewter.molten_elementium: OP
+ftbutilities.claims.block.edit.pewter.molten_manasteel: OP
+ftbutilities.claims.block.edit.pewter.molten_terrasteel: OP
+ftbutilities.claims.block.edit.pewter.pewterfluid: OP
+ftbutilities.claims.block.edit.plustic.alumiteblock: OP
+ftbutilities.claims.block.edit.plustic.invarblock: OP
+ftbutilities.claims.block.edit.plustic.plustic.molten_alumite: OP
 ftbutilities.claims.block.edit.roost.breeder: OP
 ftbutilities.claims.block.edit.roost.collector: OP
 ftbutilities.claims.block.edit.roost.roost: OP
@@ -1118,15 +1125,21 @@ ftbutilities.claims.block.edit.tconstruct.molten_copper: OP
 ftbutilities.claims.block.edit.tconstruct.molten_dirt: OP
 ftbutilities.claims.block.edit.tconstruct.molten_electrum: OP
 ftbutilities.claims.block.edit.tconstruct.molten_emerald: OP
+ftbutilities.claims.block.edit.tconstruct.molten_enderium: OP
 ftbutilities.claims.block.edit.tconstruct.molten_glass: OP
 ftbutilities.claims.block.edit.tconstruct.molten_gold: OP
+ftbutilities.claims.block.edit.tconstruct.molten_invar: OP
+ftbutilities.claims.block.edit.tconstruct.molten_iridium: OP
 ftbutilities.claims.block.edit.tconstruct.molten_iron: OP
 ftbutilities.claims.block.edit.tconstruct.molten_knightslime: OP
 ftbutilities.claims.block.edit.tconstruct.molten_lead: OP
+ftbutilities.claims.block.edit.tconstruct.molten_lumium: OP
 ftbutilities.claims.block.edit.tconstruct.molten_manyullyn: OP
 ftbutilities.claims.block.edit.tconstruct.molten_nickel: OP
 ftbutilities.claims.block.edit.tconstruct.molten_obsidian: OP
 ftbutilities.claims.block.edit.tconstruct.molten_pigiron: OP
+ftbutilities.claims.block.edit.tconstruct.molten_platinum: OP
+ftbutilities.claims.block.edit.tconstruct.molten_signalum: OP
 ftbutilities.claims.block.edit.tconstruct.molten_silver: OP
 ftbutilities.claims.block.edit.tconstruct.molten_steel: OP
 ftbutilities.claims.block.edit.tconstruct.molten_stone: OP
@@ -2373,6 +2386,13 @@ ftbutilities.claims.block.interact.minecraft.wool: OP
 ftbutilities.claims.block.interact.minecraft.yellow_flower: OP
 ftbutilities.claims.block.interact.minecraft.yellow_glazed_terracotta: OP
 ftbutilities.claims.block.interact.minecraft.yellow_shulker_box: OP
+ftbutilities.claims.block.interact.pewter.molten_elementium: OP
+ftbutilities.claims.block.interact.pewter.molten_manasteel: OP
+ftbutilities.claims.block.interact.pewter.molten_terrasteel: OP
+ftbutilities.claims.block.interact.pewter.pewterfluid: OP
+ftbutilities.claims.block.interact.plustic.alumiteblock: OP
+ftbutilities.claims.block.interact.plustic.invarblock: OP
+ftbutilities.claims.block.interact.plustic.plustic.molten_alumite: OP
 ftbutilities.claims.block.interact.roost.breeder: OP
 ftbutilities.claims.block.interact.roost.collector: OP
 ftbutilities.claims.block.interact.roost.roost: OP
@@ -2428,15 +2448,21 @@ ftbutilities.claims.block.interact.tconstruct.molten_copper: OP
 ftbutilities.claims.block.interact.tconstruct.molten_dirt: OP
 ftbutilities.claims.block.interact.tconstruct.molten_electrum: OP
 ftbutilities.claims.block.interact.tconstruct.molten_emerald: OP
+ftbutilities.claims.block.interact.tconstruct.molten_enderium: OP
 ftbutilities.claims.block.interact.tconstruct.molten_glass: OP
 ftbutilities.claims.block.interact.tconstruct.molten_gold: OP
+ftbutilities.claims.block.interact.tconstruct.molten_invar: OP
+ftbutilities.claims.block.interact.tconstruct.molten_iridium: OP
 ftbutilities.claims.block.interact.tconstruct.molten_iron: OP
 ftbutilities.claims.block.interact.tconstruct.molten_knightslime: OP
 ftbutilities.claims.block.interact.tconstruct.molten_lead: OP
+ftbutilities.claims.block.interact.tconstruct.molten_lumium: OP
 ftbutilities.claims.block.interact.tconstruct.molten_manyullyn: OP
 ftbutilities.claims.block.interact.tconstruct.molten_nickel: OP
 ftbutilities.claims.block.interact.tconstruct.molten_obsidian: OP
 ftbutilities.claims.block.interact.tconstruct.molten_pigiron: OP
+ftbutilities.claims.block.interact.tconstruct.molten_platinum: OP
+ftbutilities.claims.block.interact.tconstruct.molten_signalum: OP
 ftbutilities.claims.block.interact.tconstruct.molten_silver: OP
 ftbutilities.claims.block.interact.tconstruct.molten_steel: OP
 ftbutilities.claims.block.interact.tconstruct.molten_stone: OP
@@ -4284,6 +4310,22 @@ ftbutilities.claims.item.minecraft.yellow_flower: ALL
 ftbutilities.claims.item.minecraft.yellow_glazed_terracotta: ALL
 ftbutilities.claims.item.minecraft.yellow_shulker_box: ALL
 ftbutilities.claims.item.morechickens.solidxp: ALL
+ftbutilities.claims.item.pewter.molten_elementium: ALL
+ftbutilities.claims.item.pewter.molten_manasteel: ALL
+ftbutilities.claims.item.pewter.molten_terrasteel: ALL
+ftbutilities.claims.item.pewter.pewterfluid: ALL
+ftbutilities.claims.item.plustic.alumiteblock: ALL
+ftbutilities.claims.item.plustic.alumiteingot: ALL
+ftbutilities.claims.item.plustic.alumitenugget: ALL
+ftbutilities.claims.item.plustic.battery_cell: ALL
+ftbutilities.claims.item.plustic.invarblock: ALL
+ftbutilities.claims.item.plustic.invaringot: ALL
+ftbutilities.claims.item.plustic.invarnugget: ALL
+ftbutilities.claims.item.plustic.katana: ALL
+ftbutilities.claims.item.plustic.laser_gun: ALL
+ftbutilities.claims.item.plustic.laser_medium: ALL
+ftbutilities.claims.item.plustic.pipe_piece: ALL
+ftbutilities.claims.item.plustic.plustic.molten_alumite: ALL
 ftbutilities.claims.item.roost.breeder: ALL
 ftbutilities.claims.item.roost.catcher: ALL
 ftbutilities.claims.item.roost.chicken: ALL
@@ -5097,6 +5139,7 @@ command.kill
 command.locate
 command.me
 command.particle
+command.pewter.pewter
 command.playsound
 command.publish
 command.reborncore.rc_dumpmods

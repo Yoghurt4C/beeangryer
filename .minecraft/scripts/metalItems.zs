@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 /*
 	METAL_TYPE: {
 		block: ITEM_STACK,
+		comb: ITEM_STACK,
 		dust: ITEM_STACK,
 		gear: ITEM_STACK,
 		ingot: ITEM_STACK,
@@ -14,6 +15,7 @@ import crafttweaker.item.IIngredient;
 global metalItems as IIngredient[string][string] = {
 	aluminum: {
 		block: <immersiveengineering:storage:1>,
+		comb: <extrabees:honey_comb:49>,
 		dust: <immersiveengineering:metal:10>,
 		gear: <thermalfoundation:material:260>,
 		ingot: <immersiveengineering:metal:1>,
@@ -21,8 +23,9 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <immersiveengineering:metal:21>,
 		plate: <thermalfoundation:material:324>,
 		rod: <immersiveengineering:material:3>},
-	aluminumBrass: {
+	aluminumbrass: {
 		block: <tconstruct:metal:5>,
+		comb: <gendustry:honey_comb:118>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots:5>,
@@ -30,8 +33,19 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <tconstruct:nuggets:5>,
 		plate: null,
 		rod: null},
+	alumite: {
+		block: <plustic:alumiteblock>,
+		comb: <gendustry:honey_comb:119>,
+		dust: null,
+		gear: null,
+		ingot: <plustic:alumiteingot>,
+		liquid: <liquid:alumite>,
+		nugget: <plustic:alumitenugget>,
+		plate: null,
+		rod: null},
 	ardite: {
 		block: <tconstruct:metal:1>,
+		comb: <gendustry:honey_comb:120>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots:1>,
@@ -41,6 +55,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	brass: {
 		block: <techreborn:storage:5>,
+		comb: <gendustry:honey_comb:102>,
 		dust: <techreborn:dust:6>,
 		gear: null,
 		ingot: <techreborn:ingot:1>,
@@ -50,6 +65,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	bronze: {
 		block: <thermalfoundation:storage_alloy:3>,
+		comb: <gendustry:honey_comb:101>,
 		dust: null,
 		gear: <thermalfoundation:material:291>,
 		ingot: <forestry:ingot_bronze>,
@@ -59,14 +75,16 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	chrome: {
 		block: <techreborn:storage:3>,
+		comb: <gendustry:honey_comb:103>,
 		dust: <techreborn:dust:10>,
 		gear: null,
 		ingot: <techreborn:ingot:3>,
 		nugget: <techreborn:nuggets:3>,
-		plate: <techreborn:plates:17>,
+		plate: <techreborn:plates:19>,
 		rod: null},
 	cobalt: {
 		block: <tconstruct:metal>,
+		comb: <gendustry:honey_comb:121>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots>,
@@ -76,6 +94,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	constantan: {
 		block: <immersiveengineering:storage:6>,
+		comb: <gendustry:honey_comb:109>,
 		dust: <immersiveengineering:metal:15>,
 		gear: <thermalfoundation:material:292>,
 		ingot: <immersiveengineering:metal:6>,
@@ -85,15 +104,17 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	copper: {
 		block: <immersiveengineering:storage>,
+		comb: <extrabees:honey_comb:17>,
 		dust: <immersiveengineering:metal:9>,
 		gear: <thermalfoundation:material:256>,
 		ingot: <immersiveengineering:metal>,
 		liquid: <liquid:copper>,
-		nugget: null,
+		nugget: <immersiveengineering:metal:20>,
 		plate: <thermalfoundation:material:320>,
 		rod: null},
 	electrum: {
 		block: <immersiveengineering:storage:7>,
+		comb: <gendustry:honey_comb:104>,
 		dust:  <thermalfoundation:material:97>,
 		gear: <thermalfoundation:material:289>,
 		ingot: <immersiveengineering:metal:7>,
@@ -101,8 +122,19 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <immersiveengineering:metal:27>,
 		plate: <thermalfoundation:material:353>,
 		rod: null},
+	elementium: {
+		block: <botania:storage:2>,
+		comb: <gendustry:honey_comb:115>,
+		dust: null,
+		gear: null,
+		ingot: <botania:manaresource:7>,
+		liquid: <liquid:elementium>,
+		nugget: <botania:manaresource:19>,
+		plate: null,
+		rod: null},
 	enderium: {
 		block: <thermalfoundation:storage_alloy:7>,
+		comb: <gendustry:honey_comb:112>,
 		dust: <thermalfoundation:material:103>,
 		gear: <thermalfoundation:material:295>,
 		ingot: <thermalfoundation:material:167>,
@@ -112,6 +144,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	gold: {
 		block: <minecraft:gold_block>,
+		comb: <extrabees:honey_comb:16>,
 		dust: <immersiveengineering:metal:19>,
 		gear: <thermalfoundation:material:25>,
 		ingot: <minecraft:gold_ingot>,
@@ -121,6 +154,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	invar: {
 		block: <thermalfoundation:storage_alloy:2>,
+		comb: <gendustry:honey_comb:105>,
 		dust: <thermalfoundation:material:98>,
 		gear: <thermalfoundation:material:290>,
 		ingot: <thermalfoundation:material:162>,
@@ -130,6 +164,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	iridium: {
 		block: <thermalfoundation:storage:7>,
+		comb: <gendustry:honey_comb:106>,
 		dust: <thermalfoundation:material:71>,
 		gear: <thermalfoundation:material:263>,
 		ingot: <thermalfoundation:material:135>,
@@ -139,15 +174,17 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	iron: {
 		block: <minecraft:iron_block>,
+		comb: <extrabees:honey_comb:15>,
 		dust: <immersiveengineering:metal:18>,
 		gear: <thermalfoundation:material:24>,
 		ingot: <minecraft:iron_ingot>,
 		liquid: <liquid:iron>,
 		nugget: <minecraft:iron_nugget>,
 		plate: <thermalfoundation:material:32>,
-		rod: null},
+		rod: <immersiveengineering:material:1>},
 	knightslime: {
 		block: <tconstruct:metal:3>,
+		comb: <gendustry:honey_comb:122>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots:3>,
@@ -157,6 +194,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	lead: {
 		block: <immersiveengineering:storage:2>,
+		comb: <extrabees:honey_comb:37>,
 		dust: <thermalfoundation:material:67>,
 		gear: <thermalfoundation:material:259>,
 		ingot: <thermalfoundation:material:131>,
@@ -166,6 +204,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	lumium: {
 		block: <thermalfoundation:storage_alloy:6>,
+		comb: <gendustry:honey_comb:111>,
 		dust: <thermalfoundation:material:102>,
 		gear: <thermalfoundation:material:294>,
 		ingot: <thermalfoundation:material:166>,
@@ -173,8 +212,19 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <thermalfoundation:material:230>,
 		plate: <thermalfoundation:material:358>,
 		rod: null},
+	manasteel: {
+		block: <botania:storage:0>,
+		comb: <gendustry:honey_comb:113>,
+		dust: null,
+		gear: null,
+		ingot: <botania:manaresource:0>,
+		liquid: <liquid:manasteel>,
+		nugget: <botania:manaresource:17>,
+		plate: null,
+		rod: null},
 	manyullyn: {
 		block: <tconstruct:metal:2>,
+		comb: <gendustry:honey_comb:123>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots:2>,
@@ -184,6 +234,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	mithril: {
 		block: <thermalfoundation:storage:8>,
+		comb: <gendustry:honey_comb:124>,
 		dust: <thermalfoundation:material:72>,
 		gear: <thermalfoundation:material:264>,
 		ingot: <thermalfoundation:material:136>,
@@ -193,6 +244,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	nickel: {
 		block: <immersiveengineering:storage:4>,
+		comb: <extrabees:honey_comb:73>,
 		dust: <thermalfoundation:material:69>,
 		gear: <thermalfoundation:material:261>,
 		ingot: <thermalfoundation:material:133>,
@@ -202,6 +254,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	platinum: {
 		block: <thermalfoundation:storage:6>,
+		comb: <extrabees:honey_comb:45>,
 		dust: <thermalfoundation:material:70>,
 		gear: <thermalfoundation:material:262>,
 		ingot: <thermalfoundation:material:134>,
@@ -211,6 +264,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	pigiron: {
 		block: <tconstruct:metal:4>,
+		comb: <gendustry:honey_comb:125>,
 		dust: null,
 		gear: null,
 		ingot: <tconstruct:ingots:4>,
@@ -220,6 +274,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	signalum: {
 		block: <thermalfoundation:storage_alloy:5>,
+		comb: <gendustry:honey_comb:110>,
 		dust: <thermalfoundation:material:101>,
 		gear: <thermalfoundation:material:293>,
 		ingot: <thermalfoundation:material:165>,
@@ -229,6 +284,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	silver: {
 		block: <immersiveengineering:storage:3>,
+		comb: <extrabees:honey_comb:19>,
 		dust: <thermalfoundation:material:66>,
 		gear: <thermalfoundation:material:258>,
 		ingot: <thermalfoundation:material:130>,
@@ -238,15 +294,27 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	steel: {
 		block: <immersiveengineering:storage:8>,
+		comb: <gendustry:honey_comb:107>,
 		dust: <thermalfoundation:material:96>,
 		gear: <thermalfoundation:material:288>,
 		ingot: <thermalfoundation:material:160>,
 		liquid: <liquid:steel>,
 		nugget: <thermalfoundation:material:224>,
 		plate: <thermalfoundation:material:352>,
+		rod: <immersiveengineering:material:2>},
+	terrasteel: {
+		block: <botania:storage:1>,
+		comb: <gendustry:honey_comb:114>,
+		dust: null,
+		gear: null,
+		ingot: <botania:manaresource:4>,
+		liquid: <liquid:terrasteel>,
+		nugget: <botania:manaresource:18>,
+		plate: null,
 		rod: null},
 	tin: {
 		block: <thermalfoundation:storage:1>,
+		comb: <extrabees:honey_comb:18>,
 		dust: <thermalfoundation:material:65>,
 		gear: <thermalfoundation:material:257>,
 		ingot: <thermalfoundation:material:129>,
@@ -256,6 +324,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	titanium: {
 		block: <techreborn:storage:2>,
+		comb: <extrabees:honey_comb:41>,
 		dust: <techreborn:dust:54>,
 		gear: null,
 		ingot: <techreborn:ingot:14>,
@@ -265,6 +334,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	tungsten: {
 		block: <techreborn:storage:10>,
+		comb: <extrabees:honey_comb:42>,
 		dust: <techreborn:dust:55>,
 		gear: null,
 		ingot: <techreborn:ingot:15>,
@@ -274,6 +344,7 @@ global metalItems as IIngredient[string][string] = {
 		rod: null},
 	tungstensteel: {
 		block: <techreborn:storage2>,
+		comb: <gendustry:honey_comb:108>,
 		dust: null,
 		gear: null,
 		ingot: <techreborn:ingot:17>,
@@ -281,8 +352,19 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <techreborn:nuggets:17>,
 		plate: <techreborn:plates:32>,
 		rod: null},
+	uranium: {
+		block: <immersiveengineering:storage:5>,
+		comb: <gendustry:honey_comb:126>,
+		dust: <immersiveengineering:metal:14>,
+		gear: null,
+		ingot: <immersiveengineering:metal:5>,
+		liquid: <liquid:uranium>,
+		nugget: <immersiveengineering:metal:25>,
+		plate: <immersiveengineering:metal:35>,
+		rod: null},
 	zinc: {
 		block: <techreborn:storage:8>,
+		comb: <extrabees:honey_comb:40>,
 		dust: <techreborn:dust:59>,
 		gear: null,
 		ingot: <techreborn:ingot:18>,
