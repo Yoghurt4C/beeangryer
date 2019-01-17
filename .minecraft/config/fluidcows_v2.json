@@ -2621,5 +2621,60 @@
     "GrowingAge": -24000,
     "Parent First": "",
     "Parent Second": ""
+  },
+  "diesel": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "napalm": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "lubricant": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "oil": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "gasoline": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
   }
 }

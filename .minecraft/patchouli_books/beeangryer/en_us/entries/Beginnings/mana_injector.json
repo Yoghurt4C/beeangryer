@@ -1,0 +1,14 @@
+{
+    "name": "Odd Pagoda",
+    "icon": "botania:manabottle",
+    "category": "beginnings",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "All your attempts at infusing livestock with mana turned out to be a failure. Throwing them into a Mana Pool proved futile, and they seem hesitant to sample it from a bottle.$(br2)But what if there was a way to... ''persuade'' them?"
+        },
+		{"type":"crafting",
+		  "recipe":"crafttweaker:mana_injector_blueprint"}
+    ]
+}

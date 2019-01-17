@@ -1,4 +1,4 @@
-4995 nodes in total
+5054 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -329,6 +329,15 @@ ftbutilities.claims.block.edit.botania.teruterubozu: OP
 ftbutilities.claims.block.edit.botania.tinyplanetblock: OP
 ftbutilities.claims.block.edit.botania.tinypotato: OP
 ftbutilities.claims.block.edit.botania.turntable: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_1: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_2: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_3: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_4: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_5: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_6: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_7: OP
+ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_8: OP
+ftbutilities.claims.block.edit.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.edit.ceramics.channel: OP
 ftbutilities.claims.block.edit.ceramics.clay_barrel: OP
 ftbutilities.claims.block.edit.ceramics.clay_barrel_stained: OP
@@ -737,6 +746,15 @@ ftbutilities.claims.block.edit.immersiveengineering.treated_wood_stairs2: OP
 ftbutilities.claims.block.edit.immersiveengineering.wooden_decoration: OP
 ftbutilities.claims.block.edit.immersiveengineering.wooden_device0: OP
 ftbutilities.claims.block.edit.immersiveengineering.wooden_device1: OP
+ftbutilities.claims.block.edit.immersivepetroleum.dummy: OP
+ftbutilities.claims.block.edit.immersivepetroleum.fluid_crude_oil: OP
+ftbutilities.claims.block.edit.immersivepetroleum.fluid_diesel: OP
+ftbutilities.claims.block.edit.immersivepetroleum.fluid_gasoline: OP
+ftbutilities.claims.block.edit.immersivepetroleum.fluid_lubricant: OP
+ftbutilities.claims.block.edit.immersivepetroleum.fluid_napalm: OP
+ftbutilities.claims.block.edit.immersivepetroleum.metal_device: OP
+ftbutilities.claims.block.edit.immersivepetroleum.metal_multiblock: OP
+ftbutilities.claims.block.edit.immersivepetroleum.stone_decoration: OP
 ftbutilities.claims.block.edit.integrateddynamics.block_liquid_chorus: OP
 ftbutilities.claims.block.edit.integrateddynamics.block_menril_resin: OP
 ftbutilities.claims.block.edit.integrateddynamics.cable: OP
@@ -1652,6 +1670,15 @@ ftbutilities.claims.block.interact.botania.teruterubozu: OP
 ftbutilities.claims.block.interact.botania.tinyplanetblock: OP
 ftbutilities.claims.block.interact.botania.tinypotato: OP
 ftbutilities.claims.block.interact.botania.turntable: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_1: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_2: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_3: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_4: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_5: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_6: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_7: OP
+ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_8: OP
+ftbutilities.claims.block.interact.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.interact.ceramics.channel: OP
 ftbutilities.claims.block.interact.ceramics.clay_barrel: OP
 ftbutilities.claims.block.interact.ceramics.clay_barrel_stained: OP
@@ -2060,6 +2087,15 @@ ftbutilities.claims.block.interact.immersiveengineering.treated_wood_stairs2: OP
 ftbutilities.claims.block.interact.immersiveengineering.wooden_decoration: OP
 ftbutilities.claims.block.interact.immersiveengineering.wooden_device0: OP
 ftbutilities.claims.block.interact.immersiveengineering.wooden_device1: OP
+ftbutilities.claims.block.interact.immersivepetroleum.dummy: OP
+ftbutilities.claims.block.interact.immersivepetroleum.fluid_crude_oil: OP
+ftbutilities.claims.block.interact.immersivepetroleum.fluid_diesel: OP
+ftbutilities.claims.block.interact.immersivepetroleum.fluid_gasoline: OP
+ftbutilities.claims.block.interact.immersivepetroleum.fluid_lubricant: OP
+ftbutilities.claims.block.interact.immersivepetroleum.fluid_napalm: OP
+ftbutilities.claims.block.interact.immersivepetroleum.metal_device: OP
+ftbutilities.claims.block.interact.immersivepetroleum.metal_multiblock: OP
+ftbutilities.claims.block.interact.immersivepetroleum.stone_decoration: OP
 ftbutilities.claims.block.interact.integrateddynamics.block_liquid_chorus: OP
 ftbutilities.claims.block.interact.integrateddynamics.block_menril_resin: OP
 ftbutilities.claims.block.interact.integrateddynamics.cable: OP
@@ -3119,6 +3155,15 @@ ftbutilities.claims.item.botania.waterbowl: ALL
 ftbutilities.claims.item.botania.waterring: ALL
 ftbutilities.claims.item.botania.waterrod: ALL
 ftbutilities.claims.item.botania.worldseed: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_1: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_2: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_3: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_4: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_5: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_6: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_7: ALL
+ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_8: ALL
+ftbutilities.claims.item.botania_tweaks.potted_tiny_potato: ALL
 ftbutilities.claims.item.ceramics.channel: ALL
 ftbutilities.claims.item.ceramics.clay_barrel: ALL
 ftbutilities.claims.item.ceramics.clay_barrel_stained: ALL
@@ -3815,6 +3860,15 @@ ftbutilities.claims.item.immersiveengineering.wirecoil: ALL
 ftbutilities.claims.item.immersiveengineering.wooden_decoration: ALL
 ftbutilities.claims.item.immersiveengineering.wooden_device0: ALL
 ftbutilities.claims.item.immersiveengineering.wooden_device1: ALL
+ftbutilities.claims.item.immersivepetroleum.dummy: ALL
+ftbutilities.claims.item.immersivepetroleum.material: ALL
+ftbutilities.claims.item.immersivepetroleum.metal_device: ALL
+ftbutilities.claims.item.immersivepetroleum.metal_multiblock: ALL
+ftbutilities.claims.item.immersivepetroleum.oil_can: ALL
+ftbutilities.claims.item.immersivepetroleum.schematic: ALL
+ftbutilities.claims.item.immersivepetroleum.speedboat: ALL
+ftbutilities.claims.item.immersivepetroleum.stone_decoration: ALL
+ftbutilities.claims.item.immersivepetroleum.upgrades: ALL
 ftbutilities.claims.item.integrateddynamics.block_liquid_chorus: ALL
 ftbutilities.claims.item.integrateddynamics.block_menril_resin: ALL
 ftbutilities.claims.item.integrateddynamics.cable: ALL
@@ -4310,6 +4364,7 @@ ftbutilities.claims.item.minecraft.yellow_flower: ALL
 ftbutilities.claims.item.minecraft.yellow_glazed_terracotta: ALL
 ftbutilities.claims.item.minecraft.yellow_shulker_box: ALL
 ftbutilities.claims.item.morechickens.solidxp: ALL
+ftbutilities.claims.item.patchouli.guide_book: ALL
 ftbutilities.claims.item.pewter.molten_elementium: ALL
 ftbutilities.claims.item.pewter.molten_manasteel: ALL
 ftbutilities.claims.item.pewter.molten_terrasteel: ALL
@@ -4331,6 +4386,10 @@ ftbutilities.claims.item.roost.catcher: ALL
 ftbutilities.claims.item.roost.chicken: ALL
 ftbutilities.claims.item.roost.collector: ALL
 ftbutilities.claims.item.roost.roost: ALL
+ftbutilities.claims.item.simplyjetpacks.itemfluxpack: ALL
+ftbutilities.claims.item.simplyjetpacks.itemjetpack: ALL
+ftbutilities.claims.item.simplyjetpacks.metaitem: ALL
+ftbutilities.claims.item.simplyjetpacks.metaitemmods: ALL
 ftbutilities.claims.item.tcomplement.alloy_tank: ALL
 ftbutilities.claims.item.tcomplement.cast: ALL
 ftbutilities.claims.item.tcomplement.cast_clay: ALL
@@ -5010,6 +5069,8 @@ command.bdlib.oredistribution
 command.blockdata
 command.botania.botania-open
 command.botania.botania-share
+command.botania_tweaks.botaniatweaks-debug-stats
+command.botania_tweaks.botaniatweaks-reset-stats
 command.clear
 command.clone
 command.cofhcore.cofh
@@ -5135,6 +5196,7 @@ command.immersiveengineering.ie.mineral.help.setdepletion
 command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
+command.immersivepetroleum.ip
 command.kill
 command.locate
 command.me

@@ -14,6 +14,9 @@ InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:iron_bars>);
 InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:rail>);
 InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:golden_rail>);
 
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<botania:livingwood>%100],<gendustry:honey_comb:116>,null,2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<botania:livingrock>%100],<gendustry:honey_comb:117>,null,2000);
+
 industrialGrinder.removeAll();
 industrialGrinder.addRecipe(<techreborn:dust:21>*2,null,null,null,
 <minecraft:end_stone>,null,<liquid:water>*1000,100,256);

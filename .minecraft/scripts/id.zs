@@ -14,5 +14,5 @@ MechanicalSqueezer.addRecipe(<forestry:bee_combs>,null,<liquid:for.honey>*50);
 DryingBasin.addRecipe(<minecraft:glass>,<liquid:for.honey>*100,<minecraft:stained_glass:1>,null);
 MechanicalDryingBasin.addRecipe(<minecraft:glass>,<liquid:for.honey>*100,<minecraft:stained_glass:1>,null);
 
-Squeezer.removeRecipe(<minecraft:gravel>,<minecraft:flint>,1.00,<minecraft:flint>,0.50);
+Squeezer.removeRecipesWithOutput(<minecraft:flint>,1.00,<minecraft:flint>,0.50);
 Squeezer.addRecipe(<minecraft:gravel>,<minecraft:flint>,1.00,<minecraft:sand>,0.25);

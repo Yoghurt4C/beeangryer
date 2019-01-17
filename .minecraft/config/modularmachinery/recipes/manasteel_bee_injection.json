@@ -1,0 +1,33 @@
+{
+    "machine": "mana_injector",
+    "registryName": "steel_bee_to_manasteel_bee",
+    "recipeTime": 1200,
+    "requirements": [
+		{
+			"type":"mana",
+			"io-type":"input",
+			"mana":5000
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:bee_princess_ge@0",
+            "amount": 1,
+			"nbt": {"Genome":{"Chromosomes":[{"UID1":"gendustry.bee.Steel","UID0":"gendustry.bee.Steel"}]}}
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:bee_drone_ge@0",
+            "amount": 1,
+			"nbt": {"Genome":{"Chromosomes":[{"UID1":"gendustry.bee.Steel","UID0":"gendustry.bee.Steel"}]}}
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "forestry:bee_queen_ge@0",
+            "amount": 1,
+			"nbt": {"MaxH":"30","Mate":{"Chromosomes":[{"UID1":"gendustry.bee.Manasteel","UID0":"gendustry.bee.Manasteel","Slot":"0b"},{"UID1":"forestry.speedSlowest","UID0":"forestry.speedSlowest","Slot":"1b"},{"UID1":"forestry.lifespanShort","UID0":"forestry.lifespanShort","Slot":"2b"},{"UID1":"forestry.fertilityLow","UID0":"forestry.fertilityLow","Slot":"3b"},{"UID1":"forestry.toleranceBoth2","UID0":"forestry.toleranceBoth2","Slot":"4b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"5b"},{"UID1":"forestry.toleranceBoth2","UID0":"forestry.toleranceBoth2","Slot":"6b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"7b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"8b"},{"UID1":"gendustry.flowersBotaniaFlower","UID0":"gendustry.flowersBotaniaFlower","Slot":"9b"},{"UID1":"forestry.floweringSlowest","UID0":"forestry.floweringSlowest","Slot":"10b"},{"UID1":"forestry.territoryAverage","UID0":"forestry.territoryAverage","Slot":"11b"},{"UID1":"forestry.effectNone","UID0":"forestry.effectNone","Slot":"12b"}]},"Health":"30","IsAnalyzed":"0b","Genome":{"Chromosomes":[{"UID1":"gendustry.bee.Manasteel","UID0":"gendustry.bee.Manasteel","Slot":"0b"},{"UID1":"forestry.speedSlowest","UID0":"forestry.speedSlowest","Slot":"1b"},{"UID1":"forestry.lifespanShort","UID0":"forestry.lifespanShort","Slot":"2b"},{"UID1":"forestry.fertilityLow","UID0":"forestry.fertilityLow","Slot":"3b"},{"UID1":"forestry.toleranceBoth2","UID0":"forestry.toleranceBoth2","Slot":"4b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"5b"},{"UID1":"forestry.toleranceBoth2","UID0":"forestry.toleranceBoth2","Slot":"6b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"7b"},{"UID1":"forestry.boolTrue","UID0":"forestry.boolTrue","Slot":"8b"},{"UID1":"gendustry.flowersBotaniaFlower","UID0":"gendustry.flowersBotaniaFlower","Slot":"9b"},{"UID1":"forestry.floweringSlowest","UID0":"forestry.floweringSlowest","Slot":"10b"},{"UID1":"forestry.territoryAverage","UID0":"forestry.territoryAverage","Slot":"11b"},{"UID1":"forestry.effectNone","UID0":"forestry.effectNone","Slot":"12b"}]}}
+        }
+    ]
+}

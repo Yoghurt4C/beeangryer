@@ -1,0 +1,31 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "patchouli:beeangryer": {
+      "viewedEntries": [
+        "patchouli:beginnings/test_entry",
+        "patchouli:beginnings/garden_of_glass",
+        "patchouli:multiblocks/mana_injector",
+        "patchouli:beginnings/mana_injector"
+      ],
+      "bookmarks": [
+        {
+          "entry": "patchouli:multiblocks/mana_injector",
+          "page": 0
+        },
+        {
+          "entry": "patchouli:beginnings/mana_injector",
+          "page": 0
+        }
+      ],
+      "history": [
+        "patchouli:beginnings/mana_injector",
+        "patchouli:beginnings/garden_of_glass",
+        "patchouli:multiblocks/mana_injector",
+        "patchouli:beginnings/test_entry"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Odd Pagoda",
+    "icon": "botania:manaresource",
+    "category": "multiblocks",
+    "pages": [
+        {
+            "type": "multiblock",
+            "name":"Odd Pagoda",
+			"multiblock": {
+				"mapping":{
+					"C":"botania:livingrock[variant=chiseled_brick]",
+					"M":"botania:livingrock[variant=mossy_brick]",
+					"R":"botania:livingrock",
+					"I":"modularmachinery:blockinputbus",
+					"O":"modularmachinery:blockoutputbus",
+					"0":"modularmachinery:blockcontroller",
+					"L":"botania:livingwood0wall[variant=cobblestone]",
+					"H":"modulardiversity:blockmanainputhatch",
+					"5":"botania:livingwood0slab[dummy=singleton,half=top]",
+					"2":"botania:livingwood0slab[dummy=singleton,half=bottom]",
+					"G":"botania:livingwood[variant=glimmering]",
+					"N":"botania:livingwood0stairs[facing=north,half=bottom,shape=straight]",
+					"E":"botania:livingwood0stairs[facing=east,half=bottom,shape=straight]",
+					"W":"botania:livingwood0stairs[facing=west,half=bottom,shape=straight]",
+					"S":"botania:livingwood0stairs[facing=south,half=bottom,shape=straight]",
+					"D":"botania:livingwood"
+				},
+				"pattern":[
+					["_______","_______","_______","___L___","_______","_______","_______"],
+					["_______","_______","_______","___L___","_______","_______","_______"],
+					["_______","_______","__2E2__","__NDS__","__2W2__","_______","_______"],
+					["_______","_55555_","_5LLL5_","_5LDL5_","_5LLL5_","_55555_","_______"],
+					["_______","_2EEE2_","_N555S_","_N5G5S_","_N555S_","_2WWW2_","_______"],
+					["5555555","5L___L5","5_____5","5_____5","5_____5","5L___L5","5555555"],
+					["_______","_L___L_","_______","___H___","_______","_L___L_","_______"],
+					["_______","_L___L_","_______","___L___","_______","_L___L_","_______"],
+					["_______","_CMMMC_","_MRRRM_","_MRRRM_","_MRRRM_","_CI0OC_","_______"]
+				],
+				"symmetrical":false
+			}
+        }
+    ]
+}
