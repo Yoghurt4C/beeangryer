@@ -716,11 +716,11 @@
     "lay_coefficient": 1.0,
     "lay_item": {
       "itemID": "botania:manaresource",
-      "metaID": 19
+      "metaID": 7
     },
     "drop_item": {
       "itemID": "botania:manaresource",
-      "metaID": 19
+      "metaID": 7
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:manasteelchicken",

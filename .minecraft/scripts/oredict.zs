@@ -341,3 +341,24 @@ global metals as IOreDictEntry[string][string]={
 		nugget: <ore:nuggetZinc>,
 		plate: <ore:plateZinc>,
 		rod: null}};
+global nonmetals as IOreDictEntry[string][string]={
+	ash: {
+		dust:<ore:dustAsh>},
+	charcoal: {
+		dust:<ore:dustCharcoal>},
+	coal: {
+		dust:<ore:dustCoal>},
+	coke: {
+		dust:<ore:dustCoke>,
+		fuel:<ore:fuelCoke>},
+	enderPearl: {
+		dust:<ore:dustEnderPearl>},
+	obsidian: {
+		dust:<ore:dustObsidian>},
+	saltpeter: {
+		dust:<ore:dustSaltpeter>},
+	sawdust: {
+		dust:<ore:pulpWood>},
+	sulfur: {
+		dust:<ore:dustSulfur>}
+};

@@ -18,14 +18,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:livingrock@4"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 0,
@@ -34,6 +26,14 @@
         {
             "x": -2,
             "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:livingrock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
             "z": 4,
             "elements": [
                 "botania:livingrock@4"
@@ -100,7 +100,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -120,11 +120,19 @@
             ]
         },
         {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "botania:livingwood@0"
+            ]
+        },
+        {
             "x": -3,
             "y": 3,
             "z": 5,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -212,7 +220,7 @@
             "y": 3,
             "z": 5,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -232,19 +240,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "botania:livingwood0slab@8"
-            ]
-        },
-        {
             "x": -2,
             "y": 2,
             "z": 0,
             "elements": [
                 "botania:livingwood0wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "botania:livingwood0slab@8"
             ]
         },
         {
@@ -288,17 +296,17 @@
             ]
         },
         {
-            "x": -2,
+            "x": 2,
             "y": 2,
-            "z": 4,
+            "z": 0,
             "elements": [
                 "botania:livingwood0wall@0"
             ]
         },
         {
-            "x": 2,
+            "x": -2,
             "y": 2,
-            "z": 0,
+            "z": 4,
             "elements": [
                 "botania:livingwood0wall@0"
             ]
@@ -380,7 +388,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -396,15 +404,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "botania:livingwood0wall@0"
-            ]
-        },
-		        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -412,7 +412,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -450,7 +450,7 @@
         {
             "x": 3,
             "y": 3,
-            "z": -1,
+            "z": 0,
             "elements": [
                 "botania:livingwood0slab@8"
             ]
@@ -458,9 +458,9 @@
         {
             "x": 3,
             "y": 3,
-            "z": 0,
+            "z": -1,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -477,14 +477,6 @@
             "z": -1,
             "elements": [
                 "botania:livingwood0slab@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "botania:livingwood0wall@0"
             ]
         },
         {
@@ -496,17 +488,25 @@
             ]
         },
         {
-            "x": -1,
+            "x": 2,
             "y": 3,
-            "z": -1,
+            "z": 4,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingwood0wall@0"
             ]
         },
         {
             "x": 3,
             "y": 3,
             "z": 4,
+            "elements": [
+                "botania:livingwood0slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
             "elements": [
                 "botania:livingwood0slab@8"
             ]
@@ -524,7 +524,7 @@
             "y": 3,
             "z": -1,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -532,7 +532,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -540,7 +540,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -580,7 +580,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -592,19 +592,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "botania:livingwood0slab@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 4,
             "z": 0,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -660,7 +660,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -684,7 +684,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -720,19 +720,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "botania:livingwood0slab@8"
-            ]
-        },
-        {
             "x": -2,
             "y": 5,
             "z": 4,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -772,7 +772,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "botania:livingwood0slab@8"
+                "botania:livingrock1slab@8"
             ]
         },
         {
@@ -892,7 +892,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -900,7 +900,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -908,7 +908,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "botania:livingwood0wall@0"
+                "botania:livingwood@0"
             ]
         },
         {
@@ -940,7 +940,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {
@@ -972,7 +972,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "botania:livingwood0slab@0"
+                "botania:livingrock1slab@0"
             ]
         },
         {

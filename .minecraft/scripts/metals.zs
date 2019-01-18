@@ -115,8 +115,16 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 				immersivePressMold, //Mold
 				immersivePressEnergy, //Energy
 				immersivePressInputCount //Input Count
-			);
-		}
+			);}
+		//blocks because why not
+		if (metalPartName != "gear" & metalPartName != "rod" & metalItems[metalName].block as bool) {
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * 9, //Output
+				metalItems[metalName].block.items[0], //Input
+				immersivePressMold, //Mold
+				21600, //Energy
+				immersivePressInputCount //Input Count
+			);}
 	}
 
 	//Plates should also be used in place of ingots for wire
@@ -142,7 +150,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	//Remove ingot recipes, mainly for preventing ore doubling recipes
 	//alloys to recreate: constantan, electrum, brass, alubrass, manyullyn?
 	//smelting ingots (in order) are Al, Brass, Cr (omit?), Cu, Electrum, Au, Fe, Pt, Ti (omit?), W (omit?), Zi, Mithril, Constantan, Signalum, Lumium, Enderium, Uranium, HOP
-	if (metalPartName == "ingot") {
+	if (metalPartName == "ingot"|metalPartName=="nugget") {
 		mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
 	}
 		if (metalPartName == "dust") {
@@ -157,6 +165,33 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			defaultArcTickTime,
 			defaultArcEnergyPerTick
 		);}
+		
+	//te press
+	if (metalPartName=="plate"){
+	mods.thermalexpansion.Compactor.addPressRecipe(
+	preferredMetalItem * 1, //Output
+	metalItems[metalName].ingot.items[0], //Input
+	2400);
+	if (metalItems[metalName].block as bool) {
+	mods.thermalexpansion.Compactor.addPressRecipe(
+	preferredMetalItem * 9, //Output
+	metalItems[metalName].block.items[0], //Input
+	21600);}}
+	
+	//tr com*press*or
+	if (metalPartName=="plate"){
+	mods.techreborn.compressor.addRecipe(
+	preferredMetalItem, 
+	metalItems[metalName].ingot.items[0], 
+	120,
+	20);
+	if (metalItems[metalName].block as bool){
+	mods.techreborn.compressor.addRecipe(
+	preferredMetalItem*9, 
+	metalItems[metalName].block.items[0], 
+	1080,
+	20);}}
+	
 	//grains
 	if (metalPartName=="dust"){
 	recipes.removeByRecipeName("extrabees:" + metalName + "_dust_dust");

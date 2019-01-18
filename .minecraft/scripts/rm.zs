@@ -12,6 +12,9 @@ val goneForever=[
 <techreborn:solar_panel:3>,
 <techreborn:solar_panel:4>,
 <techreborn:creative_solar_panel>,
+<techreborn:magic_energy_absorber>,
+<techreborn:dragon_egg_syphon>,
+<techreborn:magic_energy_converter>,
 <techreborn:nuggets:16>,
 <forestry:greenhouse>,
 <forestry:greenhouse:3>,
@@ -36,8 +39,11 @@ val rmSpecArray=[
 <forestry:carpenter>,
 <forestry:centrifuge>,
 <forestry:squeezer>,
+<forestry:fabricator>,
+<forestry:habitat_former>,
 <genetics:misc>,
-<techreborn:ingot:16>
+<techreborn:ingot:16>,
+<modularmachinery:itemmodularium>
 ] as IItemStack[];
 for item in rmSpecArray {recipes.remove(item);}
 val scrapbox=[
@@ -84,7 +90,7 @@ for plate, item in lowercaseplates{plate.remove(item);}
 val k=0;
 for k in 1 .. 20{
 val rmIDArray=[	
-//"techreborn:nuggets_"+k
+"minecraft:orange_stained_glass"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
 //furnace rm

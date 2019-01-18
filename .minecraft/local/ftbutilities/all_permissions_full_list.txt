@@ -1,4 +1,4 @@
-5054 nodes in total
+5099 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1081,6 +1081,20 @@ ftbutilities.claims.block.edit.minecraft.wool: OP
 ftbutilities.claims.block.edit.minecraft.yellow_flower: OP
 ftbutilities.claims.block.edit.minecraft.yellow_glazed_terracotta: OP
 ftbutilities.claims.block.edit.minecraft.yellow_shulker_box: OP
+ftbutilities.claims.block.edit.modulardiversity.blockbiomedetector: OP
+ftbutilities.claims.block.edit.modulardiversity.blockdaylightdetector: OP
+ftbutilities.claims.block.edit.modulardiversity.blockjackhatch: OP
+ftbutilities.claims.block.edit.modulardiversity.blockmanainputhatch: OP
+ftbutilities.claims.block.edit.modulardiversity.blockmanaoutputhatch: OP
+ftbutilities.claims.block.edit.modulardiversity.blockweatherdetector: OP
+ftbutilities.claims.block.edit.modularmachinery.blockcasing: OP
+ftbutilities.claims.block.edit.modularmachinery.blockcontroller: OP
+ftbutilities.claims.block.edit.modularmachinery.blockenergyinputhatch: OP
+ftbutilities.claims.block.edit.modularmachinery.blockenergyoutputhatch: OP
+ftbutilities.claims.block.edit.modularmachinery.blockfluidinputhatch: OP
+ftbutilities.claims.block.edit.modularmachinery.blockfluidoutputhatch: OP
+ftbutilities.claims.block.edit.modularmachinery.blockinputbus: OP
+ftbutilities.claims.block.edit.modularmachinery.blockoutputbus: OP
 ftbutilities.claims.block.edit.pewter.molten_elementium: OP
 ftbutilities.claims.block.edit.pewter.molten_manasteel: OP
 ftbutilities.claims.block.edit.pewter.molten_terrasteel: OP
@@ -2422,6 +2436,20 @@ ftbutilities.claims.block.interact.minecraft.wool: OP
 ftbutilities.claims.block.interact.minecraft.yellow_flower: OP
 ftbutilities.claims.block.interact.minecraft.yellow_glazed_terracotta: OP
 ftbutilities.claims.block.interact.minecraft.yellow_shulker_box: OP
+ftbutilities.claims.block.interact.modulardiversity.blockbiomedetector: OP
+ftbutilities.claims.block.interact.modulardiversity.blockdaylightdetector: OP
+ftbutilities.claims.block.interact.modulardiversity.blockjackhatch: OP
+ftbutilities.claims.block.interact.modulardiversity.blockmanainputhatch: OP
+ftbutilities.claims.block.interact.modulardiversity.blockmanaoutputhatch: OP
+ftbutilities.claims.block.interact.modulardiversity.blockweatherdetector: OP
+ftbutilities.claims.block.interact.modularmachinery.blockcasing: OP
+ftbutilities.claims.block.interact.modularmachinery.blockcontroller: OP
+ftbutilities.claims.block.interact.modularmachinery.blockenergyinputhatch: OP
+ftbutilities.claims.block.interact.modularmachinery.blockenergyoutputhatch: OP
+ftbutilities.claims.block.interact.modularmachinery.blockfluidinputhatch: OP
+ftbutilities.claims.block.interact.modularmachinery.blockfluidoutputhatch: OP
+ftbutilities.claims.block.interact.modularmachinery.blockinputbus: OP
+ftbutilities.claims.block.interact.modularmachinery.blockoutputbus: OP
 ftbutilities.claims.block.interact.pewter.molten_elementium: OP
 ftbutilities.claims.block.interact.pewter.molten_manasteel: OP
 ftbutilities.claims.block.interact.pewter.molten_terrasteel: OP
@@ -4363,6 +4391,23 @@ ftbutilities.claims.item.minecraft.written_book: ALL
 ftbutilities.claims.item.minecraft.yellow_flower: ALL
 ftbutilities.claims.item.minecraft.yellow_glazed_terracotta: ALL
 ftbutilities.claims.item.minecraft.yellow_shulker_box: ALL
+ftbutilities.claims.item.modulardiversity.blockbiomedetector: ALL
+ftbutilities.claims.item.modulardiversity.blockdaylightdetector: ALL
+ftbutilities.claims.item.modulardiversity.blockjackhatch: ALL
+ftbutilities.claims.item.modulardiversity.blockmanainputhatch: ALL
+ftbutilities.claims.item.modulardiversity.blockmanaoutputhatch: ALL
+ftbutilities.claims.item.modulardiversity.blockweatherdetector: ALL
+ftbutilities.claims.item.modularmachinery.blockcasing: ALL
+ftbutilities.claims.item.modularmachinery.blockcontroller: ALL
+ftbutilities.claims.item.modularmachinery.blockenergyinputhatch: ALL
+ftbutilities.claims.item.modularmachinery.blockenergyoutputhatch: ALL
+ftbutilities.claims.item.modularmachinery.blockfluidinputhatch: ALL
+ftbutilities.claims.item.modularmachinery.blockfluidoutputhatch: ALL
+ftbutilities.claims.item.modularmachinery.blockinputbus: ALL
+ftbutilities.claims.item.modularmachinery.blockoutputbus: ALL
+ftbutilities.claims.item.modularmachinery.itemblueprint: ALL
+ftbutilities.claims.item.modularmachinery.itemconstructtool: ALL
+ftbutilities.claims.item.modularmachinery.itemmodularium: ALL
 ftbutilities.claims.item.morechickens.solidxp: ALL
 ftbutilities.claims.item.patchouli.guide_book: ALL
 ftbutilities.claims.item.pewter.molten_elementium: ALL
@@ -5200,6 +5245,8 @@ command.immersivepetroleum.ip
 command.kill
 command.locate
 command.me
+command.modularmachinery.mm-hand
+command.modularmachinery.mm-syntax
 command.particle
 command.pewter.pewter
 command.playsound

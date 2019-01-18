@@ -297,7 +297,7 @@ global metalItems as IIngredient[string][string] = {
 		comb: <gendustry:honey_comb:107>,
 		dust: <thermalfoundation:material:96>,
 		gear: <thermalfoundation:material:288>,
-		ingot: <thermalfoundation:material:160>,
+		ingot: <immersiveengineering:metal:8>,
 		liquid: <liquid:steel>,
 		nugget: <thermalfoundation:material:224>,
 		plate: <thermalfoundation:material:352>,
@@ -317,7 +317,7 @@ global metalItems as IIngredient[string][string] = {
 		comb: <extrabees:honey_comb:18>,
 		dust: <thermalfoundation:material:65>,
 		gear: <thermalfoundation:material:257>,
-		ingot: <thermalfoundation:material:129>,
+		ingot: <forestry:ingot_tin>,
 		liquid: <liquid:tin>,
 		nugget: <thermalfoundation:material:193>,
 		plate: <thermalfoundation:material:321>,
@@ -371,5 +371,25 @@ global metalItems as IIngredient[string][string] = {
 		liquid: <liquid:zinc>,
 		nugget: <techreborn:nuggets:18>,
 		plate: <techreborn:plates:33>,
-		rod: null}
+		rod: null}};
+global nonmetalItems as IIngredient[string][string] = {
+	ash: {
+		dust:<forestry:ash>},
+	charcoal: {
+		dust:<thermalfoundation:material:769>},
+	coal: {
+		dust:<thermalfoundation:material:768>},
+	coke: {
+		dust:<immersiveengineering:material:17>,
+		fuel:<immersiveengineering:material:6>},
+	enderPearl: {
+		dust:<appliedenergistics2:material:46>},
+	obsidian: {
+		dust:<thermalfoundation:material:770>},
+	saltpeter: {
+		dust:<immersiveengineering:material:24>},
+	sawdust: {
+		dust:<forestry:wood_pulp>},
+	sulfur: {
+		dust:<immersiveengineering:material:25>}
 };

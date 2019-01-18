@@ -8,7 +8,9 @@ import crafttweaker.oredict.IOreDictEntry;
 static defaultPreferredMods as string[] = [
 	"minecraft",
 	"immersiveengineering",
+	"forestry",
 	"thermalfoundation",
+	"appliedenergistics2",
 	"techreborn"
 ];
 

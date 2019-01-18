@@ -36,3 +36,6 @@ for pair in metalStickPairs {
 <ore:nuggetZinc>.add(<extrabees:misc:14>);
 <ore:nuggetTitanium>.add(<extrabees:misc:15>);
 <ore:nuggetTungsten>.add(<extrabees:misc:16>);
+<ore:pulpWood>.add(<thermalfoundation:material:800>);
+<ore:dustWood>.add(<forestry:wood_pulp>);
+<ore:dustWood>.add(<techreborn:dust:46>);
