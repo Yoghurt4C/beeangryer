@@ -9,10 +9,14 @@ recipes.addShaped(<integrateddynamics:squeezer>,[
 [<ore:stickWood>,null,<ore:stickWood>],
 [<ore:plankWood>,<minecraft:stone_slab>,<ore:plankWood>]]);
 
-Squeezer.addRecipe(<forestry:bee_combs>,null,<liquid:for.honey>*50);
-MechanicalSqueezer.addRecipe(<forestry:bee_combs>,null,<liquid:for.honey>*50);
+for comb in <ore:beeComb>.items {
+Squeezer.addRecipe(comb,null,<liquid:for.honey>*50);
+MechanicalSqueezer.addRecipe(comb,null,<liquid:for.honey>*50);
 DryingBasin.addRecipe(<minecraft:glass>,<liquid:for.honey>*100,<minecraft:stained_glass:1>,null);
 MechanicalDryingBasin.addRecipe(<minecraft:glass>,<liquid:for.honey>*100,<minecraft:stained_glass:1>,null);
+DryingBasin.addRecipe(<tconstruct:clear_glass>,<liquid:for.honey>*100,<tconstruct:clear_stained_glass:1>,null);
+MechanicalDryingBasin.addRecipe(<tconstruct:clear_glass>,<liquid:for.honey>*100,<tconstruct:clear_stained_glass:1>,null);
+}
 
 Squeezer.removeRecipesWithOutput(<minecraft:flint>,1.00,<minecraft:flint>,0.50);
 Squeezer.addRecipe(<minecraft:gravel>,<minecraft:flint>,1.00,<minecraft:sand>,0.25);

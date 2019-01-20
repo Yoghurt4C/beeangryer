@@ -178,6 +178,16 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	metalItems[metalName].block.items[0], //Input
 	21600);}}
 	
+	//te magma crucible
+	if (metalName!="aluminumbrass"&metalName!="alumite"&metalName!="brass"&metalName!="chrome"&metalName!="elementium"&metalName!="knightslime"&metalName!="manasteel"&metalName!="mithril"&metalName!="pigiron"&metalName!="terrasteel"&metalName!="titanium"&metalName!="tungsten"&metalName!="tungstensteel"&metalName!="uranium"&metalName!="zinc"&metalPartName!="rod"&metalPartName!="gear"){
+	mods.thermalexpansion.Crucible.removeRecipe(preferredMetalItem);}
+	//mods.thermalexpansion.Crucible.addRecipe(ILiquidStack output, IItemStack input, int energy);
+	if (metalPartName=="block" & hasLiquid){
+	mods.thermalexpansion.Crucible.addRecipe(
+	 metalLiquid*1296, 
+	preferredMetalItem, 
+	10800);}
+	
 	//tr com*press*or
 	if (metalPartName=="plate"){
 	mods.techreborn.compressor.addRecipe(

@@ -39,3 +39,4 @@ for pair in metalStickPairs {
 <ore:pulpWood>.add(<thermalfoundation:material:800>);
 <ore:dustWood>.add(<forestry:wood_pulp>);
 <ore:dustWood>.add(<techreborn:dust:46>);
+<ore:dustWood>.mirror(<ore:pulpWood>);

@@ -15,6 +15,8 @@ val goneForever=[
 <techreborn:magic_energy_absorber>,
 <techreborn:dragon_egg_syphon>,
 <techreborn:magic_energy_converter>,
+<techreborn:iron_alloy_furnace>,
+<techreborn:alloy_smelter>,
 <techreborn:nuggets:16>,
 <forestry:greenhouse>,
 <forestry:greenhouse:3>,
@@ -32,6 +34,7 @@ for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
 JEI.hideCategory("thermalexpansion.factorizer_split");
 JEI.hideCategory("thermalexpansion.centrifuge_mobs");
+JEI.hideCategory("TechReborn.AlloySmelter");
 
 //heuristic removal array, put in `<modid:item>` with commas after each, except the last, for removal
 val rmSpecArray=[
@@ -42,6 +45,7 @@ val rmSpecArray=[
 <forestry:fabricator>,
 <forestry:habitat_former>,
 <genetics:misc>,
+<tconstruct:clear_stained_glass:1>,
 <techreborn:ingot:16>,
 <modularmachinery:itemmodularium>
 ] as IItemStack[];
@@ -86,11 +90,34 @@ val lowercaseplates ={
 <ore:plateiridiumAlloy>:<techreborn:plates:37>} as IItemStack[IOreDictEntry];
 for plate, item in lowercaseplates{plate.remove(item);}
 <ore:ingotHotTungstensteel>.remove(<techreborn:ingot:16>);
+val magmaCrucibleArray=[
+<minecraft:emerald_ore>,
+<thermalfoundation:ore:4>,
+<minecraft:gold_ore>,
+<tconstruct:ore>,
+<thermalfoundation:ore:5>,
+<thermalfoundation:ore:6>,
+<thermalfoundation:ore:2>,
+<thermalfoundation:ore:1>,
+<thermalfoundation:ore>,
+<thermalfoundation:ore:3>,
+<tconstruct:ore:1>,
+<minecraft:iron_ore>,
+<thermalfoundation:ore:7>
+] as IItemStack[];
+for ore in magmaCrucibleArray{mods.thermalexpansion.Crucible.removeRecipe(ore);}
 //recipeid array, rather pointless but it exists
 val k=0;
 for k in 1 .. 20{
 val rmIDArray=[	
-"minecraft:orange_stained_glass"
+"forestry:greenhouse_fan",
+"forestry:greenhouse_control",
+"forestry:greenhouse_dehumidifier",
+"forestry:greenhouse_humidifier",
+"minecraft:orange_stained_glass",
+"ceramics:decoration/unfired_porcelain_bone_meal",
+"techreborn:machine_frame",
+"techreborn:compressor"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
 //furnace rm
