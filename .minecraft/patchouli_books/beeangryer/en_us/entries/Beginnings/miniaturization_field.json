@@ -1,0 +1,16 @@
+{
+    "name": "Miniaturization Field",
+    "icon": "compactmachines3:fieldprojector",
+    "category": "beginnings",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "frick"
+        },
+		{"type":"image",
+		  "images":["patchouli:textures/gui/miniaturization_field.png"],
+		  "title":"Field",
+		  "border":true}
+    ]
+}

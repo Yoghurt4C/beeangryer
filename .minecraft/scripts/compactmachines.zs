@@ -1,0 +1,1 @@
+//recipes.addShaped("CTfieldprojector",<compactmachines3:fieldprojector>

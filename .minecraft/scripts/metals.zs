@@ -48,7 +48,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		} else if (metalPartName == "nugget") {
 			fluidAmount = 16;
 		}
-
+		
 		mods.tconstruct.Melting.removeRecipe(metalLiquid * 1, preferredMetalItem);
 		if (fluidAmount != 0 & metalPartName=="block") {
 			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
@@ -191,16 +191,16 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	//tr com*press*or
 	if (metalPartName=="plate"){
 	mods.techreborn.compressor.addRecipe(
-	preferredMetalItem, 
+	preferredMetalItem*1, 
 	metalItems[metalName].ingot.items[0], 
 	120,
-	20);
+	20).setUseOreDict(true);
 	if (metalItems[metalName].block as bool){
 	mods.techreborn.compressor.addRecipe(
 	preferredMetalItem*9, 
 	metalItems[metalName].block.items[0], 
 	1080,
-	20);}}
+	20).setUseOreDict(true);}}
 	
 	//grains
 	if (metalPartName=="dust"){

@@ -7,7 +7,8 @@
         "patchouli:beginnings/test_entry",
         "patchouli:beginnings/garden_of_glass",
         "patchouli:multiblocks/mana_injector",
-        "patchouli:beginnings/mana_injector"
+        "patchouli:beginnings/mana_injector",
+        "patchouli:beginnings/miniaturization_field"
       ],
       "bookmarks": [
         {
@@ -22,6 +23,7 @@
       "history": [
         "patchouli:beginnings/mana_injector",
         "patchouli:beginnings/garden_of_glass",
+        "patchouli:beginnings/miniaturization_field",
         "patchouli:multiblocks/mana_injector",
         "patchouli:beginnings/test_entry"
       ],

@@ -238,7 +238,7 @@ global metalItems as IIngredient[string][string] = {
 		dust: <thermalfoundation:material:72>,
 		gear: <thermalfoundation:material:264>,
 		ingot: <thermalfoundation:material:136>,
-		liquid: null,
+		liquid: <liquid:mana>,
 		nugget: <thermalfoundation:material:200>,
 		plate: <thermalfoundation:material:328>,
 		rod: null},
