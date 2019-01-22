@@ -36,7 +36,7 @@
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:emeraldchicken",
-    "parent_2": "chickens:greenchicken"
+    "parent_2": "chickens:smartchicken"
   },
   "morechickens:bronzechicken": {
     "name": "bronzechicken",
@@ -75,11 +75,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "forestry:ingot_copper",
+      "itemID": "immersiveengineering:metal",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "forestry:ingot_copper",
+      "itemID": "immersiveengineering:metal",
       "metaID": 0
     },
     "spawn_type": "NONE",
@@ -123,12 +123,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:ingot",
-      "metaID": 4
+      "itemID": "thermalfoundation:material",
+      "metaID": 130
     },
     "drop_item": {
-      "itemID": "ic2:ingot",
-      "metaID": 4
+      "itemID": "thermalfoundation:material",
+      "metaID": 130
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:ironchicken",
@@ -187,12 +187,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 161
+      "itemID": "immersiveengineering:metal",
+      "metaID": 7
     },
     "drop_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 161
+      "itemID": "immersiveengineering:metal",
+      "metaID": 7
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:silverorechicken",
@@ -219,12 +219,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:dust",
-      "metaID": 16
+      "itemID": "immersiveengineering:material",
+      "metaID": 25
     },
     "drop_item": {
-      "itemID": "ic2:dust",
-      "metaID": 16
+      "itemID": "immersiveengineering:material",
+      "metaID": 25
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:gunpowderchicken",
@@ -235,12 +235,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 772
+      "itemID": "immersiveengineering:material",
+      "metaID": 24
     },
     "drop_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 772
+      "itemID": "immersiveengineering:material",
+      "metaID": 24
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:sulfurchicken",
@@ -251,12 +251,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 132
+      "itemID": "immersiveengineering:metal",
+      "metaID": 1
     },
     "drop_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 132
+      "itemID": "immersiveengineering:metal",
+      "metaID": 1
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:flintchicken",
@@ -267,12 +267,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:crafting",
-      "metaID": 0
+      "itemID": "techreborn:part",
+      "metaID": 32
     },
     "drop_item": {
-      "itemID": "ic2:crafting",
-      "metaID": 0
+      "itemID": "techreborn:part",
+      "metaID": 32
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:logchicken",
@@ -299,12 +299,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 164
+      "itemID": "immersiveengineering:metal",
+      "metaID": 6
     },
     "drop_item": {
-      "itemID": "thermalfoundation:material",
-      "metaID": 164
+      "itemID": "immersiveengineering:metal",
+      "metaID": 6
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:copperchicken",
@@ -491,12 +491,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "ic2:ingot",
-      "metaID": 7
+      "itemID": "techreborn:ingot",
+      "metaID": 19
     },
     "drop_item": {
-      "itemID": "ic2:ingot",
-      "metaID": 7
+      "itemID": "techreborn:ingot",
+      "metaID": 19
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:ironchicken",

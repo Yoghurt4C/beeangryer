@@ -1,4 +1,4 @@
-6132 nodes in total
+6168 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -377,6 +377,7 @@ ftbutilities.claims.block.edit.cathedral.cathedral_glass_stained: OP
 ftbutilities.claims.block.edit.cathedral.cathedral_pane_stained: OP
 ftbutilities.claims.block.edit.cathedral.cathedral_pillar_various: OP
 ftbutilities.claims.block.edit.cathedral.cathedral_railing_various: OP
+ftbutilities.claims.block.edit.cathedral.deckprism: OP
 ftbutilities.claims.block.edit.cathedral.dwemer_bars_normal: OP
 ftbutilities.claims.block.edit.cathedral.dwemer_block_carved: OP
 ftbutilities.claims.block.edit.cathedral.dwemer_door_normal: OP
@@ -435,6 +436,13 @@ ftbutilities.claims.block.edit.ceramics.porcelain_barrel_extension: OP
 ftbutilities.claims.block.edit.ceramics.porcelain_bricks_stairs: OP
 ftbutilities.claims.block.edit.ceramics.rainbow_bricks_stairs: OP
 ftbutilities.claims.block.edit.ceramics.rainbow_clay: OP
+ftbutilities.claims.block.edit.charset.barrel: OP
+ftbutilities.claims.block.edit.charset.chest: OP
+ftbutilities.claims.block.edit.charset.fluidtank: OP
+ftbutilities.claims.block.edit.charset.rail_charset: OP
+ftbutilities.claims.block.edit.charset.record_player: OP
+ftbutilities.claims.block.edit.charset.scaffold: OP
+ftbutilities.claims.block.edit.charset.stacks_decorative: OP
 ftbutilities.claims.block.edit.chickens.henhouse: OP
 ftbutilities.claims.block.edit.chickens.henhouse_acacia: OP
 ftbutilities.claims.block.edit.chickens.henhouse_birch: OP
@@ -2069,6 +2077,7 @@ ftbutilities.claims.block.interact.cathedral.cathedral_glass_stained: OP
 ftbutilities.claims.block.interact.cathedral.cathedral_pane_stained: OP
 ftbutilities.claims.block.interact.cathedral.cathedral_pillar_various: OP
 ftbutilities.claims.block.interact.cathedral.cathedral_railing_various: OP
+ftbutilities.claims.block.interact.cathedral.deckprism: OP
 ftbutilities.claims.block.interact.cathedral.dwemer_bars_normal: OP
 ftbutilities.claims.block.interact.cathedral.dwemer_block_carved: OP
 ftbutilities.claims.block.interact.cathedral.dwemer_door_normal: ALL
@@ -2127,6 +2136,13 @@ ftbutilities.claims.block.interact.ceramics.porcelain_barrel_extension: OP
 ftbutilities.claims.block.interact.ceramics.porcelain_bricks_stairs: OP
 ftbutilities.claims.block.interact.ceramics.rainbow_bricks_stairs: OP
 ftbutilities.claims.block.interact.ceramics.rainbow_clay: OP
+ftbutilities.claims.block.interact.charset.barrel: OP
+ftbutilities.claims.block.interact.charset.chest: OP
+ftbutilities.claims.block.interact.charset.fluidtank: OP
+ftbutilities.claims.block.interact.charset.rail_charset: OP
+ftbutilities.claims.block.interact.charset.record_player: OP
+ftbutilities.claims.block.interact.charset.scaffold: OP
+ftbutilities.claims.block.interact.charset.stacks_decorative: OP
 ftbutilities.claims.block.interact.chickens.henhouse: OP
 ftbutilities.claims.block.interact.chickens.henhouse_acacia: OP
 ftbutilities.claims.block.interact.chickens.henhouse_birch: OP
@@ -3912,6 +3928,7 @@ ftbutilities.claims.item.cathedral.cathedral_pane_stained: ALL
 ftbutilities.claims.item.cathedral.cathedral_pillar_various: ALL
 ftbutilities.claims.item.cathedral.cathedral_railing_various: ALL
 ftbutilities.claims.item.cathedral.claytile: ALL
+ftbutilities.claims.item.cathedral.deckprism: ALL
 ftbutilities.claims.item.cathedral.dwemer_bars_normal: ALL
 ftbutilities.claims.item.cathedral.dwemer_block_carved: ALL
 ftbutilities.claims.item.cathedral.dwemer_door_normal: ALL
@@ -3981,6 +3998,25 @@ ftbutilities.claims.item.ceramics.porcelain_bricks_stairs: ALL
 ftbutilities.claims.item.ceramics.rainbow_bricks_stairs: ALL
 ftbutilities.claims.item.ceramics.rainbow_clay: ALL
 ftbutilities.claims.item.ceramics.unfired_clay: ALL
+ftbutilities.claims.item.charset.barrel: ALL
+ftbutilities.claims.item.charset.barrelcart: ALL
+ftbutilities.claims.item.charset.chest: ALL
+ftbutilities.claims.item.charset.fluidtank: ALL
+ftbutilities.claims.item.charset.graphite: ALL
+ftbutilities.claims.item.charset.icon: ALL
+ftbutilities.claims.item.charset.key: ALL
+ftbutilities.claims.item.charset.keyring: ALL
+ftbutilities.claims.item.charset.lock: ALL
+ftbutilities.claims.item.charset.masterkey: ALL
+ftbutilities.claims.item.charset.pockettable: ALL
+ftbutilities.claims.item.charset.quartz_disc: ALL
+ftbutilities.claims.item.charset.rail_charset: ALL
+ftbutilities.claims.item.charset.record_player: ALL
+ftbutilities.claims.item.charset.scaffold: ALL
+ftbutilities.claims.item.charset.shard: ALL
+ftbutilities.claims.item.charset.signal_meter: ALL
+ftbutilities.claims.item.charset.stopwatch: ALL
+ftbutilities.claims.item.charset.tablet: ALL
 ftbutilities.claims.item.chickens.analyzer: ALL
 ftbutilities.claims.item.chickens.colored_egg: ALL
 ftbutilities.claims.item.chickens.henhouse: ALL
@@ -6151,6 +6187,8 @@ command.botania_tweaks.botaniatweaks-debug-stats
 command.botania_tweaks.botaniatweaks-reset-stats
 command.buildinggadgets.deleteblockmaps
 command.buildinggadgets.findblockmaps
+command.charset.charset
+command.charset.mutter
 command.clear
 command.clone
 command.cofhcore.cofh

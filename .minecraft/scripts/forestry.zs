@@ -13,6 +13,8 @@ var scentedGear=<extrabees:misc>;
 var royalJelly=<forestry:royal_jelly>;
 var beeswax=<forestry:beeswax>;
 var pollen=<forestry:pollen>;
+var chest=<ore:chestWood>;
+
 
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
@@ -42,7 +44,7 @@ recipes.addShaped(<forestry:centrifuge>,[
 recipes.addShaped(<forestry:fabricator>,[
 [<ore:ingotGold>,glassOrange,<ore:ingotGold>],
 [glassOrange,<forestry:sturdy_machine>,glassOrange],
-[<ore:ingotGold>,<ore:chestWood>,<ore:ingotGold>]]);
+[<ore:ingotGold>,chest,<ore:ingotGold>]]);
 recipes.addShaped(<genetics:misc>,[
 [gearIron,plateIron,gearIron],
 [plateIron,<forestry:sturdy_machine>,plateIron],
@@ -51,6 +53,10 @@ recipes.addShaped(<forestry:grafter_proven>,[
 [null,null,<ore:ingotIridium>],
 [null,<ore:stickWood>,null],
 [<ore:stickWood>,null,null]]);
+recipes.addShaped(<binniecore:storage>,[
+[<minecraft:stone_button>,chest,<minecraft:stone_button>],
+[chest,<minecraft:book>,chest],
+[<minecraft:stone_button>,chest,<minecraft:stone_button>]]);
 
 mods.forestry.Carpenter.removeRecipe(scentedGear);
 mods.forestry.Carpenter.addRecipe(scentedGear, [

@@ -1,4 +1,8 @@
-//file casually borrowed from badblock :)
+//no rugrats
+mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}),
+"Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
+mods.jei.JEI.addDescription(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}),
+"Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
 
 recipes.remove(<hatchery:nest>);
 recipes.addShaped(<hatchery:nest>,[
@@ -10,23 +14,6 @@ recipes.addShaped(<chickens:henhouse>, [
   [<minecraft:planks>, <minecraft:hay_block:*>, <minecraft:planks>],
   [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
 ]);
-
-recipes.remove(<chickens:colored_egg>);
-recipes.remove(<chickens:colored_egg:1>);
-recipes.remove(<chickens:colored_egg:2>);
-recipes.remove(<chickens:colored_egg:3>);
-recipes.remove(<chickens:colored_egg:4>);
-recipes.remove(<chickens:colored_egg:5>);
-recipes.remove(<chickens:colored_egg:6>);
-recipes.remove(<chickens:colored_egg:7>);
-recipes.remove(<chickens:colored_egg:8>);
-recipes.remove(<chickens:colored_egg:9>);
-recipes.remove(<chickens:colored_egg:10>);
-recipes.remove(<chickens:colored_egg:11>);
-recipes.remove(<chickens:colored_egg:12>);
-recipes.remove(<chickens:colored_egg:13>);
-recipes.remove(<chickens:colored_egg:14>);
-recipes.remove(<chickens:colored_egg:15>);
 
 recipes.addShaped(<chickens:colored_egg>, [
   [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>],

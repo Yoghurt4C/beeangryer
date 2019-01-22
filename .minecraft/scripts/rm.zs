@@ -47,7 +47,23 @@ val rmSpecArray=[
 <genetics:misc>,
 <tconstruct:clear_stained_glass:1>,
 <techreborn:ingot:16>,
-<modularmachinery:itemmodularium>
+<modularmachinery:itemmodularium>,
+<chickens:colored_egg>,
+<chickens:colored_egg:1>,
+<chickens:colored_egg:2>,
+<chickens:colored_egg:3>,
+<chickens:colored_egg:4>,
+<chickens:colored_egg:5>,
+<chickens:colored_egg:6>,
+<chickens:colored_egg:7>,
+<chickens:colored_egg:8>,
+<chickens:colored_egg:9>,
+<chickens:colored_egg:10>,
+<chickens:colored_egg:11>,
+<chickens:colored_egg:12>,
+<chickens:colored_egg:13>,
+<chickens:colored_egg:14>,
+<chickens:colored_egg:15>
 ] as IItemStack[];
 for item in rmSpecArray {recipes.remove(item);}
 val scrapbox=[
@@ -117,7 +133,8 @@ val rmIDArray=[
 "minecraft:orange_stained_glass",
 "ceramics:decoration/unfired_porcelain_bone_meal",
 "techreborn:machine_frame",
-"techreborn:compressor"//,
+"techreborn:compressor",
+"binniecore:compartment"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
