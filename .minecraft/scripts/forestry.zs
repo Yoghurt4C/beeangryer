@@ -14,7 +14,8 @@ var royalJelly=<forestry:royal_jelly>;
 var beeswax=<forestry:beeswax>;
 var pollen=<forestry:pollen>;
 var chest=<ore:chestWood>;
-
+var slabWood=<ore:slabWood>;
+var plankWood=<ore:plankWood>;
 
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
@@ -25,6 +26,10 @@ recipes.replaceAllOccurences(<thermalfoundation:material:257>,<extrabees:misc:0>
 }));
 
 //forestry
+recipes.addShaped(<forestry:bee_house>,[
+[slabWood,slabWood,slabWood],
+[plankWood,null,plankWood],
+[plankWood,plankWood,plankWood]]);
 recipes.addShaped(<forestry:sturdy_machine>,[
 [ingotBronze,ingotBronze,ingotBronze],
 [ingotBronze,<forestry:beeswax>,ingotBronze],

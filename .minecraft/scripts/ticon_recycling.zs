@@ -187,6 +187,8 @@ function getMetalLiquid(metalName as string) as ILiquidStack {
 function handlePreferredMetalItem(metalName as string, metalPartName as string, preferredMetalItem as IItemStack, metalLiquid as ILiquidStack) {
 	var hasLiquid = metalLiquid as bool;
 	mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+	mods.tcomplement.Overrides.removeRecipe(metalLiquid, preferredMetalItem);
+	mods.tcomplement.Blacklist.addRecipe(metalLiquid, preferredMetalItem);
 }	
 	for metalName, metal in trashGarbageRecycling {
 	var metalLiquid = getMetalLiquid(metalName as string);

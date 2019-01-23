@@ -134,7 +134,8 @@ val rmIDArray=[
 "ceramics:decoration/unfired_porcelain_bone_meal",
 "techreborn:machine_frame",
 "techreborn:compressor",
-"binniecore:compartment"
+"binniecore:compartment",
+"forestry:bee_house"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

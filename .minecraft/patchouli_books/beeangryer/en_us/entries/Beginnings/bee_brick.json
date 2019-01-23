@@ -1,0 +1,16 @@
+{
+    "name": "The Bee Brick",
+    "icon": "minecraft:brick_block",
+    "category": "beginnings",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "frick"
+        },
+		{"type":"image",
+		  "images":["patchouli:textures/gui/bee_brick.png"],
+		  "title":"Field",
+		  "border":true}
+    ]
+}
