@@ -1,7 +1,8 @@
 {
 	"brick_brick":[
 		"minecraft:brick_block",
-		"chisel:bricks"
+		"chisel:bricks",
+		"uniquecrops:oldbrick"
 	],
 	"nether_brick":[
 		"minecraft:nether_brick",
@@ -40,6 +41,7 @@
 	"brick_output":[
 		"minecraft:brick_block",
 		"chisel:bricks",
+		"uniquecrops:oldbrick",
 		"modularmachinery:blockoutputbus",
 		"modularmachinery:blockinputbus",
 		"modularmachinery:blockfluidinputhatch"

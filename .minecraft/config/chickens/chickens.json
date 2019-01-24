@@ -306,7 +306,7 @@
       "itemID": "minecraft:quartz",
       "metaID": 0
     },
-    "spawn_type": "HELL",
+    "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
   },
@@ -403,8 +403,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:redchicken",
-    "parent_2": "chickens:sandchicken"
+    "parent_1": "chickens:rubychicken",
+    "parent_2": "chickens:siliconchicken"
   },
   "chickens:glasschicken": {
     "name": "GlassChicken",
@@ -419,8 +419,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:quartzchicken",
-    "parent_2": "chickens:redstonechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:ironchicken": {
     "name": "IronChicken",
@@ -691,8 +691,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:slimechicken",
-    "parent_2": "chickens:blazechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:pshardchicken": {
     "name": "pShardChicken",

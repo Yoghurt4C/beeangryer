@@ -1,4 +1,4 @@
-7427 nodes in total
+7447 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -6668,6 +6668,26 @@ ftbutilities.claims.item.stevescarts.cartmodule: ALL
 ftbutilities.claims.item.stevescarts.modularcart: ALL
 ftbutilities.claims.item.stevescarts.modulecomponents: ALL
 ftbutilities.claims.item.stevescarts.upgrade: ALL
+ftbutilities.claims.item.superiorshields.botania_shield_elementium: ALL
+ftbutilities.claims.item.superiorshields.botania_shield_manasteel: ALL
+ftbutilities.claims.item.superiorshields.botania_shield_terrasteel: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_aerotheum: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_basic: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_cryotheum: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_enderium: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_hardened: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_petrotheum: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_pyrotheum: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_reinforced: ALL
+ftbutilities.claims.item.superiorshields.thermal_shield_signalum: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_diamond: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_emerald: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_endstone: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_gold: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_iron: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_obsidian: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_stone: ALL
+ftbutilities.claims.item.superiorshields.vanilla_shield_wood: ALL
 ftbutilities.claims.item.tcomplement.alloy_tank: ALL
 ftbutilities.claims.item.tcomplement.cast: ALL
 ftbutilities.claims.item.tcomplement.cast_clay: ALL

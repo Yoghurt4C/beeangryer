@@ -22,10 +22,10 @@
         }
       ],
       "history": [
-        "patchouli:beginnings/bee_brick",
-        "patchouli:beginnings/miniaturization_field",
         "patchouli:beginnings/mana_injector",
         "patchouli:beginnings/garden_of_glass",
+        "patchouli:beginnings/miniaturization_field",
+        "patchouli:beginnings/bee_brick",
         "patchouli:multiblocks/mana_injector",
         "patchouli:beginnings/test_entry"
       ],

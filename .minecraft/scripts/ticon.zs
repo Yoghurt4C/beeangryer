@@ -1,8 +1,6 @@
 <ceramics:faucet>.addTooltip("Drains liquids from Melters and other things");
 recipes.addShapeless(<ceramics:unfired_clay:4>*2,[<minecraft:clay_ball>,<minecraft:clay_ball>,<ore:dyeWhite>]);
 
-
-
 mods.tconstruct.Casting.addTableRecipe(
 <forestry:honey_drop>,
 null,

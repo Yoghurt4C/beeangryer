@@ -18,6 +18,10 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		shears:<thermalfoundation:tool.shears_aluminum>,
 		dust:<techreborn:smalldust:1>
 	},
+	ardite:{
+		liquid:<liquid:ardite>,
+		ore:<tconstruct:ore:1>
+	},
 	brass:{
 		liquid:<liquid:brass>,
 		bars:<cathedral:dwemer_bars_normal>,
@@ -33,6 +37,10 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		wrench2:<techreborn:wrench>,
 		shears:<thermalfoundation:tool.shears_bronze>,
 		chain:<cathedral:cathedral_chain_various:4>
+	},
+	cobalt:{
+		liquid:<liquid:cobalt>,
+		ore:<tconstruct:ore>
 	},
 	constantan:{
 		liquid:<liquid:constantan>,
@@ -71,7 +79,10 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		chain:<cathedral:cathedral_chain_various:1>,
 		shears:<thermalfoundation:tool.shears_gold>,
 		dust:<techreborn:smalldust:24>,
-		cable:<techreborn:cable:2>
+		cable:<techreborn:cable:2>,
+		key:<charset:key>,
+		keyring:<charset:keyring>,
+		key2:<realfilingcabinet:key>
 	},
 	invar:{
 		liquid:<liquid:invar>,
@@ -106,7 +117,10 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		door:<minecraft:iron_door>,
 		trapdoor:<minecraft:iron_trapdoor>,
 		minecart:<minecraft:minecart>,
-		shears:<minecraft:shears>
+		shears:<minecraft:shears>,
+		rod:<quark:iron_rod>,
+		ladder:<quark:iron_ladder>,
+		plate:<quark:iron_plate>
 	},
 	knightslime:{
 		liquid:<liquid:knightslime>,

@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
@@ -130,6 +131,8 @@ val rmIDArray=[
 "forestry:greenhouse_control",
 "forestry:greenhouse_dehumidifier",
 "forestry:greenhouse_humidifier",
+"forestry:greenhouse_window",
+"forestry:greenhouse_window_roof",
 "minecraft:orange_stained_glass",
 "ceramics:decoration/unfired_porcelain_bone_meal",
 "techreborn:machine_frame",
@@ -145,3 +148,20 @@ val rmFurnaceArray=[
 <ore:nuggetGold>
 ] as IOreDictEntry[];
 for item in rmFurnaceArray{furnace.remove(item);}
+//ticon alloying
+val rmTiConAlloyArray=[
+<liquid:constantan>,
+<liquid:invar>,
+<liquid:signalum>,
+<liquid:lumium>,
+<liquid:enderium>,
+<liquid:alumite>,
+<liquid:knightslime>,
+<liquid:pigiron>,
+<liquid:manyullyn>,
+<liquid:bronze>,
+<liquid:electrum>,
+<liquid:alubrass>,
+<liquid:brass>] as ILiquidStack[];
+for metal in rmTiConAlloyArray{mods.tconstruct.Alloy.removeRecipe(metal);}
+mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>*2, [<liquid:copper>*1, <liquid:nickel>*1]);
