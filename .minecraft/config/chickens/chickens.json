@@ -403,8 +403,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:rubychicken",
-    "parent_2": "chickens:siliconchicken"
+    "parent_1": "morechickens:rubychicken",
+    "parent_2": "morechickens:siliconchicken"
   },
   "chickens:glasschicken": {
     "name": "GlassChicken",
@@ -498,7 +498,7 @@
       "itemID": "minecraft:snowball",
       "metaID": 0
     },
-    "spawn_type": "SNOW",
+    "spawn_type": "NONE",
     "parent_1": "chickens:bluechicken",
     "parent_2": "chickens:logchicken"
   },
@@ -530,9 +530,9 @@
       "itemID": "chickens:liquid_egg",
       "metaID": 1
     },
-    "spawn_type": "HELL",
-    "parent_1": "chickens:coalchicken",
-    "parent_2": "chickens:quartzchicken"
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:magmaslime",
+    "parent_2": "chickens:goldchicken"
   },
   "chickens:claychicken": {
     "name": "ClayChicken",
@@ -754,8 +754,8 @@
       "itemID": "minecraft:soul_sand",
       "metaID": 0
     },
-    "spawn_type": "HELL",
-    "parent_1": "",
-    "parent_2": ""
+    "spawn_type": "NONE",
+    "parent_1": "chickens:sandchicken",
+    "parent_2": "morechickens:saltpeterchicken"
   }
 }

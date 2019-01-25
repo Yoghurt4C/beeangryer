@@ -127,33 +127,40 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
 	<liquid:fluidsilicon>:<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:siliconchicken", Gain: 1, Strength: 1})
 	
 }as IItemStack[ILiquidStack];
-//for liquid, chicken in squeezingChickens{
-//	mods.forestry.Squeezer.addRecipe(
-//		liquid*250, 
-//		[chicken], 
-//		120, 
-//		<minecraft:feather>%10);
-//	mods.immersiveengineering.Squeezer.addRecipe(
+for liquid, chicken in squeezingChickens{
+//	mods.immersiveengineering.Squeezer.addRecipe(	//ignores nbt
 //		<hatchery:feather_pulp>, 
 //		liquid*250, 
 //		chicken, 
 //		2400);
-//	mods.thermalexpansion.Crucible.addRecipe(
+//	mods.thermalexpansion.Crucible.addRecipe( 	/ignores nbt
 //		liquid*250, 
 //		chicken, 
 //		2400);
-//	mods.tconstruct.Melting.addRecipe(
+//	mods.tconstruct.Melting.addRecipe(	//ignores nbt, pathetic
 //		liquid*250,
 //		chicken, 
 //		1500);
-//	mods.integrateddynamics.Squeezer.addRecipe(chicken, 
-//		<minecraft:feather>, 0.1F,
-//		null, 1.0F,
-//		null, 1.0F,
-//		liquid*250);
-//	mods.integrateddynamics.MechanicalSqueezer.addRecipe(chicken, 
-//		<minecraft:feather>, 0.1F,
-//		null, 1.0F,
-//		null, 1.0F,
-//		liquid*250,120);
-//}
+	mods.forestry.Squeezer.addRecipe(
+		liquid*250, 
+		[chicken], 
+		120, 
+		<minecraft:feather>%10);
+	mods.thermalexpansion.Transposer.addExtractRecipe(
+		liquid * 250,
+		chicken, 
+		2400, 
+		<minecraft:feather> % 10);
+	mods.integrateddynamics.Squeezer.addRecipe(
+		chicken, 
+		<minecraft:feather>, 0.1F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid*250);
+	mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+		chicken, 
+		<minecraft:feather>, 0.1F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid*250,120);
+}

@@ -20,6 +20,7 @@ InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:iron_bars>);
 InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:rail>);
 InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:golden_rail>);
 InductionSmelter.removeRecipe(<minecraft:sand>,<minecraft:iron_ingot>*2);
+InductionSmelter.removeRecipe(<minecraft:sand>,<quark:iron_ladder>);
 InductionSmelter.removeRecipe(<minecraft:iron_ingot>*2,<thermalfoundation:material:133>);
 InductionSmelter.removeRecipe(<minecraft:iron_ingot>*2,<thermalfoundation:material:69>);
 InductionSmelter.removeRecipe(<thermalfoundation:material:128>*3,<thermalfoundation:material:65>);

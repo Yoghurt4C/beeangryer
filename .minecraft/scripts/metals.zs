@@ -9,6 +9,7 @@ function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
 
 	var modsToKeep as string[] = [
+	"uniquecrops"
 	];
 
 	var itemOwner as string = item.definition.owner;

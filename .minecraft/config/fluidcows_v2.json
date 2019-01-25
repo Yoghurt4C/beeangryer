@@ -2676,5 +2676,38 @@
     "GrowingAge": -24000,
     "Parent First": "",
     "Parent Second": ""
+  },
+  "liquidchicken": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "chickenstock": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "chocolatemilk": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
   }
 }

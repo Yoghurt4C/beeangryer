@@ -165,3 +165,5 @@ val rmTiConAlloyArray=[
 <liquid:brass>] as ILiquidStack[];
 for metal in rmTiConAlloyArray{mods.tconstruct.Alloy.removeRecipe(metal);}
 mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>*2, [<liquid:copper>*1, <liquid:nickel>*1]);
+mods.tconstruct.Alloy.removeRecipe(<liquid:obsidian>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:clay>);

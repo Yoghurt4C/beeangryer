@@ -1,4 +1,4 @@
-7447 nodes in total
+7522 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -685,6 +685,14 @@ ftbutilities.claims.block.edit.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.tunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.edit.contenttweaker.chickenstock: OP
+ftbutilities.claims.block.edit.contenttweaker.chocolatemilk: OP
+ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.edit.deepmoblearning.extraction_chamber: OP
+ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
+ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
+ftbutilities.claims.block.edit.deepmoblearning.simulation_chamber: OP
+ftbutilities.claims.block.edit.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.edit.extrabees.alveary: OP
 ftbutilities.claims.block.edit.extrabees.ectoplasm: OP
 ftbutilities.claims.block.edit.extrabees.hive: OP
@@ -1809,6 +1817,7 @@ ftbutilities.claims.block.edit.realfilingcabinet.modelcabinet: OP
 ftbutilities.claims.block.edit.roost.breeder: OP
 ftbutilities.claims.block.edit.roost.collector: OP
 ftbutilities.claims.block.edit.roost.roost: OP
+ftbutilities.claims.block.edit.spawnhere.spawn_block: OP
 ftbutilities.claims.block.edit.stevescarts.blockactivator: OP
 ftbutilities.claims.block.edit.stevescarts.blockadvdetector: OP
 ftbutilities.claims.block.edit.stevescarts.blockcargomanager: OP
@@ -2805,6 +2814,14 @@ ftbutilities.claims.block.interact.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.tunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.interact.contenttweaker.chickenstock: OP
+ftbutilities.claims.block.interact.contenttweaker.chocolatemilk: OP
+ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.interact.deepmoblearning.extraction_chamber: OP
+ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
+ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
+ftbutilities.claims.block.interact.deepmoblearning.simulation_chamber: OP
+ftbutilities.claims.block.interact.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.interact.extrabees.alveary: OP
 ftbutilities.claims.block.interact.extrabees.ectoplasm: OP
 ftbutilities.claims.block.interact.extrabees.hive: OP
@@ -3929,6 +3946,7 @@ ftbutilities.claims.block.interact.realfilingcabinet.modelcabinet: OP
 ftbutilities.claims.block.interact.roost.breeder: OP
 ftbutilities.claims.block.interact.roost.collector: OP
 ftbutilities.claims.block.interact.roost.roost: OP
+ftbutilities.claims.block.interact.spawnhere.spawn_block: OP
 ftbutilities.claims.block.interact.stevescarts.blockactivator: OP
 ftbutilities.claims.block.interact.stevescarts.blockadvdetector: OP
 ftbutilities.claims.block.interact.stevescarts.blockcargomanager: OP
@@ -4371,6 +4389,7 @@ ftbutilities.claims.item.appliedenergistics2.vibration_chamber: ALL
 ftbutilities.claims.item.appliedenergistics2.view_cell: ALL
 ftbutilities.claims.item.appliedenergistics2.wireless_access_point: ALL
 ftbutilities.claims.item.appliedenergistics2.wireless_terminal: ALL
+ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.binniecore.cylinder: ALL
 ftbutilities.claims.item.binniecore.field_kit: ALL
@@ -5109,6 +5128,61 @@ ftbutilities.claims.item.compactmachines3.tunnel: ALL
 ftbutilities.claims.item.compactmachines3.tunneltool: ALL
 ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
+ftbutilities.claims.item.deepmoblearning.creative_model_learner: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_blank: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_blaze: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_creeper: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_dragon: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_enderman: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_ghast: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_guardian: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_shulker: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_skeleton: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_slime: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_spider: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_thermal_elemental: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_tinker_slime: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_witch: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_wither: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_wither_skeleton: ALL
+ftbutilities.claims.item.deepmoblearning.data_model_zombie: ALL
+ftbutilities.claims.item.deepmoblearning.deep_learner: ALL
+ftbutilities.claims.item.deepmoblearning.extraction_chamber: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_fragment: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_heart: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_boots: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_chestplate: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_helmet: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_ingot: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_leggings: ALL
+ftbutilities.claims.item.deepmoblearning.glitch_infused_sword: ALL
+ftbutilities.claims.item.deepmoblearning.infused_ingot_block: ALL
+ftbutilities.claims.item.deepmoblearning.living_matter_extraterrestrial: ALL
+ftbutilities.claims.item.deepmoblearning.living_matter_hellish: ALL
+ftbutilities.claims.item.deepmoblearning.living_matter_overworldian: ALL
+ftbutilities.claims.item.deepmoblearning.machine_casing: ALL
+ftbutilities.claims.item.deepmoblearning.polymer_clay: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_blaze: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_creeper: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_dragon: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_enderman: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_ghast: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_guardian: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_shulker: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_skeleton: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_slime: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_spider: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_thermal_elemental: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_tinker_slime: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_witch: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_wither: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_wither_skeleton: ALL
+ftbutilities.claims.item.deepmoblearning.pristine_matter_zombie: ALL
+ftbutilities.claims.item.deepmoblearning.simulation_chamber: ALL
+ftbutilities.claims.item.deepmoblearning.soot_covered_plate: ALL
+ftbutilities.claims.item.deepmoblearning.soot_covered_redstone: ALL
+ftbutilities.claims.item.deepmoblearning.trial_key: ALL
+ftbutilities.claims.item.deepmoblearning.trial_keystone: ALL
 ftbutilities.claims.item.extrabees.alveary: ALL
 ftbutilities.claims.item.extrabees.dictionary: ALL
 ftbutilities.claims.item.extrabees.ectoplasm: ALL
@@ -6655,6 +6729,7 @@ ftbutilities.claims.item.simplyjetpacks.itemfluxpack: ALL
 ftbutilities.claims.item.simplyjetpacks.itemjetpack: ALL
 ftbutilities.claims.item.simplyjetpacks.metaitem: ALL
 ftbutilities.claims.item.simplyjetpacks.metaitemmods: ALL
+ftbutilities.claims.item.spawnhere.spawn_block: ALL
 ftbutilities.claims.item.stevescarts.blockactivator: ALL
 ftbutilities.claims.item.stevescarts.blockadvdetector: ALL
 ftbutilities.claims.item.stevescarts.blockcargomanager: ALL
@@ -7456,6 +7531,7 @@ command.anilink.anime
 command.anilink.character
 command.anilink.manga
 command.appliedenergistics2.ae2
+command.base.base.recipes.reload
 command.baubles.baubles
 command.bdlib.dumpregistry
 command.bdlib.oredistribution
@@ -7603,6 +7679,7 @@ command.locate
 command.me
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
+command.morpheus.morpheus
 command.particle
 command.pewter.pewter
 command.pipemaster.pipemaster

@@ -17,7 +17,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:qua
 	.addTooltip(format.red("Obtained by bathing a Silicon Chicken in lava"));
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:magmachicken", Gain: 1, Strength: 1}), 
 	<liquid:lava>, 
-	<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:slimechicken", Gain: 1, Strength: 1}), 
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:slimechicken", Gain: 1, Strength: 1}), 
 	true);
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:magmachicken", Gain: 1, Strength: 1})
 	.addTooltip(format.red("Obtained by bathing a Slime Chicken in lava"));
