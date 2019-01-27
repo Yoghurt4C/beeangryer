@@ -1,3 +1,24 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "spaghetti_ore_minecraft_end_stone": 12,
+    "spaghetti_ore_minecraft_stone": 11,
+    "spaghetti_poor_ore_minecraft_netherrack": 16,
+    "spaghetti_bolt": 6,
+    "spaghetti_dust": 0,
+    "spaghetti_poor_ore_minecraft_stone": 14,
+    "spaghetti_ore": 7,
+    "spaghetti_beam": 5,
+    "spaghetti_plate": 2,
+    "spaghetti_ore_minecraft_netherrack": 13,
+    "spaghetti_block": 10,
+    "spaghetti_poor_ore": 8,
+    "spaghetti_poor_ore_minecraft_end_stone": 15,
+    "spaghetti_gear": 1,
+    "spaghetti_dense_ore_minecraft_end_stone": 18,
+    "spaghetti_ingot": 4,
+    "spaghetti_nugget": 3,
+    "spaghetti_dense_ore_minecraft_stone": 17,
+    "spaghetti_dense_ore_minecraft_netherrack": 19,
+    "spaghetti_dense_ore": 9
+  }
 }

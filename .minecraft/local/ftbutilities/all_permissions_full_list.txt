@@ -1,4 +1,4 @@
-7522 nodes in total
+7531 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -688,6 +688,7 @@ ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.edit.contenttweaker.chocolatemilk: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.edit.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.edit.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
@@ -1814,6 +1815,7 @@ ftbutilities.claims.block.edit.quark.world_stone_bricks: OP
 ftbutilities.claims.block.edit.quark.world_stone_pavement: OP
 ftbutilities.claims.block.edit.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.edit.realfilingcabinet.modelcabinet: OP
+ftbutilities.claims.block.edit.resourcehogs.truffle: OP
 ftbutilities.claims.block.edit.roost.breeder: OP
 ftbutilities.claims.block.edit.roost.collector: OP
 ftbutilities.claims.block.edit.roost.roost: OP
@@ -2817,6 +2819,7 @@ ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.interact.contenttweaker.chocolatemilk: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.interact.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.interact.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
@@ -3943,6 +3946,7 @@ ftbutilities.claims.block.interact.quark.world_stone_bricks: OP
 ftbutilities.claims.block.interact.quark.world_stone_pavement: OP
 ftbutilities.claims.block.interact.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.interact.realfilingcabinet.modelcabinet: OP
+ftbutilities.claims.block.interact.resourcehogs.truffle: OP
 ftbutilities.claims.block.interact.roost.breeder: OP
 ftbutilities.claims.block.interact.roost.collector: OP
 ftbutilities.claims.block.interact.roost.roost: OP
@@ -5128,6 +5132,8 @@ ftbutilities.claims.item.compactmachines3.tunnel: ALL
 ftbutilities.claims.item.compactmachines3.tunneltool: ALL
 ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
+ftbutilities.claims.item.contenttweaker.material_part: ALL
+ftbutilities.claims.item.contenttweaker.sub_block_holder_0: ALL
 ftbutilities.claims.item.deepmoblearning.creative_model_learner: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blank: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blaze: ALL
@@ -6375,7 +6381,6 @@ ftbutilities.claims.item.modularmachinery.blockoutputbus: ALL
 ftbutilities.claims.item.modularmachinery.itemblueprint: ALL
 ftbutilities.claims.item.modularmachinery.itemconstructtool: ALL
 ftbutilities.claims.item.modularmachinery.itemmodularium: ALL
-ftbutilities.claims.item.morechickens.solidxp: ALL
 ftbutilities.claims.item.patchouli.guide_book: ALL
 ftbutilities.claims.item.pewter.molten_elementium: ALL
 ftbutilities.claims.item.pewter.molten_manasteel: ALL
@@ -6720,6 +6725,10 @@ ftbutilities.claims.item.realfilingcabinet.mysteryfolder: ALL
 ftbutilities.claims.item.realfilingcabinet.suitcase: ALL
 ftbutilities.claims.item.realfilingcabinet.upgrade: ALL
 ftbutilities.claims.item.realfilingcabinet.whiteouttape: ALL
+ftbutilities.claims.item.resourcehogs.bacon: ALL
+ftbutilities.claims.item.resourcehogs.mud_bucket: ALL
+ftbutilities.claims.item.resourcehogs.spawner: ALL
+ftbutilities.claims.item.resourcehogs.truffle: ALL
 ftbutilities.claims.item.roost.breeder: ALL
 ftbutilities.claims.item.roost.catcher: ALL
 ftbutilities.claims.item.roost.chicken: ALL
@@ -7694,6 +7703,7 @@ command.replaceitem
 command.rpreload
 command.sampler.sampler
 command.say
+command.scavenge.scavenge
 command.scoreboard
 command.seed
 command.setblock

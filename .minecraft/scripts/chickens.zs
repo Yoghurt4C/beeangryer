@@ -6,6 +6,7 @@ mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chi
 "Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
 mods.jei.JEI.addDescription(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}),
 "Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
+<minecraft:egg>.addTooltip(format.yellow("Place in an "+format.underline("Egg Nest")+" to reliably hatch!"));
 
 recipes.remove(<hatchery:nest>);
 recipes.addShaped(<hatchery:nest>,[
@@ -164,3 +165,9 @@ for liquid, chicken in squeezingChickens{
 		null, 1.0F,
 		liquid*250,120);
 }
+
+mods.botania.Apothecary.addRecipe(
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redstonechicken", Gain: 1, Strength: 1}),[
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:siliconchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:rubychicken", Gain: 1, Strength: 1})
+]);

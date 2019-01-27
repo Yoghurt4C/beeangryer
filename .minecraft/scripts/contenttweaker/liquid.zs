@@ -12,6 +12,7 @@ var liquidchicken=VanillaFactory.createFluid("liquidchicken", Color.fromHex("E7B
 	liquidchicken.flowingLocation="contenttweaker:blocks/fluid.liquidchicken.flowing";
 	liquidchicken.colorize=false;
 	liquidchicken.density=2000;
+	liquidchicken.viscosity=10000;
 	liquidchicken.register();
 
 var chickenstock=VanillaFactory.createFluid("chickenstock", Color.fromHex("F0B116"));	

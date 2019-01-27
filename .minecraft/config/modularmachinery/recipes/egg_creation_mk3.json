@@ -1,0 +1,25 @@
+{
+    "machine": "the_greatest_egg",
+    "registryName": "egg_creation_mk3",
+    "recipeTime": 1500,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:wheat_seeds",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "seed.oil",
+            "amount": 250
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:egg",
+            "amount": 2
+        }
+    ]
+}

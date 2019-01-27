@@ -1,4 +1,33 @@
 {
+	"limestone":[
+		"quark:limestone",
+		"quark:world_stone_bricks@5",
+		"chisel:limestone",
+		"chisel:limestone1",
+		"chisel:limestone2"
+	],
+	"diorite":[
+		"minecraft:stone@3",
+		"minecraft:stone@4",
+		"quark:world_stone_bricks@1",
+		"chisel:diorite",
+		"chisel:diorite1",
+		"chisel:diorite2"
+	],
+	"marble":[
+		"quark:marble",
+		"quark:world_stone_bricks@4",
+		"chisel:marble",
+		"chisel:marble1",
+		"chisel:marble2",
+		"chisel:marblepillar"
+	],
+	"thatch_io":[
+		"quark:thatch",
+		"modularmachinery:blockoutputbus",
+		"modularmachinery:blockinputbus",
+		"modularmachinery:blockfluidinputhatch"
+	],
 	"brick_brick":[
 		"minecraft:brick_block",
 		"chisel:bricks",

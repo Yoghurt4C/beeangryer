@@ -1,0 +1,25 @@
+{
+    "machine": "the_great_egg",
+    "registryName": "egg_creation",
+    "recipeTime": 6000,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:wheat_seeds",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "seed.oil",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:egg",
+            "amount": 1
+        }
+    ]
+}
