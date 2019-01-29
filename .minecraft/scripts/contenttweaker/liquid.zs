@@ -23,3 +23,15 @@ var chocolatemilk=VanillaFactory.createFluid("chocolatemilk", Color.fromHex("453
 	chocolatemilk.flowingLocation="contenttweaker:blocks/fluid.chocolatemilk.flowing";
 	chocolatemilk.colorize=false;
 	chocolatemilk.register();
+
+var saplingslumgullion=VanillaFactory.createFluid("saplingslumgullion", Color.fromHex("ADBFB3"));	
+	saplingslumgullion.register();	
+	
+var excitedsaplingslumgullion=VanillaFactory.createFluid("excitedsaplingslumgullion", Color.fromHex("95B59F"));	
+	excitedsaplingslumgullion.register();
+	
+var enrichedexcitedsaplingslumgullion=VanillaFactory.createFluid("enrichedexcitedsaplingslumgullion", Color.fromHex("5D7C67"));	
+	enrichedexcitedsaplingslumgullion.register();
+	
+var dissolvedeggshells=VanillaFactory.createFluid("dissolvedeggshells", Color.fromHex("DBDBDB"));	
+	dissolvedeggshells.register();

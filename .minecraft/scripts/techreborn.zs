@@ -72,8 +72,8 @@ for item in blastRmArray {blastFurnace.removeRecipe(item);}
 blastFurnace.addRecipe(
 <techreborn:ingot:16>,
 null,
-<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:tungstenchicken", Gain: 1, Strength: 1}),
-<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:steelchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstenchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
 500, 512,3000);
 
 <techreborn:ingot:16>.displayName="Hot Tungstensteel Chicken Egg";
@@ -81,5 +81,5 @@ null,
 
 vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 vacuumFreezer.addRecipe(
-<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:tungstensteelchicken"}}),
+<chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:tungstensteelchicken"}}),
 <techreborn:ingot:16>, 500, 512);

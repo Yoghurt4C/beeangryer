@@ -2709,5 +2709,159 @@
     "GrowingAge": -24000,
     "Parent First": "",
     "Parent Second": ""
+  },
+  "milk": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "rabbit_stew": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "beetroot_soup": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "ironberryjuice": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "oliveoil": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "honey": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "wildberryjuice": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "alewort": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "applejuice": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "grapejuice": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "saplingslumgullion": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "enrichedexcitedsaplingslumgullion": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "excitedsaplingslumgullion": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "dissolvedeggshells": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
   }
 }

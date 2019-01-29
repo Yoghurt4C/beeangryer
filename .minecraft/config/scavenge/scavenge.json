@@ -1,0 +1,220 @@
+{
+	"block_pools":
+	[
+			{
+		"name":"MutandisFerns",
+		"type":{
+				"type": "block_list",
+				"blocks":[{
+						"name": "minecraft:tallgrass",
+						"meta":1
+						},
+						{
+						"name": "minecraft:tallgrass",
+						"meta":2
+						},
+						{
+						"name": "minecraft:vine"
+						},
+						{
+						"name": "rustic:aloe_vera"
+						},
+						{
+						"name": "rustic:blood_orchid"
+						},
+						{
+						"name": "rustic:chamomile"
+						},
+						{
+						"name": "rustic:cohosh"
+						},
+						{
+						"name": "rustic:deathstalk_mushroom"
+						},
+						{
+						"name": "rustic:horsetail"
+						},
+						{
+						"name": "rustic:mooncap_mushroom"
+						},
+						{
+						"name": "rustic:wind_thistle"
+						},
+						{
+						"name": "rustic:cloudsbluff"
+						},
+						{
+						"name": "rustic:core_root"
+						},
+						{
+						"name": "rustic:ginseng"
+						},
+						{
+						"name": "rustic:marsh_mallow"
+						}
+				]},
+		"clicktype":"rightclick",
+		"properties":[{
+				"type":"require_item",
+				"name":"contenttweaker:mutandis"},
+				{
+					"type":"consume_item",
+					"amount":1
+				},
+				{	"type":"swing_hand"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"minecraft:tallgrass",
+				"meta":1},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"minecraft:tallgrass",
+				"meta":2},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"minecraft:vine"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:aloe_vera"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:blood_orchid"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:chamomile"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:cohosh"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:deathstalk_mushroom"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:horsetail"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:mooncap_mushroom"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:wind_thistle"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:cloudsbluff"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:core_root"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:ginseng"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:marsh_mallow"}
+			]
+		},
+		
+		
+		{
+		"name":"MutandisSaplings",
+		"type":{
+				"type": "block_list",
+				"blocks":[{
+						"name": "minecraft:sapling",
+						"meta":0
+						},
+						{
+						"name": "minecraft:sapling",
+						"meta":1
+						},
+						{
+						"name": "minecraft:sapling",
+						"meta":2
+						},
+						{
+						"name": "minecraft:sapling",
+						"meta":3
+						},
+						{
+						"name": "minecraft:sapling",
+						"meta":4
+						},
+						{
+						"name": "minecraft:sapling",
+						"meta":5
+						},
+						{
+						"name":"rustic:sapling",
+						"meta":0
+						},
+						{
+						"name":"rustic:sapling",
+						"meta":1
+						}
+				]},
+		"clicktype":"rightclick",
+		"properties":[{
+				"type":"require_item",
+				"name":"contenttweaker:mutandis"},
+				{
+					"type":"consume_item",
+					"amount":1
+				},
+				{	"type":"swing_hand"},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":0},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":1},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":2},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":3},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":4},
+				{
+				"type":"consume_block",
+				"chance":30,
+				"name":"minecraft:sapling",
+				"meta":5},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:sapling",
+				"meta":0},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:sapling",
+				"meta":1}
+			]
+		}
+	]
+}

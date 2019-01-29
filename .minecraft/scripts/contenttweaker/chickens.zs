@@ -6,19 +6,40 @@ import mods.contenttweaker.ChickenFactory;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.ResourceLocation;
 
+val bonechicken = ChickenFactory.createChicken("bonechicken", Color.fromHex("F8FEFD"), <item:minecraft:bone>);
+		bonechicken.setForegroundColor(Color.fromHex("D7DCDB"));
+		bonechicken.spawnType="NONE";
+		bonechicken.setParentOne(ResourceLocation.create(""));
+		bonechicken.setParentTwo(ResourceLocation.create(""));
+		bonechicken.register();
+		
+val lapischicken = ChickenFactory.createChicken("lapischicken", Color.fromHex("1F2EBA"), <item:minecraft:dye:4>);
+		lapischicken.setForegroundColor(Color.fromHex("5A6FDB"));
+		lapischicken.spawnType="NONE";
+		lapischicken.setParentOne(ResourceLocation.create(""));
+		lapischicken.setParentTwo(ResourceLocation.create(""));
+		lapischicken.register();
+		
+val sulfurchicken = ChickenFactory.createChicken("sulfurchicken", Color.fromHex("FFE782"), <item:immersiveengineering:material:25>);
+		sulfurchicken.setForegroundColor(Color.fromHex("AD9326"));
+		sulfurchicken.spawnType="NONE";
+		sulfurchicken.setParentOne(ResourceLocation.create("chickens:gunpowderchicken"));
+		sulfurchicken.setParentTwo(ResourceLocation.create("chickens:flintchicken"));
+		sulfurchicken.register();
+		
+val saltpeterchicken = ChickenFactory.createChicken("saltpeterchicken", Color.fromHex("DDD6D6"), <item:immersiveengineering:material:24>);
+		saltpeterchicken.setForegroundColor(Color.fromHex("AC9E9D"));
+		saltpeterchicken.spawnType="NONE";
+		saltpeterchicken.setParentOne(ResourceLocation.create("contenttweaker:sulfurchicken"));
+		saltpeterchicken.setParentTwo(ResourceLocation.create("chickens:sandchicken"));
+		saltpeterchicken.register();	
+
 val xpchicken = ChickenFactory.createChicken("xpchicken", Color.fromHex("1A6C0D"), <item:minecraft:experience_bottle>);
 		xpchicken.setForegroundColor(Color.fromHex("3BF61D"));
 		xpchicken.spawnType="NONE";
 		xpchicken.setParentOne(ResourceLocation.create("chickens:smartchicken"));
 		xpchicken.setParentTwo(ResourceLocation.create("chickens:emeraldchicken"));
 		xpchicken.register();
-
-val bronzechicken = ChickenFactory.createChicken("bronzechicken", Color.fromHex("412C15"), <item:forestry:ingot_bronze>);
-		bronzechicken.setForegroundColor(Color.fromHex("D68F44"));
-		bronzechicken.spawnType="NONE";
-		bronzechicken.setParentOne(ResourceLocation.create("contenttweaker:copperchicken"));
-		bronzechicken.setParentTwo(ResourceLocation.create("contenttweaker:tinchicken"));
-		bronzechicken.register();
 		
 val tinchicken = ChickenFactory.createChicken("tinchicken", Color.fromHex("7AB7D1"), <item:forestry:ingot_tin>);
 		tinchicken.setForegroundColor(Color.fromHex("E1EEF4"));
@@ -33,34 +54,6 @@ val copperchicken = ChickenFactory.createChicken("copperchicken", Color.fromHex(
 		copperchicken.setParentOne(ResourceLocation.create("chickens:orangechicken"));
 		copperchicken.setParentTwo(ResourceLocation.create("chickens:brownchicken"));
 		copperchicken.register();
-	
-val invarchicken = ChickenFactory.createChicken("invarchicken", Color.fromHex("989585"), <item:thermalfoundation:material:162>);
-		invarchicken.setForegroundColor(Color.fromHex("D1CCB6"));
-		invarchicken.spawnType="NONE";
-		invarchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
-		invarchicken.setParentTwo(ResourceLocation.create("contenttweaker:nickelchicken"));
-		invarchicken.register();
-		
-val steelchicken = ChickenFactory.createChicken("steelchicken", Color.fromHex("D3E1E3"), <item:immersiveengineering:metal:8>);
-		steelchicken.setForegroundColor(Color.fromHex("8E9799"));
-		steelchicken.spawnType="NONE";
-		steelchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
-		steelchicken.setParentTwo(ResourceLocation.create("chickens:coalchicken"));
-		steelchicken.register();
-		
-val silverchicken = ChickenFactory.createChicken("silverchicken", Color.fromHex("BEBEBE"), <item:thermalfoundation:material:130>);
-		silverchicken.setForegroundColor(Color.fromHex("FFFFFF"));
-		silverchicken.spawnType="NONE";
-		silverchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
-		silverchicken.setParentTwo(ResourceLocation.create("chickens:whitechicken"));
-		silverchicken.register();
-	
-val platinumchicken = ChickenFactory.createChicken("platinumchicken", Color.fromHex("FFFFFF"), <item:thermalfoundation:material:134>);
-		platinumchicken.setForegroundColor(Color.fromHex("8D9A96"));
-		platinumchicken.spawnType="NONE";
-		platinumchicken.setParentOne(ResourceLocation.create("contenttweaker:nickelchicken"));
-		platinumchicken.setParentTwo(ResourceLocation.create("contenttweaker:platinumchicken"));
-		platinumchicken.register();
 		
 val nickelchicken = ChickenFactory.createChicken("nickelchicken", Color.fromHex("EFFFEC"), <item:thermalfoundation:material:133>);
 		nickelchicken.setForegroundColor(Color.fromHex("A2B69F"));
@@ -76,6 +69,76 @@ val leadchicken = ChickenFactory.createChicken("leadchicken", Color.fromHex("777
 		leadchicken.setParentTwo(ResourceLocation.create("chickens:cyanchicken"));
 		leadchicken.register();
 		
+val aluminiumchicken = ChickenFactory.createChicken("aluminiumchicken", Color.fromHex("D3DDDC"), <item:immersiveengineering:metal:1>);
+		aluminiumchicken.setForegroundColor(Color.fromHex("CBD7D6"));
+		aluminiumchicken.spawnType="NONE";
+		aluminiumchicken.setParentOne(ResourceLocation.create("chickens:flintchicken"));
+		aluminiumchicken.setParentTwo(ResourceLocation.create("chickens:ironchicken"));
+		aluminiumchicken.register();		
+		
+val silverchicken = ChickenFactory.createChicken("silverchicken", Color.fromHex("BEBEBE"), <item:thermalfoundation:material:130>);
+		silverchicken.setForegroundColor(Color.fromHex("FFFFFF"));
+		silverchicken.spawnType="NONE";
+		silverchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
+		silverchicken.setParentTwo(ResourceLocation.create("chickens:whitechicken"));
+		silverchicken.register();
+		
+val platinumchicken = ChickenFactory.createChicken("platinumchicken", Color.fromHex("FFFFFF"), <item:thermalfoundation:material:134>);
+		platinumchicken.setForegroundColor(Color.fromHex("8D9A96"));
+		platinumchicken.spawnType="NONE";
+		platinumchicken.setParentOne(ResourceLocation.create("contenttweaker:nickelchicken"));
+		platinumchicken.setParentTwo(ResourceLocation.create("contenttweaker:silverchicken"));
+		platinumchicken.register();
+		
+val uraniumchicken = ChickenFactory.createChicken("uraniumchicken", Color.fromHex("91D76D"), <item:immersiveengineering:metal:5>);
+		uraniumchicken.setForegroundColor(Color.fromHex("9CE26C"));
+		uraniumchicken.spawnType="NONE";
+		uraniumchicken.setParentOne(ResourceLocation.create("chickens:redstonechicken"));
+		uraniumchicken.setParentTwo(ResourceLocation.create("chickens:enderchicken"));
+		uraniumchicken.register();
+		
+val zincchicken = ChickenFactory.createChicken("zincchicken", Color.fromHex("B7B7B7"), <item:techreborn:ingot:18>);
+		zincchicken.setForegroundColor(Color.fromHex("868686"));
+		zincchicken.spawnType="NONE";
+		zincchicken.setParentOne(ResourceLocation.create("chickens:whitechicken"));
+		zincchicken.setParentTwo(ResourceLocation.create("chickens:claychicken"));
+		zincchicken.register();	
+		
+val titaniumchicken = ChickenFactory.createChicken("titaniumchicken", Color.fromHex("E2E2E2"), <item:techreborn:ingot:14>);
+		titaniumchicken.setForegroundColor(Color.fromHex("5F5959"));
+		titaniumchicken.spawnType="NONE";
+		titaniumchicken.setParentOne(ResourceLocation.create("contenttweaker:aluminiumchicken"));
+		titaniumchicken.setParentTwo(ResourceLocation.create("chickens:whitechicken"));
+		titaniumchicken.register();
+	
+val chromechicken = ChickenFactory.createChicken("chromechicken", Color.fromHex("A0A1A3"), <item:techreborn:ingot:3>);
+		chromechicken.setForegroundColor(Color.fromHex("454545"));
+		chromechicken.spawnType="NONE";
+		chromechicken.setParentOne(ResourceLocation.create("contenttweaker:tinchicken"));
+		chromechicken.setParentTwo(ResourceLocation.create("contenttweaker:titaniumchicken"));
+		chromechicken.register();
+	
+val bronzechicken = ChickenFactory.createChicken("bronzechicken", Color.fromHex("412C15"), <item:forestry:ingot_bronze>);
+		bronzechicken.setForegroundColor(Color.fromHex("D68F44"));
+		bronzechicken.spawnType="NONE";
+		bronzechicken.setParentOne(ResourceLocation.create("contenttweaker:copperchicken"));
+		bronzechicken.setParentTwo(ResourceLocation.create("contenttweaker:tinchicken"));
+		bronzechicken.register();
+	
+val invarchicken = ChickenFactory.createChicken("invarchicken", Color.fromHex("989585"), <item:thermalfoundation:material:162>);
+		invarchicken.setForegroundColor(Color.fromHex("D1CCB6"));
+		invarchicken.spawnType="NONE";
+		invarchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
+		invarchicken.setParentTwo(ResourceLocation.create("contenttweaker:nickelchicken"));
+		invarchicken.register();
+		
+val steelchicken = ChickenFactory.createChicken("steelchicken", Color.fromHex("D3E1E3"), <item:immersiveengineering:metal:8>);
+		steelchicken.setForegroundColor(Color.fromHex("8E9799"));
+		steelchicken.spawnType="NONE";
+		steelchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
+		steelchicken.setParentTwo(ResourceLocation.create("chickens:coalchicken"));
+		steelchicken.register();
+
 val electrumchicken = ChickenFactory.createChicken("electrumchicken", Color.fromHex("FFF2B1"), <item:immersiveengineering:metal:7>);
 		electrumchicken.setForegroundColor(Color.fromHex("D4BE50"));
 		electrumchicken.spawnType="NONE";
@@ -83,33 +146,19 @@ val electrumchicken = ChickenFactory.createChicken("electrumchicken", Color.from
 		electrumchicken.setParentTwo(ResourceLocation.create("chickens:goldchicken"));
 		electrumchicken.register();
 		
+val constantanchicken = ChickenFactory.createChicken("constantanchicken", Color.fromHex("F98669"), <item:immersiveengineering:metal:6>);
+		constantanchicken.setForegroundColor(Color.fromHex("795851"));
+		constantanchicken.spawnType="NONE";
+		constantanchicken.setParentOne(ResourceLocation.create("contenttweaker:copperchicken"));
+		constantanchicken.setParentTwo(ResourceLocation.create("contenttweaker:nickelchicken"));
+		constantanchicken.register();			
+		
 val siliconchicken = ChickenFactory.createChicken("siliconchicken", Color.fromHex("5F706B"), <item:appliedenergistics2:material:5>);
 		siliconchicken.setForegroundColor(Color.fromHex("424242"));
 		siliconchicken.spawnType="NONE";
 		siliconchicken.setParentOne(ResourceLocation.create("chickens:sandchicken"));
 		siliconchicken.setParentTwo(ResourceLocation.create("chickens:claychicken"));
 		siliconchicken.register();
-		
-val sulfurchicken = ChickenFactory.createChicken("sulfurchicken", Color.fromHex("FFE782"), <item:immersiveengineering:material:25>);
-		sulfurchicken.setForegroundColor(Color.fromHex("AD9326"));
-		sulfurchicken.spawnType="NONE";
-		sulfurchicken.setParentOne(ResourceLocation.create("chickens:gunpowderchicken"));
-		sulfurchicken.setParentTwo(ResourceLocation.create("chickens:flintchicken"));
-		sulfurchicken.register();
-
-val saltpeterchicken = ChickenFactory.createChicken("saltpeterchicken", Color.fromHex("DDD6D6"), <item:immersiveengineering:material:24>);
-		saltpeterchicken.setForegroundColor(Color.fromHex("AC9E9D"));
-		saltpeterchicken.spawnType="NONE";
-		saltpeterchicken.setParentOne(ResourceLocation.create("chickens:sulfurchicken"));
-		saltpeterchicken.setParentTwo(ResourceLocation.create("chickens:sandchicken"));
-		saltpeterchicken.register();	
-	
-val aluminiumchicken = ChickenFactory.createChicken("aluminiumchicken", Color.fromHex("D3DDDC"), <item:immersiveengineering:metal:1>);
-		aluminiumchicken.setForegroundColor(Color.fromHex("CBD7D6"));
-		aluminiumchicken.spawnType="NONE";
-		aluminiumchicken.setParentOne(ResourceLocation.create("chickens:flintchicken"));
-		aluminiumchicken.setParentTwo(ResourceLocation.create("chickens:ironchicken"));
-		aluminiumchicken.register();		
 
 val rubberchicken = ChickenFactory.createChicken("rubberchicken", Color.fromHex("895D02"), <item:techreborn:part:32>);
 		rubberchicken.setForegroundColor(Color.fromHex("4E3209"));
@@ -117,20 +166,6 @@ val rubberchicken = ChickenFactory.createChicken("rubberchicken", Color.fromHex(
 		rubberchicken.setParentOne(ResourceLocation.create("chickens:logchicken"));
 		rubberchicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
 		rubberchicken.register();		
-		
-val uraniumchicken = ChickenFactory.createChicken("uraniumchicken", Color.fromHex("91D76D"), <item:immersiveengineering:metal:5>);
-		uraniumchicken.setForegroundColor(Color.fromHex("9CE26C"));
-		uraniumchicken.spawnType="NONE";
-		uraniumchicken.setParentOne(ResourceLocation.create("chickens:redstonechicken"));
-		uraniumchicken.setParentTwo(ResourceLocation.create("chickens:enderchicken"));
-		uraniumchicken.register();	
-
-val constantanchicken = ChickenFactory.createChicken("constantanchicken", Color.fromHex("F98669"), <item:immersiveengineering:metal:6>);
-		constantanchicken.setForegroundColor(Color.fromHex("795851"));
-		constantanchicken.spawnType="NONE";
-		constantanchicken.setParentOne(ResourceLocation.create("contenttweaker:copperchicken"));
-		constantanchicken.setParentTwo(ResourceLocation.create("contenttweaker:nickelchicken"));
-		constantanchicken.register();				
 		
 val basalzrodchicken = ChickenFactory.createChicken("basalzrodchicken", Color.fromHex("980000"), <item:thermalfoundation:material:2052>);
 		basalzrodchicken.setForegroundColor(Color.fromHex("6E6664"));
@@ -152,13 +187,6 @@ val blizzrodchicken = ChickenFactory.createChicken("blizzrodchicken", Color.from
 		blizzrodchicken.setParentOne(ResourceLocation.create("contenttweaker:blitzrodchicken"));
 		blizzrodchicken.setParentTwo(ResourceLocation.create("chickens:snowballchicken"));
 		blizzrodchicken.register();	
-		
-val cinnabarchicken = ChickenFactory.createChicken("cinnabarchicken", Color.fromHex("E49790"), <item:techreborn:dust:11>);
-		cinnabarchicken.setForegroundColor(Color.fromHex("9B3229"));
-		cinnabarchicken.spawnType="NONE";
-		cinnabarchicken.setParentOne(ResourceLocation.create("contenttweaker:silverchicken"));
-		cinnabarchicken.setParentTwo(ResourceLocation.create("contenttweaker:richslagchicken"));
-		cinnabarchicken.register();	
 		
 val enderiumchicken = ChickenFactory.createChicken("enderiumchicken", Color.fromHex("127575"), <item:thermalfoundation:material:167>);
 		enderiumchicken.setForegroundColor(Color.fromHex("0A4849"));
@@ -209,19 +237,19 @@ val richslagchicken = ChickenFactory.createChicken("richslagchicken", Color.from
 		richslagchicken.setParentTwo(ResourceLocation.create("chickens:goldchicken"));
 		richslagchicken.register();
 		
+val cinnabarchicken = ChickenFactory.createChicken("cinnabarchicken", Color.fromHex("E49790"), <item:techreborn:dust:11>);
+		cinnabarchicken.setForegroundColor(Color.fromHex("9B3229"));
+		cinnabarchicken.spawnType="NONE";
+		cinnabarchicken.setParentOne(ResourceLocation.create("contenttweaker:silverchicken"));
+		cinnabarchicken.setParentTwo(ResourceLocation.create("contenttweaker:richslagchicken"));
+		cinnabarchicken.register();	
+		
 val refinedironchicken = ChickenFactory.createChicken("refinedironchicken", Color.fromHex("B6C4D3"), <item:techreborn:ingot:19>);
 		refinedironchicken.setForegroundColor(Color.fromHex("B6C4D3"));
 		refinedironchicken.spawnType="NONE";
 		refinedironchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
 		refinedironchicken.setParentTwo(ResourceLocation.create("chickens:ironchicken"));
 		refinedironchicken.register();
-		
-val zincchicken = ChickenFactory.createChicken("zincchicken", Color.fromHex("B7B7B7"), <item:techreborn:ingot:18>);
-		zincchicken.setForegroundColor(Color.fromHex("868686"));
-		zincchicken.spawnType="NONE";
-		zincchicken.setParentOne(ResourceLocation.create("chickens:whitechicken"));
-		zincchicken.setParentTwo(ResourceLocation.create("chickens:claychicken"));
-		zincchicken.register();
 		
 val brasschicken = ChickenFactory.createChicken("brasschicken", Color.fromHex("A99340"), <item:techreborn:ingot:1>);
 		brasschicken.setForegroundColor(Color.fromHex("FFE377"));
@@ -265,20 +293,6 @@ val yellowgarnetchicken = ChickenFactory.createChicken("yellowgarnetchicken", Co
 		yellowgarnetchicken.setParentTwo(ResourceLocation.create("chickens:glowstonechicken"));
 		yellowgarnetchicken.register();
 		
-val chromechicken = ChickenFactory.createChicken("chromechicken", Color.fromHex("A0A1A3"), <item:techreborn:ingot:3>);
-		chromechicken.setForegroundColor(Color.fromHex("454545"));
-		chromechicken.spawnType="NONE";
-		chromechicken.setParentOne(ResourceLocation.create("contenttweaker:tinchicken"));
-		chromechicken.setParentTwo(ResourceLocation.create("contenttweaker:titaniumchicken"));
-		chromechicken.register();
-		
-val titaniumchicken = ChickenFactory.createChicken("titaniumchicken", Color.fromHex("E2E2E2"), <item:techreborn:ingot:14>);
-		titaniumchicken.setForegroundColor(Color.fromHex("5F5959"));
-		titaniumchicken.spawnType="NONE";
-		titaniumchicken.setParentOne(ResourceLocation.create("contenttweaker:aluminiumchicken"));
-		titaniumchicken.setParentTwo(ResourceLocation.create("chickens:whitechicken"));
-		titaniumchicken.register();
-		
 val tungstenchicken = ChickenFactory.createChicken("tungstenchicken", Color.fromHex("C3BD89"), <item:techreborn:ingot:15>);
 		tungstenchicken.setForegroundColor(Color.fromHex("DEE6A6"));
 		tungstenchicken.spawnType="NONE";
@@ -293,19 +307,19 @@ val tungstensteelchicken = ChickenFactory.createChicken("tungstensteelchicken", 
 		tungstensteelchicken.setParentTwo(ResourceLocation.create("contenttweaker:steelchicken"));
 		tungstensteelchicken.register();
 		
-val terrasteelchicken = ChickenFactory.createChicken("terrasteelchicken", Color.fromHex("3FF123"), <item:botania:manaresource:4>);
-		terrasteelchicken.setForegroundColor(Color.fromHex("F5FCF1"));
-		terrasteelchicken.spawnType="NONE";
-		terrasteelchicken.setParentOne(ResourceLocation.create("chickens:enderchicken"));
-		terrasteelchicken.setParentTwo(ResourceLocation.create("chickens:pcrystalchicken"));
-		terrasteelchicken.register();
-		
 val manasteelchicken = ChickenFactory.createChicken("manasteelchicken", Color.fromHex("69D7FF"), <item:botania:manaresource>);
 		manasteelchicken.setForegroundColor(Color.fromHex("002C4B"));
 		manasteelchicken.spawnType="NONE";
 		manasteelchicken.setParentOne(ResourceLocation.create("chickens:ironchicken"));
 		manasteelchicken.setParentTwo(ResourceLocation.create("chickens:ghastchicken"));
 		manasteelchicken.register();
+		
+val terrasteelchicken = ChickenFactory.createChicken("terrasteelchicken", Color.fromHex("3FF123"), <item:botania:manaresource:4>);
+		terrasteelchicken.setForegroundColor(Color.fromHex("F5FCF1"));
+		terrasteelchicken.spawnType="NONE";
+		terrasteelchicken.setParentOne(ResourceLocation.create("chickens:enderchicken"));
+		terrasteelchicken.setParentTwo(ResourceLocation.create("chickens:pcrystalchicken"));
+		terrasteelchicken.register();
 		
 val elementiumchicken = ChickenFactory.createChicken("elementiumchicken", Color.fromHex("F655F3"), <item:botania:manaresource:7>);
 		elementiumchicken.setForegroundColor(Color.fromHex("B407B7"));
@@ -334,20 +348,6 @@ val manyullynchicken = ChickenFactory.createChicken("manyullynchicken", Color.fr
 		manyullynchicken.setParentOne(ResourceLocation.create("contenttweaker:arditechicken"));
 		manyullynchicken.setParentTwo(ResourceLocation.create("contenttweaker:cobaltchicken"));
 		manyullynchicken.register();
-	
-val pigironchicken = ChickenFactory.createChicken("pigironchicken", Color.fromHex("E6B8B8"), <item:tconstruct:ingots:4>);
-		pigironchicken.setForegroundColor(Color.fromHex("DBA9A9"));
-		pigironchicken.spawnType="NONE";
-		pigironchicken.setParentOne(ResourceLocation.create("contenttweaker:bloodslimechicken"));
-		pigironchicken.setParentTwo(ResourceLocation.create("chickens:ironchicken"));
-		pigironchicken.register();
-		
-val knightslimechicken = ChickenFactory.createChicken("knightslimechicken", Color.fromHex("C17CED"), <item:tconstruct:ingots:3>);
-		knightslimechicken.setForegroundColor(Color.fromHex("AD70D8"));
-		knightslimechicken.spawnType="NONE";
-		knightslimechicken.setParentOne(ResourceLocation.create("contenttweaker:manyullynchicken"));
-		knightslimechicken.setParentTwo(ResourceLocation.create("contenttweaker:pigironchicken"));
-		knightslimechicken.register();
 		
 val bloodslimechicken = ChickenFactory.createChicken("bloodslimechicken", Color.fromHex("C50616"), <item:tconstruct:edible:3>);
 		bloodslimechicken.setForegroundColor(Color.fromHex("EE0316"));
@@ -366,8 +366,8 @@ val purpleslimechicken = ChickenFactory.createChicken("purpleslimechicken", Colo
 val magmaslimechicken = ChickenFactory.createChicken("magmaslimechicken", Color.fromHex("ECB55F"), <item:tconstruct:edible:4>);
 		magmaslimechicken.setForegroundColor(Color.fromHex("AF7314"));
 		magmaslimechicken.spawnType="NONE";
-		magmaslimechicken.setParentOne(ResourceLocation.create("contenttweaker:bloodslimechicken"));
-		magmaslimechicken.setParentTwo(ResourceLocation.create("chickens:bluechicken"));
+		magmaslimechicken.setParentOne(ResourceLocation.create("chickens:slimechicken"));
+		magmaslimechicken.setParentTwo(ResourceLocation.create("chickens:magmachicken"));
 		magmaslimechicken.register();
 		
 val blueslimechicken = ChickenFactory.createChicken("blueslimechicken", Color.fromHex("67B4C4"), <item:tconstruct:edible:1>);
@@ -376,6 +376,20 @@ val blueslimechicken = ChickenFactory.createChicken("blueslimechicken", Color.fr
 		blueslimechicken.setParentOne(ResourceLocation.create("chickens:slimechicken"));
 		blueslimechicken.setParentTwo(ResourceLocation.create("chickens:bluechicken"));
 		blueslimechicken.register();
+		
+val pigironchicken = ChickenFactory.createChicken("pigironchicken", Color.fromHex("E6B8B8"), <item:tconstruct:ingots:4>);
+		pigironchicken.setForegroundColor(Color.fromHex("DBA9A9"));
+		pigironchicken.spawnType="NONE";
+		pigironchicken.setParentOne(ResourceLocation.create("contenttweaker:bloodslimechicken"));
+		pigironchicken.setParentTwo(ResourceLocation.create("chickens:ironchicken"));
+		pigironchicken.register();
+		
+val knightslimechicken = ChickenFactory.createChicken("knightslimechicken", Color.fromHex("C17CED"), <item:tconstruct:ingots:3>);
+		knightslimechicken.setForegroundColor(Color.fromHex("AD70D8"));
+		knightslimechicken.spawnType="NONE";
+		knightslimechicken.setParentOne(ResourceLocation.create("contenttweaker:manyullynchicken"));
+		knightslimechicken.setParentTwo(ResourceLocation.create("contenttweaker:pigironchicken"));
+		knightslimechicken.register();
 	
 val pyritechicken = ChickenFactory.createChicken("pyritechicken", Color.fromHex("E8AE91"), <item:techreborn:dust:39>);
 		pyritechicken.setForegroundColor(Color.fromHex("A56742"));
@@ -384,9 +398,16 @@ val pyritechicken = ChickenFactory.createChicken("pyritechicken", Color.fromHex(
 		pyritechicken.setParentTwo(ResourceLocation.create("contenttweaker:sulfurchicken"));
 		pyritechicken.register();
 		
-val bulletchicken = ChickenFactory.createChicken("bulletchicken", Color.fromHex("EBB651"), <item:immersiveengineering:bullet:2>.withTag({bullet: "casull"}));
+val bulletchicken = ChickenFactory.createChicken("bulletchicken", Color.fromHex("EBB651"), <item:immersiveengineering:bullet>);
 		bulletchicken.setForegroundColor(Color.fromHex("5A5A5A"));
 		bulletchicken.spawnType="NONE";
 		bulletchicken.setParentOne(ResourceLocation.create("contenttweaker:copperchicken"));
 		bulletchicken.setParentTwo(ResourceLocation.create("chickens:gunpowderchicken"));
 		bulletchicken.register();
+		
+val honeychicken = ChickenFactory.createChicken("honeychicken", Color.fromHex("E0B60F"), <item:rustic:honeycomb>);
+		honeychicken.setForegroundColor(Color.fromHex("C19D0D"));
+		honeychicken.spawnType="NONE";
+		honeychicken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
+		honeychicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
+		honeychicken.register();

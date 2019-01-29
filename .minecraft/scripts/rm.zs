@@ -29,7 +29,8 @@ val goneForever=[
 <forestry:climatiser:3>,
 <forestry:climatiser:4>,
 <forestry:greenhouse.window>,
-<forestry:greenhouse.window_up>
+<forestry:greenhouse.window_up>,
+<chickens:colored_egg:*>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -138,7 +139,9 @@ val rmIDArray=[
 "techreborn:machine_frame",
 "techreborn:compressor",
 "binniecore:compartment",
-"forestry:bee_house"
+"forestry:bee_house",
+"minecraft:furnace",
+"minecraft:cauldron"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

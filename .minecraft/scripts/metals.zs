@@ -195,13 +195,13 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	preferredMetalItem*1, 
 	metalItems[metalName].ingot.items[0], 
 	120,
-	20).setUseOreDict(true);
+	20);
 	if (metalItems[metalName].block as bool){
 	mods.techreborn.compressor.addRecipe(
 	preferredMetalItem*9, 
 	metalItems[metalName].block.items[0], 
 	1080,
-	20).setUseOreDict(true);}}
+	20);}}
 	
 	//grains
 	if (metalPartName=="dust"){

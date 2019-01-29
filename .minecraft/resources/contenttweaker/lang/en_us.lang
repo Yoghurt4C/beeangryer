@@ -1,3 +1,14 @@
 fluid.liquidchicken=Liquid Chicken
 fluid.chickenstock=Chicken Stock
 fluid.chocolatemilk=Chocolate Milk
+fluid.saplingslumgullion=Sapling Slumgullion
+fluid.excitedsaplingslumgullion=Excited Sapling Slumgullion
+fluid.enrichedexcitedsaplingslumgullion=Enriched Excited Sapling Slumgullion
+fluid.dissolvedeggshells=Dissolved Egg Shells
+
+item.contenttweaker.mutandis.name=Mutandis
+item.contenttweaker.eggshells.name=Assortment of Egg Shells
+item.contenttweaker.firedeggshells.name=Fired Egg Shells
+item.contenttweaker.stonedust.name=Stone Dust
+
+tile.contenttweaker.soggylime.name=Soggy Lime

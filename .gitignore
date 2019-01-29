@@ -1,3 +1,4 @@
+.minecraft/.mixin.out/
 .minecraft/backups/
 .minecraft/coremods/
 .minecraft/logs/
@@ -9,7 +10,8 @@
 .minecraft/screenshots/
 .minecraft/scripts/temp.txt
 .minecraft/server-resource-packs/
-.minecraft/signpic
+.minecraft/signpic/
+.minecraft/stall-reports/
 .minecraft/texturepacks/
 .minecraft/alleles.dump
 .minecraft/BotaniaVars.dat
@@ -20,4 +22,5 @@
 .minecraft/recipenames.log
 .minecraft/usercache.json
 .minecraft/usernamecache.json
+.minecraft/patchouli_data.json
 natives/
