@@ -411,3 +411,10 @@ val honeychicken = ChickenFactory.createChicken("honeychicken", Color.fromHex("E
 		honeychicken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
 		honeychicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
 		honeychicken.register();
+
+val starlightchciken = ChickenFactory.createChicken("starlightchicken", Color.fromHex("FDFDFD"), <item:minecraft:ice>);
+		starlightchciken.setForegroundColor(Color.fromHex("B4C0C2"));
+		starlightchciken.spawnType="NONE";
+		starlightchciken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
+		starlightchciken.setParentTwo(ResourceLocation.create("chickens:lightbluechicken"));
+		starlightchciken.register();

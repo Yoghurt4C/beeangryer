@@ -91,7 +91,8 @@ val scrapbox=[
 <techreborn:nuggets:18>,
 <techreborn:nuggets:19>,
 <techreborn:nuggets:23>,
-<techreborn:nuggets:24>] as IItemStack[];
+<techreborn:nuggets:24>,
+<techreborn:rubber_sapling>] as IItemStack[];
 for item in scrapbox{mods.techreborn.scrapbox.removeRecipe(item);}
 //techreborn still sucks
 val lowercaseplates ={
@@ -141,7 +142,10 @@ val rmIDArray=[
 "binniecore:compartment",
 "forestry:bee_house",
 "minecraft:furnace",
-"minecraft:cauldron"
+"minecraft:cauldron",
+"forestry:charcoal_block",
+"thermalfoundation:storage_resource",
+"chisel:charcoal"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

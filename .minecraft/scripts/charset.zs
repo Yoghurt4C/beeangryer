@@ -115,7 +115,7 @@ Cauldron.addItemRecipe(
 
 <contenttweaker:mutandis>.addTooltip(format.gray(format.italic("Hold SHIFT for a recipe...")));
 <contenttweaker:mutandis>.addShiftTooltip(format.green("1. Put an "+format.underline("Oak Sapling")+" into"));
-<contenttweaker:mutandis>.addShiftTooltip(format.green(" a "+format.gray(format.underline("Cauldron"))+" with "+format.blue(format.underline("Water."))));
+<contenttweaker:mutandis>.addShiftTooltip(format.green("    a "+format.gray(format.underline("Cauldron"))+" with "+format.blue(format.underline("Water."))));
 <contenttweaker:mutandis>.addShiftTooltip(format.green("2. Add a "+format.red(format.underline("Redstone Root"))+" in."));
 <contenttweaker:mutandis>.addShiftTooltip(format.green("3. Add some "+format.yellow(format.underline("Calcite"))+"."));
 <contenttweaker:mutandis>.addShiftTooltip(format.green("4. Finally, top with an "+format.gold(format.underline("Egg"))+"."));
@@ -125,19 +125,20 @@ Cauldron.addItemFluidRecipe(
 <liquid:water>*1000, 
 null,  
 <liquid:dissolvedeggshells>*1000);
+mods.jei.JEI.addDescription(<liquid:dissolvedeggshells>,["Obtained by dissolving Fired Egg Shells in a Water-filled Cauldron. Look at the Soggy Lime tooltip or description to see the entire process."]);
 
 Cauldron.addItemRecipe(
-<contenttweaker:stonedust>, 
+<techreborn:dust:12>, 
 <liquid:dissolvedeggshells>*250, 
 <contenttweaker:soggylime>);
 
 <contenttweaker:soggylime>.addTooltip(format.gray(format.italic("Hold SHIFT for a recipe...")));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("1. Pan soil for "+format.gold(format.underline("Egg Shells"+"."))));
-<contenttweaker:soggylime>.addShiftTooltip(format.green("2.Make them spend some time in "+format.red("heat")+"."));
+<contenttweaker:soggylime>.addShiftTooltip(format.green("2. Make them spend some time in "+format.red("heat")+"."));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("3. Put the "+format.gray(format.underline("Fired Egg Shells"))+" into "));
-<contenttweaker:soggylime>.addShiftTooltip(format.green("a "+format.blue(format.underline("Water"))+"-filled "+format.gray("Crucible"+".")));
-<contenttweaker:soggylime>.addShiftTooltip(format.green("4. Mix in some "+format.darkGray(format.underline("Stone Dust"))+"."));
+<contenttweaker:soggylime>.addShiftTooltip(format.green("     a "+format.blue(format.underline("Water"))+"-filled "+format.gray("Crucible"+".")));
+<contenttweaker:soggylime>.addShiftTooltip(format.green("4. Mix in some "+format.aqua(format.underline("Clay Dust"))+"."));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("5. Put the mixture somewhere it can "+format.yellow("dry up"+".")));
-<contenttweaker:soggylime>.addShiftTooltip();
+<contenttweaker:soggylime>.addShiftTooltip("");
 <contenttweaker:soggylime>.addShiftTooltip(format.green("There are recipes that allow you"));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("to "+format.italic("skip")+" some of these steps!"));

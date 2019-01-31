@@ -1,0 +1,16 @@
+{
+    "name": "Panning for Clay",
+    "icon": "minecraft:bowl",
+    "category": "beginnings",
+	"sortnum":5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "frick"
+        },
+		{"type":"image",
+		  "images":["patchouli:textures/gui/panning.png"],
+		  "title":"Field",
+		  "border":true}
+    ]
+}

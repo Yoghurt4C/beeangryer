@@ -1,4 +1,4 @@
-7910 nodes in total
+7913 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -703,6 +703,7 @@ ftbutilities.claims.block.edit.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.edit.extrabees.alveary: OP
 ftbutilities.claims.block.edit.extrabees.ectoplasm: OP
 ftbutilities.claims.block.edit.extrabees.hive: OP
+ftbutilities.claims.block.edit.fluidcows.accelerator: OP
 ftbutilities.claims.block.edit.fluidcows.stall: OP
 ftbutilities.claims.block.edit.forestry.alveary.fan: OP
 ftbutilities.claims.block.edit.forestry.alveary.heater: OP
@@ -2957,6 +2958,7 @@ ftbutilities.claims.block.interact.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.interact.extrabees.alveary: OP
 ftbutilities.claims.block.interact.extrabees.ectoplasm: OP
 ftbutilities.claims.block.interact.extrabees.hive: OP
+ftbutilities.claims.block.interact.fluidcows.accelerator: OP
 ftbutilities.claims.block.interact.fluidcows.stall: OP
 ftbutilities.claims.block.interact.forestry.alveary.fan: OP
 ftbutilities.claims.block.interact.forestry.alveary.heater: OP
@@ -5381,10 +5383,10 @@ ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.eggshells: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
+ftbutilities.claims.item.contenttweaker.firestarter: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL
 ftbutilities.claims.item.contenttweaker.soggylime: ALL
-ftbutilities.claims.item.contenttweaker.stonedust: ALL
 ftbutilities.claims.item.contenttweaker.sub_block_holder_0: ALL
 ftbutilities.claims.item.deepmoblearning.creative_model_learner: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blank: ALL
@@ -5455,6 +5457,7 @@ ftbutilities.claims.item.extrabees.honey_crystal: ALL
 ftbutilities.claims.item.extrabees.honey_drop: ALL
 ftbutilities.claims.item.extrabees.misc: ALL
 ftbutilities.claims.item.extrabees.propolis: ALL
+ftbutilities.claims.item.fluidcows.accelerator: ALL
 ftbutilities.claims.item.fluidcows.cow_displayer: ALL
 ftbutilities.claims.item.fluidcows.cow_halter: ALL
 ftbutilities.claims.item.fluidcows.stall: ALL

@@ -2,6 +2,34 @@
 	"block_pools":
 	[
 			{
+		"name":"ClayPanning",
+		"type":{
+				"type":"block",
+				"name":"minecraft:sand"},
+		"clicktype":"rightclick",
+		"properties":[
+				{"type":"require_sneak"},
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"minecraft:bowl"},
+				{"type":"consume_block",
+				"chance":0.1},
+				{"type":"play_sound",
+				"name":"block.sand.break",
+				"volume":0.4},
+				{"type":"has_block_structure",
+				"blocks":{
+				"name":"minecraft:water",
+				"positions":[{
+				"x":0,
+				"y":1,
+				"z":0}]}}],
+		"drops":[{
+				"name":"techreborn:smalldust",
+				"meta":12,
+				"chance":7.0}]
+			},
+			{
 		"name":"MutandisFerns",
 		"type":{
 				"type": "block_list",

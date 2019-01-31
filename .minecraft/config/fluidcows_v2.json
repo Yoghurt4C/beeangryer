@@ -17,14 +17,37 @@
     "ProjectETickRemove": "If true - \"Watch of Flowing Time\" not work on Cow Stall. From mod \"ProjectE\"",
     "NotEnoughtWandsTickRemove": "If true - \"Acceleration Wand\" not work on Cow Stall. From mod \"Not Enough Wand\"",
     "TorcherinoTickRemove": "If true - all types \"Torcherino\" not work on Cow Stall. From mod \"Torcherino\"",
-    "DisableBreedingItemForMachines": "Disables get breeding item via machines\n"
+    "DisableBreedingItemForMachines": "Disables get breeding item via machines\n",
+    "randomthingsTickRemove": "If true - \"Time in a bottle\" not work on Cow Stall. From mod \"Random Things\"",
+    "FluidCowsSpawnWeight": "Fluid cows spawn weight",
+    "FluidCowsSpawnMin": "Fluid cows spawn min",
+    "FluidCowsSpawnMax": "Fluid cows spawn max",
+    "FluidCowsSpawnBlackListBiomes": "Fluid cows spawn black list biomes (modid:name)",
+    "AcceleratorMaxSubstance": "Accelerator max substance per one wheat",
+    "AcceleratorRadius": "Accelerator working radius",
+    "AcceleratorSubstancePerCow": "Accelerator one substance per one cow",
+    "AcceleratorMultiplier": "Accelerator speed up multiplier",
+    "AcceleratorWaterPerConvert": "Accelerator water per one substance convert"
   },
   "General": {
     "BreedingItemWork": false,
     "ProjectETickRemove": false,
     "NotEnoughtWandsTickRemove": false,
     "TorcherinoTickRemove": false,
-    "DisableBreedingItemForMachines": false
+    "DisableBreedingItemForMachines": false,
+    "randomthingsTickRemove": false,
+    "FluidCowsSpawnWeight": 8,
+    "FluidCowsSpawnMin": 4,
+    "FluidCowsSpawnMax": 4,
+    "FluidCowsSpawnBlackListBiomes": [
+      "modid:name1",
+      "modid:name2"
+    ],
+    "AcceleratorMaxSubstance": 6,
+    "AcceleratorRadius": 5,
+    "AcceleratorSubstancePerCow": 1,
+    "AcceleratorMultiplier": 5,
+    "AcceleratorWaterPerConvert": 10
   },
   "glass": {
     "SpawnRate": 100,
