@@ -27,6 +27,10 @@
 		"drops":[{
 				"name":"techreborn:smalldust",
 				"meta":12,
+				"chance":7.0},{
+				"name":"contenttweaker:eggshells",
+				"chance":7.0},{
+				"name":"hatchery:feather_fiber",
 				"chance":7.0}]
 			},
 			{

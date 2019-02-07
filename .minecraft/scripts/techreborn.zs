@@ -5,9 +5,17 @@ import mods.techreborn.vacuumFreezer;
 import mods.techreborn.industrialGrinder;
 import mods.techreborn.centrifuge;
 
+var plastic=<hatchery:plastic>;
 var refinedIron=<techreborn:ingot:19>;
 furnace.remove(refinedIron);
 
+recipes.addShapeless(<immersiveengineering:metal:10>,[<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>]);
+
+recipes.addShaped("plastic_monitor",<techreborn:part:24>,[
+[plastic,<ore:dye>,plastic],
+[<ore:dye>,<ore:paneGlass>,<ore:dye>],
+[plastic,<ore:dye>,plastic]]);
+//recipes.replaceAllOccurences(<ore:ingotAluminum>,<ore:plateAluminum>,<techreborn:part:24>);
 recipes.addShaped(<techreborn:machine_frame>,[
 [refinedIron,<ore:blockGlassOrange>,refinedIron],
 [<ore:blockGlassOrange>,<extrabees:misc:0>,<ore:blockGlassOrange>],
@@ -17,7 +25,6 @@ recipes.addShaped(<techreborn:compressor>,[
 [<ore:stone>,<immersiveengineering:mold>,<ore:stone>],
 [<ore:stone>,<ore:circuitBasic>,<ore:stone>],
 [<ore:stone>,<techreborn:machine_frame>,<ore:stone>]]);
-
 
 industrialGrinder.removeAll();
 industrialGrinder.addRecipe(<techreborn:dust:21>*2,null,null,null,

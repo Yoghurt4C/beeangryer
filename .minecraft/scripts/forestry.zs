@@ -8,7 +8,6 @@ var ingotBronze=<ore:ingotBronze>;
 var glassOrange=<ore:blockGlassOrange>;
 var plateIron=<ore:plateIron>;
 var gearIron=<ore:gearIron>;
-var modularium=<modularmachinery:itemmodularium>;
 var scentedGear=<extrabees:misc>;
 var royalJelly=<forestry:royal_jelly>;
 var beeswax=<forestry:beeswax>;
@@ -70,18 +69,6 @@ mods.forestry.Carpenter.addRecipe(scentedGear, [
 [null,pollen,null]],
 40, 
 <liquid:for.honey> * 500);
-mods.forestry.Carpenter.addRecipe(<modularmachinery:itemmodularium>*5, [
-[<ore:ingotSignalum>,ingotBronze,<ore:ingotSignalum>],
-[ingotBronze,<minecraft:redstone>,ingotBronze],
-[<minecraft:redstone>,<minecraft:glowstone_dust>,<minecraft:redstone>]],
-40, 
-<liquid:for.honey> * 200);
-mods.forestry.Carpenter.addRecipe(<modulardiversity:blockmanainputhatch>, [
-[modularium,<botania:manadetector>,modularium],
-[modularium,<botania:manaresource:1>,modularium],
-[modularium,<botania:pool>,modularium]],
-120, 
-<liquid:for.honey> * 1000);
 mods.forestry.Carpenter.addRecipe(<forestry:habitat_former>, [
 [glassOrange,<minecraft:redstone>,glassOrange],
 [<forestry:thermionic_tubes:3>,<forestry:sturdy_machine>,<forestry:thermionic_tubes:3>],

@@ -35,3 +35,31 @@ var enrichedexcitedsaplingslumgullion=VanillaFactory.createFluid("enrichedexcite
 	
 var dissolvedeggshells=VanillaFactory.createFluid("dissolvedeggshells", Color.fromHex("DBDBDB"));	
 	dissolvedeggshells.register();
+	
+var titanium=VanillaFactory.createFluid("titanium", Color.fromHex("DCA0F0"));
+	titanium.stillLocation="contenttweaker:blocks/molten_metal.still";
+	titanium.flowingLocation="contenttweaker:blocks/molten_metal.flowing";
+	titanium.colorize=true;
+	titanium.material=<blockmaterial:lava>;
+	titanium.register();
+	
+var chrome=VanillaFactory.createFluid("chrome", Color.fromHex("FFAAAB"));
+	chrome.stillLocation="contenttweaker:blocks/molten_metal.still";
+	chrome.flowingLocation="contenttweaker:blocks/molten_metal.flowing";
+	chrome.colorize=true;
+	chrome.material=<blockmaterial:lava>;
+	chrome.register();
+	
+var tungsten=VanillaFactory.createFluid("tungsten", Color.fromHex("323232"));
+	tungsten.stillLocation="contenttweaker:blocks/molten_metal.still";
+	tungsten.flowingLocation="contenttweaker:blocks/molten_metal.flowing";
+	tungsten.colorize=true;
+	tungsten.material=<blockmaterial:lava>;
+	tungsten.register();
+
+var tungstensteel=VanillaFactory.createFluid("tungstensteel", Color.fromHex("6464A0"));
+	tungstensteel.stillLocation="contenttweaker:blocks/molten_metal.still";
+	tungstensteel.flowingLocation="contenttweaker:blocks/molten_metal.flowing";
+	tungstensteel.colorize=true;
+	tungstensteel.material=<blockmaterial:lava>;
+	tungstensteel.register();

@@ -132,8 +132,10 @@ Cauldron.addItemRecipe(
 <liquid:dissolvedeggshells>*250, 
 <contenttweaker:soggylime>);
 
+furnace.addRecipe(<charset:shard>,<ore:sand>,0.1);
+
 <contenttweaker:soggylime>.addTooltip(format.gray(format.italic("Hold SHIFT for a recipe...")));
-<contenttweaker:soggylime>.addShiftTooltip(format.green("1. Pan soil for "+format.gold(format.underline("Egg Shells"+"."))));
+<contenttweaker:soggylime>.addShiftTooltip(format.green("1. Pan sand for "+format.gold(format.underline("Egg Shells"+"."))));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("2. Make them spend some time in "+format.red("heat")+"."));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("3. Put the "+format.gray(format.underline("Fired Egg Shells"))+" into "));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("     a "+format.blue(format.underline("Water"))+"-filled "+format.gray("Crucible"+".")));

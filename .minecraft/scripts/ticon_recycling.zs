@@ -86,7 +86,7 @@ static trashGarbageRecycling as IIngredient[string][string]={
 	},
 	invar:{
 		liquid:<liquid:invar>,
-		dust:<techreborn:smalldust>,
+		dust:<techreborn:smalldust:26>,
 		shears:<thermalfoundation:tool.shears_invar>
 	},
 	iridium:{
@@ -100,6 +100,7 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		furnace:<techreborn:iron_furnace>,
 		dust:<techreborn:smalldust:27>,
 		chain:<cathedral:cathedral_chain_various>,
+		chain2:<rustic:chain>,
 		misc:<stevescarts:modulecomponents:11>,
 		misc1:<stevescarts:cartmodule:42>,
 		misc2:<stevescarts:cartmodule:13>,
@@ -120,6 +121,7 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		shears:<minecraft:shears>,
 		rod:<quark:iron_rod>,
 		ladder:<quark:iron_ladder>,
+		lattice:<rustic:iron_lattice>,
 		plate:<quark:iron_plate>
 	},
 	knightslime:{

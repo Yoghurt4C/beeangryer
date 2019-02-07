@@ -5,6 +5,10 @@ fluid.saplingslumgullion=Sapling Slumgullion
 fluid.excitedsaplingslumgullion=Excited Sapling Slumgullion
 fluid.enrichedexcitedsaplingslumgullion=Enriched Excited Sapling Slumgullion
 fluid.dissolvedeggshells=Dissolved Egg Shells
+fluid.titanium=Molten Titanium
+fluid.chrome=Molten Chrome
+fluid.tungsten=Molten Tungsten
+fluid.tungstensteel=Molten Tungstensteel
 
 item.contenttweaker.mutandis.name=Mutandis
 item.contenttweaker.eggshells.name=Assortment of Egg Shells

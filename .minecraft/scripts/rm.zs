@@ -30,7 +30,17 @@ val goneForever=[
 <forestry:climatiser:4>,
 <forestry:greenhouse.window>,
 <forestry:greenhouse.window_up>,
-<chickens:colored_egg:*>
+<chickens:colored_egg:*>,
+<modularmachinery:blockinputbus>,
+<modularmachinery:blockoutputbus>,
+<modularmachinery:blockinputbus:2>,
+<modularmachinery:blockoutputbus:2>,
+<modularmachinery:blockinputbus:4>,
+<modularmachinery:blockoutputbus:4>,
+<modularmachinery:blockfluidinputhatch:1>,
+<modularmachinery:blockfluidoutputhatch:1>,
+<modularmachinery:blockfluidinputhatch:4>,
+<modularmachinery:blockfluidoutputhatch:4>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -65,7 +75,11 @@ val rmSpecArray=[
 <chickens:colored_egg:12>,
 <chickens:colored_egg:13>,
 <chickens:colored_egg:14>,
-<chickens:colored_egg:15>
+<chickens:colored_egg:15>,
+<modularmachinery:blockinputbus:1>,
+<modularmachinery:blockoutputbus:1>,
+<modularmachinery:blockfluidinputhatch:0>,
+<modularmachinery:blockfluidoutputhatch:0>
 ] as IItemStack[];
 for item in rmSpecArray {recipes.remove(item);}
 val scrapbox=[
@@ -145,14 +159,22 @@ val rmIDArray=[
 "minecraft:cauldron",
 "forestry:charcoal_block",
 "thermalfoundation:storage_resource",
-"chisel:charcoal"
+"chisel:charcoal",
+"hatchery:circuit_recipe",
+"modularmachinery:controller",
+"modularmachinery:casing_plain",
+"modularmachinery:casing_reinforced",
+"modularmachinery:energy_output_tiny",
+"modularmachinery:casing_firebox",
+"modularmachinery:energy_input_tiny"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
 //furnace rm
 val rmFurnaceArray=[
 <ore:nuggetIron>,
-<ore:nuggetGold>
+<ore:nuggetGold>,
+<ore:blockGlass>
 ] as IOreDictEntry[];
 for item in rmFurnaceArray{furnace.remove(item);}
 //ticon alloying
@@ -171,6 +193,7 @@ val rmTiConAlloyArray=[
 <liquid:alubrass>,
 <liquid:brass>] as ILiquidStack[];
 for metal in rmTiConAlloyArray{mods.tconstruct.Alloy.removeRecipe(metal);}
+recipes.remove(<techreborn:smalldust:*>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>*2, [<liquid:copper>*1, <liquid:nickel>*1]);
 mods.tconstruct.Alloy.removeRecipe(<liquid:obsidian>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:clay>);

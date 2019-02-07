@@ -1,4 +1,4 @@
-7913 nodes in total
+7935 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -688,6 +688,7 @@ ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.edit.contenttweaker.chocolatemilk: OP
+ftbutilities.claims.block.edit.contenttweaker.chrome: OP
 ftbutilities.claims.block.edit.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
@@ -695,6 +696,9 @@ ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.edit.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.soggylime: OP
 ftbutilities.claims.block.edit.contenttweaker.sub_block_holder_0: OP
+ftbutilities.claims.block.edit.contenttweaker.titanium: OP
+ftbutilities.claims.block.edit.contenttweaker.tungsten: OP
+ftbutilities.claims.block.edit.contenttweaker.tungstensteel: OP
 ftbutilities.claims.block.edit.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
@@ -1954,6 +1958,7 @@ ftbutilities.claims.block.edit.stevescarts.blockjunction: OP
 ftbutilities.claims.block.edit.stevescarts.blockliquidmanager: OP
 ftbutilities.claims.block.edit.stevescarts.blockmetalstorage: OP
 ftbutilities.claims.block.edit.stevescarts.upgrade: OP
+ftbutilities.claims.block.edit.supersoundmuffler.sound_muffler: OP
 ftbutilities.claims.block.edit.tcomplement.alloy_tank: OP
 ftbutilities.claims.block.edit.tcomplement.melter: OP
 ftbutilities.claims.block.edit.tcomplement.porcelain_alloy_tank: OP
@@ -2186,6 +2191,7 @@ ftbutilities.claims.block.edit.techreborn.thermal_generator: OP
 ftbutilities.claims.block.edit.techreborn.vacuum_freezer: OP
 ftbutilities.claims.block.edit.techreborn.water_mill: OP
 ftbutilities.claims.block.edit.techreborn.wind_mill: OP
+ftbutilities.claims.block.edit.thermalcultivation.soil: OP
 ftbutilities.claims.block.edit.thermaldynamics.duct_0: OP
 ftbutilities.claims.block.edit.thermaldynamics.duct_16: OP
 ftbutilities.claims.block.edit.thermaldynamics.duct_32: OP
@@ -2216,6 +2222,7 @@ ftbutilities.claims.block.edit.thermalfoundation.rockwool: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage_alloy: OP
 ftbutilities.claims.block.edit.thermalfoundation.storage_resource: OP
+ftbutilities.claims.block.edit.thermallogistics.terminal_item: OP
 ftbutilities.claims.block.edit.uniquecrops.abstractbarrel: OP
 ftbutilities.claims.block.edit.uniquecrops.cropabstract: OP
 ftbutilities.claims.block.edit.uniquecrops.cropartisia: OP
@@ -2943,6 +2950,7 @@ ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.interact.contenttweaker.chocolatemilk: OP
+ftbutilities.claims.block.interact.contenttweaker.chrome: OP
 ftbutilities.claims.block.interact.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
@@ -2950,6 +2958,9 @@ ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.interact.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.soggylime: OP
 ftbutilities.claims.block.interact.contenttweaker.sub_block_holder_0: OP
+ftbutilities.claims.block.interact.contenttweaker.titanium: OP
+ftbutilities.claims.block.interact.contenttweaker.tungsten: OP
+ftbutilities.claims.block.interact.contenttweaker.tungstensteel: OP
 ftbutilities.claims.block.interact.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
@@ -4209,6 +4220,7 @@ ftbutilities.claims.block.interact.stevescarts.blockjunction: OP
 ftbutilities.claims.block.interact.stevescarts.blockliquidmanager: OP
 ftbutilities.claims.block.interact.stevescarts.blockmetalstorage: OP
 ftbutilities.claims.block.interact.stevescarts.upgrade: OP
+ftbutilities.claims.block.interact.supersoundmuffler.sound_muffler: OP
 ftbutilities.claims.block.interact.tcomplement.alloy_tank: OP
 ftbutilities.claims.block.interact.tcomplement.melter: OP
 ftbutilities.claims.block.interact.tcomplement.porcelain_alloy_tank: OP
@@ -4441,6 +4453,7 @@ ftbutilities.claims.block.interact.techreborn.thermal_generator: OP
 ftbutilities.claims.block.interact.techreborn.vacuum_freezer: OP
 ftbutilities.claims.block.interact.techreborn.water_mill: OP
 ftbutilities.claims.block.interact.techreborn.wind_mill: OP
+ftbutilities.claims.block.interact.thermalcultivation.soil: OP
 ftbutilities.claims.block.interact.thermaldynamics.duct_0: OP
 ftbutilities.claims.block.interact.thermaldynamics.duct_16: OP
 ftbutilities.claims.block.interact.thermaldynamics.duct_32: OP
@@ -4471,6 +4484,7 @@ ftbutilities.claims.block.interact.thermalfoundation.rockwool: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage_alloy: OP
 ftbutilities.claims.block.interact.thermalfoundation.storage_resource: OP
+ftbutilities.claims.block.interact.thermallogistics.terminal_item: OP
 ftbutilities.claims.block.interact.uniquecrops.abstractbarrel: OP
 ftbutilities.claims.block.interact.uniquecrops.cropabstract: OP
 ftbutilities.claims.block.interact.uniquecrops.cropartisia: OP
@@ -7154,6 +7168,8 @@ ftbutilities.claims.item.superiorshields.vanilla_shield_iron: ALL
 ftbutilities.claims.item.superiorshields.vanilla_shield_obsidian: ALL
 ftbutilities.claims.item.superiorshields.vanilla_shield_stone: ALL
 ftbutilities.claims.item.superiorshields.vanilla_shield_wood: ALL
+ftbutilities.claims.item.supersoundmuffler.sound_muffler: ALL
+ftbutilities.claims.item.supersoundmuffler.sound_muffler_bauble: ALL
 ftbutilities.claims.item.tcomplement.alloy_tank: ALL
 ftbutilities.claims.item.tcomplement.cast: ALL
 ftbutilities.claims.item.tcomplement.cast_clay: ALL
@@ -7510,6 +7526,8 @@ ftbutilities.claims.item.theoneprobe.iron_helmet_probe: ALL
 ftbutilities.claims.item.theoneprobe.probe: ALL
 ftbutilities.claims.item.theoneprobe.probe_goggles: ALL
 ftbutilities.claims.item.theoneprobe.probenote: ALL
+ftbutilities.claims.item.thermalcultivation.soil: ALL
+ftbutilities.claims.item.thermalcultivation.watering_can: ALL
 ftbutilities.claims.item.thermaldynamics.cover: ALL
 ftbutilities.claims.item.thermaldynamics.duct_0: ALL
 ftbutilities.claims.item.thermaldynamics.duct_16: ALL
@@ -7805,6 +7823,10 @@ ftbutilities.claims.item.thermalinnovation.injector: ALL
 ftbutilities.claims.item.thermalinnovation.magnet: ALL
 ftbutilities.claims.item.thermalinnovation.quiver: ALL
 ftbutilities.claims.item.thermalinnovation.saw: ALL
+ftbutilities.claims.item.thermallogistics.crafter: ALL
+ftbutilities.claims.item.thermallogistics.manager: ALL
+ftbutilities.claims.item.thermallogistics.requester: ALL
+ftbutilities.claims.item.thermallogistics.terminal_item: ALL
 ftbutilities.claims.item.uniquecrops.3dglasses: ALL
 ftbutilities.claims.item.uniquecrops.abstractbarrel: ALL
 ftbutilities.claims.item.uniquecrops.batstaff: ALL

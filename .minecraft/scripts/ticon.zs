@@ -30,6 +30,6 @@ for comb in <ore:beeComb>.items {
 	comb, 
 	300);
     // dry combs to wax
-    mods.tconstruct.Drying.addRecipe(<forestry:beeswax>,comb, 6000);
+    mods.tconstruct.Drying.addRecipe(<forestry:beeswax>,comb, 2000);
 }
 

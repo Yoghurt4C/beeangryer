@@ -13,7 +13,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "seed.oil",
-            "amount": 400
+            "amount": 80
         },
         {
             "type": "item",

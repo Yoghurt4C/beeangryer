@@ -45,4 +45,6 @@ soggylime.setBlockHardness(2.0);
 soggylime.setToolLevel(0);
 soggylime.setGravity(true);
 soggylime.setBlockSoundType(<soundtype:Ground>);
+soggylime.onRandomTick=function(world, blockPos, blockState){
+	world.setBlockState(<block:quark:limestone>,blockPos);};
 soggylime.register();

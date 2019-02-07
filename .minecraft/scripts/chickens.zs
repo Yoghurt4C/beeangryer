@@ -1,12 +1,20 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
+var plastic=<hatchery:plastic>;
+
 //no rugrats
 mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}),
 "Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
 mods.jei.JEI.addDescription(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}),
 "Try giving a Book to a vanilla chicken. Perharps that'll make it less bird-brained?");
 <minecraft:egg>.addTooltip(format.yellow("Place in an "+format.gold(format.underline("Egg Nest"))+" to hatch reliably!"));
+
+game.setLocalization("item.hatchery.circuit_board.name","Organic Circuit Board");
+recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*2,[
+[<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
+[<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBlue>],
+[plastic,plastic,plastic]]);
 
 recipes.remove(<hatchery:nest>);
 recipes.addShaped(<hatchery:nest>,[
@@ -44,7 +52,7 @@ recipes.addShaped(<chickens:spawn_egg>.withTag({
   [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]]);
   
  val squeezingChickens ={
-	<liquid:fluidsilicon>:<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:siliconchicken", Gain: 1, Strength: 1})
+	<liquid:fluidsilicon>:<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})
 	
 }as IItemStack[ILiquidStack];
 for liquid, chicken in squeezingChickens{
