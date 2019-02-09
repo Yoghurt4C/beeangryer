@@ -1,4 +1,4 @@
-7935 nodes in total
+7937 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -688,17 +688,21 @@ ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.edit.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.edit.contenttweaker.chocolatemilk: OP
-ftbutilities.claims.block.edit.contenttweaker.chrome: OP
+ftbutilities.claims.block.edit.contenttweaker.chrome_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.dissolvedeggshells: OP
+ftbutilities.claims.block.edit.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.reinforced_metal_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.soggylime: OP
 ftbutilities.claims.block.edit.contenttweaker.sub_block_holder_0: OP
-ftbutilities.claims.block.edit.contenttweaker.titanium: OP
-ftbutilities.claims.block.edit.contenttweaker.tungsten: OP
-ftbutilities.claims.block.edit.contenttweaker.tungstensteel: OP
+ftbutilities.claims.block.edit.contenttweaker.titanium_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.tungsten_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.tungstensteel_molten: OP
 ftbutilities.claims.block.edit.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
@@ -1826,7 +1830,6 @@ ftbutilities.claims.block.edit.quark.world_stone_bricks: OP
 ftbutilities.claims.block.edit.quark.world_stone_pavement: OP
 ftbutilities.claims.block.edit.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.edit.realfilingcabinet.modelcabinet: OP
-ftbutilities.claims.block.edit.resourcehogs.truffle: OP
 ftbutilities.claims.block.edit.roost.breeder: OP
 ftbutilities.claims.block.edit.roost.collector: OP
 ftbutilities.claims.block.edit.roost.roost: OP
@@ -2950,17 +2953,21 @@ ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
 ftbutilities.claims.block.interact.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.interact.contenttweaker.chocolatemilk: OP
-ftbutilities.claims.block.interact.contenttweaker.chrome: OP
+ftbutilities.claims.block.interact.contenttweaker.chrome_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.dissolvedeggshells: OP
+ftbutilities.claims.block.interact.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.reinforced_metal_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.soggylime: OP
 ftbutilities.claims.block.interact.contenttweaker.sub_block_holder_0: OP
-ftbutilities.claims.block.interact.contenttweaker.titanium: OP
-ftbutilities.claims.block.interact.contenttweaker.tungsten: OP
-ftbutilities.claims.block.interact.contenttweaker.tungstensteel: OP
+ftbutilities.claims.block.interact.contenttweaker.titanium_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.tungsten_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.tungstensteel_molten: OP
 ftbutilities.claims.block.interact.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
@@ -4088,7 +4095,6 @@ ftbutilities.claims.block.interact.quark.world_stone_bricks: OP
 ftbutilities.claims.block.interact.quark.world_stone_pavement: OP
 ftbutilities.claims.block.interact.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.interact.realfilingcabinet.modelcabinet: OP
-ftbutilities.claims.block.interact.resourcehogs.truffle: OP
 ftbutilities.claims.block.interact.roost.breeder: OP
 ftbutilities.claims.block.interact.roost.collector: OP
 ftbutilities.claims.block.interact.roost.roost: OP
@@ -6994,10 +7000,6 @@ ftbutilities.claims.item.realfilingcabinet.mysteryfolder: ALL
 ftbutilities.claims.item.realfilingcabinet.suitcase: ALL
 ftbutilities.claims.item.realfilingcabinet.upgrade: ALL
 ftbutilities.claims.item.realfilingcabinet.whiteouttape: ALL
-ftbutilities.claims.item.resourcehogs.bacon: ALL
-ftbutilities.claims.item.resourcehogs.mud_bucket: ALL
-ftbutilities.claims.item.resourcehogs.spawner: ALL
-ftbutilities.claims.item.resourcehogs.truffle: ALL
 ftbutilities.claims.item.roost.breeder: ALL
 ftbutilities.claims.item.roost.catcher: ALL
 ftbutilities.claims.item.roost.chicken: ALL
@@ -7949,6 +7951,7 @@ command.baubles.baubles
 command.bdlib.dumpregistry
 command.bdlib.oredistribution
 command.blockdata
+command.bnbgaminglib.bnb
 command.botania.botania-open
 command.botania.botania-share
 command.botania_tweaks.botaniatweaks-debug-stats

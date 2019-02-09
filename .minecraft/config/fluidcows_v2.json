@@ -2930,5 +2930,49 @@
     "GrowingAge": -24000,
     "Parent First": "",
     "Parent Second": ""
+  },
+  "reinforced_metal": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "enhanced_galgadorian": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "galgadorian": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "o_r\u0026_f_p_m": {
+    "SpawnRate": 100,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
   }
 }

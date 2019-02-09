@@ -1,16 +1,7 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "spaghetti_block",
-      "1": "spaghetti_ore_minecraft_end_stone",
-      "2": "spaghetti_ore_minecraft_stone",
-      "3": "spaghetti_poor_ore_minecraft_end_stone",
-      "4": "spaghetti_poor_ore_minecraft_netherrack",
-      "5": "spaghetti_poor_ore_minecraft_stone",
-      "6": "spaghetti_dense_ore_minecraft_end_stone",
-      "7": "spaghetti_dense_ore_minecraft_stone",
-      "8": "spaghetti_ore_minecraft_netherrack",
-      "9": "spaghetti_dense_ore_minecraft_netherrack"
+      "0": "o_r\u0026_f_p_m_block"
     }
   }
 }

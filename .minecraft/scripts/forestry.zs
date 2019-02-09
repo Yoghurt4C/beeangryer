@@ -151,3 +151,7 @@ liquid*200,
  drop, 
 2400);
 }
+
+
+//gendustry zone
+game.setLocalization("tile.gendustry.mutatron_advanced.name","Advanced Mutatron");

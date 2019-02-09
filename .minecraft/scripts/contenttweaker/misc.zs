@@ -7,19 +7,13 @@ import mods.contenttweaker.Commands;
 
 
 var mutandis = VanillaFactory.createItem("mutandis");
-			mutandis.maxStackSize = 64;
-			mutandis.creativeTab = <creativetab:misc>;
-mutandis.register();
+	mutandis.register();
 
 var eggshells = VanillaFactory.createItem("eggshells");
-			eggshells.maxStackSize = 64;
-			eggshells.creativeTab = <creativetab:misc>;
-eggshells.register();
+	eggshells.register();
 
 var firedeggshells = VanillaFactory.createItem("firedeggshells");
-			firedeggshells.maxStackSize = 64;
-			firedeggshells.creativeTab = <creativetab:misc>;
-firedeggshells.register();
+	firedeggshells.register();
 
 var firestarter = VanillaFactory.createItem("firestarter");
 			firestarter.maxDamage = 3;
@@ -29,7 +23,7 @@ var firestarter = VanillaFactory.createItem("firestarter");
 			firestarter.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 					var firePos = pos.getOffset(facing, 1);
 					if (world.getBlockState(firePos).isReplaceable(world, firePos)) {
-					var chance=world.getRandom().nextInt(50);
+					var chance=world.getRandom().nextInt(3);
 					if (chance%2==0){
 					world.setBlockState(<block:minecraft:fire>, firePos);}
 					player.getHeldItem(hand).damage(1, player);
@@ -46,5 +40,7 @@ soggylime.setToolLevel(0);
 soggylime.setGravity(true);
 soggylime.setBlockSoundType(<soundtype:Ground>);
 soggylime.onRandomTick=function(world, blockPos, blockState){
-	world.setBlockState(<block:quark:limestone>,blockPos);};
+	var limetick=world.getRandom().nextInt(5);
+	if (limetick/4==1){
+	world.setBlockState(<block:quark:limestone>,blockPos);}};
 soggylime.register();

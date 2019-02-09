@@ -16,10 +16,10 @@ game.setLocalization("tile.modularmachinery.blockinputbus.small.name","Small Ite
 game.setLocalization("tile.modularmachinery.blockinputbus.reinforced.name","Reinforced Item Input Bus");
 game.setLocalization("tile.modularmachinery.blockinputbus.huge.name","Huge Item Input Bus");
 game.setLocalization("tile.modularmachinery.blockinputbus.ludicrous.name","Ludicrous Item Input Bus");
-game.setLocalization("tile.modularmachinery.blockoutputbus.small.name","Small Item Input Bus");
-game.setLocalization("tile.modularmachinery.blockoutputbus.reinforced.name","Reinforced Item Input Bus");
-game.setLocalization("tile.modularmachinery.blockoutputbus.huge.name","Huge Item Input Bus");
-game.setLocalization("tile.modularmachinery.blockoutputbus.ludicrous.name","Ludicrous Item Input Bus");
+game.setLocalization("tile.modularmachinery.blockoutputbus.small.name","Small Item Output Bus");
+game.setLocalization("tile.modularmachinery.blockoutputbus.reinforced.name","Reinforced Item Output Bus");
+game.setLocalization("tile.modularmachinery.blockoutputbus.huge.name","Huge Item Output Bus");
+game.setLocalization("tile.modularmachinery.blockoutputbus.ludicrous.name","Ludicrous Item Output Bus");
 
 recipes.addShaped("mm_blockcasing",<modularmachinery:blockcasing>*3,[
 [plastic,plastic,plastic],
@@ -49,7 +49,7 @@ mods.forestry.Carpenter.addRecipe(<modulardiversity:blockbiomedetector>, [
 <liquid:for.honey> * 500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockcasing:4>*4, [
 [obsidian,casing,obsidian],
-[casing,null,casing],
+[casing,<extrabees:misc:0>,casing],
 [obsidian,casing,obsidian]],
 60, 
 <liquid:for.honey> * 500);
@@ -150,6 +150,37 @@ mods.forestry.Carpenter.addRecipe(<modularmachinery:blockfluidoutputhatch:6>,[
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockfluidoutputhatch:7>,[
 [null,casing2,null],
 [null,<thermalexpansion:reservoir:4>,null]],
+120,
+<liquid:for.honey>*500);
+//energy input
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:0>,[
+[null,null,null],
+[<thermaldynamics:duct_0:0>,casing,null]],
+120,
+<liquid:for.honey>*500);
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:1>,[
+[null,null,null],
+[<thermaldynamics:duct_0:1>,casing,null]],
+120,
+<liquid:for.honey>*500);
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:2>,[
+[null,null,null],
+[<thermaldynamics:duct_0:2>,casing,null]],
+120,
+<liquid:for.honey>*500);
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:3>,[
+[null,null,null],
+[<thermaldynamics:duct_0:3>,casing2,null]],
+120,
+<liquid:for.honey>*500);
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:4>,[
+[null,null,null],
+[<thermaldynamics:duct_0:4>,casing2,null]],
+120,
+<liquid:for.honey>*500);
+mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:5>,[
+[null,null,null],
+[<thermaldynamics:duct_0:5>,casing2,null]],
 120,
 <liquid:for.honey>*500);
 

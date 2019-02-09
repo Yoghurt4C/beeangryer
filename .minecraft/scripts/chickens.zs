@@ -11,10 +11,41 @@ mods.jei.JEI.addDescription(<roost:chicken>.withTag({Growth: 1, Chicken: "chicke
 <minecraft:egg>.addTooltip(format.yellow("Place in an "+format.gold(format.underline("Egg Nest"))+" to hatch reliably!"));
 
 game.setLocalization("item.hatchery.circuit_board.name","Organic Circuit Board");
+game.setLocalization("item.hatchery.plastic.name","Organic Plastic");
 recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*2,[
 [<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
 [<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBlue>],
 [plastic,plastic,plastic]]);
+
+//feather processing
+mods.thermalexpansion.Pulverizer.addRecipe(<hatchery:feather_fiber>, 
+<minecraft:feather>, 
+1500, 
+<hatchery:feather_meal>, 25);
+mods.immersiveengineering.Crusher.addRecipe(<hatchery:feather_fiber>, 
+<minecraft:feather>, 
+1500, 
+<hatchery:feather_meal>, 0.25);
+mods.techreborn.grinder.addRecipe(<hatchery:feather_fiber>*2,
+<minecraft:feather>, 
+75, 20);
+mods.appliedenergistics2.Grinder.addRecipe(<hatchery:feather_fiber>, 
+<minecraft:feather>, 
+3, 
+<hatchery:feather_meal>, 0.25);
+mods.thermalexpansion.Pulverizer.addRecipe(<hatchery:feather_meal>, 
+<hatchery:feather_fiber>, 
+1500);
+mods.immersiveengineering.Crusher.addRecipe(<hatchery:feather_meal>, 
+<hatchery:feather_fiber>, 
+1500);
+mods.techreborn.grinder.addRecipe(<hatchery:feather_meal>,
+<hatchery:feather_fiber>, 
+75, 20);
+mods.appliedenergistics2.Grinder.addRecipe(<hatchery:feather_meal>, 
+<hatchery:feather_fiber>, 
+3);
+
 
 recipes.remove(<hatchery:nest>);
 recipes.addShaped(<hatchery:nest>,[

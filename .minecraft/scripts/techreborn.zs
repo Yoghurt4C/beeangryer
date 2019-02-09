@@ -1,3 +1,5 @@
+#priority 500
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.techreborn.blastFurnace;
@@ -58,7 +60,19 @@ val TRCompressorArray=[
 <thermalfoundation:material:357>*9,
 <thermalfoundation:material:358>*9,
 <thermalfoundation:material:359>*9,
-<immersiveengineering:metal:35>*9
+<immersiveengineering:metal:35>*9,
+<contenttweaker:material_part:66>,
+<contenttweaker:material_part:72>,
+<contenttweaker:material_part:64>,
+<contenttweaker:material_part:68>,
+<contenttweaker:material_part:54>,
+<contenttweaker:material_part:60>,
+<contenttweaker:material_part:56>,
+<contenttweaker:material_part:64>*9,
+<contenttweaker:material_part:68>*9,
+<contenttweaker:material_part:54>*9,
+<contenttweaker:material_part:60>*9,
+<contenttweaker:material_part:56>*9
 ]as IItemStack[];
 for item in TRCompressorArray{mods.techreborn.compressor.removeRecipe(item);}
 

@@ -17,4 +17,5 @@ function removeFromAll(item as IItemStack, liquid as ILiquidStack) {
 	mods.techreborn.centrifuge.removeRecipe(item);
 	mods.techreborn.grinder.removeRecipe(item);
 	mods.techreborn.compressor.removeRecipe(item);
+	mods.techreborn.compressor.removeInputRecipe(item);
 }

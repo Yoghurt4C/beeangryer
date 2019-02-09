@@ -98,5 +98,24 @@
 		"forestry:bee_house@3",
 		"forestry:bee_house@4",
 		"forestry:bee_house@5"
+	],
+	"greenpurple_input":[
+		"modularmachinery:blockinputbus@5",
+		"modularmachinery:blockinputbus@6",
+		"modularmachinery:blockfluidinputhatch@5",
+		"modularmachinery:blockfluidinputhatch@6",
+		"modularmachinery:blockfluidinputhatch@7",
+		"modularmachinery:blockcasing@4"
+	],
+	"greenpurple_output":[
+		"modularmachinery:blockoutputbus@5",
+		"modularmachinery:blockoutputbus@6",
+		"modularmachinery:blockcasing@4"
+	],
+	"greenpurple_energy":[
+		"immersiveengineering:sheetmetal@5",
+		"modularmachinery:blockenergyinputhatch@3",
+		"modularmachinery:blockenergyinputhatch@4",
+		"modularmachinery:blockenergyinputhatch@5"
 	]
 }

@@ -77,3 +77,4 @@ recipes.addShapeless(<minecraft:chest>,[<ore:chestWood>]);
 for chest in <ore:chestWood>.items{
 mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}), 
 <minecraft:book>, chest, 12000, 1000, false);}
+recipes.replaceAllOccurences(<ore:gearIron>,<immersiveengineering:mold:1>,<thermalexpansion:augment:337>);

@@ -1,6 +1,9 @@
 .minecraft/.mixin.out/
 .minecraft/backups/
 .minecraft/coremods/
+.minecraft/config/triumph/documentation/
+.minecraft/config/triumph/script/
+.minecraft/config/triumph/functions/
 .minecraft/logs/
 .minecraft/local/ftbutilities/backups.json
 .minecraft/crash-reports/

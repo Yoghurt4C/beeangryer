@@ -40,3 +40,9 @@ for pair in metalStickPairs {
 <ore:dustWood>.add(<forestry:wood_pulp>);
 <ore:dustWood>.add(<techreborn:dust:46>);
 <ore:dustWood>.mirror(<ore:pulpWood>);
+<ore:blockEnhancedGalgadorian>.add(<stevescarts:blockmetalstorage:2>);
+<ore:ingotEnhancedGalgadorian>.add(<stevescarts:modulecomponents:49>);
+<ore:blockGalgadorian>.add(<stevescarts:blockmetalstorage:1>);
+<ore:ingotGalgadorian>.add(<stevescarts:modulecomponents:47>);
+<ore:blockReinforcedMetal>.add(<stevescarts:blockmetalstorage:0>);
+<ore:ingotReinforcedMetal>.add(<stevescarts:modulecomponents:22>);

@@ -166,7 +166,10 @@ val rmIDArray=[
 "modularmachinery:casing_reinforced",
 "modularmachinery:energy_output_tiny",
 "modularmachinery:casing_firebox",
-"modularmachinery:energy_input_tiny"
+"modularmachinery:energy_input_tiny",
+"modularmachinery:energy_input_small",
+"modularmachinery:energy_output_small",
+"stevescarts:component/large_lump_of_galgador"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

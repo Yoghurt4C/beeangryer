@@ -148,8 +148,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		}
 	}
 
-	//Remove ingot recipes, mainly for preventing ore doubling recipes
-	//alloys to recreate: constantan, electrum, brass, alubrass, manyullyn?
 	//smelting ingots (in order) are Al, Brass, Cr (omit?), Cu, Electrum, Au, Fe, Pt, Ti (omit?), W (omit?), Zi, Mithril, Constantan, Signalum, Lumium, Enderium, Uranium, HOP
 	if (metalPartName == "ingot"|metalPartName=="nugget") {
 		mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
@@ -169,18 +167,18 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		
 	//te press
 	if (metalPartName=="plate"){
-	mods.thermalexpansion.Compactor.addPressRecipe(
+	mods.thermalexpansion.Compactor.addStorageRecipe(
 	preferredMetalItem * 1, //Output
 	metalItems[metalName].ingot.items[0], //Input
 	2400);
 	if (metalItems[metalName].block as bool) {
-	mods.thermalexpansion.Compactor.addPressRecipe(
+	mods.thermalexpansion.Compactor.addStorageRecipe(
 	preferredMetalItem * 9, //Output
 	metalItems[metalName].block.items[0], //Input
 	21600);}}
 	
 	//te magma crucible
-	if (metalName!="aluminumbrass"&metalName!="alumite"&metalName!="brass"&metalName!="chrome"&metalName!="elementium"&metalName!="knightslime"&metalName!="manasteel"&metalName!="mithril"&metalName!="pigiron"&metalName!="terrasteel"&metalName!="titanium"&metalName!="tungsten"&metalName!="tungstensteel"&metalName!="uranium"&metalName!="zinc"&metalPartName!="rod"&metalPartName!="gear"){
+	if (metalName!="aluminumbrass"&metalName!="alumite"&metalName!="brass"&metalName!="chrome"&metalName!="elementium"&metalName!="enhancedgalgadorian"&metalName!="galgadorian"&metalName!="knightslime"&metalName!="manasteel"&metalName!="mithril"&metalName!="pigiron"&metalName!="reinforcedmetal"&metalName!="terrasteel"&metalName!="titanium"&metalName!="tungsten"&metalName!="tungstensteel"&metalName!="uranium"&metalName!="zinc"&metalPartName!="rod"&metalPartName!="gear"){
 	mods.thermalexpansion.Crucible.removeRecipe(preferredMetalItem);}
 	//mods.thermalexpansion.Crucible.addRecipe(ILiquidStack output, IItemStack input, int energy);
 	if (metalPartName=="block" & hasLiquid){
@@ -189,26 +187,26 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	preferredMetalItem, 
 	10800);}
 	
-	//tr com*press*or
+	//tr com*press*or, doesn't want to work with some te metals
 	if (metalPartName=="plate"){
 	mods.techreborn.compressor.addRecipe(
 	preferredMetalItem*1, 
 	metalItems[metalName].ingot.items[0], 
 	120,
-	20);
+	20).setUseOreDict(false);
 	if (metalItems[metalName].block as bool){
 	mods.techreborn.compressor.addRecipe(
 	preferredMetalItem*9, 
 	metalItems[metalName].block.items[0], 
 	1080,
-	20);}}
+	20).setUseOreDict(false);}}
 	
 	//grains
 	if (metalPartName=="dust"){
 	recipes.removeByRecipeName("extrabees:" + metalName + "_dust_dust");
 	}
 	//combs!
-	if (metalPartName=="nugget"){
+	if (metalPartName=="nugget"&metalItems[metalName].comb as bool){
 	mods.forestry.Centrifuge.removeRecipe(metalItems[metalName].comb.items[0]);
 		if (metalName=="iron"|metalName=="gold"|metalName=="silver"|metalName=="platinum"|metalName=="copper"|metalName=="tin"|metalName=="nickel"|metalName=="lead"|metalName=="zinc"|metalName=="titanium"|metalName=="tungsten"|metalName=="aluminum"){
 	mods.thermalexpansion.Centrifuge.removeRecipe(metalItems[metalName].comb.items[0]);}
