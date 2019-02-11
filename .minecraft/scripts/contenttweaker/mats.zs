@@ -7,7 +7,7 @@ import mods.contenttweaker.MaterialPart;
 
 	static mats as Material[string]={
 	"alubrass": MaterialSystem.getMaterialBuilder().setName("Aluminum Brass").setColor(Color.fromHex("F0D467")).build(),
-	"alumite": MaterialSystem.getMaterialBuilder().setName("Alumite").setColor(Color.fromHex("F9ECF7")).build(),
+	"alumite": MaterialSystem.getMaterialBuilder().setName("Alumite").setColor(Color.fromHex("FCBBDB")).build(),
 	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("D34117")).build(),
 	"brass": MaterialSystem.getMaterialBuilder().setName("Brass").setColor(Color.fromHex("FFB400")).build(),
 	"chrome":MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(Color.fromHex("FFAAAB")).build(),

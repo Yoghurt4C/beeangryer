@@ -78,3 +78,19 @@ Carving.addVariation("glassdyedbrown", <tconstruct:clear_stained_glass:12>);
 Carving.addVariation("glassdyedgreen", <tconstruct:clear_stained_glass:13>);
 Carving.addVariation("glassdyedred", <tconstruct:clear_stained_glass:14>);
 Carving.addVariation("glassdyedblack", <tconstruct:clear_stained_glass:15>);
+Carving.addVariation("basalt",<quark:basalt>);
+Carving.addVariation("basalt",<quark:basalt:1>);
+Carving.addVariation("basalt",<quark:world_stone_bricks:3>);
+Carving.addVariation("basalt",<quark:world_stone_pavement:3>);
+Carving.addVariation("limestone",<quark:limestone>);
+Carving.addVariation("limestone",<quark:limestone:1>);
+Carving.addVariation("limestone",<quark:world_stone_bricks:5>);
+Carving.addVariation("limestone",<quark:world_stone_pavement:5>);
+Carving.addVariation("marble",<quark:marble>);
+Carving.addVariation("marble",<quark:marble:1>);
+Carving.addVariation("marble",<quark:world_stone_bricks:4>);
+Carving.addVariation("marble",<quark:world_stone_pavement:4>);
+//mmmm grystals
+Carving.addGroup("cavecrystal");
+for i in 0 .. 8{var cavecrystal=<quark:crystal>.definition.makeStack(i);
+Carving.addVariation("cavecrystal",cavecrystal);}

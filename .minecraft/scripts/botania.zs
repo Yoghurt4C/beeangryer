@@ -1,4 +1,7 @@
+import crafttweaker.oredict.IOreDictEntry;
 import mods.botaniatweaks.Agglomeration;
+import mods.botania.ManaInfusion;
+import mods.botania.Orechid;
 
 Agglomeration.addRecipe(
 //output IItemStack
@@ -8,3 +11,36 @@ Agglomeration.addRecipe(
 <forestry:bee_princess_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Manasteel", UID0: "gendustry.bee.Manasteel"}]}}),
 <botania:manaresource:1>]
 );
+
+ManaInfusion.removeRecipe(<minecraft:stone:5>);
+ManaInfusion.removeRecipe(<minecraft:stone:3>);
+ManaInfusion.removeRecipe(<minecraft:stone:1>);
+
+ManaInfusion.addAlchemy(<quark:marble>, <ore:stoneBasalt>, 200);
+
+val orechidRm as IOreDictEntry[]=[
+<ore:oreCoal>,
+<ore:oreIron>,
+<ore:oreTin>,
+<ore:oreCopper>,
+<ore:oreLead>,
+<ore:oreRedstone>,
+<ore:oreSilver>,
+<ore:oreCertusQuartz>,
+<ore:oreAluminum>,
+<ore:oreTungsten>,
+<ore:oreGold>,
+<ore:oreCinnabar>,
+<ore:oreNickel>,
+<ore:oreApatite>,
+<ore:oreUranium>,
+<ore:oreLapis>,
+<ore:oreDiamond>,
+<ore:oreRuby>,
+<ore:oreSapphire>,
+<ore:oreGalena>,
+<ore:oreEmerald>,
+<ore:orePlatinum>,
+<ore:oreMithril>];
+for ore in orechidRm{Orechid.removeOre(ore);}
+mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);

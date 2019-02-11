@@ -11,7 +11,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -29,7 +29,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -47,7 +47,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -65,7 +65,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -83,7 +83,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -101,7 +101,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -119,7 +119,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -137,7 +137,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -155,7 +155,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.8
+                "multiplier": 0.95
             },
 			"modifier": {
                 "io": "input",
@@ -173,7 +173,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -191,7 +191,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -209,7 +209,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -227,7 +227,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -245,7 +245,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -263,7 +263,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -281,7 +281,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -299,7 +299,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",
@@ -317,7 +317,7 @@
             "modifier": {
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.9
             },
 			"modifier": {
                 "io": "input",

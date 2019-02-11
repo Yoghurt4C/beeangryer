@@ -377,7 +377,7 @@ global metalItems as IIngredient[string][string] = {
 		block: <techreborn:storage2>,
 		comb: <gendustry:honey_comb:108>,
 		dust: null,
-		gear: <contenttweaker:material_part:38>,
+		gear: <contenttweaker:material_part:39>,
 		ingot: <techreborn:ingot:17>,
 		liquid: <liquid:tungstensteel>,
 		nugget: <techreborn:nuggets:17>,

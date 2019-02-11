@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
 var plastic=<hatchery:plastic>;
+var feather_meal=<hatchery:feather_meal>;
 
 //no rugrats
 mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}),
@@ -21,30 +22,49 @@ recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*2,[
 mods.thermalexpansion.Pulverizer.addRecipe(<hatchery:feather_fiber>, 
 <minecraft:feather>, 
 1500, 
-<hatchery:feather_meal>, 25);
+feather_meal, 25);
 mods.immersiveengineering.Crusher.addRecipe(<hatchery:feather_fiber>, 
 <minecraft:feather>, 
 1500, 
-<hatchery:feather_meal>, 0.25);
+feather_meal, 0.25);
 mods.techreborn.grinder.addRecipe(<hatchery:feather_fiber>*2,
 <minecraft:feather>, 
 75, 20);
 mods.appliedenergistics2.Grinder.addRecipe(<hatchery:feather_fiber>, 
 <minecraft:feather>, 
 3, 
-<hatchery:feather_meal>, 0.25);
-mods.thermalexpansion.Pulverizer.addRecipe(<hatchery:feather_meal>, 
+feather_meal, 0.25);
+mods.thermalexpansion.Pulverizer.addRecipe(feather_meal, 
 <hatchery:feather_fiber>, 
 1500);
-mods.immersiveengineering.Crusher.addRecipe(<hatchery:feather_meal>, 
+mods.immersiveengineering.Crusher.addRecipe(feather_meal, 
 <hatchery:feather_fiber>, 
 1500);
-mods.techreborn.grinder.addRecipe(<hatchery:feather_meal>,
+mods.techreborn.grinder.addRecipe(feather_meal,
 <hatchery:feather_fiber>, 
 75, 20);
-mods.appliedenergistics2.Grinder.addRecipe(<hatchery:feather_meal>, 
+mods.appliedenergistics2.Grinder.addRecipe(feather_meal, 
 <hatchery:feather_fiber>, 
 3);
+
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<minecraft:water_bucket>]);
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})]);
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
+recipes.addShapeless(<hatchery:feather_pulp>*4,[
+feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
+<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 
 
 recipes.remove(<hatchery:nest>);

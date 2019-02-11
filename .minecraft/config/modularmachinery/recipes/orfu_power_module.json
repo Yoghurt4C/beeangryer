@@ -1,12 +1,12 @@
 {
     "machine": "organic_reprocessing_and_fabrication_unit",
     "registryName": "power_module",
-    "recipeTime": 6000,
+    "recipeTime": 3000,
     "requirements": [
 		{
 			"type":"energy",
 			"io-type":"input",
-			"energyPerTick":20
+			"energyPerTick":40
 		},
         {
             "type": "item",

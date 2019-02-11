@@ -160,12 +160,12 @@ mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:0>,[
 <liquid:for.honey>*500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:1>,[
 [null,null,null],
-[<thermaldynamics:duct_0:1>,casing,null]],
+[<thermaldynamics:duct_0:1>,<modularmachinery:blockenergyinputhatch:0>,null]],
 120,
 <liquid:for.honey>*500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:2>,[
 [null,null,null],
-[<thermaldynamics:duct_0:2>,casing,null]],
+[<thermaldynamics:duct_0:2>,<modularmachinery:blockenergyinputhatch:1>,null]],
 120,
 <liquid:for.honey>*500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:3>,[
@@ -175,12 +175,12 @@ mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:3>,[
 <liquid:for.honey>*500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:4>,[
 [null,null,null],
-[<thermaldynamics:duct_0:4>,casing2,null]],
+[<thermaldynamics:duct_0:4>,<modularmachinery:blockenergyinputhatch:3>,null]],
 120,
 <liquid:for.honey>*500);
 mods.forestry.Carpenter.addRecipe(<modularmachinery:blockenergyinputhatch:5>,[
 [null,null,null],
-[<thermaldynamics:duct_0:5>,casing2,null]],
+[<thermaldynamics:duct_0:5>,<modularmachinery:blockenergyinputhatch:4>,null]],
 120,
 <liquid:for.honey>*500);
 

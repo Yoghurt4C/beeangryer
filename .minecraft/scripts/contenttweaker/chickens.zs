@@ -412,9 +412,39 @@ val honeychicken = ChickenFactory.createChicken("honeychicken", Color.fromHex("E
 		honeychicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
 		honeychicken.register();
 
-val starlightchciken = ChickenFactory.createChicken("starlightchicken", Color.fromHex("FDFDFD"), <item:minecraft:ice>);
-		starlightchciken.setForegroundColor(Color.fromHex("B4C0C2"));
-		starlightchciken.spawnType="NONE";
-		starlightchciken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
-		starlightchciken.setParentTwo(ResourceLocation.create("chickens:lightbluechicken"));
-		starlightchciken.register();
+val menrilchicken = ChickenFactory.createChicken("menrilchicken", Color.fromHex("46BFD9"), <item:integrateddynamics:menril_berries>);
+		menrilchicken.setForegroundColor(Color.fromHex("0E3F49"));
+		menrilchicken.spawnType="NONE";
+		menrilchicken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
+		menrilchicken.setParentTwo(ResourceLocation.create("chickens:lightbluechicken"));
+		menrilchicken.register();
+		
+val logicprocessorchicken = ChickenFactory.createChicken("logicprocessorchicken", Color.fromHex("FFDF51"), <item:appliedenergistics2:material:22>);
+		logicprocessorchicken.setForegroundColor(Color.fromHex("404040"));
+		logicprocessorchicken.spawnType="NONE";
+		logicprocessorchicken.register();
+		
+val calcprocessorchicken = ChickenFactory.createChicken("calcprocessorchicken", Color.fromHex("C1DDF3"), <item:appliedenergistics2:material:23>);
+		calcprocessorchicken.setForegroundColor(Color.fromHex("404040"));
+		calcprocessorchicken.spawnType="NONE";
+		calcprocessorchicken.register();
+		
+val engiprocessorchicken = ChickenFactory.createChicken("engiprocessorchicken", Color.fromHex("D1FAF3"), <item:appliedenergistics2:material:24>);
+		engiprocessorchicken.setForegroundColor(Color.fromHex("404040"));
+		engiprocessorchicken.spawnType="NONE";
+		engiprocessorchicken.register();
+		
+val certuschicken = ChickenFactory.createChicken("certuschicken", Color.fromHex("DBE4F5"), <item:appliedenergistics2:material:0>);
+		certuschicken.setForegroundColor(Color.fromHex("B8C6E3"));
+		certuschicken.spawnType="NONE";
+		certuschicken.register();
+		
+val fluixchicken = ChickenFactory.createChicken("fluixchicken", Color.fromHex("9C63C5"), <item:appliedenergistics2:material:7>);
+		fluixchicken.setForegroundColor(Color.fromHex("25305B"));
+		fluixchicken.spawnType="NONE";
+		fluixchicken.register();
+		
+val biotitechicken = ChickenFactory.createChicken("biotitechicken", Color.fromHex("080C12"), <item:quark:biotite>);
+		biotitechicken.setForegroundColor(Color.fromHex("111922"));
+		biotitechicken.spawnType="NONE";
+		biotitechicken.register();

@@ -73,6 +73,7 @@ for item in TECompressorArray{mods.thermalexpansion.Compactor.removeStorageRecip
 
 mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<botania:livingwood>%100],<gendustry:honey_comb:116>,null,2000);
 mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<botania:livingrock>%100],<gendustry:honey_comb:117>,null,2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<integrateddynamics:crystalized_menril_chunk>*3%100],<gendustry:honey_comb:130>,null,2000);
 recipes.addShapeless(<minecraft:chest>,[<ore:chestWood>]);
 for chest in <ore:chestWood>.items{
 mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}), 

@@ -128,7 +128,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			);}
 	}
 
-	//Plates should also be used in place of ingots for wire
 	if (metalName == "copper" | metalName == "electrum" | metalName == "aluminum" | metalName == "steel") {
 		if (metalPartName == "plate") {
 			var wires as IItemStack[string] = {

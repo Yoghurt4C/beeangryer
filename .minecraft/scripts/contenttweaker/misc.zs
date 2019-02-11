@@ -14,6 +14,9 @@ var eggshells = VanillaFactory.createItem("eggshells");
 
 var firedeggshells = VanillaFactory.createItem("firedeggshells");
 	firedeggshells.register();
+	
+var menrilpropolis = VanillaFactory.createItem("menril_propolis");
+	menrilpropolis.register();
 
 var firestarter = VanillaFactory.createItem("firestarter");
 			firestarter.maxDamage = 3;

@@ -8,6 +8,15 @@ recipes.addShaped("firestarter",<contenttweaker:firestarter>,[
 <contenttweaker:firestarter>.addShiftTooltip(format.red(format.italic("Not very reliable.")));
 <quark:charcoal_block>.addTooltip(format.red(format.italic("Burns forever, like netherrack!")));
 
+recipes.addShaped("brimstone",<quark:biome_cobblestone>*8,[
+[<ore:cobblestone>,<botania:quartz:2>],
+[<botania:quartz:2>,<ore:cobblestone>]]);
+recipes.addShaped("permafrost",<quark:biome_cobblestone:1>*8,[
+[<ore:cobblestone>,<forestry:pollen:1>],
+[<forestry:pollen:1>,<ore:cobblestone>]]);
+recipes.addShaped("cavecrystal",<quark:crystal:0>,[
+[<minecraft:prismarine_crystals>,<minecraft:stained_glass:0>],
+[<minecraft:stained_glass:0>,<minecraft:prismarine_crystals>]]);
 
 recipes.addShaped("limestone_furnace",<minecraft:furnace>,[
 [limestone,limestone,limestone],

@@ -3,6 +3,10 @@ import mods.integrateddynamics.MechanicalSqueezer;
 import mods.integrateddynamics.DryingBasin;
 import mods.integrateddynamics.MechanicalDryingBasin;
 
+var menrilresin=<liquid:menrilresin>;
+var menril_berries=<integrateddynamics:menril_berries>;
+var menril_propolis=<contenttweaker:menril_propolis>;
+
 recipes.remove(<integrateddynamics:squeezer>);
 recipes.addShaped(<integrateddynamics:squeezer>,[
 [<ore:stickWood>,<minecraft:stone_slab>,<ore:stickWood>],
@@ -22,3 +26,31 @@ MechanicalDryingBasin.addRecipe(<tconstruct:clear_glass>,<liquid:for.honey>*100,
 
 Squeezer.removeRecipesWithOutput(<minecraft:flint>,1.00,<minecraft:flint>,0.50);
 Squeezer.addRecipe(<minecraft:gravel>,<minecraft:flint>,1.00,<minecraft:sand>,0.25);
+
+mods.forestry.Squeezer.addRecipe(
+menrilresin*100,
+[menril_berries], 
+40,
+null);
+mods.thermalexpansion.Transposer.addExtractRecipe(
+menrilresin*100,
+menril_berries, 
+2400);
+mods.immersiveengineering.Squeezer.addRecipe(
+null, 
+menrilresin*100, 
+menril_berries, 
+2400);
+Squeezer.addRecipe(
+menril_berries,
+null,
+menrilresin*100);
+MechanicalSqueezer.addRecipe(
+menril_berries,
+null,
+menrilresin*100);
+
+DryingBasin.addRecipe(<minecraft:log:*>,menrilresin*1000,<integrateddynamics:menril_log>,null);
+MechanicalDryingBasin.addRecipe(<minecraft:log:*>,menrilresin*1000,<integrateddynamics:menril_log>,null);
+DryingBasin.addRecipe(<minecraft:leaves:*>,menrilresin*100,<integrateddynamics:menril_leaves>,null);
+MechanicalDryingBasin.addRecipe(<minecraft:leaves:*>,menrilresin*100,<integrateddynamics:menril_leaves>,null);

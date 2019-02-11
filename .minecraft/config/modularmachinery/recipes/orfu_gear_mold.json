@@ -1,12 +1,12 @@
 {
     "machine": "organic_reprocessing_and_fabrication_unit",
     "registryName": "gear_mold",
-    "recipeTime": 12000,
+    "recipeTime": 6000,
     "requirements": [
 		{
 			"type":"energy",
 			"io-type":"input",
-			"energyPerTick":20
+			"energyPerTick":40
 		},
         {
             "type": "item",

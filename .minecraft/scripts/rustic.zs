@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 <rustic:grape_stem>.addTooltip(format.green("Rarely harvested from "+format.italic("Vines")+" by using"));
-<rustic:grape_stem>.addTooltip("Hoes(Iron/Diamond), Mattocks and Kamas");
+<rustic:grape_stem>.addTooltip(format.green("Hoes(Iron/Diamond), Mattocks and Kamas"));
 
 game.setLocalization("item.rustic.honeycomb.name","Deviate Honeycomb");
 game.setLocalization("item.rustic.beeswax.name","Deviate Beeswax");

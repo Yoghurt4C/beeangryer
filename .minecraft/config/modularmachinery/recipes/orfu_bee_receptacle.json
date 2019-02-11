@@ -1,12 +1,12 @@
 {
     "machine": "organic_reprocessing_and_fabrication_unit",
     "registryName": "bee_receptacle",
-    "recipeTime": 6000,
+    "recipeTime": 3000,
     "requirements": [
 		{
 			"type":"energy",
 			"io-type":"input",
-			"energyPerTick":20
+			"energyPerTick":40
 		},
         {
             "type": "item",
@@ -25,6 +25,30 @@
             "io-type": "input",
             "item": "minecraft:gold_nugget",
             "amount": 12
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@291",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@256",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@257",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extrabees:misc@0",
+            "amount": 2
         },
 		{
             "type": "item",

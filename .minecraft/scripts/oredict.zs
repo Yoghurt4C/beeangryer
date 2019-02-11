@@ -264,10 +264,10 @@ global metals as IOreDictEntry[string][string]={
 		block: <ore:blockPigiron>,
 		comb: null,
 		dust: null,
-		gear: <ore:gearPigIron>,
+		gear: <ore:gearPigiron>,
 		ingot: <ore:ingotPigiron>,
 		nugget: <ore:nuggetPigiron>,
-		plate: <ore:platePigIron>,
+		plate: <ore:platePigiron>,
 		rod: null},
 	reinforcedmetal: {
 		block: <ore:blockReinforcedMetal>,

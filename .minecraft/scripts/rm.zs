@@ -169,7 +169,13 @@ val rmIDArray=[
 "modularmachinery:energy_input_tiny",
 "modularmachinery:energy_input_small",
 "modularmachinery:energy_output_small",
-"stevescarts:component/large_lump_of_galgador"
+"stevescarts:component/large_lump_of_galgador",
+"techreborn:iron_furnace",
+"minecraft:diorite",
+"minecraft:granite",
+"minecraft:andesite",
+"quark:basalt_1",
+"hatchery:mealpulp_recipe"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
@@ -177,7 +183,8 @@ for name in rmIDArray{recipes.removeByRecipeName(name);}}
 val rmFurnaceArray=[
 <ore:nuggetIron>,
 <ore:nuggetGold>,
-<ore:blockGlass>
+<ore:blockGlass>,
+<ore:itemSilicon>
 ] as IOreDictEntry[];
 for item in rmFurnaceArray{furnace.remove(item);}
 //ticon alloying

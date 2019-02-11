@@ -1,4 +1,4 @@
-7937 nodes in total
+7938 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -5405,6 +5405,7 @@ ftbutilities.claims.item.contenttweaker.eggshells: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
+ftbutilities.claims.item.contenttweaker.menril_propolis: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL
 ftbutilities.claims.item.contenttweaker.soggylime: ALL
 ftbutilities.claims.item.contenttweaker.sub_block_holder_0: ALL
@@ -8106,6 +8107,7 @@ command.realfilingcabinet./rfc
 command.reborncore.rc_dumpmods
 command.reborncore.rc_listrecipes
 command.recipe
+command.recipehandler.recipes_server
 command.replaceitem
 command.rpreload
 command.sampler.sampler

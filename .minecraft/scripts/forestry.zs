@@ -120,6 +120,11 @@ mods.thermalexpansion.Centrifuge.addRecipe(
 <extrabees:honey_comb:24>,
 null,
 2000);
+mods.forestry.Centrifuge.addRecipe(
+[<forestry:beeswax>%50,<forestry:honey_drop>%25,
+<integrateddynamics:crystalized_menril_chunk>*3%100],
+<gendustry:honey_comb:130>,10);
+
 mods.forestry.Squeezer.removeRecipe(<liquid:juice>,[<extrabees:honey_drop:3>]);
 mods.forestry.Squeezer.removeRecipe(<liquid:milk>,[<extrabees:honey_drop:6>]);
 mods.forestry.Squeezer.removeRecipe(<liquid:short.mead>,[<extrabees:honey_drop:8>]);
@@ -130,7 +135,8 @@ val forDropArray={
 <extrabees:honey_drop:5>:<liquid:cryotheum>,
 <extrabees:honey_drop:6>:<liquid:milk>,
 <extrabees:honey_drop:7>:<liquid:seed.oil>,
-<extrabees:honey_drop:8>:<liquid:short.mead>
+<extrabees:honey_drop:8>:<liquid:short.mead>,
+<contenttweaker:menril_propolis>:<liquid:menrilresin>
 } as ILiquidStack[IItemStack];
 //mods.forestry.Squeezer.addRecipe(ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, @Optional WeightedItemStack itemOutput);
 //mods.thermalexpansion.Transposer.addExtractRecipe(ILiquidStack output, IItemStack input, int energy);
@@ -150,8 +156,48 @@ null,
 liquid*200, 
  drop, 
 2400);
+mods.integrateddynamics.Squeezer.addRecipe(
+drop,
+null,
+liquid*200);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+drop,
+null,
+liquid*200);
 }
+val propolis as IItemStack[]=[
+<forestry:propolis>,
+<forestry:propolis:3>,
+<extrabees:propolis>,
+<extrabees:propolis:1>,
+<extrabees:propolis:7>,
+<contenttweaker:menril_propolis>];
+for item in propolis{<ore:propolis>.add(item);}
+recipes.replaceAllOccurences(<forestry:propolis:*>,<ore:propolis>);
 
-
+val seed=itemUtils.getItemsByRegexRegistryName(".*uniquecrops:seed.*");
+for item in seed{
+mods.forestry.Squeezer.addRecipe(
+<liquid:seed.oil>*10,
+[item], 
+40,
+null);
+mods.thermalexpansion.Transposer.addExtractRecipe(
+<liquid:seed.oil>*10,
+item, 
+2400);
+mods.immersiveengineering.Squeezer.addRecipe(
+null, 
+<liquid:seed.oil>*10, 
+item, 
+2400);
+mods.integrateddynamics.Squeezer.addRecipe(
+item,
+null,
+<liquid:seed.oil>*10);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+item,
+null,
+<liquid:seed.oil>*10);}
 //gendustry zone
 game.setLocalization("tile.gendustry.mutatron_advanced.name","Advanced Mutatron");
