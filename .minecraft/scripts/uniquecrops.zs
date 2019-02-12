@@ -3,6 +3,9 @@ import mods.uniquecrops.SeedCrafting;
 <ore:ingotIron>.add(<uniquecrops:ediblemetal.ironingot>);
 <ore:ingotGold>.add(<uniquecrops:ediblemetal.goldingot>);
 
+recipes.addShaped("slippers",<uniquecrops:slippers>,[
+[<uniquecrops:generic:14>,<uniquecrops:generic:14>]]);
+
 //SeedCrafting.addRecipe(IItemStack output, 
 //IIngredient center, 
 //IIngredient corner, 

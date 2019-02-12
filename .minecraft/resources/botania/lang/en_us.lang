@@ -1,0 +1,17 @@
+tile.botania:flower.puredaisy.name=Punished Daisy
+tile.botania:flower.puredaisy.reference=Why are we still here?..
+botania.entry.pureDaisy=Punished Daisy
+botania.tagline.pureDaisy=Used to be useful
+botania.page.pureDaisy0=The &1Punished Daisy&0, one of the most basic functional flowers, is a fallen legend.<br>This flower used to be able to purify &1Wood&0 and &1Stone&0 blocks into their "living" forms, but was denied this ability by a malicious third party.
+botania.page.pureDaisy1=An example of what it &4used&0 to be able to do.
+botania.page.pureDaisy2=&1Livingwood&0 can be turned into twigs, which is completely unrelated to this entry.
+botania.page.pureDaisy4=After spending 9 years in a coma, the only things it can still manage are turning &1Water&0 into &1Snow&0 and turning &1Ice&0 into &1Packed Ice&0. Truly chilling.
+botania.page.pureDaisy3=A flower denied its function
+botania.challenge.pureDaisy=Bring the legend back to life
+botania.challenge.pureDaisy.desc=Completely automate &1Snow&0 and &1Packed Ice&0 production with a Punished Daisy. Bonus points if only one spreader is used and/or if the Water/Ice inputs are also automated.
+botania.nei.pureDaisy=Punished Daisy
+botania.nei.quickInfo:tile.livingwood0~0=Can be obtained from Livingwood Bees
+botania.nei.quickInfo:tile.livingrock0~0=Can be obtained from Livingrock Bees
+
+botania.tagline.blazeBlock=Compact blaze storage
+botania.page.blazeBlock0=Smashing a bunch of blazing material together makes a usable decorative light block. A crude one, admittedly, but a source of light non the less.<br>Naturally, like a &1Block of Coal&0, the &1Blaze Mesh&0 can also be used to fuel furnaces and other fuel consumers alike.

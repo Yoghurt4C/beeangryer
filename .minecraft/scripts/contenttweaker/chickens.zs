@@ -448,3 +448,33 @@ val biotitechicken = ChickenFactory.createChicken("biotitechicken", Color.fromHe
 		biotitechicken.setForegroundColor(Color.fromHex("111922"));
 		biotitechicken.spawnType="NONE";
 		biotitechicken.register();
+		
+val apatitechicken = ChickenFactory.createChicken("apatitechicken", Color.fromHex("1A89C1"), <item:forestry:apatite>);
+		apatitechicken.setForegroundColor(Color.fromHex("9DE1EE"));
+		apatitechicken.spawnType="NONE";
+		apatitechicken.register();
+		
+val saltchicken = ChickenFactory.createChicken("saltchicken", Color.fromHex("EEECCE"), <item:contenttweaker:salt_cube>);
+		saltchicken.setForegroundColor(Color.fromHex("CFCCAF"));
+		saltchicken.spawnType="NONE";
+		saltchicken.register();
+		
+val calcitechicken = ChickenFactory.createChicken("calcitechicken", Color.fromHex("E8E2BE"), <item:techreborn:dust:8>);
+		calcitechicken.setForegroundColor(Color.fromHex("B7AD8D"));
+		calcitechicken.spawnType="NONE";
+		calcitechicken.register();
+		
+val reinforcedmetalchicken = ChickenFactory.createChicken("reinforcedmetalchicken", Color.fromHex("698DA5"), <item:stevescarts:modulecomponents:21>);
+		reinforcedmetalchicken.setForegroundColor(Color.fromHex("29526D"));
+		reinforcedmetalchicken.spawnType="NONE";
+		reinforcedmetalchicken.register();
+		
+val galgadorianchicken = ChickenFactory.createChicken("galgadorianchicken", Color.fromHex("9B667E"), <item:stevescarts:modulecomponents:46>);
+		galgadorianchicken.setForegroundColor(Color.fromHex("572A3D"));
+		galgadorianchicken.spawnType="NONE";
+		galgadorianchicken.register();
+		
+val enhancedgalgadorianchicken = ChickenFactory.createChicken("enhancedgalgadorianchicken", Color.fromHex("985D85"), <item:stevescarts:modulecomponents:48>);
+		enhancedgalgadorianchicken.setForegroundColor(Color.fromHex("582548"));
+		enhancedgalgadorianchicken.spawnType="NONE";
+		enhancedgalgadorianchicken.register();

@@ -17,6 +17,9 @@ var firedeggshells = VanillaFactory.createItem("firedeggshells");
 	
 var menrilpropolis = VanillaFactory.createItem("menril_propolis");
 	menrilpropolis.register();
+	
+var saltcube = VanillaFactory.createItem("salt_cube");
+	saltcube.register();
 
 var firestarter = VanillaFactory.createItem("firestarter");
 			firestarter.maxDamage = 3;
@@ -40,10 +43,18 @@ var soggylime = VanillaFactory.createBlock("soggylime", <blockmaterial:clay>);
 soggylime.setToolClass("shovel");
 soggylime.setBlockHardness(2.0);
 soggylime.setToolLevel(0);
-soggylime.setGravity(true);
+soggylime.setGravity(false);
 soggylime.setBlockSoundType(<soundtype:Ground>);
 soggylime.onRandomTick=function(world, blockPos, blockState){
 	var limetick=world.getRandom().nextInt(5);
 	if (limetick/4==1){
 	world.setBlockState(<block:quark:limestone>,blockPos);}};
 soggylime.register();
+
+var saltblock = VanillaFactory.createBlock("salt_block", <blockmaterial:sand>);
+saltblock.setToolClass("shovel");
+saltblock.setBlockHardness(2.0);
+saltblock.setToolLevel(0);
+saltblock.setGravity(true);
+saltblock.setBlockSoundType(<soundtype:sand>);
+saltblock.register();

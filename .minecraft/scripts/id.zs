@@ -12,6 +12,11 @@ recipes.addShaped(<integrateddynamics:squeezer>,[
 [<ore:stickWood>,<minecraft:stone_slab>,<ore:stickWood>],
 [<ore:stickWood>,null,<ore:stickWood>],
 [<ore:plankWood>,<minecraft:stone_slab>,<ore:plankWood>]]);
+recipes.remove(<integrateddynamics:drying_basin>);
+recipes.addShaped(<integrateddynamics:drying_basin>,[
+[<ore:logWood>,<ore:dyeBlack>,<ore:logWood>],
+[<ore:logWood>,null,<ore:logWood>],
+[<ore:fenceWood>,<ore:slabWood>,<ore:fenceWood>]]);
 
 for comb in <ore:beeComb>.items {
 Squeezer.addRecipe(comb,null,<liquid:for.honey>*50);

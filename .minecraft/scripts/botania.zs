@@ -2,6 +2,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.botaniatweaks.Agglomeration;
 import mods.botania.ManaInfusion;
 import mods.botania.Orechid;
+import mods.botania.PureDaisy;
 
 Agglomeration.addRecipe(
 //output IItemStack
@@ -15,8 +16,13 @@ Agglomeration.addRecipe(
 ManaInfusion.removeRecipe(<minecraft:stone:5>);
 ManaInfusion.removeRecipe(<minecraft:stone:3>);
 ManaInfusion.removeRecipe(<minecraft:stone:1>);
-
 ManaInfusion.addAlchemy(<quark:marble>, <ore:stoneBasalt>, 200);
+
+PureDaisy.removeRecipe(<botania:livingwood>);
+PureDaisy.removeRecipe(<botania:livingrock>);
+PureDaisy.removeRecipe(<minecraft:cobblestone>);
+PureDaisy.removeRecipe(<minecraft:sand>);
+PureDaisy.removeRecipe(<minecraft:obsidian>);
 
 val orechidRm as IOreDictEntry[]=[
 <ore:oreCoal>,
