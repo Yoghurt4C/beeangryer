@@ -1,0 +1,116 @@
+{
+    "machine": "scp_914_b_15",
+    "registryName": "golden_bread",
+    "recipeTime": 3000,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":40
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_nugget",
+            "amount": 12
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:thermionic_tubes@11",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@4",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extrabees:misc@1",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@263",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@262",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@294",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@23",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@5",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@9",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "hatchery:circuit_board",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@3",
+            "amount": 1,
+			"chance":0.25
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "chickenstock",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "milk",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "binnie.dna.raw",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "uniquecrops:genericfood.goldenbread",
+			"nbt": {"display":{"Lore":["Excessive Luck is a possible side effect."],"Name":"Edible Clockwork Golden Cyber-Bread"}},
+            "amount": 1
+        }
+    ]
+}

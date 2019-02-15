@@ -199,5 +199,27 @@ mods.integrateddynamics.MechanicalSqueezer.addRecipe(
 item,
 null,
 <liquid:seed.oil>*10);}
+
+recipes.addShapeless(<forestry:arboretum>.withTag({display: {Lore: ["Managed!"], Name: "Automated Timber Handler"}}),
+[<forestry:arboretum:1>.withTag({display: {Lore: ["Manual!"], Name: "Automated Timber Handler"}})]);
+recipes.addShapeless(<forestry:arboretum:1>.withTag({display: {Lore: ["Manual!"], Name: "Automated Timber Handler"}}),
+[<forestry:arboretum>.withTag({display: {Lore: ["Managed!"], Name: "Automated Timber Handler"}})]);
+<forestry:alveary.plain>.addShiftTooltip(format.italic("The main alveary block."));
+<forestry:alveary.plain>.addShiftTooltip(format.italic("Lower 3x2x3 of these can be substituted by modifier blocks."));
+<forestry:alveary.swarmer>.addShiftTooltip(format.italic("Creates Swarm Hives by using Royal Jelly."));
+<forestry:alveary.fan>.addShiftTooltip(format.italic("Used to simulate a colder climate, Stacks, needs power."));
+<forestry:alveary.heater>.addShiftTooltip(format.italic("Used to simulate a warmer climate. Stacks, needs power."));
+<forestry:alveary.hygro>.addShiftTooltip(format.italic("Used to influence the humidity of the Alveary. Supplied with fluids."));
+<forestry:alveary.hygro>.addShiftTooltip(format.italic("Water: -10% Temperature, +20% Humidity"));
+<forestry:alveary.hygro>.addShiftTooltip(format.italic("Lava: +10% Temperature, -20% Humidity"));
+<forestry:alveary.stabiliser>.addShiftTooltip(format.italic("Prevents new species from appearing; existing alleles still change."));
+<forestry:alveary.sieve>.addShiftTooltip(format.italic("Suppresses passive pollination, instead storing"));
+<forestry:alveary.sieve>.addShiftTooltip(format.italic("pollen in itself. Needs Woven Silk to function."));
+//binnie
+game.setLocalization("extrabees.alveay.frame","Alveary Frame Housing");
+game.setLocalization("extrabees.alveay.mutator","Alveary Mutator");
+game.setLocalization("extrabees.alveay.rainShield","Alveary Rain Shield");
+game.setLocalization("extrabees.alveay.stimulator","Alveary Electrical Stimulator");
+game.setLocalization("extrabees.alveay.hatchery","Alveary Hatchery");
 //gendustry zone
 game.setLocalization("tile.gendustry.mutatron_advanced.name","Advanced Mutatron");

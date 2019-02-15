@@ -12,6 +12,8 @@ botania.challenge.pureDaisy.desc=Completely automate &1Snow&0 and &1Packed Ice&0
 botania.nei.pureDaisy=Punished Daisy
 botania.nei.quickInfo:tile.livingwood0~0=Can be obtained from Livingwood Bees
 botania.nei.quickInfo:tile.livingrock0~0=Can be obtained from Livingrock Bees
+item.record.botania:gaia1.desc=Lonely Rolling Star (Bass Boosted)
+item.record.botania:gaia2.desc=Loud Nigra Rainbow Ride Magic Missile BEES
 
 botania.tagline.blazeBlock=Compact blaze storage
 botania.page.blazeBlock0=Smashing a bunch of blazing material together makes a usable decorative light block. A crude one, admittedly, but a source of light non the less.<br>Naturally, like a &1Block of Coal&0, the &1Blaze Mesh&0 can also be used to fuel furnaces and other fuel consumers alike.

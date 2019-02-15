@@ -1,0 +1,61 @@
+{
+    "machine": "scp_914_b_7",
+    "registryName": "gear_mold",
+    "recipeTime": 6000,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":40
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@352",
+            "amount": 44
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@224",
+            "amount": 16
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@3",
+            "amount": 1,
+			"chance":0.25
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "chickenstock",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "milk",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "binnie.dna.raw",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:mold@1",
+            "amount": 1
+        }
+    ]
+}

@@ -4,6 +4,7 @@ import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.ResourceLocation;
 
 	static mats as Material[string]={
 	"alubrass": MaterialSystem.getMaterialBuilder().setName("Aluminum Brass").setColor(Color.fromHex("F0D467")).build(),
@@ -57,10 +58,14 @@ import mods.contenttweaker.MaterialPart;
 	var gearplateparts=["gear","plate"] as string[];
 
 //or&fpm
-	mats.orfpm.registerParts(part_names);
+	mats.orfpm.registerPart("gear").setTextureLocation("thermalfoundation:items/material/gear_iron");
+	mats.orfpm.registerPart("plate").setTextureLocation("thermalfoundation:items/material/plate_iron");
+	mats.orfpm.registerPart("nugget").setTextureLocation("minecraft:items/iron_nugget");
+	mats.orfpm.registerPart("ingot").setTextureLocation("minecraft:items/iron_ingot");
+	<materialpart:orfpm:gear>.setTextureLocation("thermalfoundation:items/material/gear_iron");
 	var orfpmData as MaterialPartData=mats.orfpm.registerPart("molten").getData();
 		moltenDefault(orfpmData);
-	
+		
 	     var blockData = mats.orfpm.registerPart("block").getData();
         blockData.addDataValue("hardness", "5");
         blockData.addDataValue("resistance", "30");
@@ -69,22 +74,31 @@ import mods.contenttweaker.MaterialPart;
 	
 //else
     for i, metal in metal_list {
-        metal.registerPart("gear");
+        metal.registerPart("gear").setTextureLocation("thermalfoundation:items/material/gear_iron");
 		var fluidData as MaterialPartData = metal.registerPart("molten").getData();
 		moltenDefault(fluidData);
 	}
 	for i,metal in scmetals{
-		metal.registerParts(scpartnames);
+		metal.registerPart("gear").setTextureLocation("thermalfoundation:items/material/gear_iron");
+		metal.registerPart("plate").setTextureLocation("minecraft:items/iron_nugget");
+		metal.registerPart("nugget").setTextureLocation("minecraft:items/iron_nugget");
 		var fluidData as MaterialPartData = metal.registerPart("molten").getData();
 		moltenDefault(fluidData);
 	}
 	for i,metal in gearplate{
-		metal.registerParts(gearplateparts);}
-		
+		metal.registerPart("gear").setTextureLocation("thermalfoundation:items/material/gear_iron");
+		metal.registerPart("plate").setTextureLocation("minecraft:items/iron_nugget");
+	}		
 	
 function moltenDefault(moltenData as MaterialPartData) {
 	moltenData.addDataValue("density", "4000");
 	moltenData.addDataValue("viscosity", "3000");
 	moltenData.addDataValue("temperature", "1300");
 	moltenData.addDataValue("vaporize", "false");
+}
+function setTexture(part as MaterialPart) {
+	part.setTextureLocation("thermalfoundation:items/material/plate_iron");
+	part.setTextureLocation("thermalfoundation:items/material/gear_iron");
+	part.setTextureLocation("minecraft:items/iron_nugget");
+	part.setTextureLocation("minecraft:items/iron_ingot");
 }

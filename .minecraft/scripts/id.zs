@@ -9,8 +9,8 @@ var menril_propolis=<contenttweaker:menril_propolis>;
 
 recipes.remove(<integrateddynamics:squeezer>);
 recipes.addShaped(<integrateddynamics:squeezer>,[
-[<ore:stickWood>,<minecraft:stone_slab>,<ore:stickWood>],
-[<ore:stickWood>,null,<ore:stickWood>],
+[<ore:fenceWood>,<minecraft:stone_slab>,<ore:fenceWood>],
+[<ore:fenceWood>,null,<ore:fenceWood>],
 [<ore:plankWood>,<minecraft:stone_slab>,<ore:plankWood>]]);
 recipes.remove(<integrateddynamics:drying_basin>);
 recipes.addShaped(<integrateddynamics:drying_basin>,[

@@ -1,0 +1,98 @@
+{
+    "machine": "scp_914_b_7",
+    "registryName": "alveary_transmission",
+    "recipeTime": 3000,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":40
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@193",
+            "amount": 20
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:thermionic_tubes@1",
+            "amount": 16
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@8",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@256",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@257",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@258",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "hatchery:circuit_board",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:frame_impregnated",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@3",
+            "amount": 1,
+			"chance":0.25
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "chickenstock",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "milk",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "binnie.dna.raw",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabees:alveary@6",
+			"nbt": {"display":{"Lore":["Still resembles wood."],"Name":"Metallic Alveary Transmission"}},
+            "amount": 2
+        }
+    ]
+}

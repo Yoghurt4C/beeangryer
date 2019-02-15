@@ -1,0 +1,116 @@
+{
+    "machine": "scp_914_b_15",
+    "registryName": "laser_gun",
+    "recipeTime": 3000,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":40
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@227",
+            "amount": 30
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@229",
+            "amount": 10
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_nugget",
+            "amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@12",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@291",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@290",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@289",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@295",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@25",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@9",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@25",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@3",
+            "amount": 1,
+			"chance":0.25
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "chickenstock",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "milk",
+            "amount": 2000
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "binnie.dna.raw",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:laser_gun",
+			"nbt": {"StatsOriginal":{"AttackSpeedMultiplier":"1.0f","LaserGunPower":"7.0f","MiningSpeed":"12.0f","FreeModifiers":"3","Durability":"60","HarvestLevel":"1","LaserGunEnergy":"55000","Attack":"7.0f","LaserGunRange":"16.0f"},"LockCooldown":"0","display":{"Lore":["[DATA EXPUNGED]"],"Name":"Powered Modular Clockwork Laser Pistol"},"Stats":{"AttackSpeedMultiplier":"1.0f","LaserGunPower":"7.0f","MiningSpeed":"12.0f","FreeModifiers":"3","Durability":"60","HarvestLevel":"1","LaserGunEnergy":"55000","Attack":"7.0f","LaserGunRange":"16.0f"},"Special":{"Categories":["tool","weapon"]},"AttackDuration":"0","TinkerData":{"Materials":["signalum_plustic","electrum","fluixcrystal_plustic","copper"],"Modifiers":[]},"Modifiers":[{"identifier":"bloodymary","color":"-43691","level":"1"},{"identifier":"shocking","charge":"17.285515f","color":"-1516727","level":"1","x":"448.15650756751575d","y":"4.0d","z":"647.2722012575425d"},{"identifier":"portly","color":"-2009268071","level":"1"},{"identifier":"established","color":"-1204473","level":"1"}],"Traits":["bloodymary","shocking","portly","established"]},
+            "amount": 1
+        }
+    ]
+}

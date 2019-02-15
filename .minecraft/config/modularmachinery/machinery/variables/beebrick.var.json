@@ -90,7 +90,14 @@
 		"botania:shinyflower"
 	],
 	"end_flower":[
-		"uniquecrops:cropenderlily",
+		"uniquecrops:cropenderlily@0",
+		"uniquecrops:cropenderlily@1",
+		"uniquecrops:cropenderlily@2",
+		"uniquecrops:cropenderlily@3",
+		"uniquecrops:cropenderlily@4",
+		"uniquecrops:cropenderlily@5",
+		"uniquecrops:cropenderlily@6",
+		"uniquecrops:cropenderlily@7",
 		"minecraft:chorus_plant"
 	],
 	"bee_house":[
@@ -99,23 +106,36 @@
 		"forestry:bee_house@4",
 		"forestry:bee_house@5"
 	],
-	"greenpurple_input":[
+	"greenpurple_businput":[
 		"modularmachinery:blockinputbus@5",
 		"modularmachinery:blockinputbus@6",
-		"modularmachinery:blockfluidinputhatch@5",
-		"modularmachinery:blockfluidinputhatch@6",
-		"modularmachinery:blockfluidinputhatch@7",
 		"modularmachinery:blockcasing@4"
 	],
-	"greenpurple_output":[
+	"greenpurple_hatchinput":[
+		"modularmachinery:blockfluidinputhatch@5",
+		"modularmachinery:blockfluidinputhatch@6",
+		"modularmachinery:blockfluidinputhatch@7"
+	],
+	"greenpurple_busoutput":[
 		"modularmachinery:blockoutputbus@5",
 		"modularmachinery:blockoutputbus@6",
 		"modularmachinery:blockcasing@4"
 	],
+		"greenpurple_hatchoutput":[
+		"modularmachinery:blockfluidoutputhatch@5",
+		"modularmachinery:blockfluidoutputhatch@6",
+		"modularmachinery:blockfluidoutputhatch@7"
+	],
 	"greenpurple_energy":[
-		"immersiveengineering:sheetmetal@5",
+		"immersiveengineering:storage@8",
 		"modularmachinery:blockenergyinputhatch@3",
 		"modularmachinery:blockenergyinputhatch@4",
 		"modularmachinery:blockenergyinputhatch@5"
+	],
+	"greenpurple_rsinput":[
+		"minecraft:unpowered_comparator@8",
+		"minecraft:unpowered_comparator@9",
+		"minecraft:unpowered_comparator@10",
+		"minecraft:unpowered_comparator@11"
 	]
 }

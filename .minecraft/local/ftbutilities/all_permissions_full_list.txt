@@ -1,4 +1,4 @@
-7943 nodes in total
+7963 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1455,6 +1455,7 @@ ftbutilities.claims.block.edit.modularmachinery.blockfluidinputhatch: OP
 ftbutilities.claims.block.edit.modularmachinery.blockfluidoutputhatch: OP
 ftbutilities.claims.block.edit.modularmachinery.blockinputbus: OP
 ftbutilities.claims.block.edit.modularmachinery.blockoutputbus: OP
+ftbutilities.claims.block.edit.notenoughwands.lightblock: OP
 ftbutilities.claims.block.edit.pewter.molten_elementium: OP
 ftbutilities.claims.block.edit.pewter.molten_manasteel: OP
 ftbutilities.claims.block.edit.pewter.molten_terrasteel: OP
@@ -3721,6 +3722,7 @@ ftbutilities.claims.block.interact.modularmachinery.blockfluidinputhatch: OP
 ftbutilities.claims.block.interact.modularmachinery.blockfluidoutputhatch: OP
 ftbutilities.claims.block.interact.modularmachinery.blockinputbus: OP
 ftbutilities.claims.block.interact.modularmachinery.blockoutputbus: OP
+ftbutilities.claims.block.interact.notenoughwands.lightblock: OP
 ftbutilities.claims.block.interact.pewter.molten_elementium: OP
 ftbutilities.claims.block.interact.pewter.molten_manasteel: OP
 ftbutilities.claims.block.interact.pewter.molten_terrasteel: OP
@@ -5469,6 +5471,10 @@ ftbutilities.claims.item.deepmoblearning.soot_covered_plate: ALL
 ftbutilities.claims.item.deepmoblearning.soot_covered_redstone: ALL
 ftbutilities.claims.item.deepmoblearning.trial_key: ALL
 ftbutilities.claims.item.deepmoblearning.trial_keystone: ALL
+ftbutilities.claims.item.effortlessbuilding.randomizer_bag: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade1: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade2: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade3: ALL
 ftbutilities.claims.item.extrabees.alveary: ALL
 ftbutilities.claims.item.extrabees.dictionary: ALL
 ftbutilities.claims.item.extrabees.ectoplasm: ALL
@@ -6662,6 +6668,20 @@ ftbutilities.claims.item.modularmachinery.blockoutputbus: ALL
 ftbutilities.claims.item.modularmachinery.itemblueprint: ALL
 ftbutilities.claims.item.modularmachinery.itemconstructtool: ALL
 ftbutilities.claims.item.modularmachinery.itemmodularium: ALL
+ftbutilities.claims.item.notenoughwands.acceleration_wand: ALL
+ftbutilities.claims.item.notenoughwands.advanced_wandcore: ALL
+ftbutilities.claims.item.notenoughwands.building_wand: ALL
+ftbutilities.claims.item.notenoughwands.capturing_wand: ALL
+ftbutilities.claims.item.notenoughwands.displacement_wand: ALL
+ftbutilities.claims.item.notenoughwands.freezing_wand: ALL
+ftbutilities.claims.item.notenoughwands.illumination_wand: ALL
+ftbutilities.claims.item.notenoughwands.master_protection_wand: ALL
+ftbutilities.claims.item.notenoughwands.moving_wand: ALL
+ftbutilities.claims.item.notenoughwands.potion_wand: ALL
+ftbutilities.claims.item.notenoughwands.protection_wand: ALL
+ftbutilities.claims.item.notenoughwands.swapping_wand: ALL
+ftbutilities.claims.item.notenoughwands.teleportation_wand: ALL
+ftbutilities.claims.item.notenoughwands.wandcore: ALL
 ftbutilities.claims.item.patchouli.guide_book: ALL
 ftbutilities.claims.item.pewter.molten_elementium: ALL
 ftbutilities.claims.item.pewter.molten_manasteel: ALL
@@ -7988,6 +8008,7 @@ command.debug
 command.defaultgamemode
 command.difficulty
 command.effect
+command.effortlessbuilding.reach
 command.enchant
 command.entitydata
 command.execute

@@ -11,7 +11,11 @@ var plastic=<hatchery:plastic>;
 var refinedIron=<techreborn:ingot:19>;
 furnace.remove(refinedIron);
 
+recipes.replaceAllOccurences(<techreborn:smalldust:62>,<minecraft:glowstone_dust>,<techreborn:nanosaber>);
+
 recipes.addShapeless(<immersiveengineering:metal:10>,[<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>]);
+<techreborn:iron_furnace>.addTooltip(format.blue(format.italic("More sophisticated than a limestone Furnace,")));
+<techreborn:iron_furnace>.addTooltip(format.blue(format.italic("but lacks the ability to be heated externally.")));
 
 recipes.addShaped("plastic_monitor",<techreborn:part:24>,[
 [plastic,<ore:dye>,plastic],

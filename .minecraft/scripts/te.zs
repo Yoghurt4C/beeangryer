@@ -32,7 +32,6 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:68>*3,<thermalfoundati
 InductionSmelter.removeRecipe(<thermalfoundation:material:128>,<thermalfoundation:material:69>);
 InductionSmelter.removeRecipe(<thermalfoundation:material:128>*3,<techreborn:ingot:18>);
 InductionSmelter.removeRecipe(<tconstruct:ingots:1>,<tconstruct:ingots>);
-Enchanter.removeRecipe(<minecraft:book>, <minecraft:chest>);
 
 val TECompressorArray=[
 <thermalfoundation:material:164>,
@@ -75,7 +74,8 @@ mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:hone
 mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<botania:livingrock>%100],<gendustry:honey_comb:117>,null,2000);
 mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,<integrateddynamics:crystalized_menril_chunk>*3%100],<gendustry:honey_comb:130>,null,2000);
 recipes.addShapeless(<minecraft:chest>,[<ore:chestWood>]);
+Enchanter.removeRecipe(<minecraft:book>, <minecraft:chest>);
 for chest in <ore:chestWood>.items{
-mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}), 
+Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 11 as short}]}),
 <minecraft:book>, chest, 12000, 1000, false);}
 recipes.replaceAllOccurences(<ore:gearIron>,<immersiveengineering:mold:1>,<thermalexpansion:augment:337>);

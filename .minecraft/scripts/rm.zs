@@ -40,7 +40,8 @@ val goneForever=[
 <modularmachinery:blockfluidinputhatch:1>,
 <modularmachinery:blockfluidoutputhatch:1>,
 <modularmachinery:blockfluidinputhatch:4>,
-<modularmachinery:blockfluidoutputhatch:4>
+<modularmachinery:blockfluidoutputhatch:4>,
+<binniecore:glass>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -170,12 +171,14 @@ val rmIDArray=[
 "modularmachinery:energy_input_small",
 "modularmachinery:energy_output_small",
 "stevescarts:component/large_lump_of_galgador",
+"stevescarts:component/lump_of_galgador",
 "techreborn:iron_furnace",
 "minecraft:diorite",
 "minecraft:granite",
 "minecraft:andesite",
 "quark:basalt_1",
-"hatchery:mealpulp_recipe"
+"hatchery:mealpulp_recipe",
+"quark:hopper"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
