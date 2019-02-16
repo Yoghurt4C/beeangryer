@@ -1,7 +1,21 @@
 {
-	"block_pools":
-	[
-			{
+	"block_pools":[		
+		{
+		"name":"EndDragon",
+		"type":{
+			"type":"block",
+			"name":"minecraft:end_stone"},
+		"clicktype":"rightclick",
+		"properties":[
+			{"type":"require_sneak"},
+			{"type":"require_item",
+			"name":"appliedenergistics2:material",
+			"meta":46},
+			{"type":"use_command",
+			"name":"summon minecraft:ender_dragon ~ ~ ~"}
+			]
+		},
+		{
 		"name":"ClayPanning",
 		"type":{
 				"type":"block",

@@ -1,6 +1,6 @@
 {
-    "machine": "scp_914_b_3",
-    "registryName": "fluxbore_hardened",
+    "machine": "scp_914_b_1",
+    "registryName": "nullodermal_virus",
     "recipeTime": 3000,
     "requirements": [
 		{
@@ -8,70 +8,70 @@
 			"io-type":"input",
 			"energyPerTick":40
 		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal@20",
+            "amount": 12
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "forestry:thermionic_tubes@12",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@4",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extrabees:misc@1",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@49",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@263",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@13",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@19",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@6",
+            "amount": 2
+        },
         {
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@227",
-            "amount": 30
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@229",
-            "amount": 10
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "minecraft:gold_nugget",
-            "amount": 6
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "appliedenergistics2:material@12",
-            "amount": 4
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@291",
+            "item": "genetics:misc@9",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@290",
-            "amount": 2
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@289",
-            "amount": 2
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@295",
-            "amount": 2
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@25",
-            "amount": 2
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "techreborn:plates@9",
-            "amount": 4
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "immersiveengineering:metal@25",
+            "item": "hatchery:circuit_board",
             "amount": 2
         },
 		{
@@ -108,9 +108,9 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "thermalinnovation:drill@1",
-			"nbt": {"Energy":"0","Mode":"0","display":{"Lore":["Hardened!"],"Name":"Drilldo"}},
-            "amount": 1
+            "item": "botania:virus:1",
+			"nbt":{"Lore":["It's just great for the skin.","And the IQ!"],"Name":"Tropicarcinoma"},
+            "amount": 2
         }
     ]
 }

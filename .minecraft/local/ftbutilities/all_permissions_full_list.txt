@@ -8103,7 +8103,6 @@ command.gamerule
 command.gendustry.dumpalleles
 command.gendustry.givesample
 command.gendustry.givetemplate
-command.give
 command.helpfixer.help
 command.immersiveengineering.ie.clearshaders
 command.immersiveengineering.ie.help.clearshaders
@@ -8123,6 +8122,7 @@ command.me
 command.modularmachinery.mm-hand
 command.modularmachinery.mm-syntax
 command.morpheus.morpheus
+command.nmsot.nmsot
 command.nutrition.nutrition
 command.particle
 command.pewter.pewter
@@ -8130,6 +8130,10 @@ command.pipemaster.pipemaster
 command.playsound
 command.publish
 command.quark.quarkconfig
+command.randomtweaks.deletegamerule
+command.randomtweaks.give
+command.randomtweaks.hunger
+command.randomtweaks.rtreload
 command.realfilingcabinet./rfc
 command.reborncore.rc_dumpmods
 command.reborncore.rc_listrecipes
@@ -8162,6 +8166,9 @@ command.toggledownfall
 command.topaddons.tophelmet
 command.tp
 command.trigger
+command.voidislandcontrol.island
+command.voidislandcontrol.islandadmin
+command.voidislandcontrol.startinginv
 command.weather
 command.worldborder
 command.xp

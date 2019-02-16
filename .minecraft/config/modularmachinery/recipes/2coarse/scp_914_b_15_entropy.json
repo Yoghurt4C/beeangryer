@@ -1,6 +1,6 @@
 {
-    "machine": "scp_914_b_11",
-    "registryName": "data_control_circuit",
+    "machine": "scp_914_b_3",
+    "registryName": "entropy",
     "recipeTime": 3000,
     "requirements": [
 		{
@@ -11,13 +11,13 @@
 		{
             "type": "item",
             "io-type": "input",
-            "item": "minecraft:gold_nugget",
+            "item": "immersiveengineering:metal@20",
             "amount": 12
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "forestry:thermionic_tubes@11",
+            "item": "forestry:thermionic_tubes@12",
             "amount": 8
         },
 		{
@@ -35,31 +35,31 @@
 		{
             "type": "item",
             "io-type": "input",
+            "item": "contenttweaker:material_part@49",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
             "item": "thermalfoundation:material@263",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@262",
+            "item": "contenttweaker:material_part@13",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@294",
+            "item": "contenttweaker:material_part@19",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@23",
-            "amount": 2
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "techreborn:plates@5",
+            "item": "techreborn:plates@6",
             "amount": 2
         },
         {
@@ -108,9 +108,9 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "techreborn:part@1",
-			"nbt": {"display":{"Lore":["Almost spherical!"],"Name":"Information Processing and Manipulation Circuit"}},
-            "amount": 1
+            "item": "techreborn:part@17",
+			"nbt":{"Lore":["Halts all progress!"],"Name":"Coordinated Pandemonium Module"},
+            "amount": 2
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
-    "machine": "scp_914_b_3",
-    "registryName": "fluxbore_hardened",
+    "machine": "scp_914_b_11",
+    "registryName": "sapling_infuser",
     "recipeTime": 3000,
     "requirements": [
 		{
@@ -8,70 +8,70 @@
 			"io-type":"input",
 			"energyPerTick":40
 		},
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@227",
-            "amount": 30
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "thermalfoundation:material@229",
-            "amount": 10
-        },
 		{
             "type": "item",
             "io-type": "input",
             "item": "minecraft:gold_nugget",
-            "amount": 6
+            "amount": 12
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "appliedenergistics2:material@12",
+            "item": "forestry:thermionic_tubes@11",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:plates@4",
+            "amount": 8
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "extrabees:misc@1",
             "amount": 4
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@291",
+            "item": "thermalfoundation:material@263",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@290",
+            "item": "thermalfoundation:material@262",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@289",
+            "item": "thermalfoundation:material@294",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@295",
+            "item": "contenttweaker:material_part@23",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "thermalfoundation:material@25",
+            "item": "techreborn:plates@5",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "genetics:misc@9",
             "amount": 2
         },
 		{
             "type": "item",
             "io-type": "input",
-            "item": "techreborn:plates@9",
-            "amount": 4
-        },
-		{
-            "type": "item",
-            "io-type": "input",
-            "item": "immersiveengineering:metal@25",
+            "item": "hatchery:circuit_board",
             "amount": 2
         },
 		{
@@ -108,8 +108,8 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "thermalinnovation:drill@1",
-			"nbt": {"Energy":"0","Mode":"0","display":{"Lore":["Hardened!"],"Name":"Drilldo"}},
+            "item": "thermalexpansion:augment@323",
+			"nbt": {"display":{"Lore":["Processing the environment,","one sapling at a time."],"Name":"Integrated Growth Inducing Air Purification Supplement"}},
             "amount": 1
         }
     ]
