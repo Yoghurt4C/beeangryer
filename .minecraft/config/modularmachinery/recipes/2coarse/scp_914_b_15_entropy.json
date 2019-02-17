@@ -108,9 +108,9 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "techreborn:part@17",
-			"nbt":{"Lore":["Halts all progress!"],"Name":"Coordinated Pandemonium Module"},
-            "amount": 2
+            "item": "stevescarts:upgrade@16",
+			"nbt":{"display":{"Lore":["Halts all progress!"],"Name":"Coordinated Pandemonium Module"}},
+            "amount": 1
         }
     ]
 }

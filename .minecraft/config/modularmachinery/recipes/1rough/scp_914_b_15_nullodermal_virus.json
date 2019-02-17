@@ -108,9 +108,9 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "botania:virus:1",
-			"nbt":{"Lore":["It's just great for the skin.","And the IQ!"],"Name":"Tropicarcinoma"},
-            "amount": 2
+            "item": "botania:virus@1",
+			"nbt":{"display":{"Lore":["It's just great for the skin.","And the IQ!"],"Name":"Tropicarcinoma"}},
+            "amount": 1
         }
     ]
 }

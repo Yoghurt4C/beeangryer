@@ -34,3 +34,7 @@ SeedCrafting.addRecipe(<quark:basalt>*16,
 <chickens:liquid_egg:1>, 
  <quark:biotite>, 
 <ore:stone>);
+SeedCrafting.addRecipe(<quark:crystal:0>*4,
+<minecraft:quartz>,
+ <minecraft:prismarine_crystals>,
+<ore:blockGlassWhite>);

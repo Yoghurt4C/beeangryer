@@ -18,9 +18,6 @@ recipes.addShaped("brimstone",<quark:biome_cobblestone>*8,[
 recipes.addShaped("permafrost",<quark:biome_cobblestone:1>*8,[
 [<ore:cobblestone>,<forestry:pollen:1>],
 [<forestry:pollen:1>,<ore:cobblestone>]]);
-recipes.addShaped("cavecrystal",<quark:crystal:0>,[
-[<minecraft:prismarine_crystals>,<minecraft:stained_glass:0>],
-[<minecraft:stained_glass:0>,<minecraft:prismarine_crystals>]]);
 
 recipes.addShaped("limestone_furnace",<minecraft:furnace>,[
 [limestone,limestone,limestone],

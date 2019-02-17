@@ -109,7 +109,7 @@
             "type": "item",
             "io-type": "output",
             "item": "techreborn:part@17",
-			"nbt":{"Lore":["Phenomenal!"],"Name":"Fault Current Limiter"},
+			"nbt":{"display":{"Lore":["Phenomenal!"],"Name":"Fault Current Limiter"}},
             "amount": 2
         }
     ]

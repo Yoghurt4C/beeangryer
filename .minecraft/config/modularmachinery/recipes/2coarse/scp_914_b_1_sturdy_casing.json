@@ -91,7 +91,7 @@
 			"type": "item",
             "io-type": "output",
             "item": "forestry:sturdy_machine",
-			"nbt": {"Lore":["Not the sturdiest."],"display":{"Name":"Sturdier Casing"}},
+			"nbt": {"display":{"Lore":["Not the sturdiest."],"Name":"Sturdier Casing"}},
             "amount": 1
         }
     ]

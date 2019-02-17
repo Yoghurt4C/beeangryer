@@ -109,7 +109,7 @@
             "type": "item",
             "io-type": "output",
             "item": "extrabees:alveary@0",
-			"nbt":{"Lore":["This is what you wanted, yes?"],"Name":"Biological Indocrinator"},
+			"nbt":{"display":{"Lore":["This is what you wanted, yes?"],"Name":"Mechanical Biological Indocrinator"}},
             "amount": 1
         }
     ]

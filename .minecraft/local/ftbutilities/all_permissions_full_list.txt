@@ -7980,6 +7980,7 @@ command.blockdata
 command.bnbgaminglib.bnb
 command.botania.botania-open
 command.botania.botania-share
+command.botania.botania-skyblock-spread
 command.botania_tweaks.botaniatweaks-debug-stats
 command.botania_tweaks.botaniatweaks-reset-stats
 command.buildinggadgets.deleteblockmaps

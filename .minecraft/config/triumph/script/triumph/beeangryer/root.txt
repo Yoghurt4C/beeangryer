@@ -1,0 +1,25 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<forestry:bee_drone_ge, meta:0, count:1, nbt:{MaxH:30,Mate:{Chromosomes:[{UID1:"gendustry.bee.Manasteel",UID0:"gendustry.bee.Manasteel",Slot:0b},{UID1:"forestry.speedSlowest",UID0:"forestry.speedSlowest",Slot:1b},{UID1:"forestry.lifespanShort",UID0:"forestry.lifespanShort",Slot:2b},{UID1:"forestry.fertilityLow",UID0:"forestry.fertilityLow",Slot:3b},{UID1:"forestry.toleranceBoth2",UID0:"forestry.toleranceBoth2",Slot:4b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:5b},{UID1:"forestry.toleranceBoth2",UID0:"forestry.toleranceBoth2",Slot:6b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:7b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:8b},{UID1:"gendustry.flowersBotaniaFlower",UID0:"gendustry.flowersBotaniaFlower",Slot:9b},{UID1:"forestry.floweringSlowest",UID0:"forestry.floweringSlowest",Slot:10b},{UID1:"forestry.territoryAverage",UID0:"forestry.territoryAverage",Slot:11b},{UID1:"forestry.effectNone",UID0:"forestry.effectNone",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[{UID1:"gendustry.bee.Manasteel",UID0:"gendustry.bee.Manasteel",Slot:0b},{UID1:"forestry.speedSlowest",UID0:"forestry.speedSlowest",Slot:1b},{UID1:"forestry.lifespanShort",UID0:"forestry.lifespanShort",Slot:2b},{UID1:"forestry.fertilityLow",UID0:"forestry.fertilityLow",Slot:3b},{UID1:"forestry.toleranceBoth2",UID0:"forestry.toleranceBoth2",Slot:4b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:5b},{UID1:"forestry.toleranceBoth2",UID0:"forestry.toleranceBoth2",Slot:6b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:7b},{UID1:"forestry.boolTrue",UID0:"forestry.boolTrue",Slot:8b},{UID1:"gendustry.flowersBotaniaFlower",UID0:"gendustry.flowersBotaniaFlower",Slot:9b},{UID1:"forestry.floweringSlowest",UID0:"forestry.floweringSlowest",Slot:10b},{UID1:"forestry.territoryAverage",UID0:"forestry.territoryAverage",Slot:11b},{UID1:"forestry.effectNone",UID0:"forestry.effectNone",Slot:12b}]}}>)
+
+//Set title String
+setTitle("Bee Angryer")
+
+//Set description String
+setDescription("If you see this, it means the advancements work... probably.")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:bee_combs.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(0,0)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("location", "minecraft:location")

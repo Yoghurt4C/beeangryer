@@ -2,8 +2,9 @@
 .minecraft/backups/
 .minecraft/coremods/
 .minecraft/config/triumph/documentation/
-.minecraft/config/triumph/script/
+.minecraft/config/triumph/script/triumph/example/
 .minecraft/config/triumph/functions/
+,minecraft/config/triumph/json/
 .minecraft/logs/
 .minecraft/local/ftbutilities/backups.json
 .minecraft/crash-reports/

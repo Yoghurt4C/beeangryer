@@ -91,7 +91,7 @@
             "type": "item",
             "io-type": "output",
             "item": "forestry:chipsets@0",
-			"nbt": {"T":"0s","display":{"Lore":["Really worth it!"],"Name":"Pointlessly Overcomplicated Circuit Board"}},
+			"nbt": {"T":"0s","display":{"Lore":["A marvel of engineering!"],"Name":"Pointlessly Overcomplicated Circuit Board"}},
             "amount": 1
         }
     ]
