@@ -41,13 +41,17 @@ val goneForever=[
 <modularmachinery:blockfluidoutputhatch:1>,
 <modularmachinery:blockfluidinputhatch:4>,
 <modularmachinery:blockfluidoutputhatch:4>,
-<binniecore:glass>
+<binniecore:glass>,
+<thermalexpansion:device:2>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
 JEI.hideCategory("thermalexpansion.factorizer_split");
 JEI.hideCategory("thermalexpansion.centrifuge_mobs");
 JEI.hideCategory("TechReborn.AlloySmelter");
+JEI.hideCategory("ie.blastfurnace");
+JEI.hideCategory("ie.blastfurnace.fuel");
+JEI.hideCategory("ie.alloysmelter");
 
 //heuristic removal array, put in `<modid:item>` with commas after each, except the last, for removal
 val rmSpecArray=[
@@ -157,7 +161,7 @@ val rmIDArray=[
 "binniecore:compartment",
 "forestry:bee_house",
 "minecraft:furnace",
-"minecraft:cauldron",
+//"minecraft:cauldron",
 "forestry:charcoal_block",
 "thermalfoundation:storage_resource",
 "chisel:charcoal",
@@ -178,7 +182,18 @@ val rmIDArray=[
 "minecraft:andesite",
 "quark:basalt_1",
 "hatchery:mealpulp_recipe",
-"quark:hopper"
+"quark:hopper",
+"forestry:ash_brick",
+"buildinggadgets:templatemanager",
+"buildinggadgets:buildingtool",
+"buildinggadgets:exchangingtool",
+"buildinggadgets:copypastetool",
+"buildinggadgets:destructiontool",
+"roost:catcher",
+"fluidcows:halter",
+"hatchery:egg_null_recipe",
+"appliedenergistics2:misc/grindstone",
+"immersiveengineering:tool/hammer"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

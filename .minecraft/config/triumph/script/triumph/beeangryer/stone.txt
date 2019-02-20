@@ -1,0 +1,9 @@
+setIcon(<minecraft:stone>)
+setTitle("Working The Cracks")
+setDescription("Burn some cobblestone to get your first Stone. This process takes a while.")
+
+addParent("triumph:beeangryer/charcoal")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stone>)

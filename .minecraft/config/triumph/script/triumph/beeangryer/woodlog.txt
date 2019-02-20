@@ -1,0 +1,10 @@
+setIcon(<minecraft:log>)
+setTitle("Lonely Growing Star")
+setDescription("Clap your stump until a sapling gets inspired to grow, then cut it down.")
+
+addParent("triumph:beeangryer/sapling")
+
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<ore:logWood>)

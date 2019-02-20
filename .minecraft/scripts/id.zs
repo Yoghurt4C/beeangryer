@@ -7,13 +7,13 @@ var menrilresin=<liquid:menrilresin>;
 var menril_berries=<integrateddynamics:menril_berries>;
 var menril_propolis=<contenttweaker:menril_propolis>;
 
-recipes.remove(<integrateddynamics:squeezer>);
-recipes.addShaped(<integrateddynamics:squeezer>,[
+//recipes.remove(<integrateddynamics:squeezer>);
+recipes.addShaped("stone_squeezer",<integrateddynamics:squeezer>.withTag({display:{Name:"Stone Squeezer"}}),[
 [<ore:fenceWood>,<minecraft:stone_slab>,<ore:fenceWood>],
 [<ore:fenceWood>,null,<ore:fenceWood>],
 [<ore:plankWood>,<minecraft:stone_slab>,<ore:plankWood>]]);
-recipes.remove(<integrateddynamics:drying_basin>);
-recipes.addShaped(<integrateddynamics:drying_basin>,[
+//recipes.remove(<integrateddynamics:drying_basin>);
+recipes.addShaped("wooden_basin",<integrateddynamics:drying_basin>.withTag({display:{Name:"Wooden Drying Basin"}}),[
 [<ore:logWood>,<ore:dyeBlack>,<ore:logWood>],
 [<ore:logWood>,null,<ore:logWood>],
 [<ore:fenceWood>,<ore:slabWood>,<ore:fenceWood>]]);

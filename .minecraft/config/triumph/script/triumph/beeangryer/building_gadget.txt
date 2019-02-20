@@ -1,0 +1,10 @@
+setIcon(<buildinggadgets:buildingtool>)
+setTitle("Block Pattern Instater")
+setDescription("Useful for placing down rows/columns/patterns of the same block.")
+
+addParent("triumph:beeangryer/plastic")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:buildingtool>)

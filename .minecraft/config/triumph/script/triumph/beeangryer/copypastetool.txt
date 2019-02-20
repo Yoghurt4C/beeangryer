@@ -1,0 +1,10 @@
+setIcon(<buildinggadgets:copypastetool>)
+setTitle("Too Lazy To Build Multiblocks")
+setDescription("Why build when you can paste?.. Most of it.")
+
+addParent("triumph:beeangryer/plastic")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:copypastetool>)

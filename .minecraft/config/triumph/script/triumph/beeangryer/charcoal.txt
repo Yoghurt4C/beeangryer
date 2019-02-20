@@ -1,0 +1,11 @@
+setIcon(<quark:charcoal_block>)
+setTitle("Barbeque Shoes: On")
+setDescription("Cobble together a Block of Charcoal with drops obtained from a Charcoal Pile. See Guidebook for more information.")
+
+addParent("triumph:beeangryer/firestarter")
+addParent("triumph:beeangryer/crafting")
+setFrameType("GOAL")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<quark:charcoal_block>)

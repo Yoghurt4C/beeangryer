@@ -1,0 +1,39 @@
+{
+    "name": "What Are Eggshells?",
+    "icon": "contenttweaker:eggshells",
+    "category": "beginnings",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"spotlight",
+			"item":"contenttweaker:eggshells",
+			"title":"Some Egg Shells",
+			"link_recipe":true,
+			"text":"fill in later"
+		},
+		{
+			"type":"burning+cauldron",
+			"header":"Fired Egg Shells",
+			"input1":"contenttweaker:eggshells",
+			"time":"10 sec",
+			"output1":"contenttweaker:firedeggshells",
+			"text":"Egg Shells can be burned (or smelted) into Fired Egg Shells, which are a necessary component in creating Lime.",
+			"header2":"Soggy Lime",
+			"input3":"contenttweaker:firedeggshells",
+			"input4":"ore:dustClay",
+			"liquid3":"minecraft:textures/blocks/water_still.png",
+			"liquid3name":"Water",
+			"liquid3tooltip":"&71L",
+			"liquid4":"base:textures/fluids/liquid.png",
+			"liquid4name":"Dissolved Egg Shells",
+			"liquid4tooltip":"&71L",
+			"liquid4tooltip2":"&7250ml per Clay Dust",
+			"output2":"contenttweaker:soggylime"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:crushedeggshells",
+			"text":"Crushed Egg Shells can be used in place of Bone Meal for making $(#38BC00)Floral Fertilizer/$.$(br)Also, they're rich enough in calcium for you to be able to use them to regrow grass, with a small chance of instantly growing either a Poppy or a      Dandelion *on* grass!" 
+		}
+    ]
+}

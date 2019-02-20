@@ -1,0 +1,289 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-3
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":true,
+			"x": 5,
+			"y": 14
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed":true,
+			"x": 44,
+			"y": 14
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"framed":true,
+			"x": 5,
+			"y": 81
+		},
+		{
+			"type": "item",
+			"item": "#input4",
+			"framed":true,
+			"x": 44,
+			"y": 81
+		},
+		{
+			"type":"image",
+			"image":"patchouli:textures/gui/cauldron.png",
+			"width":64,
+			"height":16,
+			"texture_width":64,
+			"texture_height":16,
+			"x":0,
+			"y":47
+		},
+		{
+			"type":"image",
+			"image":"patchouli:textures/gui/cauldron.png",
+			"width":64,
+			"height":16,
+			"texture_width":64,
+			"texture_height":16,
+			"x":0,
+			"y":114
+		},
+		{
+			"type": "image",
+			"image": "#liquid1",
+			"width":10,
+			"height":12,
+			"texture_width":16,
+			"texture_height":512,
+			"x": 8,
+			"y": 47
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#liquid1name","#liquid1tooltip"],
+			"width":10,
+			"height":12,
+			"x": 8,
+			"y": 47
+		},
+		{
+			"type": "image",
+			"image": "#liquid2",
+			"width":10,
+			"height":12,
+			"texture_width":16,
+			"texture_height":512,
+			"u":0,
+			"v":0,
+			"x": 47,
+			"y": 47
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#liquid2name","#liquid2tooltip","#liquid2tooltip2"],
+			"width":10,
+			"height":12,
+			"x": 47,
+			"y": 47
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_loopback.png",
+			"width":32,
+			"height":16,
+			"texture_width":32,
+			"texture_height":16,
+			"x": 16,
+			"y": 62,
+			"scale":1
+		},
+		{
+			"type": "image",
+			"image": "#liquid3",
+			"width":10,
+			"height":12,
+			"texture_width":16,
+			"texture_height":512,
+			"x": 8,
+			"y": 114
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#liquid3name","#liquid3tooltip","#liquid3tooltip2"],
+			"width":10,
+			"height":12,
+			"u":0,
+			"v":0,
+			"x": 8,
+			"y": 114
+		},
+		{
+			"type": "image",
+			"image": "#liquid4",
+			"width":10,
+			"height":12,
+			"texture_width":16,
+			"texture_height":512,
+			"u":0,
+			"v":0,
+			"x": 47,
+			"y": 114
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#liquid4name","#liquid4tooltip","#liquid4tooltip2"],
+			"width":10,
+			"height":12,
+			"x": 47,
+			"y": 114
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_down.png",
+			"width":16,
+			"height":16,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 7.5,
+			"y": 34,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_down.png",
+			"width":16,
+			"height":16,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 46.5,
+			"y": 34,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_down.png",
+			"width":16,
+			"height":16,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 7.5,
+			"y": 101,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_down.png",
+			"width":16,
+			"height":16,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 46.5,
+			"y": 101,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 23.5,
+			"y": 45,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 23.5,
+			"y": 111,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 62.5,
+			"y": 111,
+			"scale":1.25
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":true,
+			"x": 85,
+			"y": 114
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":15,
+			"height":15,
+			"u":51,
+			"v":76,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 8,
+			"y": 64,
+			"scale":0.65
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":15,
+			"height":15,
+			"u":51,
+			"v":76,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 47,
+			"y": 64,
+			"scale":0.65
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":15,
+			"height":15,
+			"u":51,
+			"v":76,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 8,
+			"y": 131,
+			"scale":0.65
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":15,
+			"height":15,
+			"u":51,
+			"v":76,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 47,
+			"y": 131,
+			"scale":0.65
+		}
+	]
+}

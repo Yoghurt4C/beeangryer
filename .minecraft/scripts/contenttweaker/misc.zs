@@ -4,7 +4,8 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Commands;
-
+import crafttweaker.entity.IEntityAnimal;
+import crafttweaker.world.IRayTraceResult;
 
 var mutandis = VanillaFactory.createItem("mutandis");
 	mutandis.register();
@@ -14,6 +15,9 @@ var eggshells = VanillaFactory.createItem("eggshells");
 
 var firedeggshells = VanillaFactory.createItem("firedeggshells");
 	firedeggshells.register();
+	
+var crushedeggshells = VanillaFactory.createItem("crushedeggshells");	
+	crushedeggshells.register();
 	
 var menrilpropolis = VanillaFactory.createItem("menril_propolis");
 	menrilpropolis.register();

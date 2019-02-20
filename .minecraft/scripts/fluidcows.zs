@@ -43,3 +43,8 @@ for tag in fluidCowTagArray{
 	recipes.addShapeless(<fluidcows:cow_displayer>.withTag({fluid: tag}),
 	[<fluidcows:cow_halter>.withTag({t_fluid: tag}).giveBack(<fluidcows:cow_halter>),
 	<tconstruct:piggybackpack>]);}
+	
+recipes.addShaped("cow_halter",<fluidcows:cow_halter>,[
+[<hatchery:plastic>,<minecraft:wheat>,<hatchery:plastic>],
+[<minecraft:leather>,<ore:stickWood>,<minecraft:leather>],
+[null,<ore:stickWood>,null]]);

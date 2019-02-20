@@ -147,8 +147,8 @@
       "metaID": 9
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:redchicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:purplechicken": {
     "name": "PurpleChicken",
@@ -163,8 +163,8 @@
       "metaID": 5
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:bluechicken",
-    "parent_2": "chickens:redchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:orangechicken": {
     "name": "OrangeChicken",
@@ -179,8 +179,8 @@
       "metaID": 14
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:redchicken",
-    "parent_2": "chickens:yellowchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:lightbluechicken": {
     "name": "LightBlueChicken",
@@ -195,8 +195,8 @@
       "metaID": 12
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:whitechicken",
-    "parent_2": "chickens:bluechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:limechicken": {
     "name": "LimeChicken",
@@ -211,8 +211,8 @@
       "metaID": 10
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:greenchicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:graychicken": {
     "name": "GrayChicken",
@@ -227,8 +227,8 @@
       "metaID": 8
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:blackchicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:cyanchicken": {
     "name": "CyanChicken",
@@ -243,8 +243,8 @@
       "metaID": 6
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:bluechicken",
-    "parent_2": "chickens:greenchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:silverdyechicken": {
     "name": "SilverDyeChicken",
@@ -259,8 +259,8 @@
       "metaID": 7
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:graychicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:magentachicken": {
     "name": "MagentaChicken",
@@ -275,8 +275,8 @@
       "metaID": 13
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:purplechicken",
-    "parent_2": "chickens:pinkchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:flintchicken": {
     "name": "FlintChicken",
@@ -291,8 +291,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "",
-    "parent_2": ""
+    "parent_1": "chickens:silverdyechicken",
+    "parent_2": "chickens:graychicken"
   },
   "chickens:quartzchicken": {
     "name": "QuartzChicken",
@@ -323,8 +323,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "",
-    "parent_2": ""
+    "parent_1": "chickens:brownchicken",
+    "parent_2": "chickens:greenchicken"
   },
   "chickens:sandchicken": {
     "name": "SandChicken",
@@ -339,8 +339,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "",
-    "parent_2": ""
+    "parent_1": "chickens:yellowchicken",
+    "parent_2": "chickens:whitechicken"
   },
   "chickens:stringchicken": {
     "name": "StringChicken",
@@ -351,7 +351,7 @@
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "minecraft:spider_eye",
+      "itemID": "minecraft:string",
       "metaID": 0
     },
     "spawn_type": "NONE",

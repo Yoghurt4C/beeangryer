@@ -1,0 +1,29 @@
+{
+    "name": "Mutandis",
+    "icon": "contenttweaker:mutandis",
+    "category": "beginnings",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":""
+		},
+		{
+			"type":"charset_cauldron_4steps",
+			"header":"Mutandis",
+			"input1":"minecraft:sapling:0",
+			"liquid1":"minecraft:textures/blocks/water_still.png",
+			"liquid1name":"Water","liquid1tooltip":"&71L",
+			"input2":"botania:manaresource:6",
+			"liquid2":"base:textures/fluids/liquid.png",
+			"liquid2name":"Sapling Slumgullion","liquid2tooltip":"&71L",
+			"input3":"techreborn:dust:8",
+			"liquid3":"base:textures/fluids/liquid.png",
+			"liquid3name":"Excited Sapling Slumgullion","liquid3tooltip":"&71L",
+			"input4":"minecraft:egg",
+			"liquid4":"base:textures/fluids/liquid.png",
+			"liquid4name":"Enriched Excited Sapling Slumgullion","liquid4tooltip":"&71L",
+			"output":"contenttweaker:mutandis#16"
+		}
+    ]
+}

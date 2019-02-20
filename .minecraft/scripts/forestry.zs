@@ -19,7 +19,6 @@ var plankWood=<ore:plankWood>;
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
 
-
 recipes.replaceAllOccurences(<thermalfoundation:material:257>,<extrabees:misc:0>, <*>.only(function(item) {
     return !isNull(item) & !<thermalexpansion:dynamo:2>.matches(item)& !<thermalexpansion:augment:288>.matches(item)& !<thermalexpansion:augment:432>.matches(item);
 }));
@@ -198,7 +197,24 @@ null,
 mods.integrateddynamics.MechanicalSqueezer.addRecipe(
 item,
 null,
-<liquid:seed.oil>*10);}
+<liquid:seed.oil>*10);
+mods.rustic.CrushingTub.addRecipe(<liquid:seed.oil>*10, null, item);}
+val dumbSeeds as IItemStack[]=[
+<immersiveengineering:seed>,
+<rustic:tomato_seeds>,
+<rustic:apple_seeds>,
+<rustic:chili_pepper_seeds>];
+
+for dumbseed in dumbSeeds{
+mods.integrateddynamics.Squeezer.addRecipe(
+dumbseed,
+null,
+<liquid:seed.oil>*10);
+mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+dumbseed,
+null,
+<liquid:seed.oil>*10);
+mods.rustic.CrushingTub.addRecipe(<liquid:seed.oil>*10, null, dumbseed);}
 
 recipes.addShapeless(<forestry:arboretum>.withTag({display: {Lore: ["Managed!"], Name: "Automated Timber Handler"}}),
 [<forestry:arboretum:1>.withTag({display: {Lore: ["Manual!"], Name: "Automated Timber Handler"}})]);

@@ -1,0 +1,12 @@
+setIcon(<roost:chicken,nbt:{Chicken:"minecraft:chicken"}>)
+setTitle("Ganbatte Chicken-San")
+setDescription("Obtain an Egg by using The Great Egg, then hatch and breed two chickens together.")
+
+addParent("triumph:beeangryer/the_great_egg")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("bredChickens", "minecraft:bred_animals")
+criteria.setParentType("minecraft:chicken")
+criteria.setPartnerType("minecraft:chicken")
+criteria.setChildType("minecraft:chicken")

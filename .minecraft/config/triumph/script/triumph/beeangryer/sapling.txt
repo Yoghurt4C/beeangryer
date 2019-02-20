@@ -1,0 +1,10 @@
+setIcon(<minecraft:sapling>)
+setTitle("A New Beginning")
+setDescription("An arrangement of Living Roots can form a sapling.")
+
+addParent("triumph:beeangryer/livingroot")
+
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<ore:treeSapling>)

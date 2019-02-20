@@ -1,5 +1,12 @@
 import crafttweaker.item.IItemStack;
 
+recipes.addShaped("stonebound_crushing_tub",<rustic:crushing_tub>.withTag({display:{Name:"Stone-bound Crushing Tub"}}),[
+[<ore:slabWood>,null,<ore:slabWood>],
+[<ore:rodStone>,null,<ore:rodStone>],
+[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
+
+for seed in <ore:seed>.items{mods.rustic.CrushingTub.addRecipe(<liquid:seed.oil>*10, null, seed);}
+
 <rustic:grape_stem>.addTooltip(format.green("Rarely harvested from "+format.italic("Vines")+" by using"));
 <rustic:grape_stem>.addTooltip(format.green("Hoes(Iron/Diamond), Mattocks and Kamas"));
 

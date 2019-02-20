@@ -1,0 +1,18 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("Artisan Appliances")
+setDescription("Craft all the things you need to manufacture items and tools. This list includes: any Crafting Table/Station, any Stencil Table, any Part Builder, a Tool Station and a Pattern Chest.")
+
+addParent("triumph:beeangryer/woodlog")
+
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<ore:workbench>)
+criteria = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables,meta:1>)
+criteria = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables,meta:2>)
+criteria = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables,meta:3>)
+criteria = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables,meta:4>)

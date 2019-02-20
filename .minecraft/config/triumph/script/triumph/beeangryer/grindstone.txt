@@ -1,0 +1,11 @@
+setIcon(<appliedenergistics2:grindstone>)
+setTitle("Yet Another Type Of Grind")
+setDescription("Get a ''Cogwheel'' Grindstone and a Wooden Crank. You won't be using it *too* much.")
+
+addParent("triumph:beeangryer/id_basics")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:grindstone>)
+criteria = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:crank>)

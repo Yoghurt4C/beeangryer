@@ -1,20 +1,64 @@
 {
-	"block_pools":[		
+	"block_pools":[	
 		{
-		"name":"EndDragon",
+		"name":"Dirt2Grass",
 		"type":{
-			"type":"block",
-			"name":"minecraft:end_stone"},
+				"type":"block",
+				"name":"minecraft:dirt"},
 		"clicktype":"rightclick",
+		"disableJEI":true,
 		"properties":[
-			{"type":"require_sneak"},
-			{"type":"require_item",
-			"name":"appliedenergistics2:material",
-			"meta":46},
-			{"type":"use_command",
-			"name":"summon minecraft:ender_dragon ~ ~ ~"}
-			]
-		},
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"contenttweaker:crushedeggshells"},
+				{"type":"play_sound",
+				"name":"block.grass.hit"},
+				{"type":"consume_block",
+				"chance":50,
+				"name":"minecraft:grass"}]},
+		{
+		"name":"GetFlowers",
+		"type":{
+				"type":"block",
+				"name":"minecraft:grass"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"contenttweaker:crushedeggshells"},
+				{"type":"play_sound",
+				"name":"block.grass.step"},
+				{"type":"conditional_effect",
+				"condition":{"type":"random_chance","chance":25},
+				"effects":[{
+					"type":"place_block_structure",
+					"blocks":
+						{"name":"minecraft:red_flower",
+						"positions":[{"x":0,"y":1,"z":0}]}},
+						{"type":"spawn_particles",
+						"name":"spell",
+						"amount":4,
+						"xOffset":1.0,
+						"yOffset":50.0,
+						"zOffset":1.0,
+						"speed":2.0,
+						"partical_args":[0,20,0]}]},
+				{"type":"conditional_effect",
+				"condition":{"type":"random_chance","chance":25},
+				"effects":[{
+					"type":"place_block_structure",
+					"blocks":
+						{"name":"minecraft:yellow_flower",
+						"positions":[{"x":0,"y":1,"z":0}]}
+				},{"type":"spawn_particles",
+						"name":"spell",
+						"amount":4,
+						"xOffset":1.0,
+						"yOffset":50.0,
+						"zOffset":1.0,
+						"speed":2.0,
+						"partical_args":[0,20,0]}]}]},
 		{
 		"name":"ClayPanning",
 		"type":{
@@ -27,7 +71,7 @@
 				{"type":"require_item",
 				"name":"minecraft:bowl"},
 				{"type":"consume_block",
-				"chance":0.1},
+				"chance":0.5},
 				{"type":"play_sound",
 				"name":"block.sand.break",
 				"volume":0.4},
@@ -41,11 +85,11 @@
 		"drops":[{
 				"name":"techreborn:smalldust",
 				"meta":12,
-				"chance":7.0},{
+				"chance":24.0},{
 				"name":"contenttweaker:eggshells",
-				"chance":7.0},{
+				"chance":6.0},{
 				"name":"hatchery:feather_fiber",
-				"chance":7.0}]
+				"chance":3.0}]
 			},
 			{
 		"name":"MutandisFerns",

@@ -1,0 +1,11 @@
+setIcon(<minecraft:wheat>)
+setTitle("Reap What You Sow")
+setDescription("Collect Wheat after planting wheat Seeds, or get lucky while handling a Normie Crop. Use a Mattock to till some dirt.")
+
+addParent("triumph:beeangryer/seeds")
+addParent("triumph:beeangryer/ticon_mattock")
+//setRequiresParents()
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat>)

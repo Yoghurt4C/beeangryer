@@ -1,0 +1,8 @@
+setIcon(<botania:fertilizer>)
+setTitle(",,,And A New Dawn")
+setDescription("Procure some Floral Fertilizer.")
+
+addParent("triumph:beeangryer/livingroot")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:fertilizer>)

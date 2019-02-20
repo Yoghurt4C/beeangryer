@@ -1,0 +1,8 @@
+setIcon(<botania:manaresource,meta:21>)
+setTitle("Scrapper")
+setDescription("Thoroughly inspect soil for traces of pebbles.")
+
+addParent("triumph:beeangryer/root")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource, meta:21>)

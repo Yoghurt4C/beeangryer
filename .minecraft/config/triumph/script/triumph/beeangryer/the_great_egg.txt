@@ -1,0 +1,10 @@
+setIcon(<modularmachinery:blockcontroller>)
+setTitle("A New Hand Touches The Egg")
+setDescription("Construct The Great Egg and right click its controller when it's finished. Consult the Guidebook for lore and information.")
+
+addParent("triumph:beeangryer/plastic")
+setFrameType("CHALLENGE")
+setRequirements("all")
+
+criteria = addCriteria("clickedBlock1", "triumph:right_click_block")
+criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:the_great_egg", status:1}>)

@@ -2,6 +2,13 @@ import mods.inworldcrafting.FireCrafting;
 import mods.inworldcrafting.FluidToItem;
 
 //FireCrafting.addRecipe(IItemStack output, IIngredient inputItem, @Optional int ticks);
+FireCrafting.addRecipe(<minecraft:stone>,
+ <minecraft:cobblestone>*4,
+ 600);
+FireCrafting.addRecipe(<forestry:ash>*4,
+ <ore:logWood>*6,
+ 200);
+
 FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1}),
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1}),
  200);

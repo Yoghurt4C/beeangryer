@@ -1,7 +1,7 @@
 import mods.charset.Cauldron;
 
 var stone=<ore:stone>;
-recipes.addShaped("stonecauldron",<minecraft:cauldron>,[
+recipes.addShaped("stonecauldron",<minecraft:cauldron>.withTag({display:{Name:"Stone Cauldron"}}),[
 [stone,null,stone],
 [stone,null,stone],
 [<quark:stone_wall>,<minecraft:stone_slab>,<quark:stone_wall>]]);
@@ -134,6 +134,8 @@ Cauldron.addItemRecipe(
 
 furnace.addRecipe(<charset:shard>,<ore:sand>,0.1);
 
+mods.jei.JEI.addDescription(<contenttweaker:soggylime>,[
+"Necessary for progression, and somewhat of a pain to obtain. See Guidebook for an in-depth breakdown, or look at the tooltip."]);
 <contenttweaker:soggylime>.addTooltip(format.gray(format.italic("Hold SHIFT for a recipe...")));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("1. Pan sand for "+format.gold(format.underline("Egg Shells"+"."))));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("2. Make them spend some time in "+format.red("heat")+"."));

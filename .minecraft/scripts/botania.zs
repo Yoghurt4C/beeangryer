@@ -7,6 +7,13 @@ import mods.botaniatweaks.AgglomerationRecipe;
 import mods.botania.ManaInfusion;
 import mods.botania.Orechid;
 import mods.botania.PureDaisy;
+
+recipes.addShapeless("crushedeggshells",<contenttweaker:crushedeggshells>,[<contenttweaker:eggshells>,<botania:pestleandmortar>]);
+mods.jei.JEI.addDescription(<contenttweaker:crushedeggshells>,["Somewhat useful for a struggling survivalist's needs. See Guidebook for more information."]);
+recipes.addShapeless("fertilizer_egg_powder",<botania:fertilizer>*3,[
+<contenttweaker:crushedeggshells>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>]);
+recipes.addShapeless("fertilizer_egg_vanilla",<botania:fertilizer>,[
+<contenttweaker:crushedeggshells>,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:1>,<minecraft:dye:1>]);
 //output IItemStack
 //inputs IIngredient[]
 Agglomeration.removeDefaultRecipe();
@@ -76,3 +83,5 @@ val orechidRm as IOreDictEntry[]=[
 <ore:oreMithril>];
 for ore in orechidRm{Orechid.removeOre(ore);}
 mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);
+mods.botania.OrechidIgnem.removeOre(<ore:oreArdite>);
+mods.botania.OrechidIgnem.removeOre(<ore:oreCobalt>);

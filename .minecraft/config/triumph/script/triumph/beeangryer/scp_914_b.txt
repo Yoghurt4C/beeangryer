@@ -5,23 +5,24 @@ setIcon(<modularmachinery:blockcontroller>)
 setTitle("SCP-914-B, Assembled")
 
 //Set description String
-setDescription("Right click the controller of SCP-914-B while it's set to any of the correct modes.")
+setDescription("Right click the controller of SCP-914-B while it's set to any of the possible modes.")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("triumph:beeangryer/root")
+setFrameType("CHALLENGE")
 
-//Set the position
-setPos(0,0)
-
-//Hide the connection lines, so I can have a pretty shape
-hideLines()
-
-//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
-
-//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria = addCriteria("clickedBlock1", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_1", status:1}>)
+
+criteria = addCriteria("clickedBlock3", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_3", status:1}>)
+
+criteria = addCriteria("clickedBlock7", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_7", status:1}>)
+
+criteria = addCriteria("clickedBlock11", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_11", status:1}>)
+
+criteria = addCriteria("clickedBlock15", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_15", status:1}>)
+setRequirements("any")

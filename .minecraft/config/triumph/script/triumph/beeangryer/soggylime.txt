@@ -1,0 +1,11 @@
+setIcon(<contenttweaker:soggylime>)
+setTitle("Mortar and Egg")
+setDescription("Mix up some Lime in a Cauldron. See Guidebook or JEI Information for tips.")
+
+addParent("triumph:beeangryer/panning")
+addParent("triumph:beeangryer/cauldron")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:soggylime>)

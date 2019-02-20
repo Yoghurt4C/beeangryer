@@ -1,0 +1,20 @@
+{
+    "name": "Redstone Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:redstonechicken'}",
+    "category": "beginnings",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"iwc_4inputs",
+			"header":"Redstone Chicken",
+			"input1":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:pyritechicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:cinnabarchicken'}",
+			"liquid":"patchouli:textures/gui/chickenstock.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:redstonechicken'}"
+		}
+    ]
+}

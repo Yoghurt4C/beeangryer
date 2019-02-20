@@ -1,0 +1,11 @@
+setIcon(<botania:pestleandmortar>)
+setTitle("Rubbing It In")
+setDescription("Make a Pestle and Mortar to process petals into dye. This is very crucial.")
+
+addParent("triumph:beeangryer/mysticalflowers")
+addParent("triumph:beeangryer/crafting")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:pestleandmortar>)
+

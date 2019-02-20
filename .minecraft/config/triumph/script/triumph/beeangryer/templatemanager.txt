@@ -1,0 +1,10 @@
+setIcon(<buildinggadgets:templatemanager>)
+setTitle("Advanced Management")
+setDescription("In case you wish to load a Template into a Gadget, or don't want to craft a dozen paste gadgets.")
+
+addParent("triumph:beeangryer/copypastetool")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:templatemanager>)

@@ -1,0 +1,9 @@
+setIcon(<minecraft:bowl>)
+setTitle("Let's Go Bowling")
+setDescription("Bowls are very useful for panning and carrying water to a Petal Apothecary.")
+
+addParent("triumph:beeangryer/crafting")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bowl>)

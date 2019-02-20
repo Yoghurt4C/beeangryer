@@ -1,0 +1,11 @@
+setIcon(<hatchery:plastic>)
+setTitle("Feathery Synthetic")
+setDescription("Use your new furnace to smelt some Feather Fibers into valuable Organic Plastic.")
+
+addParent("triumph:beeangryer/furnace")
+addParent("triumph:beeangryer/panning")
+setFrameType("GOAL")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<hatchery:plastic>)

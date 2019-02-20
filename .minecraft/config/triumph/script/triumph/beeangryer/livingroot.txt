@@ -1,0 +1,8 @@
+setIcon(<botania:manaresource,meta:20>)
+setTitle("Root Loops")
+setDescription("Carefully build downwards to knock down some Living Root, and pick it up.")
+
+addParent("triumph:beeangryer/pebble")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource,meta:20>)

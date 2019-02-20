@@ -1,0 +1,9 @@
+setIcon(<minecraft:cauldron>)
+setTitle("Primitive Laundry")
+setDescription("Craft a ''Stone'' Cauldron.")
+
+addParent("triumph:beeangryer/stone")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cauldron>)

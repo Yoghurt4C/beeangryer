@@ -1,6 +1,9 @@
 import crafttweaker.item.IItemStack;
 
 var limestone=<ore:stoneLimestone>;
+var plastic=<hatchery:plastic>;
+var circuitOrganic=<hatchery:circuit_board>;
+var monitor=<techreborn:part:24>;
 recipes.addShaped("firestarter",<contenttweaker:firestarter>,[
 [null,<ore:stickWood>],
 [<ore:stickWood>,<minecraft:wheat>]]);
@@ -19,11 +22,35 @@ recipes.addShaped("permafrost",<quark:biome_cobblestone:1>*8,[
 [<ore:cobblestone>,<forestry:pollen:1>],
 [<forestry:pollen:1>,<ore:cobblestone>]]);
 
+recipes.addShaped("ash_brick",<forestry:ash_brick>*3,[
+[<ore:dustAsh>,<ore:dustClay>,<ore:dustAsh>],
+[<ore:dustClay>,null,<ore:dustClay>],
+[<ore:dustAsh>,<ore:dustClay>,<ore:dustAsh>]]);
 recipes.addShaped("limestone_furnace",<minecraft:furnace>,[
 [limestone,limestone,limestone],
 [limestone,null,limestone],
 [limestone,limestone,limestone]]);
 <minecraft:furnace>.addShiftTooltip(format.	darkPurple(format.italic("How does this thing not melt?..")));
+recipes.addShaped("template_manager",<buildinggadgets:templatemanager>,[
+[plastic,monitor,plastic],
+[plastic,circuitOrganic,plastic],
+[plastic,<tconstruct:tooltables:4>,plastic]]);
+recipes.addShaped("building_gadget",<buildinggadgets:buildingtool>.withTag({mode: "BuildToMe", blockstate: {Name: "minecraft:air"}}),[
+[plastic,circuitOrganic,plastic],
+[<ore:dyeBlue>,monitor,<ore:dyeBlue>],
+[plastic,<ore:buttonWood>,plastic]]);
+recipes.addShaped("exchanging_gadget",<buildinggadgets:exchangertool>.withTag({mode: "Surface", range: 1, blockstate: {Name: "minecraft:air"}}),[
+[plastic,<ore:dyeGreen>,plastic],
+[circuitOrganic,monitor,<ore:dyeGreen>],
+[plastic,<ore:buttonWood>,plastic]]);
+recipes.addShaped("copy_paste_gadget",<buildinggadgets:copypastetool>.withTag({mode: "Copy"}),[
+[plastic,monitor,plastic],
+[<ore:dyeRed>,<ore:buttonWood>,<ore:dyeRed>],
+[plastic,circuitOrganic,plastic]]);
+recipes.addShaped("destruction_gadget",<buildinggadgets:destructiontool>.withTag({overlay: 1 as byte, fuzzy: 1 as byte}),[
+[<ore:dyeYellow>,monitor,plastic],
+[<ore:dyeBlack>,circuitOrganic,plastic],
+[<ore:dyeYellow>,<minecraft:stone_button>,plastic]]);
 
 furnace.addRecipe(<contenttweaker:firedeggshells>,<contenttweaker:eggshells>,0.1);
 //egg shell dissolving
@@ -35,6 +62,12 @@ mods.integrateddynamics.DryingBasin.addRecipe(<contenttweaker:soggylime>,  null,
 mods.integrateddynamics.DryingBasin.addRecipe(<techreborn:dust:12>,  <liquid:dissolvedeggshells>*250, <quark:limestone>, null, 1300);
 mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<contenttweaker:soggylime>,  null, <quark:limestone>, null, 1300);
 mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<techreborn:dust:12>,  <liquid:dissolvedeggshells>*250, <quark:limestone>, null, 1300);
+
+recipes.addShaped("cogwheel_grindstone",<appliedenergistics2:grindstone>,[
+[<ore:stone>,<ore:gearWood>,<ore:stone>],
+[<ore:gearStone>,<ore:stone>,<ore:gearStone>],
+[<ore:cobblestone>,<ore:gearStone>,<ore:cobblestone>]]);
+game.setLocalization("tile.appliedenergistics2.grindstone.name","Cogwheel Grindstone");
 
 mods.jei.JEI.addDescription(<quark:limestone>,[
 "How to obtain Limestone early on:

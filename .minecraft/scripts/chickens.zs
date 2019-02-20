@@ -78,29 +78,10 @@ recipes.addShaped(<chickens:henhouse>, [
   [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
 ]);
 
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {id: "chickens:flintchicken"}}), [
-  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
-  [<minecraft:flint>, <minecraft:egg>, <minecraft:flint>],
-  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {id: "chickens:sandchicken"}}), [
-  [<ore:sand>, <ore:sand>, <ore:sand>],
-  [<ore:sand>, <minecraft:egg>, <ore:sand>],
-  [<ore:sand>, <ore:sand>, <ore:sand>]]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {id: "chickens:logchicken"}}), [
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
-  [<ore:logWood>, <minecraft:egg>, <ore:logWood>],
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {id: "chickens:soulsandchicken"}}), [
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>],
-  [<ore:soulSand>, <minecraft:egg>, <ore:soulSand>],
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]]);
+recipes.addShaped("chicken_catcher",<roost:catcher>,[
+[<hatchery:plastic>,<ore:seed>,<hatchery:plastic>],
+[<minecraft:feather>,<ore:stickWood>,<minecraft:feather>],
+[null,<ore:stickWood>,null]]);
   
  val squeezingChickens ={
 	<liquid:fluidsilicon>:<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})

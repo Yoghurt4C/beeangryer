@@ -1,0 +1,10 @@
+setIcon(<buildinggadgets:exchangertool>)
+setTitle("Quick Block Swapper")
+setDescription("Useful for swapping already placed rows/columns/patterns of the same block.")
+
+addParent("triumph:beeangryer/plastic")
+setFrameType("TASK")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<buildinggadgets:exchangertool>)

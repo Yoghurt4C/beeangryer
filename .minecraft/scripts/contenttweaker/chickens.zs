@@ -13,6 +13,27 @@ val bonechicken = ChickenFactory.createChicken("bonechicken", Color.fromHex("F8F
 		bonechicken.setParentTwo(ResourceLocation.create(""));
 		bonechicken.register();
 		
+val rottenchicken = ChickenFactory.createChicken("rottenchicken", Color.fromHex("BD6037"), <item:minecraft:rotten_flesh>);
+		rottenchicken.setForegroundColor(Color.fromHex("6F5C1B"));
+		rottenchicken.spawnType="NONE";
+		rottenchicken.setParentOne(ResourceLocation.create(""));
+		rottenchicken.setParentTwo(ResourceLocation.create(""));
+		rottenchicken.register();
+		
+val venomchicken = ChickenFactory.createChicken("venomchicken", Color.fromHex("0B3E49"), <item:minecraft:spider_eye>);
+		venomchicken.setForegroundColor(Color.fromHex("950C0C"));
+		venomchicken.spawnType="NONE";
+		venomchicken.setParentOne(ResourceLocation.create(""));
+		venomchicken.setParentTwo(ResourceLocation.create(""));
+		venomchicken.register();
+		
+val manurechicken = ChickenFactory.createChicken("manurechicken", Color.fromHex("61540A"), <item:hatchery:chickenmanure>);
+		manurechicken.setForegroundColor(Color.fromHex("B0A797"));
+		manurechicken.spawnType="NONE";
+		manurechicken.setParentOne(ResourceLocation.create(""));
+		manurechicken.setParentTwo(ResourceLocation.create(""));
+		manurechicken.register();
+		
 val lapischicken = ChickenFactory.createChicken("lapischicken", Color.fromHex("1F2EBA"), <item:minecraft:dye:4>);
 		lapischicken.setForegroundColor(Color.fromHex("5A6FDB"));
 		lapischicken.spawnType="NONE";
