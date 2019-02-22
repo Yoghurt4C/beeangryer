@@ -56,6 +56,7 @@ PureDaisy.removeRecipe(<botania:livingrock>);
 PureDaisy.removeRecipe(<minecraft:cobblestone>);
 PureDaisy.removeRecipe(<minecraft:sand>);
 PureDaisy.removeRecipe(<minecraft:obsidian>);
+PureDaisy.addRecipe(<contenttweaker:water_bowl_chicken>,<contenttweaker:bowl_snow_chicken>,200);
 
 val orechidRm as IOreDictEntry[]=[
 <ore:oreCoal>,

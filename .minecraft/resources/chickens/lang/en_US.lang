@@ -6,7 +6,7 @@ entity.GunpowderChicken.name=Creeping Chicken
 item.colored_egg.white.name=White Chicken Egg
 
 entity.aluminiumchicken.name=Aluminium Chicken
-entity.apatitechicken.name=Apatite Chicken
+entity.apatitechicken.name=Collophane Chicken
 entity.arditechicken.name=Ardite Chicken
 entity.basalzrodchicken.name=Basalz Rod Chicken
 entity.biotitechicken.name=Biotite Chicken
@@ -33,6 +33,7 @@ entity.engiprocessorchicken.name=Ipsum Chicken
 entity.enhancedgalgadorianchicken.name=Enhanced Galgadorian Chicken
 entity.fluixchicken.name=Fluix Chicken
 entity.galgadorianchicken.name=Galgadorian Chicken
+entity.goldenhen.name=The Golden Chicken
 entity.honeychicken.name=Buzzing Chicken
 entity.invarchicken.name=Invar Chicken
 entity.iridiumchicken.name=Iridium Chicken

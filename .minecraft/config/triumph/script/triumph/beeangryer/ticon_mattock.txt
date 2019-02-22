@@ -1,4 +1,4 @@
-setIcon(<minecraft:iron_axe>)
+setIcon(<tconstruct:mattock, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,HarvestLevelAxe:1,MiningSpeed:5.0f,FreeModifiers:3,HarvestLevelShovel:1,Durability:175,HarvestLevel:1,Attack:5.9f},Stats:{AttackSpeedMultiplier:1.0f,HarvestLevelAxe:1,MiningSpeed:5.0f,FreeModifiers:3,HarvestLevelShovel:1,Durability:175,HarvestLevel:1,Attack:5.9f},Special:{Categories:["tool","harvest","aoe"]},TinkerData:{Materials:["wood","flint","flint"],Modifiers:[]},Modifiers:[{identifier:"ecological",color:-7444965,level:1},{identifier:"crude",color:-9868951,level:2,crude2:1b}],Traits:["ecological","crude2"]}>)
 setTitle("Modular Tree Stumper")
 setDescription("Assemble a Tinker's Construct hatchet or mattock. The materials don't matter.")
 

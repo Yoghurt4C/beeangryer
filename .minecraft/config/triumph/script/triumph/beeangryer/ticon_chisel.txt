@@ -1,4 +1,4 @@
-setIcon(<chisel:chisel_iron>)
+setIcon(<tcomplement:chisel,nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:393,HarvestLevel:1,Attack:2.9f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:393,HarvestLevel:1,Attack:2.9f},Special:{Categories:["weapon","tool","aoe"]},TinkerData:{Materials:["wood","flint"],Modifiers:[]},Modifiers:[{identifier:"ecological",color:-7444965,level:1},{identifier:"crude",color:-9868951,level:2,crude2:1b}],Traits:["ecological","crude2"]}>)
 setTitle("Modular Environment Decorator")
 setDescription("Assemble a Tinker's Complement Chisel. The materials don't matter.")
 

@@ -16,7 +16,12 @@ var chiselPairs as string[IItemStack] = {
 	<chisel:blocksilver> : "blockSilver",
 	<chisel:blocksteel> : "blockSteel",
 	<chisel:blocktin> : "blockTin",
-	<chisel:blockuranium> : "blockUranium"};
+	<chisel:blockuranium> : "blockUranium",
+	//nm
+	<chisel:diamond>:"blockDiamond",
+	<chisel:emerald>:"blockEmerald",
+	<chisel:lapis>:"blockLapis"
+	};
 
 var chiselPairMeta as int[IItemStack] = {
 	<chisel:blockaluminum> : 7,
@@ -33,7 +38,10 @@ var chiselPairMeta as int[IItemStack] = {
 	<chisel:blocksilver> : 7,
 	<chisel:blocksteel> : 7,
 	<chisel:blocktin> : 7,
-	<chisel:blockuranium> : 7};
+	<chisel:blockuranium> : 7,
+	<chisel:diamond>: 12,
+	<chisel:emerald>: 14,
+	<chisel:lapis>: 9};
 
 for chiselBlock, variation in chiselPairs {
 	mods.chisel.Carving.removeGroup(variation);
@@ -94,3 +102,5 @@ Carving.addVariation("marble",<quark:world_stone_pavement:4>);
 Carving.addGroup("cavecrystal");
 for i in 0 .. 8{var cavecrystal=<quark:crystal>.definition.makeStack(i);
 Carving.addVariation("cavecrystal",cavecrystal);}
+Carving.addVariation("block_coal_coke",<immersiveengineering:stone_decoration:3>);
+Carving.addVariation("block_coal_coke",<thermalfoundation:storage_resource:1>);

@@ -1,4 +1,4 @@
-8000 nodes in total
+8026 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -686,6 +686,7 @@ ftbutilities.claims.block.edit.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.tunnel: OP
 ftbutilities.claims.block.edit.compactmachines3.wall: OP
 ftbutilities.claims.block.edit.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.edit.contenttweaker.bowl_snow_chicken: OP
 ftbutilities.claims.block.edit.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.edit.contenttweaker.chocolatemilk: OP
 ftbutilities.claims.block.edit.contenttweaker.chrome_molten: OP
@@ -704,6 +705,7 @@ ftbutilities.claims.block.edit.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.edit.contenttweaker.titanium_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.tungsten_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.tungstensteel_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.water_bowl_chicken: OP
 ftbutilities.claims.block.edit.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
@@ -1965,6 +1967,8 @@ ftbutilities.claims.block.edit.rustic.vase: OP
 ftbutilities.claims.block.edit.rustic.wildberry_bush: OP
 ftbutilities.claims.block.edit.rustic.wildberry_juice: OP
 ftbutilities.claims.block.edit.rustic.wind_thistle: OP
+ftbutilities.claims.block.edit.slashbladetic.blade_forge: OP
+ftbutilities.claims.block.edit.slashbladetic.blade_station: OP
 ftbutilities.claims.block.edit.spawnhere.spawn_block: OP
 ftbutilities.claims.block.edit.stevescarts.blockactivator: OP
 ftbutilities.claims.block.edit.stevescarts.blockadvdetector: OP
@@ -2966,6 +2970,7 @@ ftbutilities.claims.block.interact.compactmachines3.redstonetunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.tunnel: OP
 ftbutilities.claims.block.interact.compactmachines3.wall: OP
 ftbutilities.claims.block.interact.compactmachines3.wallbreakable: OP
+ftbutilities.claims.block.interact.contenttweaker.bowl_snow_chicken: OP
 ftbutilities.claims.block.interact.contenttweaker.chickenstock: OP
 ftbutilities.claims.block.interact.contenttweaker.chocolatemilk: OP
 ftbutilities.claims.block.interact.contenttweaker.chrome_molten: OP
@@ -2984,6 +2989,7 @@ ftbutilities.claims.block.interact.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.interact.contenttweaker.titanium_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.tungsten_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.tungstensteel_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.water_bowl_chicken: OP
 ftbutilities.claims.block.interact.deepmoblearning.extraction_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
@@ -4245,6 +4251,8 @@ ftbutilities.claims.block.interact.rustic.vase: OP
 ftbutilities.claims.block.interact.rustic.wildberry_bush: OP
 ftbutilities.claims.block.interact.rustic.wildberry_juice: OP
 ftbutilities.claims.block.interact.rustic.wind_thistle: OP
+ftbutilities.claims.block.interact.slashbladetic.blade_forge: OP
+ftbutilities.claims.block.interact.slashbladetic.blade_station: OP
 ftbutilities.claims.block.interact.spawnhere.spawn_block: OP
 ftbutilities.claims.block.interact.stevescarts.blockactivator: OP
 ftbutilities.claims.block.interact.stevescarts.blockadvdetector: OP
@@ -5432,10 +5440,12 @@ ftbutilities.claims.item.compactmachines3.tunnel: ALL
 ftbutilities.claims.item.compactmachines3.tunneltool: ALL
 ftbutilities.claims.item.compactmachines3.wall: ALL
 ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
+ftbutilities.claims.item.contenttweaker.bowl_snow_chicken: ALL
 ftbutilities.claims.item.contenttweaker.crushedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.eggshells: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
+ftbutilities.claims.item.contenttweaker.golden_egg: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
 ftbutilities.claims.item.contenttweaker.menril_propolis: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL
@@ -5443,6 +5453,7 @@ ftbutilities.claims.item.contenttweaker.salt_block: ALL
 ftbutilities.claims.item.contenttweaker.salt_cube: ALL
 ftbutilities.claims.item.contenttweaker.soggylime: ALL
 ftbutilities.claims.item.contenttweaker.sub_block_holder_0: ALL
+ftbutilities.claims.item.contenttweaker.water_bowl_chicken: ALL
 ftbutilities.claims.item.deepmoblearning.creative_model_learner: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blank: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blaze: ALL
@@ -5525,6 +5536,14 @@ ftbutilities.claims.item.extrabees.honey_crystal: ALL
 ftbutilities.claims.item.extrabees.honey_drop: ALL
 ftbutilities.claims.item.extrabees.misc: ALL
 ftbutilities.claims.item.extrabees.propolis: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.proudsoul: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashblade: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladebamboolight: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladenamed: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladesilverbamboolight: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladewhite: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladewood: ALL
+ftbutilities.claims.item.flammpfeil.slashblade.slashbladewrapper: ALL
 ftbutilities.claims.item.fluidcows.accelerator: ALL
 ftbutilities.claims.item.fluidcows.cow_displayer: ALL
 ftbutilities.claims.item.fluidcows.cow_halter: ALL
@@ -7198,6 +7217,13 @@ ftbutilities.claims.item.simplyjetpacks.metaitem: ALL
 ftbutilities.claims.item.simplyjetpacks.metaitemmods: ALL
 ftbutilities.claims.item.sips.big_chug: ALL
 ftbutilities.claims.item.sips.lil_sip: ALL
+ftbutilities.claims.item.slashbladetic.blade_forge: ALL
+ftbutilities.claims.item.slashbladetic.blade_station: ALL
+ftbutilities.claims.item.slashbladetic.slashblade.blade: ALL
+ftbutilities.claims.item.slashbladetic.slashblade.handle: ALL
+ftbutilities.claims.item.slashbladetic.slashblade.saya: ALL
+ftbutilities.claims.item.slashbladetic.slashblade.white: ALL
+ftbutilities.claims.item.slashbladetic.slashblade: ALL
 ftbutilities.claims.item.spawnhere.spawn_block: ALL
 ftbutilities.claims.item.stevescarts.blockactivator: ALL
 ftbutilities.claims.item.stevescarts.blockadvdetector: ALL

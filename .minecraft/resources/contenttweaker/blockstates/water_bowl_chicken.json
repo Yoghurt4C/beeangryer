@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal":	{ "model": "contenttweaker:water_bowl_chicken" },
+		"inventory":	{ "model": "contenttweaker:water_bowl_chicken" }
+	}
+}

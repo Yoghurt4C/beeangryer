@@ -1,4 +1,4 @@
-setIcon(<minecraft:iron_pickaxe>)
+setIcon(<tconstruct:pickaxe,nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:215,HarvestLevel:1,Attack:2.9f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.0f,FreeModifiers:3,Durability:215,HarvestLevel:1,Attack:2.9f},Special:{Categories:["tool","harvest","aoe"]},TinkerData:{Materials:["wood","flint","flint"],Modifiers:[]},Modifiers:[{identifier:"ecological",color:-7444965,level:1},{identifier:"crude",color:-9868951,level:3,crude1:1b,crude2:1b}],Traits:["ecological","crude2","crude1"]}>)
 setTitle("Modular Block Breaker")
 setDescription("Assemble a Tinker's Construct pickaxe. The materials don't matter.")
 

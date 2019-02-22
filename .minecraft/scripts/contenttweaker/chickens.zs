@@ -499,3 +499,8 @@ val enhancedgalgadorianchicken = ChickenFactory.createChicken("enhancedgalgadori
 		enhancedgalgadorianchicken.setForegroundColor(Color.fromHex("582548"));
 		enhancedgalgadorianchicken.spawnType="NONE";
 		enhancedgalgadorianchicken.register();
+		
+val goldenhen = ChickenFactory.createChicken("goldenhen", Color.fromHex("FFFF0B"), <item:contenttweaker:golden_egg>);
+		goldenhen.setForegroundColor(Color.fromHex("868600"));
+		goldenhen.spawnType="NONE";
+		goldenhen.register();

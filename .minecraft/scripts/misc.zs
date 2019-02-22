@@ -10,6 +10,7 @@ recipes.addShaped("firestarter",<contenttweaker:firestarter>,[
 <contenttweaker:firestarter>.addTooltip(format.red(format.italic("Very cheap flint and steel alternative.")));
 <contenttweaker:firestarter>.addShiftTooltip(format.red(format.italic("Not very reliable.")));
 <quark:charcoal_block>.addTooltip(format.red(format.italic("Burns forever, like netherrack!")));
+
 recipes.addShaped("salt_block",<contenttweaker:salt_block>,[
 [<contenttweaker:salt_cube>,<contenttweaker:salt_cube>,<contenttweaker:salt_cube>],
 [<contenttweaker:salt_cube>,<contenttweaker:salt_cube>,<contenttweaker:salt_cube>],

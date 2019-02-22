@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal":	{ "model": "contenttweaker:bowl_snow_chicken" },
+		"inventory":	{ "model": "contenttweaker:bowl_snow_chicken" }
+	}
+}

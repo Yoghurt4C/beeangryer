@@ -1,8 +1,17 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.events.IEventManager;
+import crafttweaker.entity.IEntityAnimal;
 
 var plastic=<hatchery:plastic>;
 var feather_meal=<hatchery:feather_meal>;
+
+<ore:egg>.add(<contenttweaker:golden_egg>);
+recipes.replaceAllOccurences(<minecraft:egg>,<ore:egg>);
+
+recipes.addShaped("water_bowl_chicken",<contenttweaker:water_bowl_chicken>,[
+[<roost:chicken>.withTag({Chicken:"minecraft:chicken"})],
+[<botania:waterbowl>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]]);
 
 //no rugrats
 mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}),
@@ -130,3 +139,12 @@ mods.integrateddynamics.DryingBasin.addRecipe(
 7200);
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addTooltip(format.white("Obtained by letting a "+format.underline("Water Chicken")+" evaporate."));
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addShiftTooltip(format.white("Takes a "+format.italic("really")+" long time!"));
+
+
+events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent){
+    if (<item:contenttweaker:crushedeggshells> has event.player.currentItem & <entity:minecraft:chicken>.id has event.target.definition.id | <entity:chickens:chickenschicken>.id has event.target.definition.id){
+				var tarChicken as IEntityAnimal=event.target;
+				tarChicken.setInLove();
+				event.player.currentItem.transformConsume(1);
+	}
+});

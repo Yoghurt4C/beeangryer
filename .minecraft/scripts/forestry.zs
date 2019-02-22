@@ -15,6 +15,7 @@ var pollen=<forestry:pollen>;
 var chest=<ore:chestWood>;
 var slabWood=<ore:slabWood>;
 var plankWood=<ore:plankWood>;
+var logWood=<ore:logWood>;
 
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
@@ -60,6 +61,10 @@ recipes.addShaped(<binniecore:storage>,[
 [<minecraft:stone_button>,chest,<minecraft:stone_button>],
 [chest,<minecraft:book>,chest],
 [<minecraft:stone_button>,chest,<minecraft:stone_button>]]);
+recipes.addShaped("wood_pile",<forestry:wood_pile>,[
+[logWood,logWood,logWood],
+[logWood,logWood,logWood],
+[logWood,logWood,logWood]]);
 
 mods.forestry.Carpenter.removeRecipe(scentedGear);
 mods.forestry.Carpenter.addRecipe(scentedGear, [

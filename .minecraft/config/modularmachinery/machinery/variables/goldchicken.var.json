@@ -1,0 +1,37 @@
+{
+	"gold":[
+		"minecraft:gold_block",
+		"chisel:gold"	
+	],
+	"electrum":[
+		"immersiveengineering:storage@7",
+		"chisel:blockelectrum"
+	],
+	"diamond":[
+		"minecraft:diamond_block",
+		"chisel:diamond",
+		"botania:storage@3",
+		"stevescarts:blockmetalstorage@1",
+		"stevescarts:blockmetalstorage@2"
+	],
+	"chicken_input":[
+		"modularmachinery:blockinputbus@3",
+		"modularmachinery:blockinputbus@5",
+		"modularmachinery:blockinputbus@6",
+		"modularmachinery:blockfluidinputhatch@5",
+		"modularmachinery:blockfluidinputhatch@6",
+		"modularmachinery:blockfluidinputhatch@7"
+	],
+	"chicken_output":[
+		"modularmachinery:blockoutputbus@3",
+		"modularmachinery:blockoutputbus@5",
+		"modularmachinery:blockoutputbus@6",
+		"modularmachinery:blockcasing@4"
+	],
+	"chicken_energy":[
+		"immersiveengineering:storage@7",
+		"modularmachinery:blockenergyinputhatch@3",
+		"modularmachinery:blockenergyinputhatch@4",
+		"modularmachinery:blockenergyinputhatch@5"
+	]
+}

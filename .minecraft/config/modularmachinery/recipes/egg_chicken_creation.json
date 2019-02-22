@@ -1,0 +1,32 @@
+{
+    "machine": "golden_hen",
+    "registryName": "egg_chicken_creation",
+    "recipeTime": 6000,
+    "requirements": [
+        {
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":80
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "roost:chicken",
+			"nbt":{"Chicken":"minecraft:chicken"},
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "seed.oil",
+            "amount": 50
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "roost:chicken",
+			"nbt":{"Chicken":"contenttweaker:goldenhen"},
+            "amount": 1
+        }
+    ]
+}

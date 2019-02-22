@@ -1,5 +1,5 @@
 setIcon(<buildinggadgets:templatemanager>)
-setTitle("Advanced Management")
+setTitle("Handling Templates")
 setDescription("In case you wish to load a Template into a Gadget, or don't want to craft a dozen paste gadgets.")
 
 addParent("triumph:beeangryer/copypastetool")

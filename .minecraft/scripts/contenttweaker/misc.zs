@@ -4,8 +4,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Commands;
-import crafttweaker.entity.IEntityAnimal;
-import crafttweaker.world.IRayTraceResult;
+import crafttweaker.item.IItemStack;
 
 var mutandis = VanillaFactory.createItem("mutandis");
 	mutandis.register();
@@ -18,6 +17,9 @@ var firedeggshells = VanillaFactory.createItem("firedeggshells");
 	
 var crushedeggshells = VanillaFactory.createItem("crushedeggshells");	
 	crushedeggshells.register();
+	
+var goldenegg= VanillaFactory.createItem("golden_egg");	
+	goldenegg.register();
 	
 var menrilpropolis = VanillaFactory.createItem("menril_propolis");
 	menrilpropolis.register();
@@ -62,3 +64,27 @@ saltblock.setToolLevel(0);
 saltblock.setGravity(true);
 saltblock.setBlockSoundType(<soundtype:sand>);
 saltblock.register();
+
+var waterbowlchicken = VanillaFactory.createBlock("water_bowl_chicken", <blockmaterial:wood>);
+waterbowlchicken.setToolClass("axe");
+waterbowlchicken.setBlockHardness(0.5);
+waterbowlchicken.setToolLevel(0);
+waterbowlchicken.setGravity(true);
+waterbowlchicken.setFullBlock(false);
+waterbowlchicken.setBlockSoundType(<soundtype:wood>);
+waterbowlchicken.register();
+
+var bowlsnowchicken = VanillaFactory.createBlock("bowl_snow_chicken", <blockmaterial:wood>);
+bowlsnowchicken.setToolClass("axe");
+bowlsnowchicken.setBlockHardness(0.5);
+bowlsnowchicken.setToolLevel(0);
+bowlsnowchicken.setGravity(true);
+bowlsnowchicken.setFullBlock(false);
+bowlsnowchicken.setBlockSoundType(<soundtype:wood>);
+bowlsnowchicken.setDropHandler(function(drops, world, position, state,fortune) {
+	drops.clear();
+    drops.add(<item:roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}) as IItemStack);
+    drops.add(<item:minecraft:bowl> as IItemStack);
+    return;
+});
+bowlsnowchicken.register();
