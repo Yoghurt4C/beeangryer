@@ -8,12 +8,25 @@ import mods.botania.ManaInfusion;
 import mods.botania.Orechid;
 import mods.botania.PureDaisy;
 
-recipes.addShapeless("crushedeggshells",<contenttweaker:crushedeggshells>,[<contenttweaker:eggshells>,<botania:pestleandmortar>]);
-mods.jei.JEI.addDescription(<contenttweaker:crushedeggshells>,["Somewhat useful for a struggling survivalist's needs. See Guidebook for more information."]);
-recipes.addShapeless("fertilizer_egg_powder",<botania:fertilizer>*3,[
-<contenttweaker:crushedeggshells>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>]);
+var anyPetal=<botania:petal:*>|<botania:mushroom:*>;
+var crushedeggshells=<contenttweaker:crushedeggshells>;
+recipes.remove(<botania:twigwand>);
+recipes.addShaped("potato_wand",<botania:twigwand>.withTag({color1: 0, color2: 0}),[
+[null,anyPetal,<botania:tinypotato>],
+[null,<botania:manaresource:3>,anyPetal],
+[<botania:manaresource:3>,null,null]]);
+//oops'ie
+recipes.addShaped("felpumpkin",<contenttweaker:felpumpkin>,[
+[crushedeggshells,<minecraft:string>,crushedeggshells],
+[<minecraft:bone>,<minecraft:pumpkin>,<minecraft:rotten_flesh>],
+[crushedeggshells,<minecraft:gunpowder>,crushedeggshells]]);
+
+recipes.addShapeless("crushedeggshells",crushedeggshells,[<contenttweaker:eggshells>,<botania:pestleandmortar>]);
+mods.jei.JEI.addDescription(crushedeggshells,["Somewhat useful for a struggling survivalist's needs. See Guidebook for more information."]);
+recipes.addShapeless("fertilizer_egg_powder",<botania:fertilizer>*2,[
+crushedeggshells,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>,<botania:dye:*>]);
 recipes.addShapeless("fertilizer_egg_vanilla",<botania:fertilizer>,[
-<contenttweaker:crushedeggshells>,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:1>,<minecraft:dye:1>]);
+crushedeggshells,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:1>,<minecraft:dye:1>]);
 //output IItemStack
 //inputs IIngredient[]
 Agglomeration.removeDefaultRecipe();

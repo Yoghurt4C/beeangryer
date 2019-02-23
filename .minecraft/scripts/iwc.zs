@@ -1,5 +1,13 @@
 import mods.inworldcrafting.FireCrafting;
 import mods.inworldcrafting.FluidToItem;
+import mods.inworldcrafting.FluidToFluid;
+var condiment = <ore:rusticFlora>;
+
+//FluidToFluid.transform(ILiquidStack output, ILiquidStack inputFluid, IIngredient[] inputItems, @Optional boolean consume);
+FluidToFluid.transform(<liquid:chickenstock>,
+ <liquid:liquidchicken>,
+ [<contenttweaker:salt_cube>*2,<minecraft:blaze_powder>*2,condiment,condiment],
+ true);
 
 //FireCrafting.addRecipe(IItemStack output, IIngredient inputItem, @Optional int ticks);
 FireCrafting.addRecipe(<minecraft:stone>,
@@ -16,6 +24,9 @@ FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:gl
 	.addTooltip(format.red("Obtained by forcibly warming up a Sand Chicken."));
 FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1}),
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:logchicken", Gain: 1, Strength: 1})*4,
+ 200);
+FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1})*4,
  200);
  
 //FluidToItem.transform(IItemStack output, ILiquidStack inputFluid, IIngredient inputItem, @Optional boolean consume);

@@ -43,6 +43,7 @@ industrialGrinder.addRecipe(<techreborn:dust:21>*4,null,null,null,
 <minecraft:end_bricks>,null,<liquid:water>*1000,100,256);
 centrifuge.removeInputRecipe(<techreborn:dust:33>*16);
 centrifuge.removeInputRecipe(<minecraft:speckled_melon>*8);
+centrifuge.removeInputRecipe(<minecraft:chicken>*12);
 
 val TRCompressorArray=[
 <techreborn:plates:31>,
@@ -128,6 +129,15 @@ vacuumFreezer.removeRecipe(<techreborn:ingot:17>);
 vacuumFreezer.addRecipe(
 <chickens:spawn_egg>.withTag({ChickenType: {id: "contenttweaker:tungstensteelchicken"}}),
 <techreborn:ingot:16>, 500, 512);
+
+//centrifuge.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick)
+centrifuge.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidchicken", Amount: 1000}})*3,
+ null,
+ null,
+ null,
+ <minecraft:chicken>*4,
+ <techreborn:dynamiccell>*4,
+ 480, 20);
 
 //industrialElectrolyzer.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick)
 industrialElectrolyzer.removeRecipe(<techreborn:dust:1>);
@@ -229,3 +239,8 @@ industrialElectrolyzer.addRecipe(dustIron*2,
  <techreborn:dust:2>*20,
  cell*12,
  1280, 50);
+ 
+mods.techreborn.chemicalReactorRecipe.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "chickenstock", Amount: 1000}}),
+ <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidchicken", Amount: 1000}}),
+ <contenttweaker:salt_cube>*2,
+ 240, 5);

@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "roost:blocks/chicken/vanilla",
 		"1": "roost:blocks/plain_face",
-		"2": "blocks/water_still",
+		"2": "minecraft:blocks/water_still",
 		"particle": "roost:blocks/chicken/vanilla"
 	},
 	"elements": [
@@ -179,7 +179,9 @@
 			"translation": [-0.25, 3, 0]
 		},
 		"head": {
-			"translation": [0, 14.5, -1]
+			"rotation": [0, 180, 0],
+			"translation": [0, 22, 1],
+			"scale": [2, 2, 2]
 		},
 		"fixed": {
 			"translation": [0, 2, -6]

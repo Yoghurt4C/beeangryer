@@ -45,6 +45,7 @@ mods.tconstruct.Casting.addBasinRecipe(
 true,
 20);
 
+mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:chicken>, <liquid:liquidchicken>);
 for comb in <ore:beeComb>.items {
     // melt combs to honey
     mods.tconstruct.Melting.addRecipe(
@@ -55,4 +56,25 @@ for comb in <ore:beeComb>.items {
     mods.tconstruct.Drying.addRecipe(<forestry:beeswax>,comb, 2000);
 }
 	
-
+mods.tconstruct.Alloy.addRecipe(<liquid:chickenstock>*225,
+ [<liquid:liquidchicken>*250,<liquid:salt>*72]);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:salt_block>,
+ null,
+ <liquid:salt>,
+ 1296, false, 30);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>,
+ <contenttweaker:salt_cube>,
+ <liquid:gold>,
+ 288, true, 10);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>,
+ <contenttweaker:salt_cube>,
+ <liquid:brass>,
+ 144, true, 10);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>,
+ <contenttweaker:salt_cube>,
+ <liquid:alubrass>,
+ 144, true, 10);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:salt_cube>,
+ <tconstruct:cast_custom:2>,
+ <liquid:salt>,
+ 144, false, 10);

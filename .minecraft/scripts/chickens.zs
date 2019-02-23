@@ -88,50 +88,49 @@ recipes.addShaped(<chickens:henhouse>, [
 ]);
 
 recipes.addShaped("chicken_catcher",<roost:catcher>,[
-[<hatchery:plastic>,<ore:seed>,<hatchery:plastic>],
-[<minecraft:feather>,<ore:stickWood>,<minecraft:feather>],
-[null,<ore:stickWood>,null]]);
+[null,<hatchery:plastic>,<ore:seed>],
+[<minecraft:feather>,<ore:stickWood>,<hatchery:plastic>],
+[<ore:stickWood>,<minecraft:feather>,null]]);
   
  val squeezingChickens ={
-	<liquid:fluidsilicon>:<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})
-	
-}as IItemStack[ILiquidStack];
+	<liquid:liquidchicken>:<minecraft:chicken>
+	}as IItemStack[ILiquidStack];
 for liquid, chicken in squeezingChickens{
-//	mods.immersiveengineering.Squeezer.addRecipe(	//ignores nbt
-//		<hatchery:feather_pulp>, 
-//		liquid*250, 
-//		chicken, 
-//		2400);
-//	mods.thermalexpansion.Crucible.addRecipe( 	/ignores nbt
-//		liquid*250, 
-//		chicken, 
-//		2400);
-//	mods.tconstruct.Melting.addRecipe(	//ignores nbt, pathetic
-//		liquid*250,
-//		chicken, 
-//		1500);
+	mods.immersiveengineering.Squeezer.addRecipe(	//ignores nbt
+		null, 
+		liquid*750, 
+		chicken, 
+		2400);
+	mods.thermalexpansion.Crucible.addRecipe( 	//ignores nbt
+		liquid*750, 
+		chicken, 
+		2400);
+	mods.tconstruct.Melting.addRecipe(	//ignores nbt, pathetic
+		liquid*750,
+		chicken, 
+		373);
 	mods.forestry.Squeezer.addRecipe(
-		liquid*250, 
+		liquid*750, 
 		[chicken], 
 		120, 
-		<minecraft:feather>%10);
+		null);
 	mods.thermalexpansion.Transposer.addExtractRecipe(
-		liquid * 250,
+		liquid * 750,
 		chicken, 
 		2400, 
-		<minecraft:feather> % 10);
+		null);
 	mods.integrateddynamics.Squeezer.addRecipe(
 		chicken, 
-		<minecraft:feather>, 0.1F,
 		null, 1.0F,
 		null, 1.0F,
-		liquid*250);
+		null, 1.0F,
+		liquid*750);
 	mods.integrateddynamics.MechanicalSqueezer.addRecipe(
 		chicken, 
-		<minecraft:feather>, 0.1F,
 		null, 1.0F,
 		null, 1.0F,
-		liquid*250,120);
+		null, 1.0F,
+		liquid*750,120);
 }
 mods.integrateddynamics.DryingBasin.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1}),  null, 
@@ -141,10 +140,3 @@ mods.integrateddynamics.DryingBasin.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addShiftTooltip(format.white("Takes a "+format.italic("really")+" long time!"));
 
 
-events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent){
-    if (<item:contenttweaker:crushedeggshells> has event.player.currentItem & <entity:minecraft:chicken>.id has event.target.definition.id | <entity:chickens:chickenschicken>.id has event.target.definition.id){
-				var tarChicken as IEntityAnimal=event.target;
-				tarChicken.setInLove();
-				event.player.currentItem.transformConsume(1);
-	}
-});

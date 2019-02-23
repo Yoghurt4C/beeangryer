@@ -43,7 +43,8 @@ val goneForever=[
 <modularmachinery:blockfluidoutputhatch:4>,
 <binniecore:glass>,
 <thermalexpansion:device:2>,
-<hatchery:pen>
+<hatchery:pen>,
+<notenoughwands:freezing_wand>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -178,6 +179,7 @@ val rmIDArray=[
 "modularmachinery:energy_output_small",
 "stevescarts:component/large_lump_of_galgador",
 "stevescarts:component/lump_of_galgador",
+"stevescarts:component/stabilized_metal",
 "techreborn:iron_furnace",
 "minecraft:diorite",
 "minecraft:granite",
@@ -199,7 +201,8 @@ val rmIDArray=[
 "immersiveengineering:stone_decoration/cokeblock",
 "binniecore:glass_container",
 "binniecore:glass_container_conversion",
-"forestry:wood_pile"
+"forestry:wood_pile",
+"botania:felpumpkin"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}

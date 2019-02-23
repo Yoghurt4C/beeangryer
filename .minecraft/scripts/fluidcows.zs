@@ -45,6 +45,6 @@ for tag in fluidCowTagArray{
 	<tconstruct:piggybackpack>]);}
 	
 recipes.addShaped("cow_halter",<fluidcows:cow_halter>,[
-[<hatchery:plastic>,<minecraft:wheat>,<hatchery:plastic>],
-[<minecraft:leather>,<ore:stickWood>,<minecraft:leather>],
-[null,<ore:stickWood>,null]]);
+[null,<hatchery:plastic>,<minecraft:wheat>],
+[<minecraft:leather>,<ore:stickWood>,<hatchery:plastic>],
+[<ore:stickWood>,<minecraft:leather>,null]]);

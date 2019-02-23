@@ -15,7 +15,7 @@ var eggshells = VanillaFactory.createItem("eggshells");
 var firedeggshells = VanillaFactory.createItem("firedeggshells");
 	firedeggshells.register();
 	
-var crushedeggshells = VanillaFactory.createItem("crushedeggshells");	
+var crushedeggshells = VanillaFactory.createItemFood("crushedeggshells",1);	
 	crushedeggshells.register();
 	
 var goldenegg= VanillaFactory.createItem("golden_egg");	
@@ -64,6 +64,15 @@ saltblock.setToolLevel(0);
 saltblock.setGravity(true);
 saltblock.setBlockSoundType(<soundtype:sand>);
 saltblock.register();
+
+var felpumpkin = VanillaFactory.createBlock("felpumpkin", <blockmaterial:wood>);
+felpumpkin.setToolClass("axe");
+felpumpkin.setBlockHardness(1);
+felpumpkin.setToolLevel(0);
+felpumpkin.setGravity(false);
+felpumpkin.setFullBlock(true);
+felpumpkin.setBlockSoundType(<soundtype:wood>);
+felpumpkin.register();
 
 var waterbowlchicken = VanillaFactory.createBlock("water_bowl_chicken", <blockmaterial:wood>);
 waterbowlchicken.setToolClass("axe");

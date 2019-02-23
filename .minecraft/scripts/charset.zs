@@ -126,6 +126,12 @@ Cauldron.addItemFluidRecipe(
 null,  
 <liquid:dissolvedeggshells>*1000);
 mods.jei.JEI.addDescription(<liquid:dissolvedeggshells>,["Obtained by dissolving Fired Egg Shells in a Water-filled Cauldron. Look at the Soggy Lime tooltip or description to see the entire process."]);
+Cauldron.addItemFluidRecipe(
+<contenttweaker:salt_cube>*1, 
+<liquid:liquidchicken>*1000, 
+null,  
+<liquid:chickenstock>*750);
+mods.jei.JEI.addDescription(<liquid:chickenstock>,["Prepared by putting a Salt Cube into a full Cauldron of Liquid Poultry. Very bland, inefficient, and requires various tools to manage. Can be made in a variety of other, more industrialized ways."]);
 
 Cauldron.addItemRecipe(
 <techreborn:dust:12>, 

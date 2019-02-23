@@ -1,4 +1,4 @@
-8026 nodes in total
+8031 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -694,10 +694,12 @@ ftbutilities.claims.block.edit.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.edit.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.edit.contenttweaker.felpumpkin: OP
 ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.reinforced_metal_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.salt: OP
 ftbutilities.claims.block.edit.contenttweaker.salt_block: OP
 ftbutilities.claims.block.edit.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.soggylime: OP
@@ -2978,10 +2980,12 @@ ftbutilities.claims.block.interact.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.interact.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.interact.contenttweaker.felpumpkin: OP
 ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.reinforced_metal_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.salt: OP
 ftbutilities.claims.block.interact.contenttweaker.salt_block: OP
 ftbutilities.claims.block.interact.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.soggylime: OP
@@ -5443,6 +5447,7 @@ ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.bowl_snow_chicken: ALL
 ftbutilities.claims.item.contenttweaker.crushedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.eggshells: ALL
+ftbutilities.claims.item.contenttweaker.felpumpkin: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
 ftbutilities.claims.item.contenttweaker.golden_egg: ALL

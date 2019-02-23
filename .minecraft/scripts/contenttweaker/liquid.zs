@@ -14,9 +14,11 @@ var liquidchicken=VanillaFactory.createFluid("liquidchicken", Color.fromHex("E7B
 	liquidchicken.density=2000;
 	liquidchicken.viscosity=10000;
 	liquidchicken.register();
-
+	
 var chickenstock=VanillaFactory.createFluid("chickenstock", Color.fromHex("F0B116"));	
 	chickenstock.register();
+var salt=VanillaFactory.createFluid("salt", Color.fromHex("F1F2F1"));	
+	salt.register();
 
 var chocolatemilk=VanillaFactory.createFluid("chocolatemilk", Color.fromHex("453631"));
 	chocolatemilk.stillLocation="contenttweaker:blocks/fluid.chocolatemilk.still";

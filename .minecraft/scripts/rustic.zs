@@ -16,10 +16,11 @@ game.setLocalization("tile.rustic.honey.name","Unwonted Honey");
 game.setLocalization("fluid.honey","Unwonted Honey");
 furnace.addRecipe(<rustic:beeswax>,<forestry:beeswax>,0.1);
 
-val ferns=[
+val vanillaferns=[
 <minecraft:tallgrass:1>,
 <minecraft:tallgrass:2>,
-<minecraft:vine>,
+<minecraft:vine>] as IItemStack[];
+val ferns=[
 <rustic:aloe_vera>,
 <rustic:blood_orchid>,
 <rustic:chamomile>,
@@ -32,7 +33,11 @@ val ferns=[
 <rustic:core_root>,
 <rustic:ginseng>,
 <rustic:marsh_mallow>]as IItemStack[];
-for fern in ferns{mods.jei.JEI.addDescription(fern,["You can obtain some exotic flora by using Mutandis on ''tall'' Grass."]);}
+for fern in ferns{
+<ore:rusticFlora>.add(fern);
+mods.jei.JEI.addDescription(fern,["You can obtain some exotic flora by using Mutandis on ''tall'' Grass."]);}
+for fern in vanillaferns{
+mods.jei.JEI.addDescription(fern,["You can obtain some exotic flora by using Mutandis on ''tall'' Grass."]);}
 
 val saplings=[
 <minecraft:sapling>,
@@ -42,4 +47,4 @@ val saplings=[
 <minecraft:sapling:4>,
 <minecraft:sapling:5>,
 <rustic:sapling>,<rustic:sapling:1>]as IItemStack[];
-for sapling in saplings{mods.jei.JEI.addDescription(sapling,["You can obtain some exotic flora by using Mutandis on Saplings"]);}
+for sapling in saplings{mods.jei.JEI.addDescription(sapling,["You can obtain some exotic flora by using Mutandis on Saplings."]);}

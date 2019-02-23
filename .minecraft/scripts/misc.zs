@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 var limestone=<ore:stoneLimestone>;
 var plastic=<hatchery:plastic>;
@@ -79,3 +80,85 @@ mods.jei.JEI.addDescription(<quark:limestone>,[
 5. Put the mixture somewhere it can dry up.
 
 This instruction is mirrored on the Soggy Lime tooltip."]);
+
+//I'm honestly too lazy to do this the proper way
+ val liquifyingThings ={
+	<liquid:salt>*144 : <contenttweaker:salt_cube>
+	}as IItemStack[ILiquidStack];
+for liquid, thing in liquifyingThings{
+	mods.immersiveengineering.Squeezer.addRecipe(	//ignores nbt
+		null, 
+		liquid, 
+		thing, 
+		2400);
+	mods.thermalexpansion.Crucible.addRecipe( 	//ignores nbt
+		liquid, 
+		thing, 
+		2400);
+	mods.tconstruct.Melting.addRecipe(	//ignores nbt, pathetic
+		liquid,
+		thing, 
+		1074);
+	mods.forestry.Squeezer.addRecipe(
+		liquid, 
+		[thing], 
+		120, 
+		null);
+	mods.thermalexpansion.Transposer.addExtractRecipe(
+		liquid,
+		thing, 
+		2400, 
+		null);
+	mods.integrateddynamics.Squeezer.addRecipe(
+		thing, 
+		null, 1.0F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid);
+	mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+		thing, 
+		null, 1.0F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid,120);
+}
+ val liquifyingThingBlocks ={
+	<liquid:salt>*1296 : <contenttweaker:salt_block>
+	}as IItemStack[ILiquidStack];
+for liquid, thing in liquifyingThingBlocks{
+	mods.immersiveengineering.Squeezer.addRecipe(	//ignores nbt
+		null, 
+		liquid, 
+		thing, 
+		21600);
+	mods.thermalexpansion.Crucible.addRecipe( 	//ignores nbt
+		liquid, 
+		thing, 
+		21600);
+	mods.tconstruct.Melting.addRecipe(	//ignores nbt, pathetic
+		liquid,
+		thing, 
+		1074);
+	mods.forestry.Squeezer.addRecipe(
+		liquid, 
+		[thing], 
+		1080, 
+		null);
+	mods.thermalexpansion.Transposer.addExtractRecipe(
+		liquid,
+		thing, 
+		21600, 
+		null);
+	mods.integrateddynamics.Squeezer.addRecipe(
+		thing, 
+		null, 1.0F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid);
+	mods.integrateddynamics.MechanicalSqueezer.addRecipe(
+		thing, 
+		null, 1.0F,
+		null, 1.0F,
+		null, 1.0F,
+		liquid,1080);
+}

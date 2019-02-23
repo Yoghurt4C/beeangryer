@@ -499,8 +499,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:lightbluechicken",
-    "parent_2": "chickens:logchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:waterchicken": {
     "name": "WaterChicken",
@@ -515,8 +515,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:gunpowderchicken",
-    "parent_2": "chickens:snowballchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:lavachicken": {
     "name": "LavaChicken",
