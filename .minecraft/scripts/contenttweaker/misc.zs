@@ -65,15 +65,6 @@ saltblock.setGravity(true);
 saltblock.setBlockSoundType(<soundtype:sand>);
 saltblock.register();
 
-var felpumpkin = VanillaFactory.createBlock("felpumpkin", <blockmaterial:wood>);
-felpumpkin.setToolClass("axe");
-felpumpkin.setBlockHardness(1);
-felpumpkin.setToolLevel(0);
-felpumpkin.setGravity(false);
-felpumpkin.setFullBlock(true);
-felpumpkin.setBlockSoundType(<soundtype:wood>);
-felpumpkin.register();
-
 var waterbowlchicken = VanillaFactory.createBlock("water_bowl_chicken", <blockmaterial:wood>);
 waterbowlchicken.setToolClass("axe");
 waterbowlchicken.setBlockHardness(0.5);

@@ -19,6 +19,8 @@ var chickenstock=VanillaFactory.createFluid("chickenstock", Color.fromHex("F0B11
 	chickenstock.register();
 var salt=VanillaFactory.createFluid("salt", Color.fromHex("F1F2F1"));	
 	salt.register();
+var etchingacid=VanillaFactory.createFluid("etchingacid", Color.fromHex("5D3010"));	
+	etchingacid.register();
 
 var chocolatemilk=VanillaFactory.createFluid("chocolatemilk", Color.fromHex("453631"));
 	chocolatemilk.stillLocation="contenttweaker:blocks/fluid.chocolatemilk.still";

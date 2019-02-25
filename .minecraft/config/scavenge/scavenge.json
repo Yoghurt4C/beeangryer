@@ -1,5 +1,154 @@
 {
 	"block_pools":[	
+		
+		{
+		"name":"BlazeChicken",
+		"type":{
+				"type":"block",
+				"name":"minecraft:iron_bars"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"botania:felpumpkin"},
+				{"type":"play_sound",
+				"name":"entity.blaze.ambient",
+				"volume":0.4,
+				"pitch":0.1},
+				{"type":"has_block_structure",
+				"blocks":[
+					{"name":"minecraft:iron_bars",
+					"positions":[
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"place_block_structure",
+				"blocks":[
+					{"name":"minecraft:air",
+					"positions":[
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"consume_block",
+				"chance":100,
+				"name":"minecraft:air"},
+				{"type":"use_command",
+				"name":"summon chickens:chickenschicken ~ ~-1 ~",
+				"arguments":["nbt:blazechicken"]}
+			]
+		},
+		{
+		"name":"SnowballChicken",
+		"type":{
+				"type":"block",
+				"name":"minecraft:snow"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"minecraft:pumpkin"},
+				{"type":"play_sound",
+				"name":"block.snow.place",
+				"volume":1,
+				"pitch":0.1},
+				{"type":"has_block_structure",
+				"blocks":[
+					{"name":"minecraft:snow",
+					"positions":[
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"place_block_structure",
+				"blocks":[
+					{"name":"minecraft:air",
+					"positions":[
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"consume_block",
+				"chance":100,
+				"name":"minecraft:air"},
+				{"type":"use_command",
+				"name":"summon chickens:chickenschicken ~ ~-1 ~",
+				"arguments":["nbt:snowballchicken"]}
+			]
+		},
+		{
+		"name":"IronChickenNS",
+		"type":{
+				"type":"block",
+				"name":"minecraft:iron_block"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"minecraft:pumpkin"},
+				{"type":"play_sound",
+				"name":"entity.irongolem.hurt",
+				"volume":0.4,
+				"pitch":0.1},
+				{"type":"has_block_structure",
+				"blocks":[
+					{"name":"minecraft:iron_block",
+					"positions":[
+						{"x":0,"y":0,"z":1},
+						{"x":0,"y":0,"z":-1},
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"place_block_structure",
+				"blocks":[
+					{"name":"minecraft:air",
+					"positions":[
+						{"x":0,"y":0,"z":1},
+						{"x":0,"y":0,"z":-1},
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"consume_block",
+				"chance":100,
+				"name":"minecraft:air"},
+				{"type":"use_command",
+				"name":"summon chickens:chickenschicken ~ ~-1 ~",
+				"arguments":["nbt:ironchicken"]}
+			]
+		},
+		{
+		"name":"IronChickenWE",
+		"type":{
+				"type":"block",
+				"name":"minecraft:iron_block"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"minecraft:pumpkin"},
+				{"type":"play_sound",
+				"name":"entity.irongolem.hurt",
+				"volume":0.4,
+				"pitch":0.1},
+				{"type":"has_block_structure",
+				"blocks":[
+					{"name":"minecraft:iron_block",
+					"positions":[
+						{"x":1,"y":0,"z":0},
+						{"x":-1,"y":0,"z":0},
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"place_block_structure",
+				"blocks":[
+					{"name":"minecraft:air",
+					"positions":[
+						{"x":1,"y":0,"z":0},
+						{"x":-1,"y":0,"z":0},
+						{"x":0,"y":-1,"z":0}],
+					"require":true}]},
+				{"type":"consume_block",
+				"chance":100,
+				"name":"minecraft:air"},
+				{"type":"use_command",
+				"name":"summon chickens:chickenschicken ~ ~-1 ~",
+				"arguments":["nbt:ironchicken"]}
+			]
+		},
 		{
 		"name":"Dirt2Grass",
 		"type":{
@@ -15,7 +164,9 @@
 				"name":"block.grass.hit"},
 				{"type":"consume_block",
 				"chance":50,
-				"name":"minecraft:grass"}]},
+				"name":"minecraft:grass"}
+			]
+		},
 		{
 		"name":"GetFlowers",
 		"type":{

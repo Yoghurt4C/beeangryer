@@ -1,4 +1,4 @@
-8031 nodes in total
+8020 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -12,10 +12,6 @@ ftbutilities.chat.nickname.set: OP
 ftbutilities.chat.speak: ALL
 ftbutilities.chunkloader.load_offline: ALL
 ftbutilities.claims.attack_animals: OP
-ftbutilities.claims.block.edit.ae2stuff.encoder: OP
-ftbutilities.claims.block.edit.ae2stuff.grower: OP
-ftbutilities.claims.block.edit.ae2stuff.inscriber: OP
-ftbutilities.claims.block.edit.ae2stuff.wireless: OP
 ftbutilities.claims.block.edit.appliedenergistics2.cable_bus: OP
 ftbutilities.claims.block.edit.appliedenergistics2.cell_workbench: OP
 ftbutilities.claims.block.edit.appliedenergistics2.charged_quartz_ore: OP
@@ -693,8 +689,8 @@ ftbutilities.claims.block.edit.contenttweaker.chrome_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.edit.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion: OP
+ftbutilities.claims.block.edit.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
-ftbutilities.claims.block.edit.contenttweaker.felpumpkin: OP
 ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
@@ -2298,10 +2294,6 @@ ftbutilities.claims.block.edit.uniquecrops.stalkcenter: OP
 ftbutilities.claims.block.edit.uniquecrops.stalktop: OP
 ftbutilities.claims.block.edit.uniquecrops.sundial: OP
 ftbutilities.claims.block.edit.uniquecrops.totemhead: OP
-ftbutilities.claims.block.interact.ae2stuff.encoder: OP
-ftbutilities.claims.block.interact.ae2stuff.grower: OP
-ftbutilities.claims.block.interact.ae2stuff.inscriber: OP
-ftbutilities.claims.block.interact.ae2stuff.wireless: OP
 ftbutilities.claims.block.interact.appliedenergistics2.cable_bus: OP
 ftbutilities.claims.block.interact.appliedenergistics2.cell_workbench: OP
 ftbutilities.claims.block.interact.appliedenergistics2.charged_quartz_ore: OP
@@ -2979,8 +2971,8 @@ ftbutilities.claims.block.interact.contenttweaker.chrome_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.dissolvedeggshells: OP
 ftbutilities.claims.block.interact.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgullion: OP
+ftbutilities.claims.block.interact.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
-ftbutilities.claims.block.interact.contenttweaker.felpumpkin: OP
 ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
@@ -4585,12 +4577,6 @@ ftbutilities.claims.block.interact.uniquecrops.stalktop: OP
 ftbutilities.claims.block.interact.uniquecrops.sundial: OP
 ftbutilities.claims.block.interact.uniquecrops.totemhead: OP
 ftbutilities.claims.bypass_limits: NONE
-ftbutilities.claims.item.ae2stuff.encoder: ALL
-ftbutilities.claims.item.ae2stuff.grower: ALL
-ftbutilities.claims.item.ae2stuff.inscriber: ALL
-ftbutilities.claims.item.ae2stuff.visualiser: ALL
-ftbutilities.claims.item.ae2stuff.wireless: ALL
-ftbutilities.claims.item.ae2stuff.wireless_kit: ALL
 ftbutilities.claims.item.appliedenergistics2.biometric_card: ALL
 ftbutilities.claims.item.appliedenergistics2.cable_bus: ALL
 ftbutilities.claims.item.appliedenergistics2.cell_workbench: ALL
@@ -5447,7 +5433,6 @@ ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.bowl_snow_chicken: ALL
 ftbutilities.claims.item.contenttweaker.crushedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.eggshells: ALL
-ftbutilities.claims.item.contenttweaker.felpumpkin: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
 ftbutilities.claims.item.contenttweaker.golden_egg: ALL
@@ -5514,6 +5499,10 @@ ftbutilities.claims.item.deepmoblearning.soot_covered_plate: ALL
 ftbutilities.claims.item.deepmoblearning.soot_covered_redstone: ALL
 ftbutilities.claims.item.deepmoblearning.trial_key: ALL
 ftbutilities.claims.item.deepmoblearning.trial_keystone: ALL
+ftbutilities.claims.item.effortlessbuilding.randomizer_bag: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade1: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade2: ALL
+ftbutilities.claims.item.effortlessbuilding.reach_upgrade3: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_block: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_stairs: ALL
 ftbutilities.claims.item.engineersdecor.concrete_wall: ALL
@@ -8077,6 +8066,7 @@ command.debug
 command.defaultgamemode
 command.difficulty
 command.effect
+command.effortlessbuilding.reach
 command.enchant
 command.entitydata
 command.execute

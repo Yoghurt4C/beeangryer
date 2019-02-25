@@ -1,0 +1,26 @@
+{
+    "machine": "mana_injector",
+    "registryName": "steel_chicken_to_manasteel_chicken",
+    "recipeTime": 1200,
+    "requirements": [
+		{
+			"type":"mana",
+			"io-type":"input",
+			"mana":5000
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "roost:chicken@0",
+            "amount": 2,
+			"nbt": {"Chicken":"chickens:ironchicken"}
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "roost:chicken@0",
+            "amount": 1,
+			"nbt": {"Growth":"1","Chicken":"contenttweaker:manasteelchicken","Gain":"1","Strength":"1"}
+        }
+    ]
+}

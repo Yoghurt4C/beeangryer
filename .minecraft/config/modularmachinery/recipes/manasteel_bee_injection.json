@@ -13,14 +13,14 @@
             "io-type": "input",
             "item": "forestry:bee_princess_ge@0",
             "amount": 1,
-			"nbt": {"Genome":{"Chromosomes":[{"UID1":"gendustry.bee.Steel","UID0":"gendustry.bee.Steel"}]}}
+			"nbt": {"Genome":{"Chromosomes":[{"UID1":"extrabees.species.iron","UID0":"extrabees.species.iron"}]}}
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "forestry:bee_drone_ge@0",
             "amount": 1,
-			"nbt": {"Genome":{"Chromosomes":[{"UID1":"gendustry.bee.Steel","UID0":"gendustry.bee.Steel"}]}}
+			"nbt": {"Genome":{"Chromosomes":[{"UID1":"extrabees.species.iron","UID0":"extrabees.species.iron"}]}}
         },
         {
             "type": "item",

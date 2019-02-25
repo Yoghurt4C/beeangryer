@@ -54,8 +54,20 @@ MechanicalSqueezer.addRecipe(
 menril_berries,
 null,
 menrilresin*100);
+mods.rustic.CrushingTub.addRecipe(
+menrilresin*100,
+null,
+menril_berries);
 
 DryingBasin.addRecipe(<minecraft:log:*>,menrilresin*1000,<integrateddynamics:menril_log>,null);
 MechanicalDryingBasin.addRecipe(<minecraft:log:*>,menrilresin*1000,<integrateddynamics:menril_log>,null);
 DryingBasin.addRecipe(<minecraft:leaves:*>,menrilresin*100,<integrateddynamics:menril_leaves>,null);
 MechanicalDryingBasin.addRecipe(<minecraft:leaves:*>,menrilresin*100,<integrateddynamics:menril_leaves>,null);
+mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menril_log>,
+ <minecraft:log:*>|<minecraft:log2:*>,
+ menrilresin,
+ 1000, true);
+mods.tconstruct.Casting.addBasinRecipe(<integrateddynamics:menril_leaves>,
+ <minecraft:leaves:*>|<minecraft:leaves2:*>,
+ menrilresin,
+ 100, true);

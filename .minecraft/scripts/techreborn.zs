@@ -7,6 +7,8 @@ import mods.techreborn.vacuumFreezer;
 import mods.techreborn.industrialGrinder;
 import mods.techreborn.centrifuge;
 import mods.techreborn.industrialElectrolyzer;
+import mods.techreborn.chemicalReactorRecipe;
+import mods.techreborn.implosionCompressor;
 
 var plastic=<hatchery:plastic>;
 var refinedIron=<techreborn:ingot:19>;
@@ -104,11 +106,11 @@ mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:*>);
 
 //blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int ticktime, int euTick, int neededHeat)
 blastFurnace.addRecipe(
-<techreborn:ingot:16>,
+<immersiveengineering:metal:1>,
 null,
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstenchicken", Gain: 1, Strength: 1}),
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
-500, 500,3000);
+dustAluminum,
+null,
+1700, 120,1700);
 blastFurnace.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
 null,
@@ -116,11 +118,30 @@ null,
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1})*2,
 1700, 120,1000);
 blastFurnace.addRecipe(
-<immersiveengineering:metal:1>,
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:titaniumchicken", Gain: 1, Strength: 1}),
 null,
-dustAluminum,
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:ironchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:aluminiumchicken", Gain: 1, Strength: 1})*2,
+3600, 120,1500);
+blastFurnace.addRecipe(
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:chromechicken", Gain: 1, Strength: 1}),
 null,
-1700, 120,1700);
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:titaniumchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:pinkchicken", Gain: 1, Strength: 1})*2,
+4420, 120,1700);
+blastFurnace.addRecipe(
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstenchicken", Gain: 1, Strength: 1}),
+null,
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:refinedironchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:enderchicken", Gain: 1, Strength: 1})*2,
+1800, 120,2500);
+blastFurnace.addRecipe(
+<techreborn:ingot:16>,
+null,
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstenchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
+500, 120,3000);
+
 
 <techreborn:ingot:16>.displayName="Hot Tungstensteel Chicken Egg";
 <techreborn:ingot:16>.addTooltip(format.red(format.italic("Too hot to hatch! Get it down to room temperature first.")));
@@ -141,6 +162,7 @@ centrifuge.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liqui
 
 //industrialElectrolyzer.addRecipe(IItemStack output1, IItemStack output2, IItemStack output3, IItemStack output4, IIngredient input1, IIngredient input2, int ticktime, int euTick)
 industrialElectrolyzer.removeRecipe(<techreborn:dust:1>);
+industrialElectrolyzer.removeRecipe(<techreborn:dust:27>);
 industrialElectrolyzer.addRecipe(cell.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}})*2,
  cell.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}})*1,
  dustAluminum*2,
@@ -240,7 +262,21 @@ industrialElectrolyzer.addRecipe(dustIron*2,
  cell*12,
  1280, 50);
  
-mods.techreborn.chemicalReactorRecipe.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "chickenstock", Amount: 1000}}),
+chemicalReactorRecipe.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "chickenstock", Amount: 1000}}),
  <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidchicken", Amount: 1000}}),
  <contenttweaker:salt_cube>*2,
  240, 5);
+chemicalReactorRecipe.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:rubychicken", Gain: 1, Strength: 1}),
+ <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:chromechicken", Gain: 1, Strength: 1})*1,
+ <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:aluminiumchicken", Gain: 1, Strength: 1})*2,
+ 1000, 50);
+chemicalReactorRecipe.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:sapphirechicken", Gain: 1, Strength: 1}),
+ cell.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*3,
+ <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:aluminiumchicken", Gain: 1, Strength: 1})*2,
+ 1000, 50);
+ 
+implosionCompressor.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:diamondchicken", Gain: 1, Strength: 1}),
+ <techreborn:dust:15>*16,
+ <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1})*64,
+ <minecraft:tnt>*48,
+ 200, 8);

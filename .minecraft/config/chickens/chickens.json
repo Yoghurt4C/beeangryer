@@ -355,8 +355,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:blackchicken",
-    "parent_2": "chickens:logchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:glowstonechicken": {
     "name": "GlowstoneChicken",
@@ -387,8 +387,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:sandchicken",
-    "parent_2": "chickens:flintchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:redstonechicken": {
     "name": "RedstoneChicken",
@@ -435,8 +435,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:flintchicken",
-    "parent_2": "chickens:whitechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:coalchicken": {
     "name": "CoalChicken",
@@ -483,8 +483,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:ironchicken",
-    "parent_2": "chickens:yellowchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:snowballchicken": {
     "name": "SnowballChicken",
@@ -563,8 +563,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:stringchicken",
-    "parent_2": "chickens:brownchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:netherwartchicken": {
     "name": "NetherwartChicken",
@@ -579,8 +579,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:brownchicken",
-    "parent_2": "chickens:glowstonechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:diamondchicken": {
     "name": "DiamondChicken",
@@ -595,8 +595,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:glasschicken",
-    "parent_2": "chickens:goldchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:blazechicken": {
     "name": "BlazeChicken",
@@ -611,8 +611,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:goldchicken",
-    "parent_2": "chickens:lavachicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:slimechicken": {
     "name": "SlimeChicken",
@@ -643,8 +643,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:diamondchicken",
-    "parent_2": "chickens:netherwartchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:ghastchicken": {
     "name": "GhastChicken",
@@ -659,8 +659,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:whitechicken",
-    "parent_2": "chickens:blazechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:emeraldchicken": {
     "name": "EmeraldChicken",
@@ -675,8 +675,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:diamondchicken",
-    "parent_2": "chickens:greenchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:magmachicken": {
     "name": "MagmaChicken",
@@ -691,8 +691,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "",
-    "parent_2": ""
+    "parent_1": "chickens:slimechicken",
+    "parent_2": "chickens:blazechicken"
   },
   "chickens:pshardchicken": {
     "name": "pShardChicken",
@@ -707,8 +707,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:waterchicken",
-    "parent_2": "chickens:bluechicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:pcrystalchicken": {
     "name": "pCrystalChicken",
@@ -723,8 +723,8 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:waterchicken",
-    "parent_2": "chickens:emeraldchicken"
+    "parent_1": "",
+    "parent_2": ""
   },
   "chickens:obsidianchicken": {
     "name": "obsidianChicken",
@@ -755,7 +755,7 @@
       "metaID": 0
     },
     "spawn_type": "NONE",
-    "parent_1": "chickens:sandchicken",
-    "parent_2": "morechickens:saltpeterchicken"
+    "parent_1": "",
+    "parent_2": ""
   }
 }

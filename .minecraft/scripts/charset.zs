@@ -138,6 +138,12 @@ Cauldron.addItemRecipe(
 <liquid:dissolvedeggshells>*250, 
 <contenttweaker:soggylime>);
 
+Cauldron.addItemRecipe(
+<roost:chicken>.withTag({Growth: 1, Chicken: "minecraft:chicken", Gain: 1, Strength: 1}), 
+<liquid:dissolvedeggshells>*1000, 
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}).addTooltip(format.yellow("Obtained by dunking a Chicken into a full Cauldron of Dissolved Egg Shells."));
+
 furnace.addRecipe(<charset:shard>,<ore:sand>,0.1);
 
 mods.jei.JEI.addDescription(<contenttweaker:soggylime>,[

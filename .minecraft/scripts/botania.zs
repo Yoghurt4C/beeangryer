@@ -7,6 +7,7 @@ import mods.botaniatweaks.AgglomerationRecipe;
 import mods.botania.ManaInfusion;
 import mods.botania.Orechid;
 import mods.botania.PureDaisy;
+import mods.botania.RuneAltar;
 
 var anyPetal=<botania:petal:*>|<botania:mushroom:*>;
 var crushedeggshells=<contenttweaker:crushedeggshells>;
@@ -16,7 +17,7 @@ recipes.addShaped("potato_wand",<botania:twigwand>.withTag({color1: 0, color2: 0
 [null,<botania:manaresource:3>,anyPetal],
 [<botania:manaresource:3>,null,null]]);
 //oops'ie
-recipes.addShaped("felpumpkin",<contenttweaker:felpumpkin>,[
+recipes.addShaped("felpumpkin",<botania:felpumpkin>,[
 [crushedeggshells,<minecraft:string>,crushedeggshells],
 [<minecraft:bone>,<minecraft:pumpkin>,<minecraft:rotten_flesh>],
 [crushedeggshells,<minecraft:gunpowder>,crushedeggshells]]);
@@ -62,7 +63,24 @@ Agglomeration.addRecipe(
 ManaInfusion.removeRecipe(<minecraft:stone:5>);
 ManaInfusion.removeRecipe(<minecraft:stone:3>);
 ManaInfusion.removeRecipe(<minecraft:stone:1>);
+ManaInfusion.removeRecipe(<minecraft:prismarine_shard>);
+ManaInfusion.removeRecipe(<minecraft:prismarine_crystals>);
 ManaInfusion.addAlchemy(<quark:marble>, <ore:stoneBasalt>, 200);
+ManaInfusion.addAlchemy(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:pshardchicken", Gain: 1, Strength: 1}),
+ <roost:chicken>.withTag({Chicken:"chickens:quartzchicken"}), 10000);
+ManaInfusion.addAlchemy(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:pcrystalchicken", Gain: 1, Strength: 1}),
+ <roost:chicken>.withTag({Chicken:"chickens:pshardchicken"}), 10000);
+
+RuneAltar.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:elementiumchicken", Gain: 1, Strength: 1}),[
+<botania:manaresource:8>,
+<botania:manaresource:9>,
+<botania:manaresource:8>,
+<roost:chicken>.withTag({Chicken: "contenttweaker:manasteelchicken"}),
+<roost:chicken>.withTag({Chicken: "contenttweaker:manasteelchicken"}),
+<botania:manaresource:8>,
+<botania:manaresource:9>,
+<botania:manaresource:8>
+],32500);
 
 PureDaisy.removeRecipe(<botania:livingwood>);
 PureDaisy.removeRecipe(<botania:livingrock>);

@@ -8,6 +8,8 @@ var feather_meal=<hatchery:feather_meal>;
 
 <ore:egg>.add(<contenttweaker:golden_egg>);
 recipes.replaceAllOccurences(<minecraft:egg>,<ore:egg>);
+<contenttweaker:golden_egg>.addTooltip(format.italic("Hold SHIFT for details..."));
+<contenttweaker:golden_egg>.addShiftTooltip(format.gray("Can be thrown into "+format.darkRed("''Etching'' Acid")+" to skim the ''gold'' off."));
 
 recipes.addShaped("water_bowl_chicken",<contenttweaker:water_bowl_chicken>,[
 [<roost:chicken>.withTag({Chicken:"minecraft:chicken"})],
@@ -92,7 +94,7 @@ recipes.addShaped("chicken_catcher",<roost:catcher>,[
 [<minecraft:feather>,<ore:stickWood>,<hatchery:plastic>],
 [<ore:stickWood>,<minecraft:feather>,null]]);
   
- val squeezingChickens ={
+val squeezingChickens ={
 	<liquid:liquidchicken>:<minecraft:chicken>
 	}as IItemStack[ILiquidStack];
 for liquid, chicken in squeezingChickens{
@@ -139,4 +141,71 @@ mods.integrateddynamics.DryingBasin.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addTooltip(format.white("Obtained by letting a "+format.underline("Water Chicken")+" evaporate."));
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addShiftTooltip(format.white("Takes a "+format.italic("really")+" long time!"));
 
-
+val IWCChickens as string[]=[
+	"chickens:stringchicken",
+	"contenttweaker:rottenchicken",
+	"chickens:gunpowderchicken",
+	"contenttweaker:bonechicken",
+	"chickens:ironchicken",
+	"chickens:goldchicken",
+	"chickens:redstonechicken",
+	"chickens:glowstonechicken",
+	"chickens:lavachicken",
+	"chickens:leatherchicken",
+	"chickens:soulsandchicken",
+	"chickens:netherwartchicken",
+	"chickens:diamondchicken",
+	"chickens:emeraldchicken",
+	"chickens:enderchicken",
+	"chickens:ghastchicken",
+	"chickens:pshardchicken",
+	"chickens:pcrystalchicken",
+	"contenttweaker:tinchicken",
+	"contenttweaker:copperchicken",
+	"contenttweaker:nickelchicken",
+	"contenttweaker:aluminiumchicken",
+	"contenttweaker:leadchicken",
+	"contenttweaker:silverchicken",
+	"contenttweaker:platinumchicken",
+	"contenttweaker:uraniumchicken",
+	"contenttweaker:zincchicken",
+	"contenttweaker:enderiumchicken",
+	"contenttweaker:lumiumchicken",
+	"contenttweaker:signalumchicken",
+	"contenttweaker:arditechicken",
+	"contenttweaker:cobaltchicken",
+	"contenttweaker:pigironchicken",
+	"contenttweaker:knightslimechicken",
+	"contenttweaker:alumitechicken",
+	"contenttweaker:menrilchicken",
+	"contenttweaker:certuschicken",
+	"contenttweaker:fluixchicken",
+	"contenttweaker:reinforcedmetalchicken",
+	"contenttweaker:galgadorianchicken",
+	"contenttweaker:enhancedgalgadorianchicken"];
+val IWCEAChickens as string[]=[
+	"contenttweaker:calcprocessorchicken",
+	"contenttweaker:logicprocessorchicken",
+	"contenttweaker:engiprocessorchicken"];
+val TRBFChickens as string[]=[
+	"contenttweaker:steelchicken",
+	"contenttweaker:titaniumchicken",
+	"contenttweaker:chromechicken",
+	"contenttweaker:tungstenchicken"];
+val TRCRChickens as string[]=[
+	"contenttweaker:rubychicken",
+	"contenttweaker:sapphirechicken"];
+for chicken in IWCChickens{
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addTooltip(format.italic("Hold SHIFT for details..."));
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addShiftTooltip(format.gray("Fused in "+format.gold("Chicken Stock")+" using other Chickens and various materials."));}
+for chicken in IWCEAChickens{
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addTooltip(format.italic("Hold SHIFT for details..."));
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addShiftTooltip(format.gray("Fused in "+format.darkRed("''Etching'' Acid")+" using other Chickens."));}
+for chicken in TRBFChickens{
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addTooltip(format.italic("Hold SHIFT for details..."));
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addShiftTooltip(format.gray("Alloyed in the "+format.blue("Industrial Blast Furnace")+" using other Chickens."));}
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstensteelchicken", Gain: 1, Strength: 1}).addTooltip(format.italic("Hold SHIFT for details..."));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tungstensteelchicken", Gain: 1, Strength: 1}).addShiftTooltip(format.gray("Hatched from a "+format.aqua("Vacuum Freezer")+"-cooled Tungstensteel Chicken Egg."));
+for chicken in TRCRChickens{
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addTooltip(format.italic("Hold SHIFT for details..."));
+<roost:chicken>.withTag({Growth: 1, Chicken: chicken, Gain: 1, Strength: 1}).addShiftTooltip(format.gray("Synthesized in the "+format.blue("Chemical Reactor")+"."));}

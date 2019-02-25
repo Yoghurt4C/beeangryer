@@ -44,7 +44,18 @@ val goneForever=[
 <binniecore:glass>,
 <thermalexpansion:device:2>,
 <hatchery:pen>,
-<notenoughwands:freezing_wand>
+<notenoughwands:freezing_wand>,
+<appliedenergistics2:inscriber>,
+<appliedenergistics2:material:13>,
+<appliedenergistics2:material:16>,
+<appliedenergistics2:material:14>,
+<appliedenergistics2:material:17>,
+<appliedenergistics2:material:15>,
+<appliedenergistics2:material:18>,
+<appliedenergistics2:material:21>,
+<appliedenergistics2:material:19>,
+<appliedenergistics2:material:20>,
+<appliedenergistics2:material:40>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -55,6 +66,7 @@ JEI.hideCategory("ie.blastfurnace");
 JEI.hideCategory("ie.blastfurnace.fuel");
 JEI.hideCategory("ie.alloysmelter");
 JEI.hideCategory("chickens.Henhousing");
+JEI.hideCategory("appliedenergistics2.inscriber");
 
 //heuristic removal array, put in `<modid:item>` with commas after each, except the last, for removal
 val rmSpecArray=[
@@ -202,7 +214,9 @@ val rmIDArray=[
 "binniecore:glass_container",
 "binniecore:glass_container_conversion",
 "forestry:wood_pile",
-"botania:felpumpkin"
+"botania:felpumpkin",
+"uniquecrops:ender_pearl",
+"appliedenergistics2:network/blocks/inscribers"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}}
