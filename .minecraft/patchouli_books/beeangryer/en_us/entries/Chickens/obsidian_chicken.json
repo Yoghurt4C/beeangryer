@@ -6,7 +6,7 @@
     "pages": [
 		{
 			"type":"text",
-			"text":"Obsidian Chickens are expectedly glassy, very sharp, and, contradictory to being hard, very brittle.<br>Lay Item: Obsidian.$(br2)Not much else can be pointed out, except for the odd humming radiating from within the produced Obsidian."
+			"text":"Obsidian Chickens are expectedly glassy, very sharp, and, contradictory to being ''durable'', very brittle.<br>Lay Item: Obsidian.$(br2)Not much else can be pointed out, except for the odd humming radiating from within the produced Obsidian."
 		},
 		{
 			"type":"chicken_breeding",
