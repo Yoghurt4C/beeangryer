@@ -1,0 +1,24 @@
+{
+    "name": "Water Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:waterchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Water Chicken appears to be a glob of water in form of a fully functional chicken. It's cool and expectedly watery to the touch.<br>Lay Item: Water Eggs.$(br2)Even though it's translucent, there's chicken meat somewhere inside. Appetizing."
+		},
+		{
+			"type":"burning+entity",
+			"header":"Burning",
+			"input1":"roost:chicken#4{Chicken:'chickens:snowballchicken'}",
+			"time":"10 sec",
+			"output":"roost:chicken{Chicken:'chickens:waterchicken'}",
+			"text":"Heat up a bunch of <br>Snowball Chickens to get a single Water Chicken.",
+			"entity":"chickens:chickenschicken{Type:'chickens:waterchicken'}",
+			"chicken":"Water Chicken",
+			"entitytooltip":"&7Water Eggs",
+			"outputstack":"chickens:liquid_egg"
+		}
+    ]
+}

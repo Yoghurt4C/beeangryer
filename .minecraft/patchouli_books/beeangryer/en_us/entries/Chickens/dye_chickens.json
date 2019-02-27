@@ -1,22 +1,12 @@
 {
     "name": "Coloured Poultry",
     "icon": "chickens:colored_egg:0",
-    "category": "beginnings",
-	"sortnum":5,
+    "category": "chickens",
+	"sortnum":0,
     "pages": [
 		{
-			"type":"entity",
-			"entity":"minecraft:item{id:1,Age:1,Item:{id:'roost:catcher',Count:1b,Damage:0s}}",
-			"scale":2.5,
-			"offset":0,
-			"name":"Ripsi"
-		},
-		{
-			"type":"entity",
-			"entity":"hatchery:roosterentity",
-			"scale":1,
-			"offset":0,
-			"name":"John Hoborific"
+			"type":"text",
+			"text":"borl"
 		},
 		{
 			"type":"entity",
@@ -26,7 +16,7 @@
 			"text":"Shown above: an exhibit of<br>a chicken, dyed Pink."
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Ink Black Chicken",
 			"input1":"ore:dyeBlack",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -50,7 +40,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:redchicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Cactus Green Chicken",
 			"input1":"ore:dyeGreen",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -72,7 +62,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:brownchicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Blue Chicken",
 			"input1":"ore:dyeBlue",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -94,7 +84,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:purplechicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Cyan Chicken",
 			"input1":"ore:dyeCyan",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -116,7 +106,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:silverdyechicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Gray Chicken",
 			"input1":"ore:dyeGray",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -138,7 +128,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:pinkchicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Lime Chicken",
 			"input1":"ore:dyeLime",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -160,7 +150,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:yellowchicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Light Blue Chicken",
 			"input1":"ore:dyeLightBlue",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
@@ -182,7 +172,7 @@
 			"output2":"roost:chicken{Chicken:'chickens:magentachicken'}"
 		},
 		{
-			"type":"charset_cauldron_dyeing_2",
+			"type":"charset_cauldron_dyeing_2_fake",
 			"header":"Orange Chicken",
 			"input1":"ore:dyeOrange",
 			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",

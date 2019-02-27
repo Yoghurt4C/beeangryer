@@ -1,0 +1,25 @@
+{
+    "name": "Nether Quartz Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:quartzchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Nether Quartz Chicken is a silicon mineral chicken. For some reason, its body is chiseled to resemble a pillar. Doesn't have cleavage!<br>Lay Item: Nether Quartz.$(br2)Some people believe that Quartz Chickens contain magical powers and the ability to promote growth in a garden, or to attract certain energies into the home. These claims are unsubstantinated."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#2{Chicken:'contenttweaker:siliconchicken'}",
+			"liquid":"minecraft:textures/blocks/lava_still.png",
+			"liquidname":"Lava",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:quartzchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:quartzchicken'}",
+			"chicken":"Nether Quartz Chicken",
+			"entitytooltip":"&7Nether Quartz",
+			"outputstack":"minecraft:quartz"
+		}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Diamond Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:diamondchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Diamond Chicken is... Quite dense. Not in the sense that it's slow to pick up on things, but more in the sense of being a ton of very compressed carbon. Very durable and very shiny.<br>Lay Item: Diamonds!$(br2)Keep it secure to prevent possible theft by, uh, something. Better safe than sorry."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"minecraft:coal_block#8",
+			"input2":"roost:chicken#8{Chicken:'chickens:flintchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:obsidianchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:lightbluechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:diamondchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:diamondchicken'}",
+			"chicken":"Diamond Chicken",
+			"entitytooltip":"&7Diamond",
+			"outputstack":"minecraft:diamond"
+		}
+    ]
+}

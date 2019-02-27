@@ -1,0 +1,28 @@
+{
+    "name": "Animated Chicken Carcass",
+    "icon": "roost:chicken{Chicken:'contenttweaker:bonechicken'}",
+    "category": "chickens",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Animated Chicken Carcasses are... pretty self-explanatory? They're $(o)just/$ a sentient set of bones. If you've ever seen a chicken bone, you've seen at least part of this specimen.<br>Lay Item: Bones!$(br2)Yes, they do like trumpets. They just don't (can't?) show it."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:silverdyechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:whitechicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:calcitechicken'}",
+			"input4":"immersiveengineering:material:25#3",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:bonechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:bonechicken'}",
+			"chicken":"Animated Chicken Carcass",
+			"entitytooltip":"&7Bones",
+			"outputstack":"minecraft:bone"
+		}
+    ]
+}

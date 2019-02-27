@@ -1,0 +1,28 @@
+{
+    "name": "Creeping Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:gunpowderchicken'}",
+    "category": "chickens",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Creeping Chickens are the result of an apparent accident. While trying to create a ''Pig Chicken'', you've accidentally put in $(m)completely/$ wrong ingredients and got this weird thing that $(m)generated you billions in marketing/$<br>Lay Item: Gunpowder.$(br2)These chickens are a bit lame, and don't actually explode."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:coalchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:sulfurchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:saltpeterchicken'}",
+			"input4":"minecraft:leaves#6",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:gunpowderchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:gunpowderchicken'}",
+			"chicken":"Creeping Chicken",
+			"entitytooltip":"&7Gunpowder",
+			"outputstack":"minecraft:gunpowder"
+		}
+    ]
+}

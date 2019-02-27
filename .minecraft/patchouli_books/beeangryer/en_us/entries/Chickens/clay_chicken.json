@@ -1,0 +1,23 @@
+{
+    "name": "Clay Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:claychicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Clay Chickens are soft and damp to the touch.$(br)Lay Item: Clay Balls.$(br2)Even though Clay is used to produce bricks, these chickens aren't too happy about being burned."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:snowballchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:sandchicken'}",
+			"output":"roost:chicken{Chicken:'chickens:claychicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:claychicken'}",
+			"chicken":"Clay Chicken",
+			"entitytooltip":"&7Clay Ball",
+			"outputstack":"minecraft:clay_ball"
+		}
+    ]
+}

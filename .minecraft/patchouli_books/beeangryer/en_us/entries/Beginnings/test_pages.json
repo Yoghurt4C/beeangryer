@@ -1,0 +1,29 @@
+{
+    "name": "entitye'e",
+    "icon": "chickens:colored_egg:0",
+    "category": "beginnings",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"entity",
+			"entity":"minecraft:item{id:1,Age:1,Item:{id:'roost:catcher',Count:1b,Damage:0s}}",
+			"scale":2.5,
+			"offset":0,
+			"name":"Ripsi"
+		},
+		{
+			"type":"entity",
+			"entity":"hatchery:roosterentity",
+			"scale":1,
+			"offset":0,
+			"name":"John Hoborific"
+		},
+		{
+			"type":"entity",
+			"entity":"chickens:chickenschicken{Type:'chickens:pinkchicken'}",
+			"default_rotation":-45,
+			"rotate":true,
+			"text":"Shown above: an exhibit of<br>a chicken, dyed Pink."
+		}
+    ]
+}

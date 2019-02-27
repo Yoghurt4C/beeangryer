@@ -1,0 +1,19 @@
+{
+    "name": "Chicken",
+    "icon": "roost:chicken{Chicken:'minecraft:chicken'}",
+    "category": "chickens",
+	"sortnum":0,
+    "pages": [
+		{
+			"type":"text",
+			"text":"This is just a regular, run-of-the-mill Chicken. It's been quite a while since they were last seen alive, and the passing of time has not been kind; for the Chicken forgot how to bear and lay the Egg. For better or worse, this event is not as tragic as it is annoying.<br>Lay Item: Feathers!"
+		},
+		{
+			"type":"entity",
+			"entity":"minecraft:chicken",
+			"default_rotation":-45,
+			"rotate":true,
+			"text":"Shown above: a regular Chicken. May sporadically change its colour."
+		}
+    ]
+}

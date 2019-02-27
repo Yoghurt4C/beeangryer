@@ -1,0 +1,28 @@
+{
+    "name": "Redstone Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:redstonechicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Redstone Chickens are seemingly somewhat shimmery and much like Sand, rough and coarse to the touch.<br>Lay Item: Redstone Dust.$(br2)Generally, they act a bit excited, but some say that they can toggle between sixteen possible ''states''. The validity of that claim is questionable."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+			"input3":"roost:chicken#5{Chicken:'contenttweaker:pyritechicken'}",
+			"input4":"roost:chicken#3{Chicken:'contenttweaker:cinnabarchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:redstonechicken'}",
+			"chicken":"Redstone Chicken",
+			"entitytooltip":"&7Redstone",
+			"outputstack":"minecraft:redstone"
+		}
+    ]
+}

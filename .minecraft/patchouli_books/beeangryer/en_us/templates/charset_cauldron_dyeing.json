@@ -54,7 +54,7 @@
 			"width":10,
 			"height":12,
 			"texture_width":16,
-			"texture_height":16,
+			"texture_height":512,
 			"u":2,
 			"v":2,
 			"x": 47,

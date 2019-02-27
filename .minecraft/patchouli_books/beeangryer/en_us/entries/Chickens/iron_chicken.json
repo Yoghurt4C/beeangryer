@@ -1,0 +1,28 @@
+{
+    "name": "Iron Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:ironchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Iron Chickens are expectedly ferrous creatures. Seemingly related to Iron Golems, in more ways than their looks.<br>Lay Item: Iron Ingots.$(br2)Their similarities draw the line on making loud clanging noises and expressing an affection for poppies."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:calcitechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:coalchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:silverdyechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:ironchicken'}",
+			"chicken":"Iron Chicken",
+			"entitytooltip":"&7Iron Ingots",
+			"outputstack":"minecraft:iron_ingot"
+		}
+    ]
+}

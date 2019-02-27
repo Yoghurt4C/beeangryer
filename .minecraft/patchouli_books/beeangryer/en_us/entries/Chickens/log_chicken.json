@@ -1,0 +1,23 @@
+{
+    "name": "Log Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:logchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Log Chickens feel eerily similar to bark when touched. If you squint really hard, their age can be seen on both their chest and backside.<br>Lay Item: Oak Logs.$(br2)Due to being naturally airheaded, they should be forcibly kept away from fire, unless you really like $(l)charred/$ things."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:brownchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"output":"roost:chicken{Chicken:'chickens:logchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:logchicken'}",
+			"chicken":"Log Chicken",
+			"entitytooltip":"&7Oak Log",
+			"outputstack":"minecraft:log"
+		}
+    ]
+}

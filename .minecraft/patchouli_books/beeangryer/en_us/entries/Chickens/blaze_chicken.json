@@ -1,0 +1,24 @@
+{
+    "name": "Blazicken",
+    "icon": "roost:chicken{Chicken:'chickens:blazechicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Blaze Chickens aren't really chickens, which is somewhat obvious if you just... look at them. Still, they're really warm, and a bit metallic to the touch.<br>Lay Item: Blaze Rods.$(br2)Even though they take after those clangy things from the nether, they're not fireproof. Keep that in mind."
+		},
+		{
+			"type":"fake_multiblock",
+			"header":"Fel Ritual",
+			"input1":"botania:felpumpkin",
+			"input2":"minecraft:iron_bars",
+			"input3":"minecraft:iron_bars",
+			"desc":"To summon one, you have to put a Fel Pumpkin on top of two stacked Iron Bars.",
+			"entity":"chickens:chickenschicken{Type:'chickens:blazechicken'}",
+			"chicken":"Blazicken",
+			"entitytooltip":"&7Blaze Rod",
+			"outputstack":"minecraft:blaze_rod"
+		}
+    ]
+}

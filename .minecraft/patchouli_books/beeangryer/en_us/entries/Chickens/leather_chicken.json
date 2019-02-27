@@ -1,0 +1,28 @@
+{
+    "name": "Leather Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:leatherchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"A Leather Chicken is what you've managed to procure by curing a Rotten Chicken Carcass. Naturally, it's a lot less gross.<br>Lay Item: Leather.$(br2)Don't think too much about where the cow spots came from. Just accept it."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:saltchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:brownchicken'}",
+			"input4":"hatchery:fiber_pad#2",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:leatherchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:leatherchicken'}",
+			"chicken":"Leather Chicken",
+			"entitytooltip":"&7Leather",
+			"outputstack":"minecraft:leather"
+		}
+    ]
+}

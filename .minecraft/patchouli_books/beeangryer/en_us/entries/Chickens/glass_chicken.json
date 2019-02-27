@@ -1,0 +1,24 @@
+{
+    "name": "Glass Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:glasschicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Glass Chicken appears to be a sentient crystalline wireframe of a chicken. It's really smooth and has sharp edges all over.<br>Lay Item: Glass!$(br2)Due to being made from glass, it's very brittle, so you should be especially careful with it."
+		},
+		{
+			"type":"burning+entity",
+			"header":"Burning",
+			"input1":"roost:chicken#4{Chicken:'chickens:sandchicken'}",
+			"time":"10 sec",
+			"output":"roost:chicken{Chicken:'chickens:glasschicken'}",
+			"text":"Heat up a bunch of <br>Sand Chickens to get a single Glass Chicken.",
+			"entity":"chickens:chickenschicken{Type:'chickens:glasschicken'}",
+			"chicken":"Glass Chicken",
+			"entitytooltip":"&7Glass",
+			"outputstack":"minecraft:glass"
+		}
+    ]
+}

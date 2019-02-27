@@ -1,0 +1,23 @@
+{
+    "name": "Flint Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:flintchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Flint Chickens are sharp and sturdy. If you could attach one to a stick, it would make for a great tool! However, it would also be very grotesque.<br>Lay Item: Flint.$(br2)For a ''mineral quartz'' chicken, Flint Chickens are somewhat brittle, therefore they can (and will) fracture under strenuous pressure."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:silverdyechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:graychicken'}",
+			"output":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:flintchicken'}",
+			"chicken":"Flint Chicken",
+			"entitytooltip":"&7Flint",
+			"outputstack":"minecraft:flint"
+		}
+    ]
+}

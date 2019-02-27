@@ -1,0 +1,28 @@
+{
+    "name": "Spider-Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:stringchicken'}",
+    "category": "chickens",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Spider-Chickens are warm and a bit fluffy to the touch. Nowhere near as noisy as actual spiders.<br>Lay Item: String.$(br2)Contrary to what their name would suggest, they don't climb walls or leave cobweb all over the place. At least, no one saw them to it."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:logchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:blackchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:redchicken'}",
+			"input4":"hatchery:feather_fiber#4",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:stringchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:stringchicken'}",
+			"chicken":"Spider-Chicken",
+			"entitytooltip":"&7String",
+			"outputstack":"minecraft:string"
+		}
+    ]
+}

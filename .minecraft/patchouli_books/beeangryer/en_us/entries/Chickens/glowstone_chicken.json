@@ -1,0 +1,28 @@
+{
+    "name": "Glowstone Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:glowstonechicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Glowstone Chickens are somewhat similar to Redstone Chickens, with the major differences being Phosphor instead of Mercury and Gold instead of Iron.<br>Lay Item: Glowstone Dust.$(br2)What's odd about this specimen is that, even though its lay item and exterior are supposed to be very bright, it doesn't radiate any light whatsoever."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#5{Chicken:'contenttweaker:apatitechicken'}",
+			"input2":"roost:chicken#3{Chicken:'chickens:goldchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:yellowchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:glowstonechicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:glowstonechicken'}",
+			"chicken":"Glowstone Chicken",
+			"entitytooltip":"&7Glowstone Dust",
+			"outputstack":"minecraft:glowstone_dust"
+		}
+    ]
+}

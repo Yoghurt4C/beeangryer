@@ -1,0 +1,23 @@
+{
+    "name": "Magma Cream Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:magmachicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Magma Cream Chickens are very similar to their Slime Chicken ''ancestors'', except they're a bit more... warm?<br>Lay Item: Magma Cream.$(br2)Even though they look partially lava-ey, they don't really like hot places. At all."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:blazechicken'}",
+			"output":"roost:chicken{Chicken:'chickens:magmachicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:magmachicken'}",
+			"chicken":"Magma Cream Chicken",
+			"entitytooltip":"&7Magma Cream",
+			"outputstack":"minecraft:magma_cream"
+		}
+    ]
+}

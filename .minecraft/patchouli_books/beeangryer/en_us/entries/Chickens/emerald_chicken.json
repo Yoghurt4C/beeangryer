@@ -1,0 +1,28 @@
+{
+    "name": "Emerald Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:emeraldchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Emerald Chicken is an oddly sophisticated specimen. It sports a bushy, pronounced monobrow and its wings somehow evolved/regressed into tiny arms.<br>Lay Item: Emeralds.$(br2)Still, it's a bit too bird-brained for you to directly extort material wealth from it, but it's keen on ''sharing'' the excess of its theoretical         wallet anyway!"
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:diamondchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:peridotchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:smartchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:emeraldchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:emeraldchicken'}",
+			"chicken":"Testificate Chicken",
+			"entitytooltip":"&7Emeralds",
+			"outputstack":"minecraft:emerald"
+		}
+    ]
+}

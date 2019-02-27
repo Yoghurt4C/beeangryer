@@ -1,0 +1,23 @@
+{
+    "name": "Lapis Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:lapischicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Lapis Chickens are chalky and rough to the touch, yet look deceivingly polished.<br>Lay Item: Lapis Lazuli.$(br2)Don't rub it too hard, or your hand will turn blue. So will any surface you rub it against. (Not really.)"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:bluechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:lapischicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:lapischicken'}",
+			"chicken":"Lapis Chicken",
+			"entitytooltip":"&7Lapis Lazuli",
+			"outputstack":"minecraft:dye:4"
+		}
+    ]
+}

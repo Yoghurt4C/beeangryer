@@ -1,0 +1,23 @@
+{
+    "name": "Snowball Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:snowballchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Snowball Chickens are frosty and damp to the touch. For some reason, they like wearing a Pumpkin on their head; no one knows where and how they get one, though...$(br)Lay Item: Snowballs.$(br2)They $(o)really$() dislike being thrown around. Fire causes them to melt."
+		},
+		{
+			"type":"daisy+entity",
+			"header":"Cooling Down",
+			"input1":"contenttweaker:water_bowl_chicken",
+			"output":"contenttweaker:bowl_snow_chicken",
+			"text":"Punished Daisy can turn a Chicken into a Snowball Chicken when provided with some water.",
+			"entity":"chickens:chickenschicken{Type:'chickens:snowballchicken'}",
+			"chicken":"Snowball Chicken",
+			"entitytooltip":"&7Snowball",
+			"outputstack":"minecraft:snowball"
+		}
+    ]
+}

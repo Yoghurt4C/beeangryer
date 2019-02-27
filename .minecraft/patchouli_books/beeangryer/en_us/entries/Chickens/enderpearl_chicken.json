@@ -1,0 +1,28 @@
+{
+    "name": "Ender Pearl Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:enderchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Ender Pearl Chickens are shadowy creatures with an otherworldy gleam. Unexpectedly, no twitching or teleporting behaviour was observed around them.<br>Lay Item: Ender Pearls.$(br2)They don't like being looked at, but they will never let it show."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:emeraldchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:fluixchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:snowballchicken'}",
+			"input4":"uniquecrops:generic:5#16",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:enderchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:enderchicken'}",
+			"chicken":"Ender Pearl Chicken",
+			"entitytooltip":"&7Ender Pearls",
+			"outputstack":"minecraft:ender_pearl"
+		}
+    ]
+}

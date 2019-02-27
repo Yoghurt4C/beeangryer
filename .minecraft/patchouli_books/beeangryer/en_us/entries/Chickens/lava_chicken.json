@@ -1,0 +1,28 @@
+{
+    "name": "Lava Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:lavachicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"This is one hot Lava Chicken. Even though it's made of caked Magma, it's actually not that hot to the touch.<br>Lay Item: Lava Eggs.$(br2)It burns! In the completely wrong sense of the word. Just keep it away from fire, or you'll lose your Lava-hot Chicken."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:blazechicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:magmaslimechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:orangechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:lavachicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:lavachicken'}",
+			"chicken":"Lava Chicken",
+			"entitytooltip":"&7Lava Eggs",
+			"outputstack":"chickens:liquid_egg:1"
+		}
+    ]
+}

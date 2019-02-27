@@ -1,0 +1,28 @@
+{
+    "name": "Rotten Chicken Carcass",
+    "icon": "roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+    "category": "chickens",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Rotten Chicken Carcasses are visually repulsive and offensive to all sensory inhibitors. Cold and slimy to the touch.<br>Lay Item: Rotten Flesh.$(br2)Apparently, its lay item comes directly from its exterior, but is replaced with ''new'' flesh as soon as the ''old'' one is shed."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:bonechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:redchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"input4":"minecraft:chicken#4",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:rottenchicken'}",
+			"chicken":"Rotten Chicken Carcass",
+			"entitytooltip":"&7Rotten Flesh",
+			"outputstack":"minecraft:rotten_flesh"
+		}
+    ]
+}

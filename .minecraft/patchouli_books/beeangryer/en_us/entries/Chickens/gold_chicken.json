@@ -1,0 +1,28 @@
+{
+    "name": "Gold Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:goldchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Gold Chickens are bald and pig-like. They're just this much less gross than Rotten Chicken Carcasses, but still repulsive.<br>Lay Item: Gold Ingots$(br2)They're also a bit richer than Zombie Pigmen, and lay solid ingots instead of pitiful nuggets."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:pigironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:yellowchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:blackchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:goldchicken'}",
+			"chicken":"Gold Chicken",
+			"entitytooltip":"&7Gold Ingots",
+			"outputstack":"minecraft:gold_ingot"
+		}
+    ]
+}

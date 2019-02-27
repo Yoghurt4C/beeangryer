@@ -1,0 +1,23 @@
+{
+    "name": "Sand Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:sandchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Sand Chickens are rough and coarse to the touch. They also have a tendency to get everywhere.$(br)Lay Item: whole Sand blocks.$(br2)Even though they're visibly sandy, raking them is a mildly disturbing experience. Keep them away from fire to avoid accidents!"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:yellowchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:whitechicken'}",
+			"output":"roost:chicken{Chicken:'chickens:sandchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:sandchicken'}",
+			"chicken":"Sand Chicken",
+			"entitytooltip":"&7Sand",
+			"outputstack":"minecraft:sand"
+		}
+    ]
+}

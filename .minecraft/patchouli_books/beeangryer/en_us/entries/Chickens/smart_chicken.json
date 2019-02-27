@@ -1,0 +1,24 @@
+{
+    "name": "Smart Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:smartchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Smart Chickens are just regular chickens indocrinated into believing they're part of the intellectual caste. Don't mention it to them, or they'll get really agitated and give you a spicy peck.<br>Lay Item: Books!$(br2)The literature these chickens produce wouldn't be readable even if it was legible. Thankfully, most pages are         untouched."
+		},
+		{
+			"type":"use_on_chicken",
+			"header":"Teaching A Chicken",
+			"input1":"minecraft:book",
+			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
+			"output":"roost:chicken{Chicken:'chickens:smartchicken'}",
+			"text":"Make a Chicken read a Book. Warranty void when applied.",
+			"entity":"chickens:chickenschicken{Type:'chickens:smartchicken'}",
+			"chicken":"Smart Chicken",
+			"entitytooltip":"&7Books",
+			"outputstack":"minecraft:book"
+		}
+    ]
+}

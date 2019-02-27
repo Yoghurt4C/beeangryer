@@ -15,7 +15,10 @@ var liquidchicken=VanillaFactory.createFluid("liquidchicken", Color.fromHex("E7B
 	liquidchicken.viscosity=10000;
 	liquidchicken.register();
 	
-var chickenstock=VanillaFactory.createFluid("chickenstock", Color.fromHex("F0B116"));	
+var chickenstock=VanillaFactory.createFluid("chickenstock", Color.fromHex("F0B116"));
+	chickenstock.stillLocation="contenttweaker:blocks/fluid.chickenstock.still";
+	chickenstock.flowingLocation="contenttweaker:blocks/fluid.chickenstock.flowing";
+	chickenstock.colorize=false;
 	chickenstock.register();
 var salt=VanillaFactory.createFluid("salt", Color.fromHex("F1F2F1"));	
 	salt.register();

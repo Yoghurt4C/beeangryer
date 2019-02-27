@@ -1,0 +1,23 @@
+{
+    "name": "Experienced Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:xpchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Experienced Chickens are blobs of solidified experience disguised as chickens. Does it even matter as long as they share their ''knowledge''?<br>Lay Item: Bottles o' Enchanting!$(br2)It is unknown where they get the Bottles for their Experience, but would you really let that deny you a taste of things to come?"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:smartchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:emeraldchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:xpchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:xpchicken'}",
+			"chicken":"Experienced Chicken",
+			"entitytooltip":"&7Bottles o' Enchanting",
+			"outputstack":"minecraft:experience_bottle"
+		}
+    ]
+}

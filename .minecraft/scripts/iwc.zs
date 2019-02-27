@@ -21,16 +21,15 @@ FireCrafting.addRecipe(<forestry:ash>*4,
  200);
 
 FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1}),
-<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1})*4,
  200);
  <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1})
-	.addTooltip(format.red("Obtained by forcibly warming up a Sand Chicken."));
-FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1}),
-<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:logchicken", Gain: 1, Strength: 1})*4,
- 200);
+	.addTooltip(format.red("Obtained by forcibly warming up a bunch of Sand Chickens."));
 FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1}),
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1})*4,
  200);
+  <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1})
+	.addTooltip(format.red("Obtained by forcibly warming up a bunch of Snowball Chickens."));
  
 //FluidToItem.transform(IItemStack output, ILiquidStack inputFluid, IIngredient inputItem, @Optional boolean consume);
 //FluidToItem.transform(IItemStack output, ILiquidStack inputFluid, [IIngredient inputItems], @Optional boolean consume);
@@ -64,6 +63,13 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweak
 	<immersiveengineering:material:25>*3],
 	true);
 //others
+FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:coalchicken", Gain: 1, Strength: 1}), 
+	<liquid:chickenstock>,[
+	<ore:blockCharcoal>*3,
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:flintchicken", Gain: 1, Strength: 1}),
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:blackchicken", Gain: 1, Strength: 1}),
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:graychicken", Gain: 1, Strength: 1})],
+	true);
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:ironchicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
 	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:flintchicken", Gain: 1, Strength: 1}),
@@ -351,7 +357,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:qua
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})*2, 
 	true);
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1})
-	.addTooltip(format.red("Obtained by bathing a Silicon Chicken in lava"));
+	.addTooltip(format.red("Obtained by bathing a pair of Silicon Chickens in lava"));
 
 FluidToItem.transform(<minecraft:egg>, 
 	<liquid:etchingacid>, 

@@ -1,0 +1,23 @@
+{
+    "name": "Slime Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:slimechicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Slime Chickens look and feel like gelatine, yet they don't wobble around or jiggle too much.<br>Lay Item: Slimeballs.$(br2)For some reason, unlike 'actual' Slime, they're fully opaque. Probably not a good substitute for the purpose of leveling up."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:claychicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"output":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:slimechicken'}",
+			"chicken":"Slime Chicken",
+			"entitytooltip":"&7Slimeball",
+			"outputstack":"minecraft:slime_ball"
+		}
+    ]
+}

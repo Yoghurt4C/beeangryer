@@ -1,0 +1,28 @@
+{
+    "name": "Nether Wart Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:netherwartchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Nether Wart Chicken is a Soul Sand ''chicken'' with digusting pustules growing on it. Somehow, that makes it resemble an actual chicken?..<br>Lay Item: Nether Wart.$(br2)Don't believe its lies."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:soulsandchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:bloodslimechicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:redchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:netherwartchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:netherwartchicken'}",
+			"chicken":"Nether Wart Chicken",
+			"entitytooltip":"&7Nether Wart",
+			"outputstack":"minecraft:nether_wart"
+		}
+    ]
+}

@@ -62,7 +62,7 @@ val lapischicken = ChickenFactory.createChicken("lapischicken", Color.fromHex("1
 		lapischicken.setForegroundColor(Color.fromHex("5A6FDB"));
 		lapischicken.spawnType="NONE";
 		lapischicken.setParentOne(ResourceLocation.create("chickens:flintchicken"));
-		lapischicken.setParentTwo(ResourceLocation.create("chickens:waterchicken"));
+		lapischicken.setParentTwo(ResourceLocation.create("chickens:bluechicken"));
 		lapischicken.register();//obtainable
 		
 val sulfurchicken = ChickenFactory.createChicken("sulfurchicken", Color.fromHex("FFE782"), <item:immersiveengineering:material:25>);

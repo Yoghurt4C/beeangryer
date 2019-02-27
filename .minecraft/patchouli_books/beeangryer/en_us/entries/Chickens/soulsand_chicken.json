@@ -1,0 +1,28 @@
+{
+    "name": "Soul Sand Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:soulsandchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"This thing doesn't even resemble a chicken. How could this happen? Somehow, it still has edible chicken meat under its Soul Sand exterior.<br>Lay Item: Soul Sand.$(br2)Exhibit caution upon interaction. Letting it breach containment is discouraged and frowned upon. Burn, if necessary."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#4{Chicken:'chickens:sandchicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:saltpeterchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:coalchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:brownchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:soulsandchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:soulsandchicken'}",
+			"chicken":"Soul Sand Chicken",
+			"entitytooltip":"&7Soul Sand",
+			"outputstack":"minecraft:soul_sand"
+		}
+    ]
+}

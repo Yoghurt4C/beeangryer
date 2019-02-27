@@ -1,0 +1,23 @@
+{
+    "name": "Poisonous Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:venomchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Contrary to what their name suggests, Poisonous Chickens aren't all $(o)that/$ harmful; they're generally safe to handle, and it's only their lay item that's actually poisonous.<br>Lay Item: Spider Eyes.$(br2)It is unclear how the eyes are procured and shed. Perhaps it would be best to not know at all."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:stringchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:venomchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:venomchicken'}",
+			"chicken":"Poisonous Chicken",
+			"entitytooltip":"&7Spider Eyes",
+			"outputstack":"minecraft:spider_eye"
+		}
+    ]
+}

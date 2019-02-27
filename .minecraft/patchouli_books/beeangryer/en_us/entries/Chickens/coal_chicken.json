@@ -1,0 +1,29 @@
+{
+    "name": "Coal Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:coalchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Anthracite Coal Chickens are a species of well-done chicken. Tough, dense, clean, beautiful and lustrous, it goes great with catsup!<br>Lay Item: Coal.$(br2)Is it standard grade, high grade or ultra high grade?"
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"quark:charcoal_block#3",
+			"input2":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:blackchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:graychicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'chickens:coalchicken'}",
+			"text":"Heat up a bunch of <br>Log Chickens to get a single Coal Chicken.",
+			"entity":"chickens:chickenschicken{Type:'chickens:coalchicken'}",
+			"chicken":"Coal Chicken",
+			"entitytooltip":"&7Coal",
+			"outputstack":"minecraft:coal"
+		}
+    ]
+}

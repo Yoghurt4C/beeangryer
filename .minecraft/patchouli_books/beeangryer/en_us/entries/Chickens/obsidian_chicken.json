@@ -1,0 +1,23 @@
+{
+    "name": "Obsidian Chicken",
+    "icon": "roost:chicken{Chicken:'chickens:obsidianchicken'}",
+    "category": "chickens",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Obsidian Chickens are expectedly glassy, very sharp, and, contradictory to being hard, very brittle.<br>Lay Item: Obsidian.$(br2)Not much else can be pointed out, except for the odd humming radiating from within the produced Obsidian."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:waterchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:lavachicken'}",
+			"output":"roost:chicken{Chicken:'chickens:obsidianchicken'}",
+			"entity":"chickens:chickenschicken{Type:'chickens:obsidianchicken'}",
+			"chicken":"Obsidian Chicken",
+			"entitytooltip":"&7Obsidian",
+			"outputstack":"minecraft:obsidian"
+		}
+    ]
+}

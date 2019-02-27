@@ -1,0 +1,6 @@
+{
+	"name": "Chickens",
+	"description": "An encyclopedia about Chickens: what they are, what items they lay, where to find them and how to handle them. There's $(l)a lot/$ of pages, and they don't necessarily follow any specific order, other than ''mob'' chickens come first, and ''vanilla'' chickens come second, with the rest of the modded chickens just being piled up afterwards.",
+	"icon": "roost:chicken{Chicken:'minecraft:chicken'}",
+	"sortnum":1
+}

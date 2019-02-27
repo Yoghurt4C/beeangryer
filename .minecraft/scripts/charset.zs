@@ -12,81 +12,97 @@ Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [15 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:blackchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:blackchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //red
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [14 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //green
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [13 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:greenchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:greenchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //brown
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [12 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:brownchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:brownchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //blue
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [11 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:bluechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:bluechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //purple
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [10 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:purplechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:purplechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //cyan
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [9 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:cyanchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:cyanchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //lightgray
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [8 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:silverdyechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:silverdyechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //gray
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [7 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:graychicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:graychicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //pink
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [6 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:pinkchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:pinkchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //lime
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [5 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:limechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:limechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //yellow
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [4 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:yellowchicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:yellowchicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //lightblue
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [3 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:lightbluechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:lightbluechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //magenta
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [2 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:magentachicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:magentachicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //orange
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [1 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:orangechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:orangechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 //white
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Chicken: "minecraft:chicken"}), 
 <liquid:dyed_water>.withTag({dyes: [0 as byte]})*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:whitechicken", Gain: 1, Strength: 1}));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:whitechicken", Gain: 1, Strength: 1}).addTooltip(format.gray("Dyed in a Cauldron."));
 
 //"boiling" recipes
 //mods.charset.Cauldron.addItemFluidRecipe(inputstack, inputfluidstack*int, outputstack,  outputfluidstack*int);
