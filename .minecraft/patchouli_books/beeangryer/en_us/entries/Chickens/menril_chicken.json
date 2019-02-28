@@ -1,0 +1,28 @@
+{
+    "name": "Menril Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:menrilchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Menril Chickens are a species of odd crystalline chickens. Applying pressure to it seems to break the crystalline exterior; then the crack starts leaking a bright substance that coagulates back into a crystalline form if left alone.<br>Lay Item: Menril Berries.$(br2)For some reason, they shed berries. If that's not weird enough, said berries radiate      light."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:logchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:pcrystalchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:lightbluechicken'}",
+			"input4":"rustic:grapes#6",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:menrilchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:menrilchicken'}",
+			"chicken":"Menril Chicken",
+			"entitytooltip":"&7Menril Berries",
+			"outputstack":"integrateddynamics:menril_berries"
+		}
+    ]
+}

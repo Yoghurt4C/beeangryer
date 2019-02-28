@@ -1,0 +1,28 @@
+{
+    "name": "Lead Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:leadchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Lead Chickens are a metallic species of chicken. Dense, toxic, and with a very low melting point.<br>Lay Item: Lead Ingots.$(br2)A long time ago, Lead Chickens were often confused with Tin Chickens; this was due to non-oxidized Lead being very similar to Tin in appearance, which was called ''White Lead''."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:venomchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:cinnabarchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:bluechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:leadchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:leadchicken'}",
+			"chicken":"Lead Chicken",
+			"entitytooltip":"&7Lead Ingots",
+			"outputstack":"ore:ingotLead"
+		}
+    ]
+}

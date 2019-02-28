@@ -1,0 +1,28 @@
+{
+    "name": "Ardite Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:arditechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Ardite Chicken is a very weird species. It exhibits metallic properties, while not quite being a metal in itself. Seems to be very durable.<br>Lay Item: Ardite Ingots.$(br2)This chicken expresses an odd affection for pebbles, hungrily picking them out of dirt, yet won't accept ones have have already been dug out."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:obsidianchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:pyritechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:glowstonechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:lavachicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:arditechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:arditechicken'}",
+			"chicken":"Ardite Chicken",
+			"entitytooltip":"&7Ardite Ingots",
+			"outputstack":"ore:ingotArdite"
+		}
+    ]
+}

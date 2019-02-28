@@ -1,0 +1,28 @@
+{
+    "name": "Signalum Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:signalumchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Signalum Chicken is an ''alloy'' chicken. Energetic and conductive. Used in the second-grade Thermal machinery.<br>Lay Item: Signalum Ingots.$(br2)One outstanding property of this alloy allows for drastic improvement when installed into certain machines. Those effects seem to come with oddities."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#4{Chicken:'contenttweaker:copperchicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:silverchicken'}",
+			"input3":"roost:chicken#3{Chicken:'chickens:redstonechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:orangechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:signalumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:signalumchicken'}",
+			"chicken":"Signalum Chicken",
+			"entitytooltip":"&7Signalum Ingots",
+			"outputstack":"ore:ingotSignalum"
+		}
+    ]
+}

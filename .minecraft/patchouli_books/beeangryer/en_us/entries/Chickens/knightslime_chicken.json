@@ -1,0 +1,28 @@
+{
+    "name": "Knightslime Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:knightslimechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Knightslime Chicken is a non-metal ''alloy'' species of chicken. Exhibits metallic properties, so brittle it practically crumbles while you hold it - while staying intact.<br>Lay Item: Knightslime Ingots.$(br2)No one knows how this came to be, and frankly, we're probably better off not knowing."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:purpleslimechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:magentachicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:knightslimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:knightslimechicken'}",
+			"chicken":"Knightslime Chicken",
+			"entitytooltip":"&7Knightslime Ingots",
+			"outputstack":"ore:ingotKnightslime"
+		}
+    ]
+}

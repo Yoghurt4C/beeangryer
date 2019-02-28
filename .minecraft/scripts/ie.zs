@@ -26,14 +26,14 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:chickenstock>*1000,
  <liquid:liquidchicken>*1000,
  <liquid:salt>*288,
  4800);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:chickenstock>*900,
- <liquid:liquidchicken>*1000,
- [<contenttweaker:salt_cube>*2],
- 4800);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:chickenstock>*1200,
  <liquid:liquidchicken>*1000,
  [<contenttweaker:salt_cube>,<contenttweaker:salt_cube>,condiment,condiment],
  3600);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:chickenstock>*900,
+ <liquid:liquidchicken>*1000,
+ [<contenttweaker:salt_cube>*2],
+ 4800);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:chickenstock>*5000,
  <liquid:liquidchicken>*5000,
  [<contenttweaker:salt_block>*1,condiment,condiment,condiment],

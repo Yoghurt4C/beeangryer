@@ -1,0 +1,25 @@
+{
+    "name": "Chrome Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:chromechicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Chrome Chickens are a metallic species of chicken. Lustrous, hard, and with a high melting point, Chromium is mostly used in alloying Stainless Steel... Which doesn't exist anymore.<br>Lay Item: Chrome Ingots.$(br2)Chromium can take on a variety of pigments through oxidation, and that's where it got its name from!"
+		},
+		{
+			"type":"tr_ibf",
+			"header":"Industrial Blast Furnace",
+			"input1":"roost:chicken{Chicken:'contenttweaker:titaniumchicken'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:pinkchicken'}",
+			"machine":"techreborn:industrial_blast_furnace",
+			"desc":"1700 Heat<br>221 sec<br>2.121MFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:chromechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:chromechicken'}",
+			"chicken":"Chrome Chicken",
+			"entitytooltip":"&7Chrome Ingots",
+			"outputstack":"ore:ingotChrome"
+		}
+    ]
+}

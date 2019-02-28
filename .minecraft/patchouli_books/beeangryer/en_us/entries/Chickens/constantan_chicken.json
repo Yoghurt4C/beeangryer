@@ -1,0 +1,23 @@
+{
+    "name": "Constantan Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:constantanchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Constantan Chickens are a species of ''alloy'' chickens. It brandishes a very high resistivity, and is one of the most widely used alloys in gauging and measurement.<br>Lay Item: Constantan Ingots.$(br2)Of all modern strain gauge alloys, Constantan is the oldest."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:copperchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:constantanchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:constantanchicken'}",
+			"chicken":"Constantan Chicken",
+			"entitytooltip":"&7Constantan Ingot",
+			"outputstack":"ore:ingotConstantan"
+		}
+    ]
+}

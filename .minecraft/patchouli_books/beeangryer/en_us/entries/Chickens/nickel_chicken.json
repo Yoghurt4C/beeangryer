@@ -1,0 +1,28 @@
+{
+    "name": "Nickel Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:nickelchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Nickel Chickens are a metallic species of chicken. Strong and hard. Resistant to corrosion.<br>Lay Item: Nickel Ingots.$(br2)Sadly, this species does not possess the ability to shed coins."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:whitechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:nickelchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:nickelchicken'}",
+			"chicken":"Nickel Chicken",
+			"entitytooltip":"&7Nickel Ingots",
+			"outputstack":"ore:ingotNickel"
+		}
+    ]
+}

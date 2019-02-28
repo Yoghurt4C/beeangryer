@@ -1,0 +1,23 @@
+{
+    "name": "Manyullyn Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:manyullynchicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Manyullyn Chickens are an ''alloy'' species of chicken. Unnaturally cold to the touch. Simply looking at it makes your gut churn.<br>Lay Item: Manyullyn Ingots.$(br2)Would probably taste like purple, if it was edible."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:arditechicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:cobaltchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:manyullynchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:manyullynchicken'}",
+			"chicken":"Manyullyn Chicken",
+			"entitytooltip":"&7Manyullyn Ingots",
+			"outputstack":"tconstruct:ingots:2"
+		}
+    ]
+}

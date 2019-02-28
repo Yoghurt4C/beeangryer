@@ -1,0 +1,23 @@
+{
+    "name": "Cinnabar Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:cinnabarchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Cinnabar Chickens are a species of compound chickens. Technically, it is Mercury Sulfide, which is the most common ore source of Mercury. Highly toxic.<br>Lay Item: Cinnabar Dust.$(br2)Mercury is a noble metal. It was very popular for its rouge tint once upon a time!"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:richslagchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:cinnabarchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:cinnabarchicken'}",
+			"chicken":"Cinnabar Chicken",
+			"entitytooltip":"&7Cinnabar Dust",
+			"outputstack":"ore:dustCinnabar"
+		}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Zinc Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:zincchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Zinc Chickens are a metallic species of chicken. Lustrous, brittle at low temperatures, used in many alloys. Not toxic, but fresh zinc oxide can cause metal fume fever.<br>Lay Item: Zinc Ingots.$(br2)Zinc is an essential element in nutrition! Its deficiency increases the average daily calorie intake by 50% in order to maintain the same weight."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:snowballchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:silverdyechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:zincchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:zincchicken'}",
+			"chicken":"Zinc Chicken",
+			"entitytooltip":"&7Zinc Ingots",
+			"outputstack":"ore:ingotZinc"
+		}
+    ]
+}

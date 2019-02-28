@@ -1,0 +1,23 @@
+{
+    "name": "Magma Slime Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:magmaslimechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Magma Slime Chickens are yet another species of slime chickens, which seems to radiate heat. Their slime balls are hot to the touch and, for some reason, smell like pepper.<br>Lay Item: Magma Slimeballs.$(br2)For some reason, you don't get accustomed to its heat, and it just keeps getting hotter the longer you hold it."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:magmachicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:magmaslimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:magmaslimechicken'}",
+			"chicken":"Magma Slime Chicken",
+			"entitytooltip":"&7Magma Slimeball",
+			"outputstack":"tconstruct:edible:4"
+		}
+    ]
+}

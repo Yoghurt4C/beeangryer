@@ -1,0 +1,23 @@
+{
+    "name": "Purple Slime Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:purpleslimechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Purple Slime Chickens are yet another species of slime chickens. What distinguishes them from the other Slime Chickens is their squishiness, which makes their Purple Slime inadequate as tool parts. But, you can make really sick trampolines out of it!<br>Lay Item: Purple Slimeballs.$(br2)Also, they are rumored to bring both bad and good Luck."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:bloodslimechicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:lapischicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:purpleslimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:purpleslimechicken'}",
+			"chicken":"Purple Slime Chicken",
+			"entitytooltip":"&7Purple Slimeball",
+			"outputstack":"tconstruct:edible:2"
+		}
+    ]
+}

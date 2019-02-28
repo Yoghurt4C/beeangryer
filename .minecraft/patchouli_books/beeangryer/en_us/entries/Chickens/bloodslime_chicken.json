@@ -1,0 +1,23 @@
+{
+    "name": "Blood Slime Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:bloodslimechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Blood Slime Chickens are yet another species of slime chickens, perhaps the most grotesque one. Its slime consists mostly of congealed blood, and the source of that blood is unknown; it also seems to be of the ''O negative'' blood type.<br>Lay Item: Blood Slimeballs.$(br2)Still, free ''universal donor'' blood isn't something you come     across every day..."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:rottenchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:bloodslimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:bloodslimechicken'}",
+			"chicken":"Blood Slime Chicken",
+			"entitytooltip":"&7Blood Slimeball",
+			"outputstack":"tconstruct:edible:3"
+		}
+    ]
+}

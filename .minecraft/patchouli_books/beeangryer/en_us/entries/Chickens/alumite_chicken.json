@@ -1,0 +1,28 @@
+{
+    "name": "Alumite Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:alumitechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Alumite Chicken is an ''alloy'' species of chicken. Surprisingly durable, lightweight, lustrous and disgustingly pink.<br>Lay Item: Alumite Ingots.$(br2)Almost too good for what it is... Something about it feels off."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#5{Chicken:'contenttweaker:aluminiumchicken'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:ironchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:obsidianchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:pinkchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:alumitechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:alumitechicken'}",
+			"chicken":"Alumite Chicken",
+			"entitytooltip":"&7Alumite Ingots",
+			"outputstack":"ore:ingotAlumite"
+		}
+    ]
+}

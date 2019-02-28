@@ -146,8 +146,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 7.5,
@@ -157,8 +157,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 46.5,
@@ -168,8 +168,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 7.5,
@@ -179,8 +179,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 46.5,

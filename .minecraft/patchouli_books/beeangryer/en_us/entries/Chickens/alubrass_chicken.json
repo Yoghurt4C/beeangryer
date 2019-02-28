@@ -1,0 +1,23 @@
+{
+    "name": "Aluminium Brass Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:alubrasschicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Aluminium Brass Chickens are a species of ''alloy'' chickens. It brandishes higher strength and corrosion resistance compared to other bronze alloys.<br>Lay Item: Aluminium Brass Ingots.$(br2)This alloy is specifically useful when working with water, because of its biostatic effects: its copper component prevents colonisation by          marine organisms."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:aluminiumchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:copperchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:alubrasschicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:alubrasschicken'}",
+			"chicken":"Aluminium Brass Chicken",
+			"entitytooltip":"&7Aluminium Brass Ingot",
+			"outputstack":"ore:ingotAlubrass"
+		}
+    ]
+}

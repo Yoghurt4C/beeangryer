@@ -1,0 +1,29 @@
+{
+    "name": "Calcite Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:calcitechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Calcite Chickens are a species of carbonate chickens. Technically, it is the most stable polymorph of Calcium Carbonate. It is the active ingredient in agricultural Lime. You will need this specimen if you want to get past the pebble age.<br>Lay Item: Calcite Dust.$(br2)Don't ask how this works."
+		},
+		{
+			"type":"charset_cauldron_dyeing",
+			"header":"Cauldron Bath",
+			"input1":"contenttweaker:firedeggshells",
+			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:calcitechicken'}",
+			"liquid1":"minecraft:textures/blocks/water_still.png",
+			"liquid1name":"Water","liquid1tooltip":"&71L",
+			"liquid2":"base:textures/fluids/liquid.png",
+			"liquid2name":"Dissolved Egg Shells",
+			"liquid2tooltip":"",
+			"liquid2tooltip2":"&71L",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:calcitechicken'}",
+			"chicken":"Calcite Chicken",
+			"entitytooltip":"&7Calcite Dust",
+			"outputstack":"ore:dustCalcite"
+		}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Pig Iron Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:pigironchicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Pig Iron Chicken is an ''alloy'' species of chicken. Unusually porky. Looking at it makes invokes unnatural hunger.<br>Lay Item: Pig Iron Ingots.$(br2)Would probably taste great in curry, if you knew how to make it..."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:bloodslimechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:claychicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:pinkchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:pigironchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:pigironchicken'}",
+			"chicken":"Pig Iron Chicken",
+			"entitytooltip":"&7Pig Iron Ingots",
+			"outputstack":"ore:ingotPigiron"
+		}
+    ]
+}

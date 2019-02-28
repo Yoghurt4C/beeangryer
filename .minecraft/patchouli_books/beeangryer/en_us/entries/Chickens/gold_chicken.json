@@ -6,7 +6,7 @@
     "pages": [
 		{
 			"type":"text",
-			"text":"Gold Chickens are bald and pig-like. They're just this much less gross than Rotten Chicken Carcasses, but still repulsive.<br>Lay Item: Gold Ingots$(br2)They're also a bit richer than Zombie Pigmen, and lay solid ingots instead of pitiful nuggets."
+			"text":"Gold Chickens are a noble metallic species of chicken. Bald and pig-like. They're just this much less gross than Rotten Chicken Carcasses, but still repulsive.<br>Lay Item: Gold Ingots$(br2)They're also a bit richer than Zombie Pigmen, and lay solid ingots instead of pitiful nuggets."
 		},
 		{
 			"type":"iwc_4inputs+entity",

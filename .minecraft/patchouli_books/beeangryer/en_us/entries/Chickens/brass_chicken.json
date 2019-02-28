@@ -1,0 +1,23 @@
+{
+    "name": "Brass Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:brasschicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Brass Chickens are a species of ''alloy'' chickens. It is soft, easy to cast, resistant to corrosion, and a good heat conductor.<br>Lay Item: Brass Ingots.$(br2)''Younger'' than bronze, but more malleable."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:copperchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:zincchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:brasschicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:brasschicken'}",
+			"chicken":"Brass Chicken",
+			"entitytooltip":"&7Brass Ingot",
+			"outputstack":"ore:ingotBrass"
+		}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Calculus Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:calcprocessorchicken'}",
+    "category": "chickens",
+	"sortnum":7,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Calculus Chickens are a species of artificialy engineered cyberchickens. All they can do is count things.<br>Lay Item: Calculation Processor.$(br2)Don't ask it to divide by zero. It will just glare menacingly and ignore you for the rest of its life cycle."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Etching''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:certuschicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:fluixchicken'}",
+			"liquid":"patchouli:textures/gui/etchingacid.png",
+			"liquidname":"''Etching'' Acid",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:calcprocessorchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:calcprocessorchicken'}",
+			"chicken":"Calculus Chicken",
+			"entitytooltip":"&7Calculation Processor",
+			"outputstack":"appliedenergistics2:material:23"
+		}
+    ]
+}

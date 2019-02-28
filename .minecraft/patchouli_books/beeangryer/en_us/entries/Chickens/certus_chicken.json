@@ -1,0 +1,28 @@
+{
+    "name": "Certus Quartz Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:certuschicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Certus Quartz Chickens are a species of quartz chickens. It appears to be very similar to nether quartz, yet a bit more reflective and clearer. Very conductive.<br>Lay Item: Certus Quartz Crystal.$(br2)Surely, there is more to it than meets the eye?"
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:quartzchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:pcrystalchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:apatitechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:lightbluechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:certuschicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:certuschicken'}",
+			"chicken":"Certus Quartz Chicken",
+			"entitytooltip":"&7Certus Quartz Crystal",
+			"outputstack":"appliedenergistics2:material:0"
+		}
+    ]
+}

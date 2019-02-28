@@ -1,0 +1,28 @@
+{
+    "name": "Logicae Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:logicprocessorchicken'}",
+    "category": "chickens",
+	"sortnum":7,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Logicae Chickens are a species of artificialy engineered cyberchickens. Their spec consists of accounting and logistics.<br>Lay Item: Logic Processor.$(br2)They seem to work at peak efficiency near a watercooler. It's just not the kind of work you'd expect."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Etching''",
+			"input1":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:fluixchicken'}",
+			"liquid":"patchouli:textures/gui/etchingacid.png",
+			"liquidname":"''Etching'' Acid",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:logicprocessorchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:logicprocessorchicken'}",
+			"chicken":"Logicae Chicken",
+			"entitytooltip":"&7Logic Processor",
+			"outputstack":"appliedenergistics2:material:22"
+		}
+    ]
+}

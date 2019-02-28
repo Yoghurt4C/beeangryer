@@ -1,0 +1,23 @@
+{
+    "name": "Mithril Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:mithrilchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Mithril Chickens are a species of ''alloy'' chickens. It seems to be an odd composition of platinum and manasteel. Has absolutely no apparent uses.<br>Lay Item: Mana Infused Ingots.$(br2)Maybe it'll be useful someday..."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:platinumchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:mithrilchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:mithrilchicken'}",
+			"chicken":"Mithril Chicken",
+			"entitytooltip":"&7Mana Infused Ingot",
+			"outputstack":"ore:ingotMithril"
+		}
+    ]
+}

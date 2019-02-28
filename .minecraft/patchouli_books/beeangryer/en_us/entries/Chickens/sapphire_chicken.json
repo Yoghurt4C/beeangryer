@@ -1,0 +1,25 @@
+{
+    "name": "Sapphire Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:sapphirechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Sapphire Chickens are a gemstone species of chicken. It is the second toughest natural gem after Diamond, but chips and fractures very easily if mishandled.<br>Lay Item: Sapphire Gems.$(br2)Sapphire is pleochroic; it can appear in a different tint from different angles."
+		},
+		{
+			"type":"tr_cr",
+			"header":"Chemical Reactor",
+			"input1":"techreborn:dynamiccell#3{Fluid:{FluidName:'fluidcompressedair',Amount:1000}}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:aluminiumchicken'}",
+			"machine":"techreborn:chemical_reactor",
+			"desc":"50 sec<br>200KFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:sapphirechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:sapphirechicken'}",
+			"chicken":"Sapphire Chicken",
+			"entitytooltip":"&7Sapphire Gems",
+			"outputstack":"ore:gemSapphire"
+		}
+    ]
+}

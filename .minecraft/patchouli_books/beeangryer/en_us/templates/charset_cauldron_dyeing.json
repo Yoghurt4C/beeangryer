@@ -71,8 +71,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 7.5,
@@ -82,8 +82,8 @@
 		{
 			"type": "image",
 			"image": "patchouli:textures/gui/arrow_down.png",
-			"width":16,
-			"height":16,
+			"width":9,
+			"height":9,
 			"texture_width":16,
 			"texture_height":16,
 			"x": 46.5,
@@ -122,6 +122,41 @@
 			"framed":true,
 			"x": 85,
 			"y": 48
+		},
+		{
+			"type":"entity",
+			"entity":"#entity",
+			"render_size":50,
+			"x":57,
+			"y":100
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":22,
+			"height":22,
+			"u":78,
+			"v":21,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 31,
+			"y": 74,
+			"scale":2.4
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#chicken","&8Lay item:","#entitytooltip"],
+			"width":52.8,
+			"height":52.8,
+			"x": 31,
+			"y": 74
+		},
+		{
+			"type": "item",
+			"item": "#outputstack",
+			"framed":true,
+			"x": 90,
+			"y": 92
 		}
 	]
 }

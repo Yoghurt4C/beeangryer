@@ -1,0 +1,28 @@
+{
+    "name": "Cobalt Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:cobaltchicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Cobalt Chicken is a metallic chicken species. Lustrous, very lightweight. Known for its distinctive blue tint.<br>Lay Item: Cobalt Ingots.$(br2)A long time ago, Cobalt was mainly used in production of high-strength alloys. The art of making those is lost since then, however; but one remains."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'contenttweaker:nickelchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:pyritechicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:platinumchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:cobaltchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:cobaltchicken'}",
+			"chicken":"Cobalt Chicken",
+			"entitytooltip":"&7Cobalt Ingots",
+			"outputstack":"ore:ingotCobalt"
+		}
+    ]
+}

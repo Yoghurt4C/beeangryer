@@ -1,0 +1,23 @@
+{
+    "name": "Invar Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:invarchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Invar Chickens are a species of ''alloy'' chickens. It is notable for its uniquely low coefficient of thermal expansion - in other words, it's very heatproof. Mainly, Invar belongs in places with a requirement for high dimensional stability and precision.<br>Lay Item: Invar Ingots.$(br2)Keep in mind that the Chicken     itself is $(l)not/$ heatproof."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:nickelchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:invarchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:invarchicken'}",
+			"chicken":"Invar Chicken",
+			"entitytooltip":"&7Invar Ingot",
+			"outputstack":"ore:ingotInvar"
+		}
+    ]
+}

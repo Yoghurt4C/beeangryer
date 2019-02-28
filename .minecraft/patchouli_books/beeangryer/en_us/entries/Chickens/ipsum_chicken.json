@@ -1,0 +1,28 @@
+{
+    "name": "Ipsum Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:engiprocessorchicken'}",
+    "category": "chickens",
+	"sortnum":7,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Ipsum Chickens are a species of artificialy engineered cyberchickens. Their spec consists of bossing the Logicae Chickens around and looking pretty.<br>Lay Item: Engineering Processor.$(br2)When they're not busy doing that, they keep the whole system afloat. No one ever saw them to it, but things do work."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Etching''",
+			"input1":"roost:chicken{Chicken:'chickens:diamondchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:fluixchicken'}",
+			"liquid":"patchouli:textures/gui/etchingacid.png",
+			"liquidname":"''Etching'' Acid",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:engiprocessorchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:engiprocessorchicken'}",
+			"chicken":"Ipsum Chicken",
+			"entitytooltip":"&7Engineering Processor",
+			"outputstack":"appliedenergistics2:material:24"
+		}
+    ]
+}

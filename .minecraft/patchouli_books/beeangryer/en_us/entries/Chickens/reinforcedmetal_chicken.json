@@ -1,0 +1,28 @@
+{
+    "name": "Reinforced Metal Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:reinforcedmetalchicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Reinforced Metal Chickens are a species of ''alloy'' chickens. In essence, it's pigmented steel with a thick diamond coating, designed specifically to be used in empoyment of industrialized minecarts.<br>Lay Item: Stabilized Metal.$(br2)I'm unsure how this amount of diamonds can still classify as a metal alloy, honestly."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#5{Chicken:'chickens:diamondchicken'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:ironchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:obsidianchicken'}",
+			"input4":"roost:chicken{Chicken:'contenttweaker:lapischicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:reinforcedmetalchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:reinforcedmetalchicken'}",
+			"chicken":"Reinforced Metal Chicken",
+			"entitytooltip":"&7Stabilized Metal",
+			"outputstack":"stevescarts:modulecomponents:21"
+		}
+    ]
+}

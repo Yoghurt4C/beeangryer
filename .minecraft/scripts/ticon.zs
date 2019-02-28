@@ -46,6 +46,7 @@ true,
 20);
 
 mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:chicken>, <liquid:liquidchicken>);
+mods.tconstruct.Melting.addEntityMelting(<entity:chickens:chickenschicken>, <liquid:liquidchicken>);
 for comb in <ore:beeComb>.items {
     // melt combs to honey
     mods.tconstruct.Melting.addRecipe(

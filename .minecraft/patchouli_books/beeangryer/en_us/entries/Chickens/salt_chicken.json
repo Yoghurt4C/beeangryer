@@ -1,0 +1,24 @@
+{
+    "name": "Salt Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:saltchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Salt Chicken is a very seasoned member of the mineral species of chickens. Licking it is not advised. Has an innate ability to ward off malicious spirits and self-driving cars.<br>Lay Item: Salt Cubes!$(br2)You will need this chicken in order to make Chicken Stock."
+		},
+		{
+			"type":"drying_basin",
+			"header":"Evaporating A Chicken",
+			"input1":"roost:chicken{Chicken:'chickens:waterchicken'}",
+			"input2":"integrateddynamics:drying_basin",
+			"output":"roost:chicken{Chicken:'contenttweaker:saltchicken'}",
+			"text":"Let a Water Chicken evaporate. This takes a while!",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:saltchicken'}",
+			"chicken":"Salt Chicken",
+			"entitytooltip":"&7Salt Cubes",
+			"outputstack":"contenttweaker:salt_cube"
+		}
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Tungsten Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:tungstenchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Tungsten Chickens are a metallic species of chicken. Also known as Wolfram, this metal has the highest melting point of all discovered elements. In density, it is comparable to that of uranium and gold.<br>Lay Item: Tungsten Ingots.$(br2)Metallic Tungsten is hypoallergenic."
+		},
+		{
+			"type":"tr_ibf",
+			"header":"Industrial Blast Furnace",
+			"input1":"roost:chicken{Chicken:'contenttweaker:refinedironchicken'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:enderchicken'}",
+			"machine":"techreborn:industrial_blast_furnace",
+			"desc":"2500 Heat<br>90 sec<br>864KFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:tungstenchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:tungstenchicken'}",
+			"chicken":"Tungsten Chicken",
+			"entitytooltip":"&7Tungsten Ingots",
+			"outputstack":"ore:ingotTungsten"
+		}
+    ]
+}

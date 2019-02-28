@@ -1,0 +1,23 @@
+{
+    "name": "Blue Slime Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:blueslimechicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Blue Slime Chickens are very similar to their green ''ancestors''. In fact, they're so similar, there's barely any noticeable difference.<br>Lay Item: Blue Slimeballs.$(br2)That said, they admittedly are just a tiny bit slower and weaker. Still, one day they hope to take a leap and surpass their green brethren. $(o)As a joke."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:lapischicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:blueslimechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:blueslimechicken'}",
+			"chicken":"Blue Slime Chicken",
+			"entitytooltip":"&7Blue Slimeball",
+			"outputstack":"tconstruct:edible:1"
+		}
+    ]
+}

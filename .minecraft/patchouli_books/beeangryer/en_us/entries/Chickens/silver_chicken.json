@@ -1,0 +1,28 @@
+{
+    "name": "Silver Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Silver Chickens are a noble metallic species of chicken. Slightly harder than gold, and has the highest electrical and thermal conductivity of all metals!<br>Lay Item: Silver Ingots.$(br2)Silver is germicidal - toxic to many types of bacteria. In old times, silver coins were used in liquid containers to prevent spoiling."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:zincchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:silverdyechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:lightbluechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:silverchicken'}",
+			"chicken":"Silver Chicken",
+			"entitytooltip":"&7Silver Ingots",
+			"outputstack":"ore:ingotSilver"
+		}
+    ]
+}

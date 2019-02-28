@@ -1,0 +1,28 @@
+{
+    "name": "Aluminium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:aluminiumchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Aluminium Chickens are a metallic species of chicken. Soft and very light.<br>Lay Item: Aluminium Ingots.$(br2)Even though aluminium oxide is somewhat heat resistant, this species does not oxidize, and ''melts'' easily."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:lightbluechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:cyanchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:aluminiumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:aluminiumchicken'}",
+			"chicken":"Aluminium Chicken",
+			"entitytooltip":"&7Aluminium Ingots",
+			"outputstack":"ore:ingotAluminum"
+		}
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Titanium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:titaniumchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Titanium Chickens are a metallic species of chicken, with a low density and a high strength. Highly resistant to corrosion. Can be traced in almost every igneous rock!<br>Lay Item: Titanium Ingots.$(br2)Did you know that titanium dioxide is a food additive, and there are no restrictions on its use? It can be very damaging for people with certain inflammatory diseases."
+		},
+		{
+			"type":"tr_ibf",
+			"header":"Industrial Blast Furnace",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:aluminiumchicken'}",
+			"machine":"techreborn:industrial_blast_furnace",
+			"desc":"1500 Heat<br>180 sec<br>1.728MFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:titaniumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:titaniumchicken'}",
+			"chicken":"Titanium Chicken",
+			"entitytooltip":"&7Titanium Ingots",
+			"outputstack":"ore:ingotTitanium"
+		}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Uranium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:uraniumchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Uranium Chickens are a metallic species of chicken. They are extremely heavy, softer than steel, and oxidize easily.<br>Lay Item: Uranium Ingots.$(br2)Named after a planet. Uranium pigments look great on dinnerware!"
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:redstonechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:enderchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:leadchicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:limechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:uraniumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:uraniumchicken'}",
+			"chicken":"Uranium Chicken",
+			"entitytooltip":"&7Uranium Ingots",
+			"outputstack":"ore:ingotUranium"
+		}
+    ]
+}

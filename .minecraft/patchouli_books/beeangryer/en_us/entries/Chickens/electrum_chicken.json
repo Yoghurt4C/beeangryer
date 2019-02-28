@@ -1,0 +1,23 @@
+{
+    "name": "Electrum Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:electrumchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Electrum Chickens are a species of ''alloy'' chickens. It is a naturally occuring alloy. Has a high reflectivity, good conductivity and fair corrosion resistance.<br>Lay Item: Electrum Ingots.$(br2)Used in third-grade Thermal machinery and numerous IE parts."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:electrumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:electrumchicken'}",
+			"chicken":"Electrum Chicken",
+			"entitytooltip":"&7Electrum Ingot",
+			"outputstack":"ore:ingotElectrum"
+		}
+    ]
+}

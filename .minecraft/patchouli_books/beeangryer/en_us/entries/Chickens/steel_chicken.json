@@ -1,0 +1,25 @@
+{
+    "name": "Steel Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:steelchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Steel Chickens are an ''alloy'' species of chicken. Made from artificially strengthening pure iron with carbon 'impurities'. The popularity and high demand surrounding it comes from its cost-to-strength ratio.<br>Lay Item: Steel Ingots.$(br2)Once upon a time, it was one of the most common manmade materials in the entire world."
+		},
+		{
+			"type":"tr_ibf",
+			"header":"Industrial Blast Furnace",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:coalchicken'}",
+			"machine":"techreborn:industrial_blast_furnace",
+			"desc":"1000 Heat<br>85 sec<br>816KFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:steelchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:steelchicken'}",
+			"chicken":"Steel Chicken",
+			"entitytooltip":"&7Steel Ingots",
+			"outputstack":"ore:ingotSteel"
+		}
+    ]
+}

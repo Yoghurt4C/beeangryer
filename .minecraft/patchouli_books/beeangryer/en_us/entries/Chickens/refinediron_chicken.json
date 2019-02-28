@@ -1,0 +1,23 @@
+{
+    "name": "Refined Iron Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:refinedironchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Refined Iron Chickens are a species of ''alloy'' chickens. While calling it an alloy is a stretch, because the concept of ''refining'' iron by adding something that barely classifies as honey isn't very convincing, it works... Somehow.<br>Lay Item: Refined Iron Ingots.$(br2)While the iron seems to be ''refined'', you can't use it in place of regular iron."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:honeychicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:refinedironchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:refinedironchicken'}",
+			"chicken":"Refined Iron Chicken",
+			"entitytooltip":"&7Refined Iron Ingot",
+			"outputstack":"ore:ingotRefinedIron"
+		}
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Iridium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:iridiumchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Iridium Chickens are a species of noble metallic chickens. It is the second-densest metal after Osmium, which doesn't seem to exist anymore, and the most corrosion-resistant metal.<br>Lay Item: Iridium Ingots.$(br2)One has to wonder, how is it possible to obtain a chemical element from an alloy?"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:enderiumchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:blizzrodchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:iridiumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:iridiumchicken'}",
+			"chicken":"Iridium Chicken",
+			"entitytooltip":"&7Iridium Ingot",
+			"outputstack":"ore:ingotIridium"
+		}
+    ]
+}

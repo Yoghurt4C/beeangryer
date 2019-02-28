@@ -1,0 +1,28 @@
+{
+    "name": "Lumium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:lumiumchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Lumium Chicken is an ''alloy'' chicken. Extremely bright and reflective. Used in the top-grade Thermal machinery along with enderium.<br>Lay Item: Lumium Ingots.$(br2)For some reason, contact with Redstone Flux makes it produce light and heat convincing enough to encourage and control plant growth."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#3{Chicken:'contenttweaker:tinchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+			"input3":"roost:chicken#4{Chicken:'chickens:glowstonechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:yellowchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:lumiumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:lumiumchicken'}",
+			"chicken":"Lumium Chicken",
+			"entitytooltip":"&7Lumium Ingots",
+			"outputstack":"ore:ingotLumium"
+		}
+    ]
+}

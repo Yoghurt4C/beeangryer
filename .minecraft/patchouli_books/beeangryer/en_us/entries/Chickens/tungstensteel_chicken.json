@@ -1,0 +1,25 @@
+{
+    "name": "Tungstensteel Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:tungstensteelchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Tungstensteel Chickens are an ''alloy'' species of chicken. Made from, well, tungsten and steel. Its qualities include great hardness, good stability at high temperatures and superior flexibility compared to other conventional tungsten alloys.<br>Lay Item: Tungstensteel Ingots.$(br2)In other words, it's improved steel."
+		},
+		{
+			"type":"tr_ibf",
+			"header":"Industrial Blast Furnace",
+			"input1":"roost:chicken{Chicken:'contenttweaker:tungstenchicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:steelchicken'}",
+			"machine":"techreborn:industrial_blast_furnace",
+			"desc":"3000 Heat<br>25 sec<br>240KFE",
+			"output":"techreborn:ingot:16",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:tungstensteelchicken'}",
+			"chicken":"Tungstensteel Chicken",
+			"entitytooltip":"&7Tungstensteel Ingots",
+			"outputstack":"ore:ingotTungstensteel"
+		}
+    ]
+}

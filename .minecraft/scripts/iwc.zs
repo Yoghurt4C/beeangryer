@@ -237,7 +237,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweak
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tinchicken", Gain: 1, Strength: 1})*2,
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:silverchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:platinumchicken", Gain: 1, Strength: 1}),
-	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:enderchicken", Gain: 1, Strength: 1})],
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:enderchicken", Gain: 1, Strength: 1})*4],
 	true);
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:lumiumchicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
@@ -339,7 +339,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweak
 	true);
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:galgadorianchicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
-	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:tinchicken", Gain: 1, Strength: 1})*2,
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:iridiumchicken", Gain: 1, Strength: 1})*2,
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:brasschicken", Gain: 1, Strength: 1})*2,
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:alumitechicken", Gain: 1, Strength: 1})*2,
 	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:enderchicken", Gain: 1, Strength: 1})*2],

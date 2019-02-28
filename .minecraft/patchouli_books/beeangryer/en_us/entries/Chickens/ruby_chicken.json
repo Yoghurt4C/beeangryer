@@ -1,0 +1,25 @@
+{
+    "name": "Ruby Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Ruby Chickens are a gemstone species of chicken. They are typically sought after because of their hardness, durability, luster and rarity.<br>Lay Item: Ruby Gems.$(br2)Watch out for imposters! Red Sapphires are almost identical to Ruby in both appearance and composition, but lack one important $(o)thing./$"
+		},
+		{
+			"type":"tr_cr",
+			"header":"Chemical Reactor",
+			"input1":"roost:chicken{Chicken:'contenttweaker:chromechicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:aluminiumchicken'}",
+			"machine":"techreborn:chemical_reactor",
+			"desc":"50 sec<br>200KFE",
+			"output":"roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:rubychicken'}",
+			"chicken":"Ruby Chicken",
+			"entitytooltip":"&7Ruby Gems",
+			"outputstack":"ore:gemRuby"
+		}
+    ]
+}

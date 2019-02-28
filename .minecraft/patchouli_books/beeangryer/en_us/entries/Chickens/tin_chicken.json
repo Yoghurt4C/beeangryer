@@ -1,0 +1,28 @@
+{
+    "name": "Tin Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+    "category": "chickens",
+	"sortnum":3,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Tin Chickens are a metallic species of chicken. Very soft.<br>Lay Item: Tin Ingots.$(br2)There has been a lot of confusion over whether they're actually a metallic species. They are, but they spontaneously cease to be: this phenomenon is known as ''tin pest'', and it involves the decomposition of metal tin into its nonmetallic, brittle powder     form."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken{Chicken:'chickens:flintchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:logchicken'}",
+			"input3":"roost:chicken{Chicken:'chickens:limechicken'}",
+			"input4":"roost:chicken{Chicken:'chickens:whitechicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:tinchicken'}",
+			"chicken":"Tin Chicken",
+			"entitytooltip":"&7Tin Ingots",
+			"outputstack":"ore:ingotTin"
+		}
+    ]
+}

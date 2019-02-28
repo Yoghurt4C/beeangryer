@@ -1,0 +1,23 @@
+{
+    "name": "Bronze Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:bronzechicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Bronze Chickens are a species of ''alloy'' chickens. I'm sure most people at least have an idea of what Bronze is.<br>Lay Item: Bronze Ingots.$(br2)Fun fact: the Iron Age happened when it did because of tin shortages; Wrought Iron was generally weaker than Bronze, so there would be no real reason to make the change if that didn't happen."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:copperchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:tinchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:bronzechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:bronzechicken'}",
+			"chicken":"Bronze Chicken",
+			"entitytooltip":"&7Bronze Ingot",
+			"outputstack":"ore:ingotBronze"
+		}
+    ]
+}

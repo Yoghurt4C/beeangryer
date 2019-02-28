@@ -1,0 +1,28 @@
+{
+    "name": "Enderium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:enderiumchicken'}",
+    "category": "chickens",
+	"sortnum":4,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Enderium Chicken is an ''alloy'' chicken. Lustrous, exhibits alien properties due to its resonant coating. Used in the top-grade Thermal machinery.<br>Lay Item: Enderium Ingots.$(br2)Once upon a time Enderium was used to defy the limitations of this spatial plane, but that use-case was deemed unethical and is banned ever since."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#2{Chicken:'contenttweaker:tinchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:silverchicken'}",
+			"input3":"roost:chicken{Chicken:'contenttweaker:platinumchicken'}",
+			"input4":"roost:chicken#4{Chicken:'chickens:enderchicken'}",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:enderiumchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:enderiumchicken'}",
+			"chicken":"Enderium Chicken",
+			"entitytooltip":"&7Enderium Ingots",
+			"outputstack":"ore:ingotEnderium"
+		}
+    ]
+}

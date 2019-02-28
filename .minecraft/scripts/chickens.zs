@@ -146,6 +146,7 @@ val IWCChickens as string[]=[
 	"contenttweaker:rottenchicken",
 	"chickens:gunpowderchicken",
 	"contenttweaker:bonechicken",
+	"chickens:coalchicken",
 	"chickens:ironchicken",
 	"chickens:goldchicken",
 	"chickens:redstonechicken",

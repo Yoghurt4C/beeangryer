@@ -1,0 +1,28 @@
+{
+    "name": "Enh. Galgadorian Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:enhancedgalgadorianchicken'}",
+    "category": "chickens",
+	"sortnum":5,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Enhanced Galgadorian Chickens are a species of ''alloy'' chickens.<br>Lay Item: Large Lump of Galgador.$(br2)It is perfect."
+		},
+		{
+			"type":"iwc_4inputs+entity",
+			"header":"In-World ''Souping''",
+			"input1":"roost:chicken#2{Chicken:'contenttweaker:galgadorianchicken'}",
+			"input2":"roost:chicken#2{Chicken:'contenttweaker:reinforcedmetalchicken'}",
+			"input3":"roost:chicken#2{Chicken:'contenttweaker:bloodslimechicken'}",
+			"input4":"stevescarts:modulecomponents:45#4",
+			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",
+			"liquidname":"Chicken Stock",
+			"liquidtooltip":"&7Needs to be placed in-world",
+			"output":"roost:chicken{Chicken:'contenttweaker:enhancedgalgadorianchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:enhancedgalgadorianchicken'}",
+			"chicken":"Enhanced Galgadorian Chicken",
+			"entitytooltip":"&7Large Lump of Galgador",
+			"outputstack":"stevescarts:modulecomponents:48"
+		}
+    ]
+}
