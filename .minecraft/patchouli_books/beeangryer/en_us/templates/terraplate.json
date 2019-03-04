@@ -1,0 +1,331 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-3
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":true,
+			"x": 15,
+			"y": 16
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed":true,
+			"x": 50,
+			"y": 16
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"framed":true,
+			"x": 85,
+			"y": 16
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 33,
+			"y": 16,
+			"scale":1
+		},
+		{
+			"type": "image",
+			"image": "#corner1",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 46,
+			"y": 44,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#cornertooltip"],
+			"width":8,
+			"height":8,
+			"x": 46,
+			"y": 44
+		},
+		{
+			"type": "image",
+			"image": "#corner2",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 62,
+			"y": 44,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#cornertooltip"],
+			"width":8,
+			"height":8,
+			"x": 62,
+			"y": 44
+		},
+		{
+			"type": "image",
+			"image": "#corner3",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 46,
+			"y": 60,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#cornertooltip"],
+			"width":8,
+			"height":8,
+			"x": 46,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#corner4",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 62,
+			"y": 60,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#cornertooltip"],
+			"width":8,
+			"height":8,
+			"x": 62,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#center",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 54,
+			"y": 52,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#centertooltip"],
+			"width":8,
+			"height":8,
+			"x": 54,
+			"y": 52
+		},
+		{
+			"type": "image",
+			"image": "#rim1",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 54,
+			"y": 44,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#rimtooltip"],
+			"width":8,
+			"height":8,
+			"x": 54,
+			"y": 44
+		},
+		{
+			"type": "image",
+			"image": "#rim2",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 62,
+			"y": 52,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#rimtooltip"],
+			"width":8,
+			"height":8,
+			"x": 62,
+			"y": 52
+		},
+		{
+			"type": "image",
+			"image": "#rim3",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 46,
+			"y": 52,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#rimtooltip"],
+			"width":8,
+			"height":8,
+			"x": 46,
+			"y": 52
+		},
+		{
+			"type": "image",
+			"image": "#rim4",
+			"width":8,
+			"height":8,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 54,
+			"y": 60,
+			"scale":1
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&7Agglomeration Multiblock","#rimtooltip"],
+			"width":8,
+			"height":8,
+			"x": 54,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "botania:terraplate",
+			"framed":false,
+			"x": 50,
+			"y": 28
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/arrow_down.png",
+			"width":9,
+			"height":9,
+			"u":7,
+			"v":7,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 71,
+			"y": 20,
+			"scale":1
+		},
+		{
+			"type":"text",
+			"text":"#desc",
+			"max_width":80,
+			"x":20,
+			"y":136
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 69,
+			"y": 48,
+			"scale":1
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":true,
+			"x": 85,
+			"y": 48
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/manabar.png",
+			"width":5,
+			"height":102,
+			"u":0,
+			"v":0,
+			"texture_width":5,
+			"texture_height":102,
+			"x": 6,
+			"y": 5,
+			"scale":0.7
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/manabar_filler.png",
+			"width":4,
+			"height":51,
+			"u":0,
+			"v":0,
+			"texture_width":3,
+			"texture_height":3,
+			"x": 6.9,
+			"y": 40,
+			"scale":0.7
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&9Mana Cost","#manacost"],
+			"width":3.5,
+			"height":71.4,
+			"x": 5,
+			"y": 4	
+		},
+		{
+			"type":"entity",
+			"entity":"#entity",
+			"render_size":50,
+			"x":57,
+			"y":100
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":22,
+			"height":22,
+			"u":78,
+			"v":21,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 31,
+			"y": 74,
+			"scale":2.4
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#chicken","&8Lay item:","#entitytooltip"],
+			"width":52.8,
+			"height":52.8,
+			"x": 31,
+			"y": 74
+		},
+		{
+			"type": "item",
+			"item": "#outputstack",
+			"framed":true,
+			"x": 90,
+			"y": 92
+		}
+	]
+}

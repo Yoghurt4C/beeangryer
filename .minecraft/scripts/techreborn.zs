@@ -33,8 +33,8 @@ recipes.addShaped(<techreborn:machine_frame>,[
 [<ore:blockGlassOrange>,<extrabees:misc:0>,<ore:blockGlassOrange>],
 [refinedIron,<ore:blockGlassOrange>,refinedIron]]);
 
-recipes.addShaped(<techreborn:compressor>,[
-[<ore:stone>,<immersiveengineering:mold>,<ore:stone>],
+recipes.addShaped("tr_compressor",<techreborn:compressor>,[
+[<ore:stone>,<immersiveengineering:mold>.reuse(),<ore:stone>],
 [<ore:stone>,<ore:circuitBasic>,<ore:stone>],
 [<ore:stone>,<techreborn:machine_frame>,<ore:stone>]]);
 
@@ -142,6 +142,30 @@ null,
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
 500, 120,3000);
 
+blastFurnace.addRecipe(
+<fluidcows:cow_displayer>.withTag({fluid: "titanium"}),
+null,
+<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+<fluidcows:cow_displayer>.withTag({fluid: "aluminum"})*2,
+3600, 120,1500);
+blastFurnace.addRecipe(
+<fluidcows:cow_displayer>.withTag({fluid: "chrome"}),
+null,
+<fluidcows:cow_displayer>.withTag({fluid: "titanium"}),
+<ore:dyePink>*16,
+4420, 120,1700);
+blastFurnace.addRecipe(
+<fluidcows:cow_displayer>.withTag({fluid: "tungsten"}),
+null,
+<fluidcows:cow_displayer>.withTag({fluid: "steel"}),
+<minecraft:ender_pearl>*16,
+1800, 120,2500);
+blastFurnace.addRecipe(
+<fluidcows:cow_displayer>.withTag({fluid: "tungstensteel"}),
+null,
+<fluidcows:cow_displayer>.withTag({fluid: "tungsten"}),
+<fluidcows:cow_displayer>.withTag({fluid: "steel"}),
+500, 120,3000);
 
 <techreborn:ingot:16>.displayName="Hot Tungstensteel Chicken Egg";
 <techreborn:ingot:16>.addTooltip(format.red(format.italic("Too hot to hatch! Get it down to room temperature first.")));

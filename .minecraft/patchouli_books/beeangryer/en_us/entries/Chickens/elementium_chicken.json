@@ -1,0 +1,31 @@
+{
+    "name": "Elementium Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:elementiumchicken'}",
+    "category": "chickens",
+	"sortnum":8,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Elementium Chickens are a species of mana-infused otherwordly chickens. Obtained by performing a ritual involving two Manasteel chickens and a handful of Alfheim-bound materials. Only one of the chickens can come out of this ritual unscathed.<br>Lay Item: Elementium Ingots!$(br2)You already know everything about this species, just as it knows everything about you."
+		},
+		{
+			"type":"runic_altar",
+			"header":"Runic Altar",
+			"input1":"botania:manaresource:8",
+			"input2":"botania:manaresource:9",
+			"input3":"botania:manaresource:8",
+			"input4":"roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+			"input5":"roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+			"input6":"botania:manaresource:8",
+			"input7":"botania:manaresource:9",
+			"input8":"botania:manaresource:8",
+			"output":"roost:chicken{Chicken:'contenttweaker:elementiumchicken'}",
+			"manacost":"&bJust over a third o'Mana Pool",
+			"desc":"$(7)$(o)Collective unconscious/$",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:elementiumchicken'}",
+			"chicken":"Elementium Chicken",
+			"entitytooltip":"&7Elementium Ingots",
+			"outputstack":"ore:ingotElvenElementium"
+		}
+    ]
+}

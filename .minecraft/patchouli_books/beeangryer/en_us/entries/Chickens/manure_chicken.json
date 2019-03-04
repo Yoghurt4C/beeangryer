@@ -1,0 +1,29 @@
+{
+    "name": "Manure Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:manurechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Manure Chickens are a species of dung chickens. They are absolutely filthy, sticky to the touch and have a very distinct, objectively unpleasant smell. Even though they're repulsive, there is a lot of potential behind their stink.<br>Lay Item: Chicken Manure.$(br2)All chickens shed Manure passively while freely roaming, but you can use these to industrialize its production."
+		},
+		{
+			"type":"charset_cauldron_dyeing",
+			"header":"Cauldron Bath",
+			"input1":"hatchery:manure_block",
+			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:manurechicken'}",
+			"liquid1":"minecraft:textures/blocks/water_still.png",
+			"liquid1name":"Water","liquid1tooltip":"&71L",
+			"liquid2":"hatchery:textures/blocks/fertilizer_still.png",
+			"liquid2name":"Liquid Fertilizer",
+			"liquid2tooltip":"",
+			"liquid2tooltip2":"&71L",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:manurechicken'}",
+			"chicken":"Manure Chicken",
+			"entitytooltip":"&7Chicken Manure",
+			"outputstack":"hatchery:chickenmanure"
+		}
+    ]
+}

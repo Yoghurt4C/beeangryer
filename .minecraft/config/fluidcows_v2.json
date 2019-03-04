@@ -36,9 +36,9 @@
     "TorcherinoTickRemove": false,
     "DisableBreedingItemForMachines": false,
     "randomthingsTickRemove": false,
-    "FluidCowsSpawnWeight": 8,
-    "FluidCowsSpawnMin": 4,
-    "FluidCowsSpawnMax": 4,
+    "FluidCowsSpawnWeight": 0,
+    "FluidCowsSpawnMin": 0,
+    "FluidCowsSpawnMax": 0,
     "FluidCowsSpawnBlackListBiomes": [
       "modid:name1",
       "modid:name2"
@@ -50,8 +50,8 @@
     "AcceleratorWaterPerConvert": 10
   },
   "glass": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -61,8 +61,8 @@
     "Parent Second": ""
   },
   "bio.ethanol": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -72,8 +72,8 @@
     "Parent Second": ""
   },
   "liquid_fertilizer": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -83,8 +83,8 @@
     "Parent Second": ""
   },
   "for.honey": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -94,8 +94,8 @@
     "Parent Second": ""
   },
   "seed.oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -105,8 +105,8 @@
     "Parent Second": ""
   },
   "short.mead": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -116,8 +116,8 @@
     "Parent Second": ""
   },
   "biomass": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -127,8 +127,8 @@
     "Parent Second": ""
   },
   "ice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -138,8 +138,8 @@
     "Parent Second": ""
   },
   "juice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -149,8 +149,8 @@
     "Parent Second": ""
   },
   "lava": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -160,8 +160,8 @@
     "Parent Second": ""
   },
   "water": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -171,8 +171,8 @@
     "Parent Second": ""
   },
   "binnie.bacteria.vector": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -182,8 +182,8 @@
     "Parent Second": ""
   },
   "binnie.growth.medium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -193,8 +193,8 @@
     "Parent Second": ""
   },
   "binnie.bacteria.poly": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -204,8 +204,8 @@
     "Parent Second": ""
   },
   "binnie.dna.raw": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -215,8 +215,8 @@
     "Parent Second": ""
   },
   "binnie.bacteria": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -226,8 +226,8 @@
     "Parent Second": ""
   },
   "binnie.beer.ale": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -237,8 +237,8 @@
     "Parent Second": ""
   },
   "binnie.juice.red.grape": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -248,8 +248,8 @@
     "Parent Second": ""
   },
   "binnie.beer.lager": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -259,8 +259,8 @@
     "Parent Second": ""
   },
   "binnie.vodka": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -270,8 +270,8 @@
     "Parent Second": ""
   },
   "binnie.beer.wheat": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -281,8 +281,8 @@
     "Parent Second": ""
   },
   "binnie.mash.rye": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -292,8 +292,8 @@
     "Parent Second": ""
   },
   "binnie.ciderpear": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -303,8 +303,8 @@
     "Parent Second": ""
   },
   "binnie.mash.grain": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -314,8 +314,8 @@
     "Parent Second": ""
   },
   "binnie.juice.apple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -325,8 +325,8 @@
     "Parent Second": ""
   },
   "binnie.juice.grapefruit": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -336,8 +336,8 @@
     "Parent Second": ""
   },
   "binnie.wine.cherry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -347,8 +347,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.mint": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -358,8 +358,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.lemon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -369,8 +369,8 @@
     "Parent Second": ""
   },
   "binnie.juice.peach": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -380,8 +380,8 @@
     "Parent Second": ""
   },
   "binnie.juice.carrot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -391,8 +391,8 @@
     "Parent Second": ""
   },
   "binnie.spirit.sugarcane": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -402,8 +402,8 @@
     "Parent Second": ""
   },
   "binnie.wine.apricot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -413,8 +413,8 @@
     "Parent Second": ""
   },
   "binnie.rum.white": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -424,8 +424,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.raspberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -435,8 +435,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.anise": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -446,8 +446,8 @@
     "Parent Second": ""
   },
   "binnie.juice.cherry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -457,8 +457,8 @@
     "Parent Second": ""
   },
   "binnie.wine.white": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -468,8 +468,8 @@
     "Parent Second": ""
   },
   "binnie.wine.cranberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -479,8 +479,8 @@
     "Parent Second": ""
   },
   "binnie.cider.peach": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -490,8 +490,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.pear": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -501,8 +501,8 @@
     "Parent Second": ""
   },
   "binnie.tequila": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -512,8 +512,8 @@
     "Parent Second": ""
   },
   "binnie.turpentine": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -523,8 +523,8 @@
     "Parent Second": ""
   },
   "binnie.beer.rye": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -534,8 +534,8 @@
     "Parent Second": ""
   },
   "binnie.juice.orange": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -545,8 +545,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.elderberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -556,8 +556,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.coffee": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -567,8 +567,8 @@
     "Parent Second": ""
   },
   "binnie.mash.wheat": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -578,8 +578,8 @@
     "Parent Second": ""
   },
   "binnie.juice.cranberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -589,8 +589,8 @@
     "Parent Second": ""
   },
   "binnie.wine.pineapple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -600,8 +600,8 @@
     "Parent Second": ""
   },
   "binnie.juice.elderberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -611,8 +611,8 @@
     "Parent Second": ""
   },
   "binnie.beer.corn": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -622,8 +622,8 @@
     "Parent Second": ""
   },
   "binnie.beer.stout": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -633,8 +633,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.fruit": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -644,8 +644,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.cherry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -655,8 +655,8 @@
     "Parent Second": ""
   },
   "binnie.wine.banana": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -666,8 +666,8 @@
     "Parent Second": ""
   },
   "binnie.juice.banana": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -677,8 +677,8 @@
     "Parent Second": ""
   },
   "binnie.whiskey.corn": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -688,8 +688,8 @@
     "Parent Second": ""
   },
   "binnie.juice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -699,8 +699,8 @@
     "Parent Second": ""
   },
   "binnie.wine.carrot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -710,8 +710,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.apricot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -721,8 +721,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.blackcurrant": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -732,8 +732,8 @@
     "Parent Second": ""
   },
   "binnie.juice.tomato": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -743,8 +743,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.blackberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -754,8 +754,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.apple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -765,8 +765,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.almond": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -776,8 +776,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.apple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -787,8 +787,8 @@
     "Parent Second": ""
   },
   "binnie.wine.agave": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -798,8 +798,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.plum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -809,8 +809,8 @@
     "Parent Second": ""
   },
   "binnie.sap": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -820,8 +820,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.cherry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -831,8 +831,8 @@
     "Parent Second": ""
   },
   "binnie.juice.apricot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -842,8 +842,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.pear": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -853,8 +853,8 @@
     "Parent Second": ""
   },
   "binnie.wine.plum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -864,8 +864,8 @@
     "Parent Second": ""
   },
   "binnie.juice.plum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -875,8 +875,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.apricot": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -886,8 +886,8 @@
     "Parent Second": ""
   },
   "binnie.whiskey.rye": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -897,8 +897,8 @@
     "Parent Second": ""
   },
   "binnie.wine.elderberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -908,8 +908,8 @@
     "Parent Second": ""
   },
   "binnie.whiskey.wheat": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -919,8 +919,8 @@
     "Parent Second": ""
   },
   "binnie.juice.lime": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -930,8 +930,8 @@
     "Parent Second": ""
   },
   "binnie.latex": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -941,8 +941,8 @@
     "Parent Second": ""
   },
   "binnie.juice.lemon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -952,8 +952,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.herbal": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -963,8 +963,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.cherry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -974,8 +974,8 @@
     "Parent Second": ""
   },
   "binnie.juice.pear": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -985,8 +985,8 @@
     "Parent Second": ""
   },
   "binnie.wine.citrus": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -996,8 +996,8 @@
     "Parent Second": ""
   },
   "binnie.juice.pineapple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1007,8 +1007,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.grape": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1018,8 +1018,8 @@
     "Parent Second": ""
   },
   "binnie.resin": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1029,8 +1029,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.cinnamon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1040,8 +1040,8 @@
     "Parent Second": ""
   },
   "binnie.wine.sparkling": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1051,8 +1051,8 @@
     "Parent Second": ""
   },
   "binnie.wine.tomato": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1062,8 +1062,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.hazelnut": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1073,8 +1073,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.peach": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1084,8 +1084,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.banana": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1095,8 +1095,8 @@
     "Parent Second": ""
   },
   "binnie.spirit.neutral": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1106,8 +1106,8 @@
     "Parent Second": ""
   },
   "binnie.whiskey": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1117,8 +1117,8 @@
     "Parent Second": ""
   },
   "binnie.spirit.gin": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1128,8 +1128,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.fruit": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1139,8 +1139,8 @@
     "Parent Second": ""
   },
   "binnie.brandy.citrus": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1150,8 +1150,8 @@
     "Parent Second": ""
   },
   "binnie.rum.dark": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1161,8 +1161,8 @@
     "Parent Second": ""
   },
   "binnie.wine.fortified": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1172,8 +1172,8 @@
     "Parent Second": ""
   },
   "binnie.wine.red": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1183,8 +1183,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.melon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1194,8 +1194,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.orange": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1205,8 +1205,8 @@
     "Parent Second": ""
   },
   "binnie.fermented.potatoes": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1216,8 +1216,8 @@
     "Parent Second": ""
   },
   "binnie.juice.white.grape": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1227,8 +1227,8 @@
     "Parent Second": ""
   },
   "binnie.cider.apple": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1238,8 +1238,8 @@
     "Parent Second": ""
   },
   "binnie.liqueur.chocolate": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1249,8 +1249,8 @@
     "Parent Second": ""
   },
   "binnie.liquor.elderberry": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1260,8 +1260,8 @@
     "Parent Second": ""
   },
   "binnie.mash.corn": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1271,8 +1271,8 @@
     "Parent Second": ""
   },
   "binnie.juice.olive": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1282,8 +1282,8 @@
     "Parent Second": ""
   },
   "ic2heavy_water": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1293,8 +1293,8 @@
     "Parent Second": ""
   },
   "ic2distilled_water": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1304,19 +1304,19 @@
     "Parent Second": ""
   },
   "mana": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "platinum",
+    "Parent Second": "manasteel"
   },
   "ic2hydrogen": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1326,8 +1326,8 @@
     "Parent Second": ""
   },
   "ic2steam": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1337,8 +1337,8 @@
     "Parent Second": ""
   },
   "ic2weed_ex": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1348,8 +1348,8 @@
     "Parent Second": ""
   },
   "potion": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1359,8 +1359,8 @@
     "Parent Second": ""
   },
   "experience": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1370,8 +1370,8 @@
     "Parent Second": ""
   },
   "sap": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1381,8 +1381,8 @@
     "Parent Second": ""
   },
   "ender": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1392,8 +1392,8 @@
     "Parent Second": ""
   },
   "ic2superheated_steam": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1403,8 +1403,8 @@
     "Parent Second": ""
   },
   "steam": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1414,8 +1414,8 @@
     "Parent Second": ""
   },
   "coal": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1425,8 +1425,8 @@
     "Parent Second": ""
   },
   "tree_oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1436,8 +1436,8 @@
     "Parent Second": ""
   },
   "biocrude": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1447,8 +1447,8 @@
     "Parent Second": ""
   },
   "syrup": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1458,8 +1458,8 @@
     "Parent Second": ""
   },
   "ic2oxygen": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1469,8 +1469,8 @@
     "Parent Second": ""
   },
   "mushroom_stew": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1480,8 +1480,8 @@
     "Parent Second": ""
   },
   "liquidchorus": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1491,8 +1491,8 @@
     "Parent Second": ""
   },
   "potion_splash": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1502,8 +1502,8 @@
     "Parent Second": ""
   },
   "ic2air": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1513,8 +1513,8 @@
     "Parent Second": ""
   },
   "resin": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1524,8 +1524,8 @@
     "Parent Second": ""
   },
   "petrotheum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1535,8 +1535,8 @@
     "Parent Second": ""
   },
   "menrilresin": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1546,8 +1546,8 @@
     "Parent Second": ""
   },
   "ic2uu_matter": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1557,8 +1557,8 @@
     "Parent Second": ""
   },
   "redstone": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1568,8 +1568,8 @@
     "Parent Second": ""
   },
   "ic2biogas": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1579,8 +1579,8 @@
     "Parent Second": ""
   },
   "pyrotheum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1590,8 +1590,8 @@
     "Parent Second": ""
   },
   "creosote": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1601,8 +1601,8 @@
     "Parent Second": ""
   },
   "ic2hot_water": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1612,8 +1612,8 @@
     "Parent Second": ""
   },
   "refined_biofuel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1623,8 +1623,8 @@
     "Parent Second": ""
   },
   "ic2biomass": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1634,8 +1634,8 @@
     "Parent Second": ""
   },
   "ic2hot_coolant": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1645,8 +1645,8 @@
     "Parent Second": ""
   },
   "crude_oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1656,8 +1656,8 @@
     "Parent Second": ""
   },
   "ic2pahoehoe_lava": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1667,8 +1667,8 @@
     "Parent Second": ""
   },
   "seed_oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1678,8 +1678,8 @@
     "Parent Second": ""
   },
   "glowstone": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1689,8 +1689,8 @@
     "Parent Second": ""
   },
   "refined_fuel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1700,8 +1700,8 @@
     "Parent Second": ""
   },
   "cryotheum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1711,8 +1711,8 @@
     "Parent Second": ""
   },
   "ic2coolant": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1722,8 +1722,8 @@
     "Parent Second": ""
   },
   "aerotheum": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1733,8 +1733,8 @@
     "Parent Second": ""
   },
   "potion_lingering": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1744,8 +1744,8 @@
     "Parent Second": ""
   },
   "ic2construction_foam": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1755,8 +1755,8 @@
     "Parent Second": ""
   },
   "refined_oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1766,8 +1766,8 @@
     "Parent Second": ""
   },
   "fluidsulfur": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1777,8 +1777,8 @@
     "Parent Second": ""
   },
   "fluidsodium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1788,8 +1788,8 @@
     "Parent Second": ""
   },
   "fluidelectrolyzedwater": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1799,8 +1799,8 @@
     "Parent Second": ""
   },
   "fluidpotassium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1810,8 +1810,8 @@
     "Parent Second": ""
   },
   "fluidwolframium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1821,8 +1821,8 @@
     "Parent Second": ""
   },
   "fluidnitrodiesel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1832,8 +1832,8 @@
     "Parent Second": ""
   },
   "fluidsodiumsulfide": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1843,8 +1843,8 @@
     "Parent Second": ""
   },
   "fluidhelium3": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1854,8 +1854,8 @@
     "Parent Second": ""
   },
   "fluidheliumplasma": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1865,8 +1865,8 @@
     "Parent Second": ""
   },
   "fluidcarbonfiber": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1876,8 +1876,8 @@
     "Parent Second": ""
   },
   "fluidcalcium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1887,8 +1887,8 @@
     "Parent Second": ""
   },
   "fluidberylium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1898,8 +1898,8 @@
     "Parent Second": ""
   },
   "fluidchlorite": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1909,8 +1909,8 @@
     "Parent Second": ""
   },
   "fluidcalciumcarbonate": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1920,8 +1920,8 @@
     "Parent Second": ""
   },
   "fluidoil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1931,8 +1931,8 @@
     "Parent Second": ""
   },
   "fluidnitrocarbon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1942,8 +1942,8 @@
     "Parent Second": ""
   },
   "fluidnitrocoalfuel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1953,8 +1953,8 @@
     "Parent Second": ""
   },
   "fluidcompressedair": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1964,8 +1964,8 @@
     "Parent Second": ""
   },
   "fluidtritium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1975,8 +1975,8 @@
     "Parent Second": ""
   },
   "fluidmethane": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1986,8 +1986,8 @@
     "Parent Second": ""
   },
   "fluidcarbon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1997,8 +1997,8 @@
     "Parent Second": ""
   },
   "fluidglyceryl": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2008,8 +2008,8 @@
     "Parent Second": ""
   },
   "fluidmercury": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2019,8 +2019,8 @@
     "Parent Second": ""
   },
   "fluidhelium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2030,8 +2030,8 @@
     "Parent Second": ""
   },
   "fluidsodiumpersulfate": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2041,8 +2041,8 @@
     "Parent Second": ""
   },
   "fluidlithium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2052,8 +2052,8 @@
     "Parent Second": ""
   },
   "fluidhydrogen": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2063,8 +2063,8 @@
     "Parent Second": ""
   },
   "fluidnitrogendioxide": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2074,8 +2074,8 @@
     "Parent Second": ""
   },
   "fluidnitrofuel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2085,8 +2085,8 @@
     "Parent Second": ""
   },
   "fluidsulfuricacid": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2096,8 +2096,8 @@
     "Parent Second": ""
   },
   "fluidnitrogen": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2107,8 +2107,8 @@
     "Parent Second": ""
   },
   "fluiddiesel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2118,8 +2118,8 @@
     "Parent Second": ""
   },
   "fluidsilicon": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2129,8 +2129,8 @@
     "Parent Second": ""
   },
   "fluiddeuterium": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2140,8 +2140,8 @@
     "Parent Second": ""
   },
   "liquiddna": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2151,8 +2151,8 @@
     "Parent Second": ""
   },
   "mutagen": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2162,8 +2162,8 @@
     "Parent Second": ""
   },
   "protein": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2173,8 +2173,8 @@
     "Parent Second": ""
   },
   "biodiesel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2184,8 +2184,8 @@
     "Parent Second": ""
   },
   "ethanol": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2195,8 +2195,8 @@
     "Parent Second": ""
   },
   "concrete": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2206,8 +2206,8 @@
     "Parent Second": ""
   },
   "plantoil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2217,7 +2217,7 @@
     "Parent Second": ""
   },
   "enderium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2228,7 +2228,7 @@
     "Parent Second": ""
   },
   "silver": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2239,8 +2239,8 @@
     "Parent Second": ""
   },
   "blood": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2250,29 +2250,29 @@
     "Parent Second": ""
   },
   "brass": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "copper",
+    "Parent Second": "zinc"
   },
   "electrum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "silver",
+    "Parent Second": "gold"
   },
   "copper": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2283,7 +2283,7 @@
     "Parent Second": ""
   },
   "nickel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2294,8 +2294,8 @@
     "Parent Second": ""
   },
   "obsidian": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2305,29 +2305,29 @@
     "Parent Second": ""
   },
   "bronze": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "copper",
+    "Parent Second": "tin"
   },
   "invar": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "iron",
+    "Parent Second": "nickel"
   },
   "cobalt": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2338,7 +2338,7 @@
     "Parent Second": ""
   },
   "pigiron": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2349,8 +2349,8 @@
     "Parent Second": ""
   },
   "emerald": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2360,18 +2360,18 @@
     "Parent Second": ""
   },
   "alubrass": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "aluminum",
+    "Parent Second": "copper"
   },
   "uranium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2382,8 +2382,8 @@
     "Parent Second": ""
   },
   "clay": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2393,7 +2393,7 @@
     "Parent Second": ""
   },
   "ardite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2404,8 +2404,8 @@
     "Parent Second": ""
   },
   "stone": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2415,7 +2415,7 @@
     "Parent Second": ""
   },
   "iron": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2426,8 +2426,8 @@
     "Parent Second": ""
   },
   "dirt": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2437,7 +2437,7 @@
     "Parent Second": ""
   },
   "knightslime": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2448,7 +2448,7 @@
     "Parent Second": ""
   },
   "steel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2459,8 +2459,8 @@
     "Parent Second": ""
   },
   "blueslime": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2470,7 +2470,7 @@
     "Parent Second": ""
   },
   "lumium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2481,7 +2481,7 @@
     "Parent Second": ""
   },
   "aluminum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2492,19 +2492,19 @@
     "Parent Second": ""
   },
   "manyullyn": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "cobalt",
+    "Parent Second": "ardite"
   },
   "purpleslime": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2514,7 +2514,7 @@
     "Parent Second": ""
   },
   "zinc": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2525,18 +2525,18 @@
     "Parent Second": ""
   },
   "constantan": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
     "BreedingCooldown": 6000,
     "GrowingAge": -24000,
-    "Parent First": "",
-    "Parent Second": ""
+    "Parent First": "copper",
+    "Parent Second": "nickel"
   },
   "lead": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2547,7 +2547,7 @@
     "Parent Second": ""
   },
   "iridium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2558,7 +2558,7 @@
     "Parent Second": ""
   },
   "gold": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2569,7 +2569,7 @@
     "Parent Second": ""
   },
   "platinum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2580,7 +2580,7 @@
     "Parent Second": ""
   },
   "signalum": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2591,7 +2591,7 @@
     "Parent Second": ""
   },
   "tin": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2602,7 +2602,7 @@
     "Parent Second": ""
   },
   "alumite": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2613,7 +2613,7 @@
     "Parent Second": ""
   },
   "terrasteel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2624,7 +2624,7 @@
     "Parent Second": ""
   },
   "elementium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2635,7 +2635,7 @@
     "Parent Second": ""
   },
   "manasteel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2646,8 +2646,8 @@
     "Parent Second": ""
   },
   "diesel": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2657,8 +2657,8 @@
     "Parent Second": ""
   },
   "napalm": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2668,8 +2668,8 @@
     "Parent Second": ""
   },
   "lubricant": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2679,8 +2679,8 @@
     "Parent Second": ""
   },
   "oil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2690,8 +2690,8 @@
     "Parent Second": ""
   },
   "gasoline": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2701,8 +2701,8 @@
     "Parent Second": ""
   },
   "liquidchicken": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2712,8 +2712,8 @@
     "Parent Second": ""
   },
   "chickenstock": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2723,7 +2723,7 @@
     "Parent Second": ""
   },
   "chocolatemilk": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2734,7 +2734,7 @@
     "Parent Second": ""
   },
   "milk": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2745,8 +2745,8 @@
     "Parent Second": ""
   },
   "rabbit_stew": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2756,8 +2756,8 @@
     "Parent Second": ""
   },
   "beetroot_soup": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2767,8 +2767,8 @@
     "Parent Second": ""
   },
   "ironberryjuice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2778,8 +2778,8 @@
     "Parent Second": ""
   },
   "oliveoil": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2789,8 +2789,8 @@
     "Parent Second": ""
   },
   "honey": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2800,8 +2800,8 @@
     "Parent Second": ""
   },
   "wildberryjuice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2811,8 +2811,8 @@
     "Parent Second": ""
   },
   "alewort": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2822,8 +2822,8 @@
     "Parent Second": ""
   },
   "applejuice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2833,8 +2833,8 @@
     "Parent Second": ""
   },
   "grapejuice": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2844,8 +2844,8 @@
     "Parent Second": ""
   },
   "saplingslumgullion": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2855,8 +2855,8 @@
     "Parent Second": ""
   },
   "enrichedexcitedsaplingslumgullion": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2866,8 +2866,8 @@
     "Parent Second": ""
   },
   "excitedsaplingslumgullion": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2877,8 +2877,8 @@
     "Parent Second": ""
   },
   "dissolvedeggshells": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2888,7 +2888,7 @@
     "Parent Second": ""
   },
   "tungsten": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2899,7 +2899,7 @@
     "Parent Second": ""
   },
   "tungstensteel": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2910,7 +2910,7 @@
     "Parent Second": ""
   },
   "titanium": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2921,7 +2921,7 @@
     "Parent Second": ""
   },
   "chrome": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2932,7 +2932,7 @@
     "Parent Second": ""
   },
   "reinforced_metal": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2943,7 +2943,7 @@
     "Parent Second": ""
   },
   "enhanced_galgadorian": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2954,7 +2954,7 @@
     "Parent Second": ""
   },
   "galgadorian": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2965,7 +2965,7 @@
     "Parent Second": ""
   },
   "o_r\u0026_f_p_m": {
-    "SpawnRate": 100,
+    "SpawnRate": 0,
     "IsEnabled": true,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
@@ -2982,8 +2982,8 @@
     "HideFluidLayerCow": false
   },
   "salt": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -2993,8 +2993,8 @@
     "Parent Second": ""
   },
   "etchingacid": {
-    "SpawnRate": 100,
-    "IsEnabled": true,
+    "SpawnRate": 0,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,

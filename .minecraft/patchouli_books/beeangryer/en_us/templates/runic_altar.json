@@ -1,0 +1,169 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-3
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":false,
+			"x": 49,
+			"y": 13
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed":false,
+			"x": 65,
+			"y": 21
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"framed":false,
+			"x": 72,
+			"y": 37
+		},
+		{
+			"type": "item",
+			"item": "#input4",
+			"framed":false,
+			"x": 65,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#input5",
+			"framed":false,
+			"x": 49,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#input6",
+			"framed":false,
+			"x": 33,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#input7",
+			"framed":false,
+			"x": 24,
+			"y": 37
+		},
+		{
+			"type": "item",
+			"item": "#input8",
+			"framed":false,
+			"x": 32,
+			"y": 22
+		},
+		{
+			"type": "image",
+			"image": "botania:textures/gui/petaloverlay.png",
+			"width":94,
+			"height":94,
+			"u":36,
+			"v":7,
+			"texture_width":256,
+			"texture_height":256,
+			"x": 28,
+			"y": 5,
+			"scale":0.75
+		},
+		{
+			"type": "item",
+			"item": "botania:runealtar",
+			"framed":false,
+			"x": 49,
+			"y": 37
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":false,
+			"x": 77,
+			"y": 11
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/manabar.png",
+			"width":5,
+			"height":102,
+			"u":0,
+			"v":0,
+			"texture_width":5,
+			"texture_height":102,
+			"x": 6,
+			"y": 5,
+			"scale":0.7
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/manabar_filler.png",
+			"width":4,
+			"height":51,
+			"u":0,
+			"v":0,
+			"texture_width":3,
+			"texture_height":3,
+			"x": 6.9,
+			"y": 40,
+			"scale":0.7
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["&9Mana Cost","#manacost"],
+			"width":3.5,
+			"height":71.4,
+			"x": 5,
+			"y": 4	
+		},
+		{
+			"type":"text",
+			"text":"#desc",
+			"max_width":100,
+			"x":20,
+			"y":136
+		},
+		{
+			"type":"entity",
+			"entity":"#entity",
+			"render_size":50,
+			"x":57,
+			"y":100
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":22,
+			"height":22,
+			"u":78,
+			"v":21,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 31,
+			"y": 74,
+			"scale":2.4
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#chicken","&8Lay item:","#entitytooltip"],
+			"width":52.8,
+			"height":52.8,
+			"x": 31,
+			"y": 74
+		},
+		{
+			"type": "item",
+			"item": "#outputstack",
+			"framed":true,
+			"x": 90,
+			"y": 92
+		}
+	]
+}

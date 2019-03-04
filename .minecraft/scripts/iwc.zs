@@ -351,7 +351,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweak
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:bloodslimechicken", Gain: 1, Strength: 1})*2,
 	<stevescarts:modulecomponents:45>*4],
 	true);
-//odd one	
+//odd one
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1}), 
 	<liquid:lava>, 
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})*2, 
@@ -359,6 +359,177 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:qua
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1})
 	.addTooltip(format.red("Obtained by bathing a pair of Silicon Chickens in lava"));
 
+//cows lmao
+var stockCow=<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}})|<fluidcows:cow_displayer>.withTag({fluid: "milk"});
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "milk"}), 
+	<liquid:milk>,[
+	<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}})],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "iron"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:flint>*16,
+	<ore:dustCalcite>*16,
+	<ore:coal>*2,
+	stockCow],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "gold"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "pigiron"}),
+	<minecraft:rotten_flesh>*16,
+	<ore:dyeYellow>*16,
+	<ore:dyeBlack>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "tin"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:flint>*16,
+	<ore:logWood>*16,
+	<ore:dyeLime>*16,
+	stockCow],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "copper"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:clay_ball>*16,
+	<minecraft:snowball>*16,
+	<ore:dyeOrange>*16,
+	<ore:dyePink>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "nickel"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<minecraft:flint>*16,
+	<ore:dyeGreen>*16,
+	<ore:dyeWhite>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "aluminum"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "tin"}),
+	<ore:dyeLightBlue>*16,
+	<ore:dyeCyan>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "lead"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<minecraft:spider_eye>*16,
+	<ore:dustCinnabar>*16,
+	<ore:dyeBlue>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "silver"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "gold"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "zinc"}),
+	<ore:dyeLightGray>*16,
+	<ore:dyeLightBlue>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "platinum"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "silver"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "nickel"}),
+	<ore:dyeCyan>*16,
+	<ore:dyeBlue>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "uranium"}), 
+	<liquid:chocolatemilk>,[
+	<ore:dustRedstone>*16,
+	<minecraft:ender_pearl>*16,
+	<fluidcows:cow_displayer>.withTag({fluid: "lead"}),
+	<ore:dyeLime>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "zinc"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:flint>*16,
+	<minecraft:snowball>*16,
+	<fluidcows:cow_displayer>.withTag({fluid: "tin"}),
+	<ore:dyeLightGray>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "enderium"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "tin"})*2,
+	<fluidcows:cow_displayer>.withTag({fluid: "silver"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "platinum"}),
+	<minecraft:ender_pearl>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "lumium"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "tin"})*3,
+	<fluidcows:cow_displayer>.withTag({fluid: "silver"}),
+	<minecraft:glowstone_dust>*16,
+	<ore:dyeYellow>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "signalum"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "copper"})*4,
+	<fluidcows:cow_displayer>.withTag({fluid: "silver"})*2,
+	<minecraft:redstone>*16,
+	<ore:dyeOrange>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "ardite"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:obsidian>*16,
+	<ore:dustPyrite>*16,
+	<minecraft:glowstone_dust>*16,
+	stockCow],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "cobalt"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "nickel"}),
+	<ore:dustPyrite>*16,
+	<minecraft:redstone>*16,
+	<fluidcows:cow_displayer>.withTag({fluid: "platinum"})],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "pigiron"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<tconstruct:edible:3>*16,
+	<minecraft:clay_ball>*16,
+	<ore:dyePink>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "knightslime"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<tconstruct:edible:2>*16,
+	<minecraft:flint>*16,
+	<ore:dyeMagenta>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "alumite"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "aluminum"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<minecraft:obsidian>*16,
+	<ore:dyePink>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "reinforced_metal"}), 
+	<liquid:chocolatemilk>,[
+	<minecraft:diamond_block>*2,
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"}),
+	<minecraft:obsidian>*16,
+	<minecraft:dye:4>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "galgadorian"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iridium"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "brass"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "alumite"}),
+	<minecraft:ender_pearl>*16],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "enhanced_galgadorian"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "galgadorian"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "reinforcedmetal"}),
+	<tconstruct:edible:3>*16,
+	<stevescarts:modulecomponents:45>*4],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "steel"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "iron"})*2,
+	<ore:blockCoal>*3],
+	true);
+FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "iridium"}), 
+	<liquid:chocolatemilk>,[
+	<fluidcows:cow_displayer>.withTag({fluid: "enderium"}),
+	<ore:rodBlizz>*16],
+	true);
+	
 FluidToItem.transform(<minecraft:egg>, 
 	<liquid:etchingacid>, 
 	<contenttweaker:golden_egg>, 

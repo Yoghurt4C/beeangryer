@@ -1,0 +1,23 @@
+{
+    "name": "Biotite Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:biotitechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Biotite Chickens are a species of phyllosilicate mineral chickens. For some reason, this Biotite contains trace amounts of tungsten in it instead of iron.<br>Lay Item: Ender Biotite.$(br2)It's also substantially lighter than the mica recorded to be found in igneous and metamorphic rock..."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:enderchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:quartzchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:biotitechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:biotitechicken'}",
+			"chicken":"Biotite Chicken",
+			"entitytooltip":"&7Ender Biotite",
+			"outputstack":"quark:biotite"
+		}
+    ]
+}

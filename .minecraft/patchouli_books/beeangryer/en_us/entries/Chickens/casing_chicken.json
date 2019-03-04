@@ -1,0 +1,23 @@
+{
+    "name": "Casing Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:bulletchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Casing Chickens are a species of worked metal chickens. Its appearance resembles that of a bullet. Even though it has gunpowdery ancestry, it doesn't ''shoot'' or explode.<br>Lay Item: Empty Casings.$(br2)Frankly, I'm not sure why this is a thing, but maybe you'll get some traction out of it."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:copperchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:gunpowderchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:bulletchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:bulletchicken'}",
+			"chicken":"Casing Chicken",
+			"entitytooltip":"&7Empty Casings",
+			"outputstack":"immersiveengineering:bullet"
+		}
+    ]
+}

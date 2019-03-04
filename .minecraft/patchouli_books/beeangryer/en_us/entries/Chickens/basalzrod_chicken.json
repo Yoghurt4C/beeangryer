@@ -1,0 +1,23 @@
+{
+    "name": "Basalzicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:basalzrodchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Basalzickens are a species of blaze-like chickens. They are hasteful and prone to crumbling.<br>Lay Item: Basalz Rods.$(br2)It seems that the dust from crushed rods becomes an entropy accelerator when it comes in contact with redstone and obsidian dust."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:saltpeterchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:blazechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:basalzrodchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:basalzrodchicken'}",
+			"chicken":"Basalzicken",
+			"entitytooltip":"&7Basalz Rods",
+			"outputstack":"thermalfoundation:material:2052"
+		}
+    ]
+}

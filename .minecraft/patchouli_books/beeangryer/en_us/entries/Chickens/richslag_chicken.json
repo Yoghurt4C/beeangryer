@@ -1,0 +1,23 @@
+{
+    "name": "Rich Slag Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:richslagchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Rich Slag Chickens are a species of glass-like ''waste'' chickens. Somehow, it's Richer than regular Slag. Mainly used in production of fertilizers.<br>Lay Item: Rich Slag!$(br2)In old times, it was also used to artifically increase the yield of metal ores."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:slagchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:goldchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:richslagchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:richslagchicken'}",
+			"chicken":"Rich Slag Chicken",
+			"entitytooltip":"&7Rich Slag",
+			"outputstack":"thermalfoundation:material:865"
+		}
+    ]
+}

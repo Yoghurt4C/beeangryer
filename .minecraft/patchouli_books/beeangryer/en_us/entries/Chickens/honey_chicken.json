@@ -1,0 +1,29 @@
+{
+    "name": "Buzzing Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:honeychicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Buzzing Chicken is an odd species. It prefers the company of flowers, is fuzzy to the touch, and tries to move its wings at unnatural angles.<br>Lay Item: Deviate Honeycombs!$(br2)Its honeycombs are very different to the ones you got the initial honey from, and smell slightly... eggy."
+		},
+		{
+			"type":"charset_cauldron",
+			"header":"Cauldron Bath",
+			"input1":"forestry:capsule:1{Fluid: {FluidName: 'for.honey', Amount: 1000}}",
+			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:honeychicken'}",
+			"liquid1name":"Empty",
+			"liquid1tooltip":"&7You can use any Fluid Container to fill the cauldron!", 
+			"liquid2":"forestry:textures/blocks/liquid/for.honey_still.png",
+			"liquid2name":"Honey",
+			"liquid2tooltip":"&9Forestry",
+			"liquid2tooltip2":"&71L",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:honeychicken'}",
+			"chicken":"Buzzing Chicken",
+			"entitytooltip":"&7Deviate Honeycombs",
+			"outputstack":"rustic:honeycomb"
+		}
+    ]
+}

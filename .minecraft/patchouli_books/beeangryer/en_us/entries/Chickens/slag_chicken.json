@@ -1,0 +1,23 @@
+{
+    "name": "Slag Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:slagchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Slag Chickens are a species of glass-like ''waste'' chickens. What is known as ''Slag'' is actually the collection of impurities left after purifying a metal ore.<br>Lay Item: Slag!$(br2)This previously unwanted ''waste'' has been promoted to a component in high-performance concretes, and a fiber ingredient for the insulation      called ''slag wool''."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:slagchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:slagchicken'}",
+			"chicken":"Slag Chicken",
+			"entitytooltip":"&7Slag",
+			"outputstack":"thermalfoundation:material:864"
+		}
+    ]
+}

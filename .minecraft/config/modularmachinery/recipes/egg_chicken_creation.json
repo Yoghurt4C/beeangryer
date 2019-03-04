@@ -18,8 +18,8 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "seed.oil",
-            "amount": 50
+            "fluid": "gold",
+            "amount": 2000
         },
         {
             "type": "item",

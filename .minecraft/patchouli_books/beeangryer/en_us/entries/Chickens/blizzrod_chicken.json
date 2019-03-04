@@ -1,0 +1,23 @@
+{
+    "name": "Blizzicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:blizzrodchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Blizzickens are a species of blaze-like chickens. They are sturdy and have a very low temperature.<br>Lay Item: Blizz Rods.$(br2)It seems that the dust from crushed rods becomes an excellent coolant when it comes in contact with redstone dust and snowballs."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:blitzrodchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:snowballchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:blizzrodchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:blizzrodchicken'}",
+			"chicken":"Blizzicken",
+			"entitytooltip":"&7Blizz Rods",
+			"outputstack":"thermalfoundation:material:2048"
+		}
+    ]
+}

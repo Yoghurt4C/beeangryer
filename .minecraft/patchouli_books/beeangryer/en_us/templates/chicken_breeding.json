@@ -17,7 +17,7 @@
 			"type": "item",
 			"item": "#input2",
 			"framed":false,
-			"x": 71,
+			"x": 70,
 			"y": 27
 		},
 		{
@@ -34,7 +34,7 @@
 			"type": "item",
 			"item": "#output",
 			"framed":false,
-			"x": 48.5,
+			"x": 48,
 			"y": 40
 		},
 		{

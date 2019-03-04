@@ -1,0 +1,23 @@
+{
+    "name": "Silicon Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Silicon Chickens are a species of metalloid chickens. Has a metallic lustre to it, and is a semiconductor. Second most abundant element in the crust of planet Terra. Deposited in many plant tissues.<br>Lay Item: Silicon!$(br2)Had a very large impact on the world economy, and is essential in integrated circuitry."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:sandchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:claychicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:siliconchicken'}",
+			"chicken":"Silicon Chicken",
+			"entitytooltip":"&7Apatite",
+			"outputstack":"appliedenergistics2:material:5"
+		}
+    ]
+}

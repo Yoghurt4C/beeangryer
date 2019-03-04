@@ -3,7 +3,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>*4);
 
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:mold:0>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:mold:1>);
-
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:37>);
 val toolRod = <ore:stickWood>|<ore:stickTreatedWood>;
 var condiment = <ore:rusticFlora>;
 

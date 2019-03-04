@@ -1,0 +1,23 @@
+{
+    "name": "Red Garnet Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:redgarnetchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Red Garnet Chickens are a species of gemstone chickens. Garnet is not a single mineral, but describes a group of several closely related minerals. Red is the most well-known color of Garnet gemstones.<br>Lay Item: Red Garnets.$(br2)This one appears to be a composite of Spessartine, Almandine and Pyrope."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:sapphirechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:redgarnetchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:redgarnetchicken'}",
+			"chicken":"Red Garnet Chicken",
+			"entitytooltip":"&7Red Garnets",
+			"outputstack":"techreborn:gem:3"
+		}
+    ]
+}

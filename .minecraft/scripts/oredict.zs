@@ -28,10 +28,10 @@ global metals as IOreDictEntry[string][string]={
 		block: <ore:blockAlubrass>,
 		comb: null,
 		dust: null,
-		gear: <ore:gearAluminumBrass>,
+		gear: <ore:gearAlubrass>,
 		ingot: <ore:ingotAlubrass>,
 		nugget: <ore:nuggetAlubrass>,
-		plate: <ore:plateAluminumBrass>,
+		plate: <ore:plateAlubrass>,
 		rod: null},
 	alumite:{
 		block: <ore:blockAlumite>,

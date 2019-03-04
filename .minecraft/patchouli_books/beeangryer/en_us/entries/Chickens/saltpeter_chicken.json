@@ -1,0 +1,23 @@
+{
+    "name": "Saltpeter Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:saltpeterchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Saltpeter Chickens are a species of compound chickens. Technically, it is potassium nitrate. Mostly employed in fertilizers, tree stump removal and fireworks. One of the major constitutens of gunpowder.<br>Lay Item: Saltpeter!$(br2)In processed meats, potassium nitrate reacts with hemoglobin and produces a pink color!"
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:sulfurchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:saltchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:saltpeterchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:saltpeterchicken'}",
+			"chicken":"Saltpeter Chicken",
+			"entitytooltip":"&7Saltpeter Dust",
+			"outputstack":"immersiveengineering:material:24"
+		}
+    ]
+}

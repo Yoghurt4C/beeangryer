@@ -1,0 +1,38 @@
+{
+    "name": "Terrasteel Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:terrasteelchicken'}",
+    "category": "chickens",
+	"sortnum":8,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Terrasteel Chickens are a species of mana-infused chickens. Obtained by fusing a Manasteel chicken with a Mana Diamond and a Mana Pearl through saturation with sizable amounts of Mana.<br>Lay Item: Terrasteel Ingots!$(br2)While looking at it, you feel as through your mind is somewhere else."
+		},
+		{
+			"type":"terraplate",
+			"header":"Agglomeration",
+			"input1":"botania:manaresource:2",
+			"input2":"roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+			"input3":"botania:manaresource:1",
+			"output":"roost:chicken{Chicken:'contenttweaker:terrasteelchicken'}",
+			"corner1":"botania:textures/blocks/livingrock0.png",
+			"corner2":"botania:textures/blocks/livingrock0.png",
+			"corner3":"botania:textures/blocks/livingrock0.png",
+			"corner4":"botania:textures/blocks/livingrock0.png",
+			"center":"botania:textures/blocks/livingrock0.png",
+			"rim1":"minecraft:textures/blocks/lapis_block.png",
+			"rim2":"minecraft:textures/blocks/lapis_block.png",
+			"rim3":"minecraft:textures/blocks/lapis_block.png",
+			"rim4":"minecraft:textures/blocks/lapis_block.png",
+			"cornertooltip":"Livingrock",
+			"centertooltip":"Livingrock",
+			"rimtooltip":"Lapis Lazuli Block",
+			"manacost":"&bHalf o'Mana Pool",
+			"desc":"$(7)$(o)We are now connected/$",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:terrasteelchicken'}",
+			"chicken":"Terrasteel Chicken",
+			"entitytooltip":"&7Terrasteel Ingots",
+			"outputstack":"ore:ingotTerrasteel"
+		}
+    ]
+}

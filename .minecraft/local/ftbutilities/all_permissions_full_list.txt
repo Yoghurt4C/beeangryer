@@ -1,4 +1,4 @@
-8020 nodes in total
+8042 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1112,16 +1112,21 @@ ftbutilities.claims.block.edit.immersivepetroleum.metal_device: OP
 ftbutilities.claims.block.edit.immersivepetroleum.metal_multiblock: OP
 ftbutilities.claims.block.edit.immersivepetroleum.stone_decoration: OP
 ftbutilities.claims.block.edit.incorporeal.corporea_inhibitor: OP
-ftbutilities.claims.block.edit.incorporeal.corporea_liar: OP
 ftbutilities.claims.block.edit.incorporeal.corporea_retainer_decrementer: OP
 ftbutilities.claims.block.edit.incorporeal.corporea_solidifier: OP
 ftbutilities.claims.block.edit.incorporeal.corporea_soul_core: OP
 ftbutilities.claims.block.edit.incorporeal.corporea_spark_tinkerer: OP
+ftbutilities.claims.block.edit.incorporeal.cygnus_crystal_cube: OP
+ftbutilities.claims.block.edit.incorporeal.cygnus_funnel: OP
+ftbutilities.claims.block.edit.incorporeal.cygnus_retainer: OP
+ftbutilities.claims.block.edit.incorporeal.cygnus_word: OP
 ftbutilities.claims.block.edit.incorporeal.ender_soul_core: OP
 ftbutilities.claims.block.edit.incorporeal.frame_tinkerer: OP
 ftbutilities.claims.block.edit.incorporeal.natural_comparator: OP
 ftbutilities.claims.block.edit.incorporeal.natural_repeater: OP
+ftbutilities.claims.block.edit.incorporeal.red_string_liar: OP
 ftbutilities.claims.block.edit.incorporeal.redstone_root_crop: OP
+ftbutilities.claims.block.edit.incorporeal.unstable_cube: OP
 ftbutilities.claims.block.edit.integratedcrafting.part_crafting_writer_block: OP
 ftbutilities.claims.block.edit.integratedcrafting.part_interface_crafting_block: OP
 ftbutilities.claims.block.edit.integrateddynamics.block_liquid_chorus: OP
@@ -3394,16 +3399,21 @@ ftbutilities.claims.block.interact.immersivepetroleum.metal_device: OP
 ftbutilities.claims.block.interact.immersivepetroleum.metal_multiblock: OP
 ftbutilities.claims.block.interact.immersivepetroleum.stone_decoration: OP
 ftbutilities.claims.block.interact.incorporeal.corporea_inhibitor: OP
-ftbutilities.claims.block.interact.incorporeal.corporea_liar: OP
 ftbutilities.claims.block.interact.incorporeal.corporea_retainer_decrementer: OP
 ftbutilities.claims.block.interact.incorporeal.corporea_solidifier: OP
 ftbutilities.claims.block.interact.incorporeal.corporea_soul_core: OP
 ftbutilities.claims.block.interact.incorporeal.corporea_spark_tinkerer: OP
+ftbutilities.claims.block.interact.incorporeal.cygnus_crystal_cube: OP
+ftbutilities.claims.block.interact.incorporeal.cygnus_funnel: OP
+ftbutilities.claims.block.interact.incorporeal.cygnus_retainer: OP
+ftbutilities.claims.block.interact.incorporeal.cygnus_word: OP
 ftbutilities.claims.block.interact.incorporeal.ender_soul_core: OP
 ftbutilities.claims.block.interact.incorporeal.frame_tinkerer: OP
 ftbutilities.claims.block.interact.incorporeal.natural_comparator: OP
 ftbutilities.claims.block.interact.incorporeal.natural_repeater: OP
+ftbutilities.claims.block.interact.incorporeal.red_string_liar: OP
 ftbutilities.claims.block.interact.incorporeal.redstone_root_crop: OP
+ftbutilities.claims.block.interact.incorporeal.unstable_cube: OP
 ftbutilities.claims.block.interact.integratedcrafting.part_crafting_writer_block: OP
 ftbutilities.claims.block.interact.integratedcrafting.part_interface_crafting_block: OP
 ftbutilities.claims.block.interact.integrateddynamics.block_liquid_chorus: OP
@@ -6187,19 +6197,29 @@ ftbutilities.claims.item.immersivepetroleum.speedboat: ALL
 ftbutilities.claims.item.immersivepetroleum.stone_decoration: ALL
 ftbutilities.claims.item.immersivepetroleum.upgrades: ALL
 ftbutilities.claims.item.incorporeal.corporea_inhibitor: ALL
-ftbutilities.claims.item.incorporeal.corporea_liar: ALL
 ftbutilities.claims.item.incorporeal.corporea_retainer_decrementer: ALL
 ftbutilities.claims.item.incorporeal.corporea_solidifier: ALL
 ftbutilities.claims.item.incorporeal.corporea_soul_core: ALL
 ftbutilities.claims.item.incorporeal.corporea_spark_tinkerer: ALL
 ftbutilities.claims.item.incorporeal.corporea_ticket: ALL
+ftbutilities.claims.item.incorporeal.cygnus_crystal_cube: ALL
+ftbutilities.claims.item.incorporeal.cygnus_crystal_cube_card: ALL
+ftbutilities.claims.item.incorporeal.cygnus_funnel: ALL
+ftbutilities.claims.item.incorporeal.cygnus_retainer: ALL
+ftbutilities.claims.item.incorporeal.cygnus_spark: ALL
+ftbutilities.claims.item.incorporeal.cygnus_ticket: ALL
+ftbutilities.claims.item.incorporeal.cygnus_word: ALL
+ftbutilities.claims.item.incorporeal.cygnus_word_card: ALL
 ftbutilities.claims.item.incorporeal.ender_soul_core: ALL
 ftbutilities.claims.item.incorporeal.fractured_space_rod: ALL
 ftbutilities.claims.item.incorporeal.frame_tinkerer: ALL
+ftbutilities.claims.item.incorporeal.master_cygnus_spark: ALL
 ftbutilities.claims.item.incorporeal.natural_comparator: ALL
 ftbutilities.claims.item.incorporeal.natural_repeater: ALL
+ftbutilities.claims.item.incorporeal.red_string_liar: ALL
 ftbutilities.claims.item.incorporeal.soul_core_frame: ALL
 ftbutilities.claims.item.incorporeal.ticket_conjurer: ALL
+ftbutilities.claims.item.incorporeal.unstable_cube: ALL
 ftbutilities.claims.item.integratedcrafting.part_crafting_writer_item: ALL
 ftbutilities.claims.item.integratedcrafting.part_interface_crafting_item: ALL
 ftbutilities.claims.item.integrateddynamics.block_liquid_chorus: ALL
@@ -7213,6 +7233,7 @@ ftbutilities.claims.item.sips.big_chug: ALL
 ftbutilities.claims.item.sips.lil_sip: ALL
 ftbutilities.claims.item.slashbladetic.blade_forge: ALL
 ftbutilities.claims.item.slashbladetic.blade_station: ALL
+ftbutilities.claims.item.slashbladetic.book_smith: ALL
 ftbutilities.claims.item.slashbladetic.slashblade.blade: ALL
 ftbutilities.claims.item.slashbladetic.slashblade.handle: ALL
 ftbutilities.claims.item.slashbladetic.slashblade.saya: ALL
@@ -8009,6 +8030,7 @@ ftbutilities.display.admin_info: OP
 ftbutilities.homes.cross_dim: ALL
 ftbutilities.leaderboard.ftbutilities.deaths: ALL
 ftbutilities.leaderboard.ftbutilities.deaths_per_hour: ALL
+ftbutilities.leaderboard.ftbutilities.jumps: ALL
 ftbutilities.leaderboard.ftbutilities.last_seen: ALL
 ftbutilities.leaderboard.ftbutilities.mob_kills: ALL
 ftbutilities.leaderboard.ftbutilities.time_played: ALL
@@ -8106,10 +8128,6 @@ command.ftblib.team.settings
 command.ftblib.team.status
 command.ftblib.team.transfer_ownership
 command.ftbutilities.back
-command.ftbutilities.backup.help
-command.ftbutilities.backup.size
-command.ftbutilities.backup.start
-command.ftbutilities.backup.time
 command.ftbutilities.chunks.claim
 command.ftbutilities.chunks.help
 command.ftbutilities.chunks.load
@@ -8122,11 +8140,11 @@ command.ftbutilities.chunks.unload_everything
 command.ftbutilities.delhome
 command.ftbutilities.delwarp
 command.ftbutilities.fly
+command.ftbutilities.god
 command.ftbutilities.heal
 command.ftbutilities.home
+command.ftbutilities.inv.disable_right_click
 command.ftbutilities.inv.help
-command.ftbutilities.inv.load
-command.ftbutilities.inv.save
 command.ftbutilities.inv.view
 command.ftbutilities.kickme
 command.ftbutilities.killall
@@ -8145,6 +8163,7 @@ command.ftbutilities.ranks.get_permission
 command.ftbutilities.ranks.help
 command.ftbutilities.ranks.set
 command.ftbutilities.ranks.set_permission
+command.ftbutilities.rec
 command.ftbutilities.rtp
 command.ftbutilities.sethome
 command.ftbutilities.setwarp

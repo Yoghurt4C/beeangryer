@@ -1,0 +1,23 @@
+{
+    "name": "Peridot Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:peridotchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Peridot Chickens are a species of silicate mineral chickens. Technically, it is gem-quality magnesium-rich olivine. Peridot is one of the few gemstones that occur in only one color; however, its tint can vary from yellowish olive to brownish green.<br>Lay Item: Peridot Gems.$(br2)Peridot crystals have been harvested from pallasite          meteorites."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:greenchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:peridotchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:peridotchicken'}",
+			"chicken":"Peridot Chicken",
+			"entitytooltip":"&7Peridot Gems",
+			"outputstack":"techreborn:gem:2"
+		}
+    ]
+}

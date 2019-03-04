@@ -1,0 +1,23 @@
+{
+    "name": "''Gold'' Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:pyritechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"''Gold'' Chickens are a species of compound chickens. Technically, it is an iron sulfide. Its actual name is derived from the greek word πυρίτης, which was used to describe rocks that gave off sparks when struck with metal.<br>Lay Item: ''Gold'' Dust.$(br2)Has a superficial visual resemblance to gold, which is why it's named Fools ''Gold''."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:ironchicken'}",
+			"input2":"roost:chicken{Chicken:'contenttweaker:sulfurchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:pyritechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:pyritechicken'}",
+			"chicken":"''Gold'' Chicken",
+			"entitytooltip":"&7''Gold'' Dust",
+			"outputstack":"techreborn:dust:39"
+		}
+    ]
+}

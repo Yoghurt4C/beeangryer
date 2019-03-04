@@ -54,8 +54,8 @@ val apatitechicken = ChickenFactory.createChicken("apatitechicken", Color.fromHe
 val manurechicken = ChickenFactory.createChicken("manurechicken", Color.fromHex("61540A"), <item:hatchery:chickenmanure>);
 		manurechicken.setForegroundColor(Color.fromHex("B0A797"));
 		manurechicken.spawnType="NONE";
-		manurechicken.setParentOne(ResourceLocation.create("contenttweaker:calcitechicken"));
-		manurechicken.setParentTwo(ResourceLocation.create("chickens:brownchicken"));
+		manurechicken.setParentOne(ResourceLocation.create(""));
+		manurechicken.setParentTwo(ResourceLocation.create(""));
 		manurechicken.register();//obtainable
 		
 val lapischicken = ChickenFactory.createChicken("lapischicken", Color.fromHex("1F2EBA"), <item:minecraft:dye:4>);
@@ -209,7 +209,7 @@ val rubberchicken = ChickenFactory.createChicken("rubberchicken", Color.fromHex(
 		rubberchicken.setForegroundColor(Color.fromHex("4E3209"));
 		rubberchicken.spawnType="NONE";
 		rubberchicken.setParentOne(ResourceLocation.create("chickens:logchicken"));
-		rubberchicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
+		rubberchicken.setParentTwo(ResourceLocation.create("chickens:slimechicken"));
 		rubberchicken.register();//obtainable
 		
 val basalzrodchicken = ChickenFactory.createChicken("basalzrodchicken", Color.fromHex("980000"), <item:thermalfoundation:material:2052>);
@@ -285,8 +285,8 @@ val cinnabarchicken = ChickenFactory.createChicken("cinnabarchicken", Color.from
 val honeychicken = ChickenFactory.createChicken("honeychicken", Color.fromHex("E0B60F"), <item:rustic:honeycomb>);
 		honeychicken.setForegroundColor(Color.fromHex("C19D0D"));
 		honeychicken.spawnType="NONE";
-		honeychicken.setParentOne(ResourceLocation.create("chickens:waterchicken"));
-		honeychicken.setParentTwo(ResourceLocation.create("chickens:orangechicken"));
+		honeychicken.setParentOne(ResourceLocation.create(""));
+		honeychicken.setParentTwo(ResourceLocation.create(""));
 		honeychicken.register();//obtainable
 		
 val refinedironchicken = ChickenFactory.createChicken("refinedironchicken", Color.fromHex("B6C4D3"), <item:techreborn:ingot:19>);

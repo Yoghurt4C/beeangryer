@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.InductionSmelter;
@@ -7,8 +8,8 @@ import mods.thermalexpansion.Enchanter;
 recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotSteel>,<thermalexpansion:frame>);
 recipes.replaceAllOccurences(<ore:blockGlass>,<ore:blockGlassOrange>,<thermalexpansion:frame>);
 recipes.remove(<thermalexpansion:machine:5>);
-recipes.addShaped(<thermalexpansion:machine:5>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}),[
-[<immersiveengineering:mold>,<minecraft:piston>,null],
+recipes.addShaped("te_compactor",<thermalexpansion:machine:5>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}),[
+[<immersiveengineering:mold>.reuse(),<minecraft:piston>,null],
 [<ore:ingotBronze>,<thermalexpansion:frame:0>,<ore:ingotBronze>],
 [<ore:ingotCopper>,<thermalfoundation:material:513>,<ore:ingotCopper>]]);
 
@@ -66,7 +67,8 @@ val TECompressorArray=[
 <thermalfoundation:material:132>,
 <immersiveengineering:metal:6>,
 <thermalfoundation:material:131>,
-<thermalfoundation:material:128>
+<thermalfoundation:material:128>,
+<techreborn:ingot:22>
 ]as IItemStack[];
 for item in TECompressorArray{mods.thermalexpansion.Compactor.removeStorageRecipe(item);}
 

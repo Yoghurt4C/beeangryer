@@ -1,0 +1,25 @@
+{
+    "name": "Manasteel Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+    "category": "chickens",
+	"sortnum":8,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Manasteel Chickens are a species of ferric chickens. Much like actual steel, it's made by forging iron with the use of a strengthening agent; Mana doesn't seem to have as much of an effect as carbon does, but it does imbue the metal with some... pecularities.<br>Lay Item: Manasteel Ingots.$(br2)Let two iron chickens have a successful peaceful rest in       the Odd Pagoda."
+		},
+		{
+			"type":"odd_pagoda",
+			"header":"Odd Pagoda",
+			"input1":"modularmachinery:itemblueprint{dynamicmachine:'modularmachinery:mana_injector'}",
+			"input2":"roost:chicken#2{Chicken:'chickens:ironchicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:manasteelchicken'}",
+			"text":"This ''therapy'' requires no more than a minute, and requires but a handful of Mana.",
+			"manacost":"&bHalf o'Diluted Mana Pool",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:manasteelchicken'}",
+			"chicken":"Manasteel Chicken",
+			"entitytooltip":"&7Manasteel Ingots",
+			"outputstack":"ore:ingotManasteel"
+		}
+    ]
+}

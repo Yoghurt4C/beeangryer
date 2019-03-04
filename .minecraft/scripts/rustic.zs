@@ -14,6 +14,7 @@ game.setLocalization("item.rustic.honeycomb.name","Deviate Honeycomb");
 game.setLocalization("item.rustic.beeswax.name","Deviate Beeswax");
 game.setLocalization("tile.rustic.honey.name","Unwonted Honey");
 game.setLocalization("fluid.honey","Unwonted Honey");
+game.setLocalization("fluid.mead","Aberrant Mead");
 furnace.addRecipe(<rustic:beeswax>,<forestry:beeswax>,0.1);
 
 val vanillaferns=[

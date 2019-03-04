@@ -1,0 +1,23 @@
+{
+    "name": "Collophane Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:apatitechicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Collophane Chickens are a species of phosphate mineral chickens. Often mistaken for other minerals, which is how Apatite got its name from the greek word απατείν.<br>Lay Item: Apatite!$(br2)Apatite was sometimes used as a gemstone. Sadly, you don't know any way of using it other than as a source of phosphor for fertilizer."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'contenttweaker:calcitechicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:blazechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:apatitechicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:apatitechicken'}",
+			"chicken":"Collophane Chicken",
+			"entitytooltip":"&7Apatite",
+			"outputstack":"forestry:apatite"
+		}
+    ]
+}

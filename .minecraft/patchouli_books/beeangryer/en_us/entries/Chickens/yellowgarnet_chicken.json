@@ -1,0 +1,23 @@
+{
+    "name": "Yellow Garnet Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:yellowgarnetchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Yellow Garnet Chickens are a species of gemstone chickens. Garnet is not a single mineral, but describes a group of several closely related minerals; they come in a variety of colors and have many different varieties.<br>Lay Item: Yellow Garnets.$(br2)This one appears to be a composite of Grossular, Andradite and Uvavorite."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:glasschicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:glowstonechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:yellowgarnetchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:yellowgarnetchicken'}",
+			"chicken":"Yellow Garnet Chicken",
+			"entitytooltip":"&7Yellow Garnets",
+			"outputstack":"techreborn:gem:4"
+		}
+    ]
+}

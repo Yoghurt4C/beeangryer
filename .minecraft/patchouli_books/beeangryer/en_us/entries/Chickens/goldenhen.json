@@ -1,0 +1,24 @@
+{
+    "name": "The Golden Hen",
+    "icon": "roost:chicken{Chicken:'contenttweaker:goldenhen'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"The Golden Hen is a structurally redesigned and augmented vanilla chicken turned cyborg through the macabre construct called ''Der Elektrum-Ente''.<br>Lay Item: Golden Egg.$(br2)The conversion process takes 480KFE at 80FE/t, two liters of Molten Gold, a single chicken, and lasts for five minutes."
+		},
+		{
+			"type":"golden_hen",
+			"header":"Der Elektrum-Ente",
+			"input1":"modularmachinery:itemblueprint{dynamicmachine:'modularmachinery:golden_hen'}",
+			"input2":"roost:chicken{Chicken:'minecraft:chicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:goldenhen'}",
+			"text":"Process a vanilla chicken in ''Der Elektrum-Ente'', an electric gargantuan multiblock chicken.",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:goldenhen'}",
+			"chicken":"The Golden Hen",
+			"entitytooltip":"&7Golden Egg",
+			"outputstack":"contenttweaker:golden_egg"
+		}
+    ]
+}

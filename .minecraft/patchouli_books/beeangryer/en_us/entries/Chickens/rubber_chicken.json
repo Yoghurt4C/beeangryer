@@ -1,0 +1,23 @@
+{
+    "name": "Caouthouc Chicken",
+    "icon": "roost:chicken{Chicken:'contenttweaker:rubberchicken'}",
+    "category": "chickens",
+	"sortnum":6,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Caouthouc Chickens are a species of compound chickens. They are sticky to the touch and have a very distinct, subjectively pleasant smell.<br>Lay Item: Sap.$(br2)This chicken was the lead manufacturer of latex used in balls for ancient ritualistic ballgames."
+		},
+		{
+			"type":"chicken_breeding",
+			"header":"Breeding",
+			"input1":"roost:chicken{Chicken:'chickens:logchicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:slimechicken'}",
+			"output":"roost:chicken{Chicken:'contenttweaker:rubberchicken'}",
+			"entity":"chickens:chickenschicken{Type:'contenttweaker:rubberchicken'}",
+			"chicken":"Caouthouc Chicken",
+			"entitytooltip":"&7Sap",
+			"outputstack":"techreborn:part:31"
+		}
+    ]
+}
