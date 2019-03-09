@@ -1,0 +1,38 @@
+{
+    "machine": "the_tenebrous_egg",
+    "registryName": "dragon_egg_creation_matter",
+    "recipeTime": 3000,
+	"priority":2,
+    "requirements": [
+        {
+			"type": "biome",
+			"io-type": "input",
+			"biome": [9]
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_dragon",
+            "chance":0.25,
+			"amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:egg",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dragon_egg",
+            "amount": 1
+        }
+    ]
+}

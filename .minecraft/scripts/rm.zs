@@ -55,7 +55,9 @@ val goneForever=[
 <appliedenergistics2:material:21>,
 <appliedenergistics2:material:19>,
 <appliedenergistics2:material:20>,
-<appliedenergistics2:material:40>
+<appliedenergistics2:material:40>,
+<thermalexpansion:machine:3>,
+<thermalexpansion:augment:304>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");
@@ -67,6 +69,8 @@ JEI.hideCategory("ie.blastfurnace.fuel");
 JEI.hideCategory("ie.alloysmelter");
 JEI.hideCategory("chickens.Henhousing");
 JEI.hideCategory("appliedenergistics2.inscriber");
+JEI.hideCategory("thermalexpansion.smelter");
+JEI.hideCategory("thermalexpansion.smelter_pyrotheum");
 
 //heuristic removal array, put in `<modid:item>` with commas after each, except the last, for removal
 val rmSpecArray=[
@@ -160,8 +164,6 @@ val magmaCrucibleArray=[
 ] as IItemStack[];
 for ore in magmaCrucibleArray{mods.thermalexpansion.Crucible.removeRecipe(ore);}
 //recipeid array, rather pointless but it exists
-val k=0;
-for k in 1 .. 20{
 val rmIDArray=[	
 "forestry:greenhouse_fan",
 "forestry:greenhouse_control",
@@ -219,7 +221,7 @@ val rmIDArray=[
 "appliedenergistics2:network/blocks/inscribers"
 //"compactmachines3:fieldprojector"
 ]as string[];
-for name in rmIDArray{recipes.removeByRecipeName(name);}}
+for name in rmIDArray{recipes.removeByRecipeName(name);}
 //furnace rm
 val rmFurnaceArray=[
 <ore:nuggetIron>,

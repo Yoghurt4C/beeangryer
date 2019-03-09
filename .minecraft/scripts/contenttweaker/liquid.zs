@@ -43,3 +43,5 @@ var enrichedexcitedsaplingslumgullion=VanillaFactory.createFluid("enrichedexcite
 var dissolvedeggshells=VanillaFactory.createFluid("dissolvedeggshells", Color.fromHex("DBDBDB"));	
 	dissolvedeggshells.register();
 	
+var love=VanillaFactory.createFluid("love", Color.fromHex("FF7FED"));	
+	love.register();

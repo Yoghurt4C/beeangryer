@@ -38,3 +38,40 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:chickenstock>*5000,
  <liquid:liquidchicken>*5000,
  [<contenttweaker:salt_block>*1,condiment,condiment,condiment],
  43200);
+
+//mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
+mods.immersiveengineering.ArcFurnace.addRecipe(
+ <thermalfoundation:glass:3>*2,
+ <ore:dustLead>,
+ null,
+ 100, 80,
+ [<ore:dustObsidian>*4],
+ "Alloying");
+for glass, dust in scripts.techreborn.glassArray{mods.immersiveengineering.ArcFurnace.addRecipe(
+ glass*2,
+ dust,
+ null,
+ 100, 60,
+ [<ore:blockGlassHardened>*2],
+ "Alloying");}
+mods.immersiveengineering.ArcFurnace.addRecipe(
+ <simplyjetpacks:metaitemmods:23>,
+ <simplyjetpacks:metaitemmods:22>,
+ null,
+ 100, 320,
+ [<ore:ingotBronze>*10],
+ "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(
+ <simplyjetpacks:metaitemmods:24>,
+ <simplyjetpacks:metaitemmods:23>,
+ null,
+ 100, 480,
+ [<ore:ingotInvar>*10],
+ "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(
+ <simplyjetpacks:metaitemmods:25>,
+ <simplyjetpacks:metaitemmods:24>,
+ null,
+ 100, 640,
+ [<ore:ingotEnderium>*10],
+ "Alloying");

@@ -28,6 +28,23 @@
 		"modularmachinery:blockinputbus",
 		"modularmachinery:blockfluidinputhatch"
 	],
+	"obsidian":[
+		"minecraft:obsidian",
+		"chisel:obsidian"
+    ],
+	"purpur":[
+		"minecraft:purpur_block",
+		"minecraft:purpur_pillar",
+		"chisel:purpur",
+		"chisel:purpur2"
+	],
+	"purpur_io":[
+		"minecraft:purpur_block",
+		"modularmachinery:blockoutputbus",
+		"modularmachinery:blockinputbus",
+		"modularmachinery:blockfluidinputhatch",
+		"modulardiversity:blockbiomedetector"
+	],
 	"brick_brick":[
 		"minecraft:brick_block",
 		"chisel:bricks",
@@ -114,17 +131,19 @@
 	"greenpurple_hatchinput":[
 		"modularmachinery:blockfluidinputhatch@5",
 		"modularmachinery:blockfluidinputhatch@6",
-		"modularmachinery:blockfluidinputhatch@7"
+		"modularmachinery:blockfluidinputhatch@7",
+		"modularmachinery:blockcasing@4"
 	],
 	"greenpurple_busoutput":[
 		"modularmachinery:blockoutputbus@5",
 		"modularmachinery:blockoutputbus@6",
 		"modularmachinery:blockcasing@4"
 	],
-		"greenpurple_hatchoutput":[
+	"greenpurple_hatchoutput":[
 		"modularmachinery:blockfluidoutputhatch@5",
 		"modularmachinery:blockfluidoutputhatch@6",
-		"modularmachinery:blockfluidoutputhatch@7"
+		"modularmachinery:blockfluidoutputhatch@7",
+		"modularmachinery:blockcasing@4"
 	],
 	"greenpurple_energy":[
 		"immersiveengineering:storage@8",

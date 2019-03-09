@@ -1,0 +1,37 @@
+{
+    "machine": "the_tenebrous_egg",
+    "registryName": "dragon_egg_creation_scale",
+    "recipeTime": 6000,
+	"priority":1,
+    "requirements": [
+		{
+			"type": "biome",
+			"io-type": "input",
+			"biome": [9]
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "quark:enderdragon_scale",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:egg",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dragon_egg",
+            "amount": 1
+        }
+    ]
+}

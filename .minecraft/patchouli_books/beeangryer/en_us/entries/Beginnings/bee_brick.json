@@ -1,16 +1,41 @@
 {
     "name": "The Bee Brick",
     "icon": "minecraft:brick_block",
-    "category": "beginnings",
+    "category": "multiblocks",
 	"sortnum":4,
     "pages": [
         {
             "type": "text",
             "text": "frick"
         },
-		{"type":"image",
-		  "images":["patchouli:textures/gui/bee_brick.png"],
-		  "title":"Field",
-		  "border":true}
+		{
+			"type":"multiblock",
+			"name":"The Bee Brick",
+			"text":"The flowers can be of *any* type, even Tall Flowers and Dandelions are OK!",
+			"multiblock":{
+				"mapping":{
+					"B":"minecraft:brick_block",
+					"0":"modularmachinery:blockcontroller[facing=north]",
+					"H":"forestry:bee_house",
+					"O":"modularmachinery:blockoutputbus[size=small]",
+					"I":"modularmachinery:blockinputbus[size=small]",
+					"F":"modularmachinery:blockfluidinputhatch[size=tiny]",
+					"S":"minecraft:stone_slab[half=bottom,variant=stone]",
+					"f":"minecraft:red_flower"
+					},
+				"pattern":[
+					["______","_SSSS_","_SSSS_","_SSSS_","______"],
+					["______","_BHHB_","_HBBH_","_BHHB_","______"],
+					["_f__f_","fBOBBf","_0BBB_","fBIFBf","_f__f_"]
+				],
+				"symmetrical":true
+			}
+		},
+		{
+			"type":"image",
+			"images":["patchouli:textures/gui/bee_brick.png"],
+			"title":"Field",
+			"border":true
+		}
     ]
 }

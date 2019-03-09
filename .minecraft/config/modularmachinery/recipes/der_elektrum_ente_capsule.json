@@ -1,0 +1,104 @@
+{
+    "machine": "the_greatest_egg",
+    "registryName": "der_elektrum_ente_capsule",
+    "recipeTime": 3000,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_block",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_block",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_block",
+            "amount": 33
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:storage@7",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:storage@7",
+            "amount": 64
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:storage@7",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal_decoration0@1",
+            "amount": 38
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "tconstruct:metal@5",
+            "amount": 28
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:storage2@3",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:diamond_block",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcasing@4",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockinputbus@3",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockfluidinputhatch@5",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcontroller",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "dissolvedeggshells",
+            "amount": 4000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "capsule:capsule@5",
+			"nbt": {"color":"16514145","size":"13","isReward":"1b","oneUse":"1b","structureName":"minecraft:config/capsule/rewards/der elektrum-ente","author":"The Greatest Egg","display":{"color":"16246410", "Lore":["Facing North"]},"label":"Der Elektrum-Ente"},
+            "amount": 1
+        }
+    ]
+}

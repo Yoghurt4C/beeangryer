@@ -14,8 +14,6 @@ static defaultPreferredMods as string[] = [
 	"techreborn"
 ];
 
-recipes.replaceAllOccurences(<minecraft:chest>,<ore:chestWood>);
-
 function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
 	var hasLiquid = liquid as bool;
 

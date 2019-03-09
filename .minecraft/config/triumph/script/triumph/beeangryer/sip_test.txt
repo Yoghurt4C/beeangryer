@@ -1,0 +1,10 @@
+setIcon(<sips:lil_sip, meta:0, count:1, nbt:{Fluid:{FluidName:"fluidcarbon",Amount:1000}}>)
+setTitle("Lords Of A Feather")
+setDescription("Chickens can be obnoxious to control and contain. Flash your chicken scepter to tame those loose chicks!")
+
+addParent("triumph:beeangryer/chickens")
+addParent("triumph:beeangryer/grindstone")
+setRequirements("all")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<sips:lil_sip, meta:0, count:1, nbt:{Fluid:{FluidName:"fluidcarbon",Amount:1000}}>)

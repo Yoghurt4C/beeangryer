@@ -5,9 +5,9 @@
 	"priority":0,
     "requirements": [
 		{
-		"type": "biome",
-		"io-type": "input",
-		"biome": [9]
+			"type": "biome",
+			"io-type": "input",
+			"biome": [9]
 		},
         {
             "type": "fluid",

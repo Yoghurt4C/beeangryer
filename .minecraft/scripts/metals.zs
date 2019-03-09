@@ -6,7 +6,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 function isItemToKeep(item as IItemStack) as bool {
-	return false; //Comment this out if there are mods we want kept
+	//return false; //Comment this out if there are mods we want kept
 
 	var modsToKeep as string[] = [
 	"uniquecrops"
@@ -18,7 +18,7 @@ function isItemToKeep(item as IItemStack) as bool {
 			return true;
 		}
 	}
-	return false;
+	//return false;
 }
 
 function getPreferredMetalItem(metalName as string, metalPartName as string) as IItemStack {
@@ -31,9 +31,22 @@ function getMetalLiquid(metalName as string) as ILiquidStack {
 function handlePreferredMetalItem(metalName as string, metalPartName as string, metal as IOreDictEntry[string], preferredMetalItem as IItemStack, metalLiquid as ILiquidStack) {
 	var hasLiquid = metalLiquid as bool;
 	
+	
 	if (metalPartName=="nugget"|metalPartName=="ingot"|metalPartName=="block"|metalPartName=="gear"){
 	recipes.remove(preferredMetalItem);}
-	
+	var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
+	var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
+
+	if (metalPartName=="gear" & metalItems[metalName].nugget as bool & metalItems[metalName].plate as bool){
+		recipes.addShaped("gear_"+metalName, preferredMetalItem,[
+		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]],
+		[metalItems[metalName].plate.items[0],grafter,metalItems[metalName].plate.items[0]],
+		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]]]);
+		recipes.addShaped("gear_"+metalName+"+", preferredMetalItem,[
+		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]],
+		[metalItems[metalName].plate.items[0],grafterProven,metalItems[metalName].plate.items[0]],
+		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]]]);
+	}
 	//ticon
 	if (hasLiquid) {
 		var fluidAmount as int = 0;

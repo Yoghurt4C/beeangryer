@@ -1,4 +1,4 @@
-8042 nodes in total
+8060 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -338,6 +338,7 @@ ftbutilities.claims.block.edit.buildinggadgets.constructionblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.edit.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.templatemanager: OP
+ftbutilities.claims.block.edit.capsule.capsulemarker: OP
 ftbutilities.claims.block.edit.cathedral.basalt_block_carved: OP
 ftbutilities.claims.block.edit.cathedral.basalt_block_checkered: OP
 ftbutilities.claims.block.edit.cathedral.basalt_doubleslab_carved: OP
@@ -693,6 +694,7 @@ ftbutilities.claims.block.edit.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.edit.contenttweaker.love: OP
 ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.reinforced_metal_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.salt: OP
@@ -711,7 +713,9 @@ ftbutilities.claims.block.edit.deepmoblearning.simulation_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.edit.engineersdecor.clinker_brick_block: OP
 ftbutilities.claims.block.edit.engineersdecor.clinker_brick_stairs: OP
+ftbutilities.claims.block.edit.engineersdecor.clinker_brick_wall: OP
 ftbutilities.claims.block.edit.engineersdecor.concrete_wall: OP
+ftbutilities.claims.block.edit.engineersdecor.iron_inset_light: OP
 ftbutilities.claims.block.edit.engineersdecor.metal_rung_ladder: OP
 ftbutilities.claims.block.edit.engineersdecor.metal_rung_steps: OP
 ftbutilities.claims.block.edit.engineersdecor.rebar_concrete: OP
@@ -719,8 +723,10 @@ ftbutilities.claims.block.edit.engineersdecor.rebar_concrete_stairs: OP
 ftbutilities.claims.block.edit.engineersdecor.rebar_concrete_wall: OP
 ftbutilities.claims.block.edit.engineersdecor.slag_brick_block: OP
 ftbutilities.claims.block.edit.engineersdecor.slag_brick_stairs: OP
+ftbutilities.claims.block.edit.engineersdecor.treated_wood_crafting_table: OP
 ftbutilities.claims.block.edit.engineersdecor.treated_wood_ladder: OP
 ftbutilities.claims.block.edit.engineersdecor.treated_wood_pole: OP
+ftbutilities.claims.block.edit.engineersdecor.treated_wood_stool: OP
 ftbutilities.claims.block.edit.engineersdecor.treated_wood_table: OP
 ftbutilities.claims.block.edit.extrabees.alveary: OP
 ftbutilities.claims.block.edit.extrabees.ectoplasm: OP
@@ -2625,6 +2631,7 @@ ftbutilities.claims.block.interact.buildinggadgets.constructionblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.interact.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.templatemanager: OP
+ftbutilities.claims.block.interact.capsule.capsulemarker: OP
 ftbutilities.claims.block.interact.cathedral.basalt_block_carved: OP
 ftbutilities.claims.block.interact.cathedral.basalt_block_checkered: OP
 ftbutilities.claims.block.interact.cathedral.basalt_doubleslab_carved: OP
@@ -2980,6 +2987,7 @@ ftbutilities.claims.block.interact.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.interact.contenttweaker.love: OP
 ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.reinforced_metal_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.salt: OP
@@ -2998,7 +3006,9 @@ ftbutilities.claims.block.interact.deepmoblearning.simulation_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.trial_keystone: OP
 ftbutilities.claims.block.interact.engineersdecor.clinker_brick_block: OP
 ftbutilities.claims.block.interact.engineersdecor.clinker_brick_stairs: OP
+ftbutilities.claims.block.interact.engineersdecor.clinker_brick_wall: OP
 ftbutilities.claims.block.interact.engineersdecor.concrete_wall: OP
+ftbutilities.claims.block.interact.engineersdecor.iron_inset_light: OP
 ftbutilities.claims.block.interact.engineersdecor.metal_rung_ladder: OP
 ftbutilities.claims.block.interact.engineersdecor.metal_rung_steps: OP
 ftbutilities.claims.block.interact.engineersdecor.rebar_concrete: OP
@@ -3006,8 +3016,10 @@ ftbutilities.claims.block.interact.engineersdecor.rebar_concrete_stairs: OP
 ftbutilities.claims.block.interact.engineersdecor.rebar_concrete_wall: OP
 ftbutilities.claims.block.interact.engineersdecor.slag_brick_block: OP
 ftbutilities.claims.block.interact.engineersdecor.slag_brick_stairs: OP
+ftbutilities.claims.block.interact.engineersdecor.treated_wood_crafting_table: OP
 ftbutilities.claims.block.interact.engineersdecor.treated_wood_ladder: OP
 ftbutilities.claims.block.interact.engineersdecor.treated_wood_pole: OP
+ftbutilities.claims.block.interact.engineersdecor.treated_wood_stool: OP
 ftbutilities.claims.block.interact.engineersdecor.treated_wood_table: OP
 ftbutilities.claims.block.interact.extrabees.alveary: OP
 ftbutilities.claims.block.interact.extrabees.ectoplasm: OP
@@ -5064,6 +5076,8 @@ ftbutilities.claims.item.buildinggadgets.destructiontool: ALL
 ftbutilities.claims.item.buildinggadgets.exchangertool: ALL
 ftbutilities.claims.item.buildinggadgets.template: ALL
 ftbutilities.claims.item.buildinggadgets.templatemanager: ALL
+ftbutilities.claims.item.capsule.capsule: ALL
+ftbutilities.claims.item.capsule.capsulemarker: ALL
 ftbutilities.claims.item.cathedral.basalt_block_carved: ALL
 ftbutilities.claims.item.cathedral.basalt_block_checkered: ALL
 ftbutilities.claims.item.cathedral.basalt_slab_carved: ALL
@@ -5515,7 +5529,9 @@ ftbutilities.claims.item.effortlessbuilding.reach_upgrade2: ALL
 ftbutilities.claims.item.effortlessbuilding.reach_upgrade3: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_block: ALL
 ftbutilities.claims.item.engineersdecor.clinker_brick_stairs: ALL
+ftbutilities.claims.item.engineersdecor.clinker_brick_wall: ALL
 ftbutilities.claims.item.engineersdecor.concrete_wall: ALL
+ftbutilities.claims.item.engineersdecor.iron_inset_light: ALL
 ftbutilities.claims.item.engineersdecor.metal_rung_ladder: ALL
 ftbutilities.claims.item.engineersdecor.metal_rung_steps: ALL
 ftbutilities.claims.item.engineersdecor.rebar_concrete: ALL
@@ -5523,8 +5539,10 @@ ftbutilities.claims.item.engineersdecor.rebar_concrete_stairs: ALL
 ftbutilities.claims.item.engineersdecor.rebar_concrete_wall: ALL
 ftbutilities.claims.item.engineersdecor.slag_brick_block: ALL
 ftbutilities.claims.item.engineersdecor.slag_brick_stairs: ALL
+ftbutilities.claims.item.engineersdecor.treated_wood_crafting_table: ALL
 ftbutilities.claims.item.engineersdecor.treated_wood_ladder: ALL
 ftbutilities.claims.item.engineersdecor.treated_wood_pole: ALL
+ftbutilities.claims.item.engineersdecor.treated_wood_stool: ALL
 ftbutilities.claims.item.engineersdecor.treated_wood_table: ALL
 ftbutilities.claims.item.extrabees.alveary: ALL
 ftbutilities.claims.item.extrabees.dictionary: ALL
@@ -8064,6 +8082,7 @@ command.botania_tweaks.botaniatweaks-debug-stats
 command.botania_tweaks.botaniatweaks-reset-stats
 command.buildinggadgets.deleteblockmaps
 command.buildinggadgets.findblockmaps
+command.capsule.capsule
 command.charset.charset
 command.charset.mutter
 command.clear

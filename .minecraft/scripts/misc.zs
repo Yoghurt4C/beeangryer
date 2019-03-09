@@ -71,6 +71,7 @@ recipes.addShaped("cogwheel_grindstone",<appliedenergistics2:grindstone>,[
 [<ore:cobblestone>,<ore:gearStone>,<ore:cobblestone>]]);
 game.setLocalization("tile.appliedenergistics2.grindstone.name","Cogwheel Grindstone");
 
+mods.jei.JEI.addDescription(<quark:enderdragon_scale>,["Obtained by disposing a resummoned Ender Dragon. If you don't know how to resummon the Dragon, you have to place 4 End Crystals on the bedrock borders of the End->Overworld portal."]);
 mods.jei.JEI.addDescription(<quark:limestone>,[
 "How to obtain Limestone early on:
 1. Pan sand for Egg Shells,
@@ -80,6 +81,8 @@ mods.jei.JEI.addDescription(<quark:limestone>,[
 5. Put the mixture somewhere it can dry up.
 
 This instruction is mirrored on the Soggy Lime tooltip."]);
+
+mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 16514145, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/der elektrum-ente", author: "The Greatest Egg", display: {color: 16246410, Lore:["Facing North"]}, label: "Der Elektrum-Ente"}));
 
 //I'm honestly too lazy to do this the proper way
  val liquifyingThings ={

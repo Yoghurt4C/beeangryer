@@ -3,6 +3,7 @@
 	"landing_text":"h*ck you",
 	"version": "banana",
 	"show_progress":false,
+	"model":"patchouli:guidebook",
 	"macros":{
 		"$(lime)":"$(#4cff00)"
 	}

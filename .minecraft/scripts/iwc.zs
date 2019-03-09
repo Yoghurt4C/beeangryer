@@ -354,7 +354,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweak
 //odd one
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1}), 
 	<liquid:lava>, 
-	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})*2, 
+	[<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})*2], 
 	true);
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1})
 	.addTooltip(format.red("Obtained by bathing a pair of Silicon Chickens in lava"));
@@ -532,7 +532,37 @@ FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "iridium"}),
 	
 FluidToItem.transform(<minecraft:egg>, 
 	<liquid:etchingacid>, 
-	<contenttweaker:golden_egg>, 
+	[<contenttweaker:golden_egg>], 
 	false);
+
+FluidToItem.transform(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the great egg", author: "a stray eggshell", display: {color: 7301209, Lore:["Facing North"]}, label: "The Great Egg"}), 
+	<liquid:dissolvedeggshells>, 
+	[<quark:limestone>*288,
+	<quark:thatch>*31,
+	<modularmachinery:blockcontroller>], 
+	true);
+	mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the great egg", author: "a stray eggshell", display: {color: 7301209, Lore:["Facing North"]}, label: "The Great Egg"}));
+FluidToItem.transform(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the greater egg", author: "The Great Egg", display: {color: 11776951, Lore:["Facing North"]}, label: "The Greater Egg"}), 
+	<liquid:dissolvedeggshells>, 
+	[<minecraft:stone:3>*288,
+	<quark:thatch>*31,
+	<modularmachinery:blockcontroller>], 
+	true);
+	mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the greater egg", author: "The Great Egg", display: {color: 11776951, Lore:["Facing North"]}, label: "The Greater Egg"}));
+FluidToItem.transform(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the greatest egg", author: "The Greater Egg", display: {color: 14211035, Lore:["Facing North"]}, label: "The Greatest Egg"}), 
+	<liquid:dissolvedeggshells>, 
+	[<quark:marble>*288,
+	<quark:thatch>*31,
+	<modularmachinery:blockcontroller>], 
+	true);
+	mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 14599456, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the greatest egg", author: "The Greater Egg", display: {color: 14211035, Lore:["Facing North"]}, label: "The Greatest Egg"}));
+FluidToItem.transform(<capsule:capsule:5>.withTag({color: 11633073, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the tenebrous egg", author: "§kdoot", display: {color: 1446175, Lore:["Facing North"]}, label: "The Tenebrous Egg"}), 
+	<liquid:ender>, 
+	[<minecraft:obsidian>*288,
+	<minecraft:purpur_block>*31,
+	<modularmachinery:blockcontroller>,
+	<uniquecrops:generic:5>*6], 
+	true);
+	mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 11633073, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the tenebrous egg", author: "§kdoot", display: {color: 1446175, Lore:["Facing North"]}, label: "The Tenebrous Egg"}));
 //eggshells
 FireCrafting.addRecipe(<contenttweaker:firedeggshells>,<contenttweaker:eggshells>,200);

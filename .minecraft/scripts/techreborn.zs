@@ -1,4 +1,4 @@
-#priority 500
+#priority 99
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -103,14 +103,63 @@ val blastRmArray=[
 ] as IItemStack[];
 for item in blastRmArray {blastFurnace.removeRecipe(item);}
 mods.techreborn.blastFurnace.removeInputRecipe(<techreborn:smalldust:*>);
-
-//blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int ticktime, int euTick, int neededHeat)
+static glassArray as IItemStack[IItemStack]={
+	<thermalfoundation:glass:0>:<ore:dustCopper>.firstItem,
+	<thermalfoundation:glass:1>:<ore:dustTin>.firstItem,
+	<thermalfoundation:glass:2>:<ore:dustSilver>.firstItem,
+	<thermalfoundation:glass:3>:<ore:dustLead>.firstItem,
+	<thermalfoundation:glass:4>:<ore:dustAluminum>.firstItem,
+	<thermalfoundation:glass:5>:<ore:dustNickel>.firstItem,
+	<thermalfoundation:glass:6>:<ore:dustPlatinum>.firstItem,
+	<thermalfoundation:glass:7>:<ore:dustIridium>.firstItem,
+	<thermalfoundation:glass:8>:<ore:dustMithril>.firstItem,
+	<thermalfoundation:glass_alloy:0>:<ore:dustSteel>.firstItem,
+	<thermalfoundation:glass_alloy:1>:<ore:dustElectrum>.firstItem,
+	<thermalfoundation:glass_alloy:2>:<ore:dustInvar>.firstItem,
+	<thermalfoundation:glass_alloy:3>:<ore:dustBronze>.firstItem,
+	<thermalfoundation:glass_alloy:4>:<ore:dustConstantan>.firstItem,
+	<thermalfoundation:glass_alloy:5>:<ore:dustSignalum>.firstItem,
+	<thermalfoundation:glass_alloy:6>:<ore:dustLumium>.firstItem,
+	<thermalfoundation:glass_alloy:7>:<ore:dustEnderium>.firstItem
+};
+	
+//blastFurnace.addRecipe(IItemStack output1, IItemStack output2, IIngredient input1, IIngredient input2, int ticktime, int euTick, int neededHeat);
 blastFurnace.addRecipe(
 <immersiveengineering:metal:1>,
 null,
 dustAluminum,
 null,
 1700, 120,1700);
+blastFurnace.addRecipe(
+<thermalfoundation:glass:3>*2,
+null,
+<ore:dustLead>.firstItem,
+<ore:dustObsidian>.firstItem*4,
+100, 16,1000);
+for glass, dust in scripts.techreborn.glassArray{blastFurnace.addRecipe(
+glass*2,
+null,
+dust,
+<thermalfoundation:glass:3>*2,
+100, 12,1000);}
+blastFurnace.addRecipe(
+<simplyjetpacks:metaitemmods:23>,
+null,
+<simplyjetpacks:metaitemmods:22>,
+<ore:ingotBronze>.firstItem*10,
+120, 64,1700);
+blastFurnace.addRecipe(
+<simplyjetpacks:metaitemmods:24>,
+null,
+<simplyjetpacks:metaitemmods:23>,
+<ore:ingotInvar>.firstItem*10,
+120, 96,2500);
+blastFurnace.addRecipe(
+<simplyjetpacks:metaitemmods:25>,
+null,
+<simplyjetpacks:metaitemmods:24>,
+<ore:ingotEnderium>.firstItem*10,
+120, 128,3000);
 blastFurnace.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:steelchicken", Gain: 1, Strength: 1}),
 null,

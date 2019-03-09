@@ -66,7 +66,7 @@ global metalItems as IIngredient[string][string] = {
 	bronze: {
 		block: <thermalfoundation:storage_alloy:3>,
 		comb: <gendustry:honey_comb:101>,
-		dust: null,
+		dust: <thermalfoundation:material:99>,
 		gear: <thermalfoundation:material:291>,
 		ingot: <forestry:ingot_bronze>,
 		liquid: <liquid:bronze>,
