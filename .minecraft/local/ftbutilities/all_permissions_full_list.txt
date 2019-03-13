@@ -1,4 +1,4 @@
-8060 nodes in total
+8066 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -693,6 +693,8 @@ ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion:
 ftbutilities.claims.block.edit.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
+ftbutilities.claims.block.edit.contenttweaker.guidebook: OP
+ftbutilities.claims.block.edit.contenttweaker.koboldstone: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.edit.contenttweaker.love: OP
 ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
@@ -2986,6 +2988,8 @@ ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgull
 ftbutilities.claims.block.interact.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
+ftbutilities.claims.block.interact.contenttweaker.guidebook: OP
+ftbutilities.claims.block.interact.contenttweaker.koboldstone: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
 ftbutilities.claims.block.interact.contenttweaker.love: OP
 ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
@@ -5460,6 +5464,8 @@ ftbutilities.claims.item.contenttweaker.eggshells: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
 ftbutilities.claims.item.contenttweaker.golden_egg: ALL
+ftbutilities.claims.item.contenttweaker.guidebook: ALL
+ftbutilities.claims.item.contenttweaker.koboldstone: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
 ftbutilities.claims.item.contenttweaker.menril_propolis: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL

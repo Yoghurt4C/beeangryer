@@ -1,7 +1,8 @@
 {
-	"name":"Bee Angry-er Guidebook",
+	"name":"The Guidebook",
 	"landing_text":"h*ck you",
-	"version": "banana",
+	"version": "0",
+	"subtitle":"Bee-Angryer",
 	"show_progress":false,
 	"model":"patchouli:guidebook",
 	"macros":{

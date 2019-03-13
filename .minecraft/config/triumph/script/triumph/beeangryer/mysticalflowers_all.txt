@@ -1,4 +1,4 @@
-setIcon(<botania:doubleflower1,meta:6>)
+setIcon(<botania:flower,meta:6>)
 setTitle("Flower Maniac")
 setDescription("Collect all of the Mystical Flowers, even tall ones!")
 

@@ -1,4 +1,4 @@
-setIcon(<botania:flower,meta:6>)
+setIcon(<botania:flower,meta:0>)
 setTitle("Flower Child")
 setDescription("Grow and pick up a Mystical Flower.")
 

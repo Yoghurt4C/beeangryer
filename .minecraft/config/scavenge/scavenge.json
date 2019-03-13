@@ -150,7 +150,28 @@
 			]
 		},
 		{
-		"name":"Dirt2Grass",
+		"name":"Dirt2GrassLivingRoot",
+		"type":{
+				"type":"block",
+				"name":"minecraft:dirt"},
+		"clicktype":"rightclick",
+		"disableJEI":true,
+		"properties":[
+				{"type":"swing_hand"},
+				{"type":"require_item",
+				"name":"botania:manaresource",
+				"meta":20},
+				{"type":"play_sound",
+				"name":"botania:agricarnation",
+				"volume":0.4,
+				"pitch":1.5},
+				{"type":"consume_block",
+				"chance":100,
+				"name":"minecraft:grass"}
+			]
+		},
+		{
+		"name":"Dirt2GrassEggshells",
 		"type":{
 				"type":"block",
 				"name":"minecraft:dirt"},
@@ -163,7 +184,7 @@
 				{"type":"play_sound",
 				"name":"block.grass.hit"},
 				{"type":"consume_block",
-				"chance":50,
+				"chance":25,
 				"name":"minecraft:grass"}
 			]
 		},

@@ -1,6 +1,6 @@
 setIcon(<quark:limestone>)
 setTitle("I <3 Panning")
-setDescription("Cook up and have 288 Limestone in your inventory, excluding the 8 you need for a furnace. Yes, you need all of it for progression, but you'll also receive a reward you can claim in the Guidebook.")
+setDescription("Cook up and have 288 Limestone in your inventory, excluding the 8 you need for a furnace. Yes, you need all of it for progression.")
 
 addParent("triumph:beeangryer/soggylime")
 addParent("triumph:beeangryer/id_basics")

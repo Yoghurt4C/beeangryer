@@ -165,3 +165,13 @@ for liquid, thing in liquifyingThingBlocks{
 		null, 1.0F,
 		liquid,1080);
 }
+
+events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent){
+	if (<item:contenttweaker:koboldstone>.asBlock() has event.block){
+		event.player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100,0));
+}});
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:water"}),
+ <contenttweaker:koboldstone>,
+ <minecraft:potion>.withTag({Potion: "minecraft:poison"}),
+ false);
+mods.jei.JEI.addDescription(<contenttweaker:koboldstone>,["Replaces Cobblestone, Stone and Obsidian in in-world Water and Lava interactions. Contains Arsenic."]);

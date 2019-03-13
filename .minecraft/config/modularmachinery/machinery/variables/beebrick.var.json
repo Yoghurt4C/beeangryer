@@ -48,7 +48,18 @@
 	"brick_brick":[
 		"minecraft:brick_block",
 		"chisel:bricks",
-		"uniquecrops:oldbrick"
+		"uniquecrops:oldbrick",
+		"ceramics:clay_hard@0",
+		"ceramics:clay_hard@1",
+		"ceramics:clay_hard@2",
+		"ceramics:clay_hard@3",
+		"ceramics:clay_hard@6",
+		"ceramics:clay_hard@7"
+	],
+	"mystical_brick":[
+		"botania:biomestoneb",
+		"integrateddynamics:crystalized_menril_brick",
+		"integrateddynamics:crystalized_chorus_brick"
 	],
 	"nether_brick":[
 		"minecraft:nether_brick",
@@ -60,6 +71,15 @@
 		"chisel:endstone",
 		"chisel:endstone1",
 		"chisel:endstone2"
+	],
+	"mystical_brick_slab":[
+		"botania:quartzslabdarkhalf@0",
+		"botania:quartzslabmanahalf@0",
+		"botania:quartzslabblazehalf@0",
+		"botania:quartzslablavenderhalf@0",
+		"botania:quartzslabredhalf@0",
+		"botania:quartzslabelfhalf@0",
+		"botania:quartzslabsunnyhalf@0"
 	],
 	"end_brick_slab":[
 		"minecraft:purpur_slab@0",
@@ -88,6 +108,20 @@
 		"minecraft:brick_block",
 		"chisel:bricks",
 		"uniquecrops:oldbrick",
+		"ceramics:clay_hard@0",
+		"ceramics:clay_hard@1",
+		"ceramics:clay_hard@2",
+		"ceramics:clay_hard@3",
+		"ceramics:clay_hard@6",
+		"ceramics:clay_hard@7",
+		"modularmachinery:blockoutputbus",
+		"modularmachinery:blockinputbus",
+		"modularmachinery:blockfluidinputhatch"
+	],
+	"mystical_brick_output":[
+		"botania:biomestoneb",
+		"integrateddynamics:crystalized_menril_brick",
+		"integrateddynamics:crystalized_chorus_brick",
 		"modularmachinery:blockoutputbus",
 		"modularmachinery:blockinputbus",
 		"modularmachinery:blockfluidinputhatch"

@@ -1,0 +1,6 @@
+{
+	"name": "Apiculture",
+	"description": "You Can Farm: The Entrepreneur's Guide to Start & Succeed in a Farming Enterprise",
+	"icon": "forestry:bee_queen_ge{Genome: {Chromosomes: [{UID1: 'forestry.speciesForest', UID0: 'forestry.speciesForest', Slot: '0b'}]}}",
+	"sortnum":1
+}

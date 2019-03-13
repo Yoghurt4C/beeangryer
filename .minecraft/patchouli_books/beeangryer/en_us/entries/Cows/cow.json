@@ -1,0 +1,12 @@
+{
+    "name": "cow",
+    "icon": "fluidcows:cow_displayer{fluid:'milk'}",
+    "category": "cows",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a test entry, but it should show up!"
+        }
+    ]
+}

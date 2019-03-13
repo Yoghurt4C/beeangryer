@@ -65,6 +65,14 @@ saltblock.setGravity(true);
 saltblock.setBlockSoundType(<soundtype:sand>);
 saltblock.register();
 
+var koboldstone = VanillaFactory.createBlock("koboldstone", <blockmaterial:rock>);
+koboldstone.setToolClass("pickaxe");
+koboldstone.setBlockHardness(5.0);
+koboldstone.setToolLevel(0);
+koboldstone.setGravity(false);
+koboldstone.setBlockSoundType(<soundtype:stone>);
+koboldstone.register();
+
 var waterbowlchicken = VanillaFactory.createBlock("water_bowl_chicken", <blockmaterial:wood>);
 waterbowlchicken.setToolClass("axe");
 waterbowlchicken.setBlockHardness(0.5);
@@ -88,3 +96,20 @@ bowlsnowchicken.setDropHandler(function(drops, world, position, state,fortune) {
     return;
 });
 bowlsnowchicken.register();
+
+var guidebook = VanillaFactory.createBlock("guidebook", <blockmaterial:cloth>);
+guidebook.setToolClass("axe");
+guidebook.setBlockHardness(0.1);
+guidebook.setToolLevel(0);
+guidebook.setGravity(true);
+guidebook.setFullBlock(false);
+guidebook.setBlockSoundType(<soundtype:cloth>);
+guidebook.setPassable(true);
+guidebook.setBlockLayer("CUTOUT");
+guidebook.setTranslucent(false);
+guidebook.setDropHandler(function(drops, world, position, state,fortune) {
+	drops.clear();
+    drops.add(<item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:beeangryer"}) as IItemStack);
+    return;
+});
+guidebook.register();

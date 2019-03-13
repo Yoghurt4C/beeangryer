@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:crushedeggshells>)
 setTitle("A Meal For The Poor")
-setDescription("If you've ducked up and somehow ran out of Living Root prematurely, or lost all your grass, this is your saving grace. See Guidebook for more information.")
+setDescription("If you've ducked up and somehow ran out of Living Root ''prematurely'', this is your saving grace. See Guidebook for more information.")
 
 addParent("triumph:beeangryer/panning")
 setRequirements("all")

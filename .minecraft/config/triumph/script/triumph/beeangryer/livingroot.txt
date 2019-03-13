@@ -1,6 +1,6 @@
 setIcon(<botania:manaresource,meta:20>)
 setTitle("Root Loops")
-setDescription("Carefully build downwards to knock down some Living Root, and pick it up.")
+setDescription("Pick up some Living Root.")
 
 addParent("triumph:beeangryer/pebble")
 

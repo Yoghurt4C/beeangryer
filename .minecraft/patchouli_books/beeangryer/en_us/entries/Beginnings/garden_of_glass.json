@@ -1,12 +1,66 @@
 {
-    "name": "Garden of Grass",
+    "name": "Garden of Glass",
     "icon": "botania:manaresource:20",
     "category": "beginnings",
 	"sortnum":0,
     "pages": [
         {
             "type": "text",
-            "text": "This is a test entry, but it should show up!"
-        }
+            "text": "In the $(2)Garden of Glass/$ no one can hear you scream.$(br2)You're alone in space.$(br2)$(o)And you have deja vu."
+        },
+		{
+			"type":"text",
+			"text":"After establishing that you still have a pulse, you'll find yourself on some sort of platform, stranded in the middle of nowhere. With stars being visible in the middle of the day and unknown satelites orbiting around in ''close'' proximity, you can't even begin to imagine what this place is.$(br2)If that didn't set the mood, your haven is a lump of hardened clay with a rotting tree stump in the middle, and you're being told this by a book picked up from its top."
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:manaresource:21",
+			"title":"",
+			"link_recipe":false,
+			"text":"Looking at the dirt that this book was resting on, you can spot distinct $(2)Pebbles/$. If you're willing to get your hands dirty, they could come useful very soon.$(br)$(7)Usually, the first thing one would do in this situation is gather about a thousand pebbles, but, unless you $(o)really/$$(7) like cobblestone, that is not necessary this time around."
+		},
+		{
+			"type":"crafting",
+			"recipe":"botania:garden_of_glass/pebble_to_cobblestone",
+			"text":"$(7)Cobbled together"
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:manaresource:20",
+			"title":"",
+			"link_recipe":false,
+			"text":"Upon closer inspection, the bark of the rotting tree stump seems to be something called ''$(2)Living Root/$'', a material with unnatural growth-inducing properties. Putting some untangled $(2)Living Root/$ inside dirt makes it convert into $(2)Grass/$, which, with the help of another $(2)Living Root/$, grows ''tall'' grass."
+		},
+		{
+			"type":"crafting",
+			"recipe":"botania:garden_of_glass/root_to_sapling",
+			"text":"$(7)Roots Four"
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:fertilizer",
+			"title":"",
+			"link_recipe":false,
+			"text":"These roots can also be clumped back together to form a $(2)Sapling/$, and can be easily crushed down into a paste with your bare hands - when applied to soil, said paste causes colorful $(2)Mystical Flowers/$ to grow all around it; their petals can then be mortared into $(2)dye/$."
+		},
+		{
+			"type":"crafting",
+			"recipe":"botania:garden_of_glass/root_to_fertilizer",
+			"text":"$(7)Mealing around"
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:waterbowl{Fluid:{FluidName:'water',Amount:1000}}",
+			"title":"",
+			"link_recipe":false,
+			"text":"After you've cut down your first tree and made a crafting table, you can procure a $(9)bowl/$, which can be used to $(9)pick up/$ some of the $(9)water/$ you've uncovered from below the dirt inside the rotting tree stump, and use it if you wish to dabble in some techncal mysticism."
+		},
+		{
+			"type":"crafting",
+			"recipe":"botania:altar_0",
+			"title":"",
+			"link_recipe":false,
+			"text":"If you already know what you're doing, you'll just need this to get the basic functional flowers. If not, use a $(2)Living Root/$ on the $(d)Flare/$ that's been floating around to get a copy of $(6)Lexica Botania/$. $(o)Be advised that the Lexica may flat-out lie to you./$"
+		}
     ]
 }

@@ -57,7 +57,8 @@ val goneForever=[
 <appliedenergistics2:material:20>,
 <appliedenergistics2:material:40>,
 <thermalexpansion:machine:3>,
-<thermalexpansion:augment:304>
+<thermalexpansion:augment:304>,
+<contenttweaker:guidebook>
 ] as IItemStack[];
 for trash in goneForever{JEI.removeAndHide(trash,false);}
 JEI.hideCategory("thermalexpansion.factorizer_combine");

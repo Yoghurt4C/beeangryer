@@ -1,6 +1,6 @@
 setIcon(<buildinggadgets:copypastetool>)
-setTitle("Too Lazy To Build Multiblocks")
-setDescription("Why build when you can paste?.. Most of it.")
+setTitle("Copy That")
+setDescription("Why build when you can paste?")
 
 addParent("triumph:beeangryer/plastic")
 setFrameType("TASK")

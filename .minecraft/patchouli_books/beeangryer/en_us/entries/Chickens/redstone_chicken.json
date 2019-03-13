@@ -12,7 +12,7 @@
 			"type":"iwc_4inputs+entity",
 			"header":"In-World ''Souping''",
 			"input1":"roost:chicken{Chicken:'contenttweaker:siliconchicken'}",
-			"input2":"roost:chicken{Chicken:'contenttweaker:rubychicken'}",
+			"input2":"roost:chicken{Chicken:'chickens:redchicken'}",
 			"input3":"roost:chicken#5{Chicken:'contenttweaker:pyritechicken'}",
 			"input4":"roost:chicken#3{Chicken:'contenttweaker:cinnabarchicken'}",
 			"liquid":"contenttweaker:textures/blocks/fluid.chickenstock.still.png",

@@ -87,7 +87,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:gol
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redstonechicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1}),
-	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:rubychicken", Gain: 1, Strength: 1}),
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:redchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:pyritechicken", Gain: 1, Strength: 1})*5,
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:cinnabarchicken", Gain: 1, Strength: 1})*3],
 	true);

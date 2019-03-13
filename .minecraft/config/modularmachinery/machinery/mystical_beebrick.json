@@ -1,14 +1,14 @@
 {
     "registryname": "mystical_bee_brick",
     "localizedname": "The Mystical Bee Brick",
-	"color":"A65F4C",
+	"color":"043C12",
    "parts": [
         {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "brick_output"
+                "mystical_brick_output"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "brick_output"
+                "mystical_brick_output"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "brick_output"
+                "mystical_brick_output"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -144,7 +144,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "brick_output"
+                "mystical_brick_output"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "brick_output"
+                "mystical_brick_output"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -232,7 +232,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -288,7 +288,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "brick_brick"
+                "mystical_brick"
             ]
         },
         {
@@ -296,7 +296,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -304,7 +304,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -328,7 +328,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -336,7 +336,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "minecraft:stone_slab@0"
+                "mystical_brick_slab"
             ]
         }
     ]}

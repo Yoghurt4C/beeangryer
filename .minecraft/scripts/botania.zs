@@ -4,7 +4,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationMultiblock;
 import mods.botaniatweaks.AgglomerationRecipe;
+import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
+import mods.botania.Lexicon;
 import mods.botania.Orechid;
 import mods.botania.PureDaisy;
 import mods.botania.RuneAltar;
@@ -59,6 +61,12 @@ Agglomeration.addRecipe(
 <botania:manaresource:1>]
 );
 //<forestry:bee_princess_ge>.withTag({Genome: {Chromosomes: [{UID1: "gendustry.bee.Manasteel", UID0: "gendustry.bee.Manasteel", Slot: 0 as byte}]}}),
+
+Apothecary.removeRecipe("marimorphosis");
+Apothecary.addRecipe("marimorphosis",[
+	<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalGreen>,<ore:petalRed>,<ore:petalRed>,<botania:manaresource:6>]);
+	Lexicon.removePage("botania.entry.marimorphosis", 2);
+	Lexicon.addPetalPage("Now with 100% less runes", "botania.entry.marimorphosis", 2, [<botania:specialflower>.withTag({type: "marimorphosis"})],[[<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalGreen>,<ore:petalRed>,<ore:petalRed>,<botania:manaresource:6>]]);
 
 ManaInfusion.removeRecipe(<minecraft:stone:5>);
 ManaInfusion.removeRecipe(<minecraft:stone:3>);
