@@ -14,7 +14,7 @@
 			"input1":"botania:felpumpkin",
 			"input2":"minecraft:iron_bars",
 			"input3":"minecraft:iron_bars",
-			"desc":"To summon one, you have to put a Fel Pumpkin on top of two stacked Iron Bars.",
+			"desc":"To summon one, you have to stack two Iron Bars on top of each other, and $(o)then/$ top off with a Fel Pumpkin.",
 			"entity":"chickens:chickenschicken{Type:'chickens:blazechicken'}",
 			"chicken":"Blazicken",
 			"entitytooltip":"&7Blaze Rod",

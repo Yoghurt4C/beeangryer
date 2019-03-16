@@ -24,12 +24,16 @@ FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:gl
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:sandchicken", Gain: 1, Strength: 1})*4,
  200);
  <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1})
-	.addTooltip(format.red("Obtained by forcibly warming up a bunch of Sand Chickens."));
+	.addTooltip(format.gray("Obtained by forcibly warming up"));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:glasschicken", Gain: 1, Strength: 1})
+	.addTooltip(format.gray("a bunch of Sand Chickens."));
 FireCrafting.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1}),
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1})*4,
  200);
   <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1})
-	.addTooltip(format.red("Obtained by forcibly warming up a bunch of Snowball Chickens."));
+	.addTooltip(format.blue("Obtained by forcibly warming up"));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1})
+	.addTooltip(format.blue("a bunch of Snowball Chickens."));
  
 //FluidToItem.transform(IItemStack output, ILiquidStack inputFluid, IIngredient inputItem, @Optional boolean consume);
 //FluidToItem.transform(IItemStack output, ILiquidStack inputFluid, [IIngredient inputItems], @Optional boolean consume);
@@ -357,8 +361,9 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:qua
 	[<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:siliconchicken", Gain: 1, Strength: 1})*2], 
 	true);
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1})
-	.addTooltip(format.red("Obtained by bathing a pair of Silicon Chickens in lava"));
-
+	.addTooltip(format.red("Obtained by bathing a pair of"));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:quartzchicken", Gain: 1, Strength: 1})
+	.addTooltip(format.red("Silicon Chickens in lava."));
 //cows lmao
 var stockCow=<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}})|<fluidcows:cow_displayer>.withTag({fluid: "milk"});
 FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "milk"}), 

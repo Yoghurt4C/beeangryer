@@ -5,7 +5,7 @@ setDescription("Get a ''Cogwheel'' Grindstone and a Wooden Crank. You won't be u
 addParent("triumph:beeangryer/id_basics")
 setRequirements("all")
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Cogwheel Grindstone", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:grindstone>)
-criteria = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria = addCriteria("Wooden Crank", "minecraft:inventory_changed")
 criteria.addItem(<appliedenergistics2:crank>)

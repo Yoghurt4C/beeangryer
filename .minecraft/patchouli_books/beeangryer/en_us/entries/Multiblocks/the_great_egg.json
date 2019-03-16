@@ -13,7 +13,7 @@
 		},
 		{
 			"type":	"text",
-			"text": "An egg cannot be obtained without a chicken, yet a chicken cannot be obtained without an egg, either.$(br)Since we already know that chickens are out of the question, there is just one option left: using The Great Egg to will ''lesser'' Eggs into existence. Necessities:$(br)$(li)A mere 288 Limestone blocks,$(li)Handful of Thatch,$(li)One Small Item Input Bus,$(li)One Small Item Output Bus,$(li)One Tiny Fluid Input Hatch,$(li)A Machine Controller."
+			"text": "An egg cannot be obtained without a chicken, yet a chicken cannot be obtained without an egg, either.$(br)Since we already know that chickens are out of the question, there is just one option left: using The Great Egg to will ''lesser'' Eggs into existence. Necessities:$(br)$(li)A mere 288 $(l:beginnings/eggshells#lime)Limestone/$ blocks,$(li)Handful of Thatch,$(li)One Small Item Input Bus,$(li)One Small Item Output Bus,$(li)One Tiny Fluid Input Hatch,$(li)A Machine Controller."
 		},
         {
             "type": "multiblock",

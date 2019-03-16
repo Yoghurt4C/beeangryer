@@ -14,6 +14,11 @@ recipes.replaceAllOccurences(<minecraft:egg>,<ore:egg>);
 recipes.addShaped("water_bowl_chicken",<contenttweaker:water_bowl_chicken>,[
 [<roost:chicken>.withTag({Chicken:"minecraft:chicken"})],
 [<botania:waterbowl>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]]);
+recipes.addShapeless("snowballchicken_extraction",<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}),[
+	<contenttweaker:bowl_snow_chicken>,<minecraft:bowl>.giveBack()]);
+	recipes.addShaped("snowballchicken_insertion",<contenttweaker:water_bowl_chicken>.withTag({display:{Lore:["Why would you do this?"]}}),[
+	[<roost:chicken>.withTag({Chicken:"chickens:snowballchicken"})],
+	[<minecraft:bowl>]]);
 
 //no rugrats
 mods.jei.JEI.addDescription(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}),
@@ -138,8 +143,22 @@ mods.integrateddynamics.DryingBasin.addRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:waterchicken", Gain: 1, Strength: 1}),  null, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}), null, 
 7200);
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addTooltip(format.white("Obtained by letting a "+format.underline("Water Chicken")+" evaporate."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addTooltip(format.white("Obtained by letting a Water Chicken evaporate."));
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}).addShiftTooltip(format.white("Takes a "+format.italic("really")+" long time!"));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:honeychicken", Gain: 1, Strength: 1}).addTooltip(format.gold("Obtained by dunking a Chicken"));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:honeychicken", Gain: 1, Strength: 1}).addTooltip(format.gold("into a full Cauldron of Honey."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}).addTooltip(format.yellow("Obtained by dunking a Chicken"));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}).addTooltip(format.yellow("into a full Cauldron of Dissolved Egg Shells."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manurechicken", Gain: 1, Strength: 1}).addTooltip(format.darkGray(format.italic("Obtained by dunking a Chicken")));
+	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manurechicken", Gain: 1, Strength: 1}).addTooltip(format.darkGray(format.italic("into a full Cauldron of Liquid Fertilizer.")));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:blazechicken", Gain: 1, Strength: 1}).addTooltip(format.gold("Obtained via the Fel Blaze ritual."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:smartchicken", Gain: 1, Strength: 1}).addTooltip(format.gold("Give a Book to a Chicken."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}).addTooltip(format.white("Obtained via the Punished Daisy."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:elementiumchicken", Gain: 1, Strength: 1}).addTooltip(format.lightPurple("Obtained via the Rune Altar."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:goldenhen", Gain: 1, Strength: 1}).addTooltip(format.gold("Obtained via Der Elektrum-Ente."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manasteelchicken", Gain: 1, Strength: 1}).addTooltip(format.aqua("Obtained via the Odd Pagoda."));
+<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:terrasteelchicken", Gain: 1, Strength: 1}).addTooltip(format.aqua("Obtained via Agglomeration."));
+
 
 val IWCChickens as string[]=[
 	"chickens:stringchicken",

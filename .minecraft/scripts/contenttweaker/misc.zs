@@ -88,6 +88,7 @@ bowlsnowchicken.setBlockHardness(0.5);
 bowlsnowchicken.setToolLevel(0);
 bowlsnowchicken.setGravity(true);
 bowlsnowchicken.setFullBlock(false);
+bowlsnowchicken.setBlockLayer("TRANSLUCENT");
 bowlsnowchicken.setBlockSoundType(<soundtype:wood>);
 bowlsnowchicken.setDropHandler(function(drops, world, position, state,fortune) {
 	drops.clear();

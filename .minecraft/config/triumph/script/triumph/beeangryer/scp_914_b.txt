@@ -11,18 +11,18 @@ setDescription("Right click the controller of SCP-914-B while it's set to any of
 addParent("triumph:beeangryer/root")
 setFrameType("CHALLENGE")
 
-criteria = addCriteria("clickedBlock1", "triumph:right_click_block")
+criteria = addCriteria("Rough", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_1", status:1}>)
 
-criteria = addCriteria("clickedBlock3", "triumph:right_click_block")
+criteria = addCriteria("Coarse", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_3", status:1}>)
 
-criteria = addCriteria("clickedBlock7", "triumph:right_click_block")
+criteria = addCriteria("1:1", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_7", status:1}>)
 
-criteria = addCriteria("clickedBlock11", "triumph:right_click_block")
+criteria = addCriteria("Fine", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_11", status:1}>)
 
-criteria = addCriteria("clickedBlock15", "triumph:right_click_block")
+criteria = addCriteria("Very Fine", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:scp_914_b_15", status:1}>)
 setRequirements("any")

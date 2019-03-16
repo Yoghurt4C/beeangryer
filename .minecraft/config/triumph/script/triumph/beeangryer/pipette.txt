@@ -1,0 +1,9 @@
+setIcon(<forestry:pipette>)
+setTitle("Drip Management")
+setDescription("Squeeze enough sand for a Pipette, and you'll be able to move Cauldron leftovers around and put Seed Oil into Fluid Hatches. Pretty much necessary for further progression.")
+
+addParent("triumph:beeangryer/sand")
+setRequirements("all")
+
+criteria = addCriteria("Pipette Crafted", "minecraft:inventory_changed")
+criteria.addItem(<forestry:pipette>)

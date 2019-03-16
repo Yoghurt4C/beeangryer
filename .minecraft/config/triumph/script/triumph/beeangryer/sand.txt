@@ -5,7 +5,7 @@ setDescription("Get your first Sand and Flint by processing Cobblestone in a Squ
 addParent("triumph:beeangryer/id_basics")
 setRequirements("all")
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("Sand", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:sand>)
-criteria = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria = addCriteria("Flint", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:flint>)

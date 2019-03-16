@@ -53,7 +53,7 @@
 			"item":"botania:waterbowl{Fluid:{FluidName:'water',Amount:1000}}",
 			"title":"",
 			"link_recipe":false,
-			"text":"After you've cut down your first tree and made a crafting table, you can procure a $(9)bowl/$, which can be used to $(9)pick up/$ some of the $(9)water/$ you've uncovered from below the dirt inside the rotting tree stump, and use it if you wish to dabble in some techncal mysticism."
+			"text":"After you've cut down your first tree and made a crafting table, you can procure a $(9)bowl/$, which can be used to $(9)pick up/$ some of the $(9)water/$ you've uncovered from below the dirt inside the rotting tree stump, and use it if you wish to dabble in some techncal mysticism, or just fill a Cauldron."
 		},
 		{
 			"type":"crafting",
@@ -61,6 +61,11 @@
 			"title":"",
 			"link_recipe":false,
 			"text":"If you already know what you're doing, you'll just need this to get the basic functional flowers. If not, use a $(2)Living Root/$ on the $(d)Flare/$ that's been floating around to get a copy of $(6)Lexica Botania/$. $(o)Be advised that the Lexica may flat-out lie to you./$"
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:specialflower{type:'puredaisy'}",
+			"text":"The similarities with ''regular'' GoG more or less end here. Most of the functionality is still available, however, but locked behind Livingwood and Livingrock, which isn't obtainable from the $(m)Pure/$ Punished Daisy anymore. You'll still need to use it at least once, however!"
 		}
     ]
 }

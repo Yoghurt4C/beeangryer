@@ -2,17 +2,25 @@
     "name": "What Are Eggshells?",
     "icon": "contenttweaker:eggshells",
     "category": "beginnings",
-	"sortnum":2,
+	"sortnum":1,
     "pages": [
 		{
 			"type":"spotlight",
 			"item":"contenttweaker:eggshells",
 			"title":"Some Egg Shells",
 			"link_recipe":true,
-			"text":"fill in later"
+			"text":"In order to advance from your status of a stump clapper, you'll need to get some eggshells. In order to obtain them, it's necessary to have a renewable source of $(9)Sand/$ ($(5)$(o)Integrated Dynamics Squeezer/$) and a $(9)Bowl/$.<br>Be careful not to replace the water block, or you'll be left stranded with no way to get back on track, $(o)forever/$."
+		},
+		{
+			"type":"image",
+			"images":["patchouli:textures/gui/panning.png"],
+			"title":"The Art of Panning",
+			"text":"Place the Sand under $(o)$(l)flowing/$ Water, hold $(k:key.sneak), and use the Bowl on the placed Sand.",
+			"border":true
 		},
 		{
 			"type":"burning+cauldron",
+			"anchor":"lime",
 			"header":"Fired Egg Shells",
 			"input1":"contenttweaker:eggshells",
 			"time":"10 sec",
@@ -24,6 +32,7 @@
 			"liquid3":"minecraft:textures/blocks/water_still.png",
 			"liquid3name":"Water",
 			"liquid3tooltip":"&71L",
+			"liquid3tooltip2":"&7Can be filled using &9Bowls of Water",
 			"liquid4":"base:textures/fluids/liquid.png",
 			"liquid4name":"Dissolved Egg Shells",
 			"liquid4tooltip":"&71L",
@@ -33,7 +42,17 @@
 		{
 			"type":"crafting",
 			"recipe":"crafttweaker:crushedeggshells",
-			"text":"Crushed Egg Shells can be used in place of Bone Meal for making $(#38BC00)Floral Fertilizer/$.$(br)Also, they're rich enough in calcium for you to be able to use them to regrow grass, with a small chance of instantly growing either a Poppy or a      Dandelion *on* grass!" 
+			"text":"Crushed Egg Shells are rich in calcium, and can be used to regrow grass, with a small chance of instantly growing either a Poppy or a Dandelion on said grass.<br>It's also a decent snack when you're feeling peckish." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:fertilizer_egg_powder",
+			"text":"If you're in a desperate need of $(2)Floral Fertilizer/$, Crushed Egg Shells substitute bone meal in its creation!" 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:felpumpkin",
+			"text":"Crushed Egg Shells are also used to create a Fel Pumpkin, which is necessary in $(l:chickens/blaze_chicken)summoning a Blazicken/$ later on." 
 		}
     ]
 }

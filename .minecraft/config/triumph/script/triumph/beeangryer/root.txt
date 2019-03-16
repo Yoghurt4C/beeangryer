@@ -1,7 +1,7 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<forestry:bee_drone_ge, meta:0, count:1, nbt:{Genome:{Chromosomes:[{UID1:"gendustry.bee.Manasteel",UID0:"gendustry.bee.Manasteel",Slot:0b}]}}>)
+setIcon(<forestry:bee_queen_ge, meta:0, count:1, nbt:{Genome:{Chromosomes:[{UID1:"forestry.speciesForest",UID0:"forestry.speciesForest",Slot:0b}]}}>)
 
 //Set title String
 setTitle("Bee Angryer")
@@ -19,7 +19,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(0,0)
+//setPos(0,0)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
 addCriteria("location", "minecraft:location")

@@ -96,7 +96,7 @@
 		},
 		{
 			"type": "tooltip",
-			"tooltip":["#liquid3name","#liquid3tooltip"],
+			"tooltip":["#liquid3name","#liquid3tooltip","#liquid3tooltip2"],
 			"width":10,
 			"height":12,
 			"x": 8,

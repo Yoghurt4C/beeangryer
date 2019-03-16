@@ -1,13 +1,13 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<roost:chicken, nbt:{Growth:1,Chicken:"contenttweaker:honeychicken",Gain:1,Strength:1}>)
+setIcon(<roost:chicken, nbt:{Growth:1,Chicken:"minecraft:chicken",Gain:1,Strength:1}>)
 
 //Set title String
 setTitle("Bee Angryer: Chickens")
 
 //Set description String
-setDescription("If you see this, it means the advancements work... probably.")
+setDescription("Everything fowl happens here.")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("quark:textures/blocks/thatch.png")
@@ -19,7 +19,8 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(0,0)
+//setPos(0,0)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:beeangryer/chickens")

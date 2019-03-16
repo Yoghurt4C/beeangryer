@@ -3,7 +3,6 @@ setTitle("Like Tears In Rain")
 setDescription("Viciously burn logs just to get some ash, which is useful in form of Ash Bricks for getting your first charcoal.")
 
 addParent("triumph:beeangryer/firestarter")
-addParent("triumph:beeangryer/woodlog")
 setRequirements("any")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

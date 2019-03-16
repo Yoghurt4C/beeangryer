@@ -1,5 +1,5 @@
 {
 	"name": "Beginnings",
-	"description": "You Can Farm: The Entrepreneur's Guide to Start & Succeed in a Farming Enterprise",
+	"description": "Here you can find explanations for some of the more intricate parts of the ''starting'' progression; if you want to see what you're able or supposed to do next, check out Bee Angry-er Advancements (keybind: $(k:key.advancements)).<br>It is recommended to acquaint oneself with at least $(l:beginnings/garden_of_glass)this entry/$.",
 	"icon": "contenttweaker:eggshells"
 }

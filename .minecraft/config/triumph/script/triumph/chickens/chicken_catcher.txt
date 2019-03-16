@@ -2,7 +2,7 @@ setIcon(<roost:catcher>)
 setTitle("Lords Of A Feather")
 setDescription("Chickens can be obnoxious to control and contain. Flash your chicken scepter to tame those loose chicks!")
 
-addParent("triumph:beeangryer/chickens")
+addParent("triumph:chickens/root")
 addParent("triumph:beeangryer/grindstone")
 setRequirements("all")
 

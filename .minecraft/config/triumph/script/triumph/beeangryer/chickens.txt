@@ -1,6 +1,6 @@
 setIcon(<roost:chicken,nbt:{Chicken:"minecraft:chicken"}>)
 setTitle("Ganbatte Chicken-San")
-setDescription("Obtain an Egg by using The Great Egg, then hatch and breed two chickens together.")
+setDescription("Obtain an Egg by using The Great Egg, then hatch and breed two chickens together. This advancement unlocks a new ''side-tab''.")
 
 addParent("triumph:beeangryer/the_great_egg")
 setFrameType("TASK")

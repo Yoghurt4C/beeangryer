@@ -2,7 +2,7 @@
     "name": "entitye'e",
     "icon": "chickens:colored_egg:0",
     "category": "beginnings",
-	"sortnum":1,
+	"sortnum":10,
     "pages": [
 		{
 			"type":"entity",

@@ -1,0 +1,15 @@
+setIcon(<roost:chicken, meta:0, count:1, nbt:{Chicken:"chickens:gunpowderchicken"}>)
+setTitle("Imposter Poultry")
+setDescription("''Soup'' up all four of the basic mob chickens using the Chicken Stock you've cooked. See Guidebook for information.")
+
+addParent("triumph:chickens/chickenstock")
+setRequirements("all")
+
+criteria = addCriteria("Spider-Chicken", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, meta:0, count:1, nbt:{Chicken:"chickens:stringchicken"}>)
+criteria = addCriteria("Rotten Chicken Carcass", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, meta:0, count:1, nbt:{Chicken:"contenttweaker:rottenchicken"}>)
+criteria = addCriteria("Creeping Chicken", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, meta:0, count:1, nbt:{Chicken:"chickens:gunpowderchicken"}>)
+criteria = addCriteria("Animated Chicken Carcass", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, meta:0, count:1, nbt:{Chicken:"contenttweaker:bonechicken"}>)

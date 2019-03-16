@@ -1,0 +1,9 @@
+setIcon(<botania:altar>)
+setTitle("Foliage Nursery")
+setDescription("Craft a Petal Apothecary.")
+
+addParent("triumph:beeangryer/mysticalflowers")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<botania:altar>)

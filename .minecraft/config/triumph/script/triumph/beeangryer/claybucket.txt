@@ -1,0 +1,9 @@
+setIcon(<ceramics:clay_bucket>)
+setTitle("A Crummy Pail, For Fetching")
+setDescription("After you've uncovered a method of obtaining Clay, use it to shape and fire a bucket.")
+
+addParent("triumph:beeangryer/chickens")
+setRequirements("any")
+
+criteria = addCriteria("Clay Bucket Crafted", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket>)

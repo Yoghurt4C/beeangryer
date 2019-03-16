@@ -8,3 +8,4 @@ setRequirements("all")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:chisel>)
+setPos(192,0)

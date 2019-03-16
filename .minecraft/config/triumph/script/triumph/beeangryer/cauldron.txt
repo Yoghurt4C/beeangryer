@@ -1,9 +1,13 @@
 setIcon(<minecraft:cauldron>)
 setTitle("Primitive Laundry")
-setDescription("Craft a ''Stone'' Cauldron.")
+setDescription("Craft a ''Stone'' Cauldron and fill it using a Bowl of Water.")
 
 addParent("triumph:beeangryer/stone")
-setRequirements("any")
+setRequirements("all")
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2 = addCriteria("Cauldron Filled", "triumph:right_click_block")
+criteria2.setBlock(<minecraft:cauldron>)
+criteria2.setItem(<botania:waterbowl, nbt:{Fluid:{FluidName:"water",Amount:1000}}>)
+criteria = addCriteria("Cauldron Crafted", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:cauldron>)
+

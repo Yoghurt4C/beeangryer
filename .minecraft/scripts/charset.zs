@@ -1,7 +1,7 @@
 import mods.charset.Cauldron;
 
 var stone=<ore:stone>;
-recipes.addShaped("stonecauldron",<minecraft:cauldron>.withTag({display:{Name:"Stone Cauldron"}}),[
+recipes.addShaped("stonecauldron",<minecraft:cauldron>.withTag({display:{Name:"Stone Cauldron",Lore:["Can be filled using","§9Bowls of Water"]}}),[
 [stone,null,stone],
 [stone,null,stone],
 [<quark:stone_wall>,<minecraft:stone_slab>,<quark:stone_wall>]]);
@@ -153,17 +153,15 @@ Cauldron.addItemRecipe(
 <techreborn:dust:12>, 
 <liquid:dissolvedeggshells>*250, 
 <contenttweaker:soggylime>);
-
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "minecraft:chicken", Gain: 1, Strength: 1}), 
 <liquid:dissolvedeggshells>*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}));
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:calcitechicken", Gain: 1, Strength: 1}).addTooltip(format.yellow("Obtained by dunking a Chicken into a full Cauldron of Dissolved Egg Shells."));
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "minecraft:chicken", Gain: 1, Strength: 1}), 
 <liquid:for.honey>*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:honeychicken", Gain: 1, Strength: 1}));
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:honeychicken", Gain: 1, Strength: 1}).addTooltip(format.gold("Obtained by dunking a Chicken into a full Cauldron of Honey."));
+
 Cauldron.addItemFluidRecipe(
 <hatchery:manure_block>, 
 <liquid:water>*1000, 
@@ -173,7 +171,6 @@ Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "minecraft:chicken", Gain: 1, Strength: 1}), 
 <liquid:for.honey>*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manurechicken", Gain: 1, Strength: 1}));
-<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manurechicken", Gain: 1, Strength: 1}).addTooltip(format.darkGray(format.italic("Obtained by dunking a Chicken into a full Cauldron of Liquid Fertilizer.")));
 
 furnace.addRecipe(<charset:shard>,<ore:sand>,0.1);
 
