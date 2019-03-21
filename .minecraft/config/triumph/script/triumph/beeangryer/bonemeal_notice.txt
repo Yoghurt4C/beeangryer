@@ -7,4 +7,3 @@ setRequirements("all")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:crushedeggshells>)
-setPos(256,41)

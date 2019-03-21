@@ -3,10 +3,11 @@ setTitle("I <3 Panning")
 setDescription("Cook up and have 288 Limestone in your inventory, excluding the 8 you need for a furnace. Yes, you need all of it for progression.")
 
 addParent("triumph:beeangryer/soggylime")
-addParent("triumph:beeangryer/id_basics")
 setFrameType("GOAL")
 setRequirements("all")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<quark:limestone,meta:0>)
 criteria.setCount(288)
+
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:153,TrophyVariant:"neon",TrophyItem:{id:"quark:limestone",Count:1b,Damage:0s},TrophyColorBlue:119,TrophyName:"I <3 Panning",TrophyColorRed:203}>)

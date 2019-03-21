@@ -1,0 +1,10 @@
+setIcon(<roost:chicken, meta:0, count:1, nbt:{Chicken:"contenttweaker:goldenhen"}>)
+setTitle("Golden Hen Get!")
+setDescription("See Guidebook for information.")
+
+addParent("triumph:chickens/chicken_catcher")
+setFrameType("CHALLENGE")
+setRequirements("all")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"contenttweaker:goldenhen"}>)

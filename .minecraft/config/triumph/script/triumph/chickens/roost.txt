@@ -1,0 +1,9 @@
+setIcon(<roost:roost>)
+setTitle("Fowl Calaboose")
+setDescription("Space Efficient, Cheap Chicken Confinement For Complex Industrialization!")
+
+addParent("triumph:chickens/root")
+setRequirements("all")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<roost:roost>)

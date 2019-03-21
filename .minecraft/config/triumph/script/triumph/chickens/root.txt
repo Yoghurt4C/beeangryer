@@ -7,7 +7,7 @@ setIcon(<roost:chicken, nbt:{Growth:1,Chicken:"minecraft:chicken",Gain:1,Strengt
 setTitle("Bee Angryer: Chickens")
 
 //Set description String
-setDescription("Everything fowl happens here.")
+setDescription("Everything fowl happens here. God help us all.")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("quark:textures/blocks/thatch.png")

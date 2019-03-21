@@ -2,12 +2,10 @@ setIcon(<tconstruct:mattock, nbt:{StatsOriginal:{AttackSpeedMultiplier:1.0f,Harv
 setTitle("Modular Tree Stumper")
 setDescription("Assemble a Tinker's Construct hatchet or mattock. The materials don't matter.")
 
-addParent("triumph:beeangryer/crafting")
-addParent("triumph:beeangryer/sand")
+addParent("triumph:beeangryer/ticon_pickaxe")
 setRequirements("any")
 
 criteria = addCriteria("Hatchet", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:hatchet>)
 criteria = addCriteria("Mattock", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:mattock>)
-setPos(224,13)

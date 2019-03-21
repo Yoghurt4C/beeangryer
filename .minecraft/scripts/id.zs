@@ -31,6 +31,8 @@ MechanicalDryingBasin.addRecipe(<tconstruct:clear_glass>,<liquid:for.honey>*100,
 
 Squeezer.removeRecipesWithOutput(<minecraft:flint>,1.0f,<minecraft:flint>,0.5f);
 Squeezer.addRecipe(<minecraft:gravel>,<minecraft:flint>,1.0f,<minecraft:sand>,0.25f);
+DryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
+MechanicalDryingBasin.removeRecipesWithOutput(<minecraft:leather>, null);
 
 mods.forestry.Squeezer.addRecipe(
 menrilresin*100,

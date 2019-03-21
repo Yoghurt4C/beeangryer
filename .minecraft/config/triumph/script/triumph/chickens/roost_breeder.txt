@@ -1,0 +1,9 @@
+setIcon(<roost:breeder>)
+setTitle("Behind The Curtains")
+setDescription("Ensure The Quality Of Your Chicken's Private Time With This One Simple Trick!")
+
+addParent("triumph:chickens/root")
+setRequirements("all")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<roost:breeder>)

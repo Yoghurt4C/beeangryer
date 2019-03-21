@@ -3,7 +3,6 @@ setTitle("Twisted Firestarter")
 setDescription("Jury rig an unreliable igniter using some Sticks and Wheat.")
 
 addParent("triumph:beeangryer/wheat")
-addParent("triumph:beeangryer/woodlog")
 setRequirements("any")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")

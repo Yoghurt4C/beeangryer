@@ -3,6 +3,7 @@ setTitle("Stocking Up")
 setDescription("Prepare Chicken Stock and place it in the world using a Clay Bucket. See Guidebook for a recipe.")
 
 addParent("triumph:chickens/dyed_chickens")
+setFrameType("GOAL")
 setRequirements("all")
 
 criteria = addCriteria("Clay Bucket Filled With Chicken Stock", "minecraft:inventory_changed")

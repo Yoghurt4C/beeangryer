@@ -72,3 +72,5 @@ criteria = addCriteria("Tall Mystical Red Flower", "minecraft:inventory_changed"
 criteria.addItem(<botania:doubleflower2,meta:6>)
 criteria = addCriteria("Tall Mystical Black Flower", "minecraft:inventory_changed")
 criteria.addItem(<botania:doubleflower2,meta:7>)
+
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:205,TrophyVariant:"neon",TrophyItem:{id:"botania:flower",Count:1b,Damage:6s},TrophyColorBlue:52,TrophyName:"Flower Maniac",TrophyColorRed:65}>)

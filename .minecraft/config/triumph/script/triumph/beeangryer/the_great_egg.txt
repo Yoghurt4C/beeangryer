@@ -8,3 +8,4 @@ setRequirements("all")
 
 criteria = addCriteria("clickedBlock1", "triumph:right_click_block")
 criteria.setBlock(<modularmachinery:blockcontroller, tile:{machine:"modularmachinery:the_great_egg", status:1}>)
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:137,TrophyVariant:"neon",TrophyItem:{id:"minecraft:egg",Count:1b,Damage:0s},TrophyColorBlue:54,TrophyName:"The Great Egg",TrophyColorRed:144}>)

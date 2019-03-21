@@ -2,7 +2,7 @@ setIcon(<roost:chicken, meta:0, count:1, nbt:{Chicken:"chickens:soulsandchicken"
 setTitle("Soul Sand Chicken Get!")
 setDescription("See Guidebook for information.")
 
-addParent("triumph:chickens/sandchicken")
+addParent("triumph:chickens/coalchicken")
 setRequirements("all")
 
 criteria = addCriteria("placeholder", "minecraft:inventory_changed")

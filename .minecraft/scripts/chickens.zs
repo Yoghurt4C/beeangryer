@@ -15,8 +15,8 @@ recipes.addShaped("water_bowl_chicken",<contenttweaker:water_bowl_chicken>,[
 [<roost:chicken>.withTag({Chicken:"minecraft:chicken"})],
 [<botania:waterbowl>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]]);
 recipes.addShapeless("snowballchicken_extraction",<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}),[
-	<contenttweaker:bowl_snow_chicken>,<minecraft:bowl>.giveBack()]);
-	recipes.addShaped("snowballchicken_insertion",<contenttweaker:water_bowl_chicken>.withTag({display:{Lore:["Why would you do this?"]}}),[
+	<contenttweaker:bowl_snow_chicken>.giveBack(<minecraft:bowl>)]);
+	recipes.addShaped("snowballchicken_insertion",<contenttweaker:bowl_snow_chicken>.withTag({display:{Lore:["Why would you do this?"]}}),[
 	[<roost:chicken>.withTag({Chicken:"chickens:snowballchicken"})],
 	[<minecraft:bowl>]]);
 
@@ -84,15 +84,16 @@ feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,fe
 
 
 recipes.remove(<hatchery:nest>);
-recipes.addShaped(<hatchery:nest>,[
+recipes.addShaped("nest",<hatchery:nest>,[
 [<ore:cropWheat>,null,<ore:cropWheat>],
 [null,<ore:cropWheat>]]);
-recipes.remove(<chickens:henhouse>);
-recipes.addShaped(<chickens:henhouse>, [
-  [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
-  [<minecraft:planks>, <minecraft:hay_block:*>, <minecraft:planks>],
-  [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
-]);
+recipes.replaceAllOccurences(<ore:plankWood>,<minecraft:planks:0>,<chickens:henhouse>);
+recipes.remove(<roost:collector>);
+var henhouse = <chickens:henhouse>|<chickens:henhouse_acacia>|<chickens:henhouse_birch>|<chickens:henhouse_dark_oak>|<chickens:henhouse_jungle>|<chickens:henhouse_spruce>;
+recipes.addShaped("collector",<roost:collector>,[
+[henhouse],
+[<minecraft:hopper>|<tconstruct:wooden_hopper>],
+[<roost:roost>]]);
 
 recipes.addShaped("chicken_catcher",<roost:catcher>,[
 [null,<hatchery:plastic>,<ore:seed>],

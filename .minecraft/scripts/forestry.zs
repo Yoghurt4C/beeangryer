@@ -16,6 +16,7 @@ var chest=<ore:chestWood>;
 var slabWood=<ore:slabWood>;
 var plankWood=<ore:plankWood>;
 var logWood=<ore:logWood>;
+var nsshard=<contenttweaker:nether_star_shard>;
 
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
@@ -79,6 +80,12 @@ mods.forestry.Carpenter.addRecipe(<forestry:habitat_former>, [
 [scentedGear,<forestry:chipsets>,scentedGear]],
 120, 
 <liquid:for.honey> * 1000);
+mods.forestry.Carpenter.addRecipe(<minecraft:nether_star>, [
+[nsshard,nsshard,nsshard],
+[nsshard,<minecraft:ghast_tear>,nsshard],
+[nsshard,nsshard,nsshard]],
+40, 
+<liquid:for.honey> * 250);
 
 mods.forestry.ThermionicFabricator.removeCast(<minecraft:stained_glass:1>*4);
 mods.forestry.ThermionicFabricator.addCast(<minecraft:stained_glass:1>*4, [

@@ -2,7 +2,7 @@ setIcon(<roost:chicken, meta:0, count:1, nbt:{Chicken:"contenttweaker:manurechic
 setTitle("Manure Chicken Get!")
 setDescription("See Guidebook for information.")
 
-addParent("triumph:chickens/root")
+addParent("triumph:chickens/chicken_catcher")
 setRequirements("all")
 
 criteria = addCriteria("placeholder", "minecraft:inventory_changed")

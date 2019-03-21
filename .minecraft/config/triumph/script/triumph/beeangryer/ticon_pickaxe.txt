@@ -3,7 +3,6 @@ setTitle("Modular Block Breaker")
 setDescription("Assemble a Tinker's Construct pickaxe. The materials don't matter.")
 
 addParent("triumph:beeangryer/crafting")
-addParent("triumph:beeangryer/sand")
 //setPos(3,3)
 setRequirements("all")
 

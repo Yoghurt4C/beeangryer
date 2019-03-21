@@ -33,6 +33,7 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:68>*3,<thermalfoundati
 InductionSmelter.removeRecipe(<thermalfoundation:material:128>,<thermalfoundation:material:69>);
 InductionSmelter.removeRecipe(<thermalfoundation:material:128>*3,<techreborn:ingot:18>);
 InductionSmelter.removeRecipe(<tconstruct:ingots:1>,<tconstruct:ingots>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:rotten_flesh>*4);
 
 val TECompressorArray=[
 <thermalfoundation:material:164>,

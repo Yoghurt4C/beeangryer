@@ -3,8 +3,8 @@ setTitle("Lords Of A Feather")
 setDescription("Chickens can be obnoxious to control and contain. Flash your chicken scepter to tame those loose chicks!")
 
 addParent("triumph:chickens/root")
-addParent("triumph:beeangryer/grindstone")
 setRequirements("all")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<roost:catcher>)
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:240,TrophyVariant:"neon",TrophyItem:{id:"roost:catcher",Count:1b,Damage:0s},TrophyColorBlue:240,TrophyName:"Lords Of A Feather",TrophyColorRed:240}>)

@@ -1,0 +1,12 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"etchingacid",Amount:1000}>)
+setTitle("Better Than Inscribers")
+setDescription("Mix up some ''Etching'' Acid and pick it up using any bucket, just to show you've made it. See JEI for a recipe.")
+
+addParent("triumph:chickens/fluixchicken")
+setFrameType("GOAL")
+setRequirements("any")
+
+criteria = addCriteria("Clay Bucket Filled With ''Etching'' Acid", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"etchingacid",Amount:1000}}>)
+criteria = addCriteria("Iron Bucket Filled With ''Etching'' Acid", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"etchingacid",Amount:1000}>)

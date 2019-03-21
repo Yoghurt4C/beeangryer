@@ -1,0 +1,9 @@
+setIcon(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:beeangryer"}>)
+setTitle("Toilet Literature")
+setDescription("Pick up the Ominously Yet Conveniently Placed Book.")
+
+addParent("triumph:beeangryer/root")
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock(<contenttweaker:guidebook>)
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:136,TrophyVariant:"neon",TrophyItem:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"patchouli:beeangryer"},Damage:0s},TrophyColorBlue:68,TrophyName:"Toilet Literature",TrophyColorRed:235}>)

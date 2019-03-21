@@ -58,3 +58,5 @@ criteria = addCriteria("Sanvocalia", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, meta:0, nbt:{type:"sanvocalia"}>)
 criteria = addCriteria("Sweet Alexum", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, meta:0, nbt:{type:"sweet_alexum"}>)
+
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:205,TrophyVariant:"neon",TrophyItem:{id:"botania:specialflower",Count:1b,tag:{type:"loonium"},Damage:0s},TrophyColorBlue:52,TrophyName:"Flower Zealot",TrophyColorRed:65}>)

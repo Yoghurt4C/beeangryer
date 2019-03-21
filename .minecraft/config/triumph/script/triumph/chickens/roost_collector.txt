@@ -1,0 +1,9 @@
+setIcon(<roost:collector>)
+setTitle("Brig Plumbing")
+setDescription("Roost Produce Collection Made Easy!")
+
+addParent("triumph:chickens/root")
+setRequirements("all")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<roost:collector>)

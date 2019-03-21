@@ -24,6 +24,10 @@ var goldenegg= VanillaFactory.createItem("golden_egg");
 var menrilpropolis = VanillaFactory.createItem("menril_propolis");
 	menrilpropolis.register();
 	
+var netherstarshard = VanillaFactory.createItem("nether_star_shard");
+	netherstarshard.setGlowing(true);
+	netherstarshard.register();
+	
 var saltcube = VanillaFactory.createItem("salt_cube");
 	saltcube.register();
 

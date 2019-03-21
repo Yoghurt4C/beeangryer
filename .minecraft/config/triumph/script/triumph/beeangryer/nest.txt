@@ -1,0 +1,10 @@
+setIcon(<hatchery:nest>)
+setTitle("Getting Cozy")
+setDescription("Compose a makeshift resting place to ensure that the Eggs you've obtained from The Great Egg hatch into Chickens instead of going to waste.")
+
+addParent("triumph:beeangryer/the_great_egg")
+setFrameType("TASK")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<hatchery:nest>)

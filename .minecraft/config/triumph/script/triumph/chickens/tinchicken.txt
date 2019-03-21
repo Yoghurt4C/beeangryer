@@ -1,0 +1,9 @@
+setIcon(<roost:chicken, meta:0, count:1, nbt:{Chicken:"contenttweaker:tinchicken"}>)
+setTitle("Tin Chicken Get!")
+setDescription("See Guidebook for information.")
+
+addParent("triumph:chickens/chickenstock")
+setRequirements("all")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"contenttweaker:tinchicken"}>)

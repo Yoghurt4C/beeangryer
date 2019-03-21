@@ -3,7 +3,6 @@ setTitle("Meltdown Imminent")
 setDescription("Craft a ''Limestone'' Furnace, something that shouldn't exist.")
 
 addParent("triumph:beeangryer/soggylime")
-addParent("triumph:beeangryer/id_basics")
 setFrameType("TASK")
 setRequirements("all")
 

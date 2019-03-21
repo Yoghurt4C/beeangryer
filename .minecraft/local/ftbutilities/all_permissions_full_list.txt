@@ -1,4 +1,4 @@
-8123 nodes in total
+8131 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -335,6 +335,7 @@ ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_7: OP
 ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_8: OP
 ftbutilities.claims.block.edit.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.edit.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.edit.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.templatemanager: OP
@@ -1993,6 +1994,7 @@ ftbutilities.claims.block.edit.rustic.vase: OP
 ftbutilities.claims.block.edit.rustic.wildberry_bush: OP
 ftbutilities.claims.block.edit.rustic.wildberry_juice: OP
 ftbutilities.claims.block.edit.rustic.wind_thistle: OP
+ftbutilities.claims.block.edit.simple_trophies.trophy: OP
 ftbutilities.claims.block.edit.slashbladetic.blade_forge: OP
 ftbutilities.claims.block.edit.slashbladetic.blade_station: OP
 ftbutilities.claims.block.edit.spawnhere.spawn_block: OP
@@ -2645,6 +2647,7 @@ ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_7: OP
 ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_8: OP
 ftbutilities.claims.block.interact.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.interact.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.interact.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.templatemanager: OP
@@ -4303,6 +4306,7 @@ ftbutilities.claims.block.interact.rustic.vase: OP
 ftbutilities.claims.block.interact.rustic.wildberry_bush: OP
 ftbutilities.claims.block.interact.rustic.wildberry_juice: OP
 ftbutilities.claims.block.interact.rustic.wind_thistle: OP
+ftbutilities.claims.block.interact.simple_trophies.trophy: OP
 ftbutilities.claims.block.interact.slashbladetic.blade_forge: OP
 ftbutilities.claims.block.interact.slashbladetic.blade_station: OP
 ftbutilities.claims.block.interact.spawnhere.spawn_block: OP
@@ -5098,7 +5102,9 @@ ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_7: ALL
 ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_8: ALL
 ftbutilities.claims.item.botania_tweaks.potted_tiny_potato: ALL
 ftbutilities.claims.item.buildinggadgets.buildingtool: ALL
+ftbutilities.claims.item.buildinggadgets.construction_chunk_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblock: ALL
+ftbutilities.claims.item.buildinggadgets.constructionblock_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblockpowder: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpaste: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpastecontainer: ALL
@@ -5526,6 +5532,7 @@ ftbutilities.claims.item.contenttweaker.koboldstone: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
 ftbutilities.claims.item.contenttweaker.menril_propolis: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL
+ftbutilities.claims.item.contenttweaker.nether_star_shard: ALL
 ftbutilities.claims.item.contenttweaker.salt_block: ALL
 ftbutilities.claims.item.contenttweaker.salt_cube: ALL
 ftbutilities.claims.item.contenttweaker.soggylime: ALL
@@ -7306,6 +7313,7 @@ ftbutilities.claims.item.rustic.wildberries: ALL
 ftbutilities.claims.item.rustic.wildberry_bush: ALL
 ftbutilities.claims.item.rustic.wildberry_juice: ALL
 ftbutilities.claims.item.rustic.wind_thistle: ALL
+ftbutilities.claims.item.simple_trophies.trophy: ALL
 ftbutilities.claims.item.simplyjetpacks.itemfluxpack: ALL
 ftbutilities.claims.item.simplyjetpacks.itemjetpack: ALL
 ftbutilities.claims.item.simplyjetpacks.metaitem: ALL

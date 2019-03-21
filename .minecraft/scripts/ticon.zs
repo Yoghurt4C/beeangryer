@@ -45,8 +45,8 @@ mods.tconstruct.Casting.addBasinRecipe(
 true,
 20);
 
-mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:chicken>, <liquid:liquidchicken>);
-mods.tconstruct.Melting.addEntityMelting(<entity:chickens:chickenschicken>, <liquid:liquidchicken>);
+mods.tconstruct.Melting.addEntityMelting(<entity:minecraft:chicken>, <liquid:liquidchicken>*750);
+mods.tconstruct.Melting.addEntityMelting(<entity:chickens:chickenschicken>, <liquid:liquidchicken>*750);
 for comb in <ore:beeComb>.items {
     // melt combs to honey
     mods.tconstruct.Melting.addRecipe(
