@@ -28,7 +28,7 @@
 			"text":"Egg Shells can be burned (or smelted) into Fired Egg Shells, which are a necessary component in creating Lime.",
 			"header2":"Soggy Lime",
 			"input3":"contenttweaker:firedeggshells",
-			"input4":"ore:dustClay",
+			"input4":"ore:dustSmallClay",
 			"liquid3":"minecraft:textures/blocks/water_still.png",
 			"liquid3name":"Water",
 			"liquid3tooltip":"&71L",
@@ -36,7 +36,7 @@
 			"liquid4":"base:textures/fluids/liquid.png",
 			"liquid4name":"Dissolved Egg Shells",
 			"liquid4tooltip":"&71L",
-			"liquid4tooltip2":"&7250ml per Clay Dust",
+			"liquid4tooltip2":"&7125ml per Small Pile of Clay Dust",
 			"output2":"contenttweaker:soggylime"
 		},
 		{

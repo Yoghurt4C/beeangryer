@@ -150,8 +150,8 @@ null,
 mods.jei.JEI.addDescription(<liquid:chickenstock>,["Prepared by putting a Salt Cube into a full Cauldron of Liquid Poultry. Very bland, inefficient, and requires various tools to manage. Can be made in a variety of other, more industrialized ways."]);
 
 Cauldron.addItemRecipe(
-<techreborn:dust:12>, 
-<liquid:dissolvedeggshells>*250, 
+<techreborn:smalldust:12>, 
+<liquid:dissolvedeggshells>*125, 
 <contenttweaker:soggylime>);
 Cauldron.addItemRecipe(
 <roost:chicken>.withTag({Growth: 1, Chicken: "minecraft:chicken", Gain: 1, Strength: 1}), 
@@ -181,7 +181,7 @@ mods.jei.JEI.addDescription(<contenttweaker:soggylime>,[
 <contenttweaker:soggylime>.addShiftTooltip(format.green("2. Make them spend some time in "+format.red("heat")+"."));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("3. Put the "+format.gray(format.underline("Fired Egg Shells"))+" into "));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("     a "+format.blue(format.underline("Water"))+"-filled "+format.gray("Crucible"+".")));
-<contenttweaker:soggylime>.addShiftTooltip(format.green("4. Mix in some "+format.aqua(format.underline("Clay Dust"))+"."));
+<contenttweaker:soggylime>.addShiftTooltip(format.green("4. Mix in a "+format.aqua(format.underline("Small Pile of Clay Dust"))+"."));
 <contenttweaker:soggylime>.addShiftTooltip(format.green("5. Put the mixture somewhere it can "+format.yellow("dry up"+".")));
 <contenttweaker:soggylime>.addShiftTooltip("");
 <contenttweaker:soggylime>.addShiftTooltip(format.green("There are recipes that allow you"));

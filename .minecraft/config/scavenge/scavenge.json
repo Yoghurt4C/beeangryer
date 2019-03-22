@@ -279,6 +279,15 @@
 						"name": "minecraft:vine"
 						},
 						{
+						"name": "minecraft:brown_mushroom"
+						},
+						{
+						"name": "minecraft:red_mushroom"
+						},
+						{
+						"name": "quark:glowshroom"
+						},
+						{
 						"name": "rustic:aloe_vera"
 						},
 						{
@@ -338,6 +347,18 @@
 				"type":"consume_block",
 				"chance":15,
 				"name":"minecraft:vine"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"minecraft:brown_mushroom"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"minecraft:red_mushroom"},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"quark:glowshroom"},
 				{
 				"type":"consume_block",
 				"chance":15,

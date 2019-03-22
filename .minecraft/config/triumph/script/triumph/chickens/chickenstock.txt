@@ -1,10 +1,11 @@
 setIcon(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"chickenstock",Amount:1000}}>)
-setTitle("Stocking Up")
+setTitle("Soup Kitchen")
 setDescription("Prepare Chicken Stock and place it in the world using a Clay Bucket. See Guidebook for a recipe.")
 
 addParent("triumph:chickens/dyed_chickens")
 setFrameType("GOAL")
 setRequirements("all")
+addRewardItem(<simple_trophies:trophy, meta:0, count:1, nbt:{TrophyColorGreen:92,TrophyVariant:"neon",TrophyItem:{id:"tcomplement:porcelain_tank",Count:1b,tag:{FluidName:"chickenstock",Amount:4000},Damage:1s},TrophyColorBlue:47,TrophyName:"Soup Kitchen",TrophyColorRed:158}>)
 
 criteria = addCriteria("Clay Bucket Filled With Chicken Stock", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"chickenstock",Amount:1000}}>)

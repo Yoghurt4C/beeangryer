@@ -59,11 +59,11 @@ furnace.addRecipe(<contenttweaker:firedeggshells>,<contenttweaker:eggshells>,0.1
 mods.immersiveengineering.Mixer.addRecipe(<liquid:dissolvedeggshells>*1000, <liquid:water>*1000, [<contenttweaker:firedeggshells>], 2048);
 //limestone
 mods.tconstruct.Drying.addRecipe(<quark:limestone>,<contenttweaker:soggylime>, 1300);
-mods.tconstruct.Casting.addBasinRecipe(<quark:limestone>,<techreborn:dust:12>,<liquid:dissolvedeggshells>,250,true,2000);
-mods.integrateddynamics.DryingBasin.addRecipe(<contenttweaker:soggylime>,  null, <quark:limestone>, null, 1300);
-mods.integrateddynamics.DryingBasin.addRecipe(<techreborn:dust:12>,  <liquid:dissolvedeggshells>*250, <quark:limestone>, null, 1300);
-mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<contenttweaker:soggylime>,  null, <quark:limestone>, null, 1300);
-mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<techreborn:dust:12>,  <liquid:dissolvedeggshells>*250, <quark:limestone>, null, 1300);
+mods.tconstruct.Casting.addBasinRecipe(<quark:limestone>,<techreborn:smalldust:12>,<liquid:dissolvedeggshells>,125,true,1000);
+mods.integrateddynamics.DryingBasin.addRecipe(<contenttweaker:soggylime>,  null, <quark:limestone>, null, 650);
+mods.integrateddynamics.DryingBasin.addRecipe(<techreborn:smalldust:12>,  <liquid:dissolvedeggshells>*125, <quark:limestone>, null, 650);
+mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<contenttweaker:soggylime>,  null, <quark:limestone>, null, 650);
+mods.integrateddynamics.MechanicalDryingBasin.addRecipe(<techreborn:smalldust:12>,  <liquid:dissolvedeggshells>*125, <quark:limestone>, null, 650);
 
 recipes.addShaped("cogwheel_grindstone",<appliedenergistics2:grindstone>,[
 [<ore:stone>,<ore:gearWood>,<ore:stone>],
@@ -77,7 +77,7 @@ mods.jei.JEI.addDescription(<quark:limestone>,[
 1. Pan sand for Egg Shells,
 2. Make them spend some time in heat,
 3. Put the Fired Egg Shells into a Water-filled Crucible,
-4. Mix in some Clay Dust,
+4. Mix in a Smapll Pile of Clay Dust,
 5. Put the mixture somewhere it can dry up.
 
 This instruction is mirrored on the Soggy Lime tooltip."]);

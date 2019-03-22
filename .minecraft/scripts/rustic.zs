@@ -20,7 +20,10 @@ furnace.addRecipe(<rustic:beeswax>,<forestry:beeswax>,0.1);
 val vanillaferns=[
 <minecraft:tallgrass:1>,
 <minecraft:tallgrass:2>,
-<minecraft:vine>] as IItemStack[];
+<minecraft:vine>,
+<minecraft:brown_mushroom>,
+<minecraft:red_mushroom>,
+<quark:glowshroom>] as IItemStack[];
 val ferns=[
 <rustic:aloe_vera>,
 <rustic:blood_orchid>,

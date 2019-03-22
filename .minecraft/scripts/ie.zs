@@ -22,6 +22,8 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "molds"})
 [<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
 [<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
 
+mods.immersiveengineering.Squeezer.removeByInput(<minecraft:rotten_flesh>);
+
 mods.immersiveengineering.Refinery.addRecipe(<liquid:chickenstock>*1000,
  <liquid:liquidchicken>*1000,
  <liquid:salt>*288,

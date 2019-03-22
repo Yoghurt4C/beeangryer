@@ -19,7 +19,7 @@ val dataModelArray as IItemStack[IIngredient]={
 	<minecraft:skull:1>:<deepmoblearning:data_model_wither_skeleton>,
 	<minecraft:nether_star>:<deepmoblearning:data_model_wither>,
 	<minecraft:ender_eye>:<deepmoblearning:data_model_enderman>,
-	<minecraft:shulker_shell>:<deepmoblearning:data_model_shulker>,
+	<minecraft:end_rod>:<deepmoblearning:data_model_shulker>,
 	<minecraft:dragon_egg>:<deepmoblearning:data_model_dragon>
 };
 

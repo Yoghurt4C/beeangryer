@@ -275,7 +275,7 @@ industrialElectrolyzer.addRecipe(cell.withTag({Fluid: {FluidName: "fluidcompress
  dustAluminum*2,
  null,
  null,
- <techreborn:dust:12>*8,
+ <techreborn:dust:45>*8,
  cell*3,
  400, 50);
 industrialElectrolyzer.addRecipe(cell.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})*9,

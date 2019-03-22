@@ -251,3 +251,32 @@ recipes.remove(<techreborn:smalldust:*>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>*2, [<liquid:copper>*1, <liquid:nickel>*1]);
 mods.tconstruct.Alloy.removeRecipe(<liquid:obsidian>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:clay>);
+val mobStringArray as string[]=[
+"minecraft:blaze",
+"minecraft:cave_spider",
+"minecraft:creeper",
+"minecraft:elder_guardian",
+"minecraft:enderman",
+"minecraft:evocation_illager",
+"minecraft:ghast",
+"minecraft:guardian",
+"minecraft:husk",
+"minecraft:magma_cube",
+"minecraft:parrot",
+"minecraft:shulker",
+"minecraft:skeleton",
+"minecraft:skeleton_horse",
+"minecraft:slime",
+"minecraft:spider",
+"minecraft:stray",
+"minecraft:vex",
+"minecraft:vindication_illager",
+"minecraft:witch",
+"minecraft:wither_skeleton",
+"minecraft:zombie",
+"minecraft:zombie_horse",
+"minecraft:zombie_pigman",
+"minecraft:zombie_villager"
+];
+for entry in mobStringArray{
+mods.jei.JEI.hide(<minecraft:spawn_egg>.withTag({EntityTag: {id: entry}}));}
