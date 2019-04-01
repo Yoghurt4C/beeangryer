@@ -49,3 +49,17 @@ for pair in metalStickPairs {
 <ore:plateAluminumBrass>.remove(<contenttweaker:material_part:28>);
 <ore:gearAlubrass>.add(<contenttweaker:material_part:27>);
 <ore:plateAlubrass>.add(<contenttweaker:material_part:28>);
+<ore:yarn>.add(<contenttweaker:yarn>);
+<ore:yarn>.add(<contenttweaker:yarn_silk>);
+<ore:yarn>.add(<contenttweaker:yarn_feather>);
+<ore:yarn>.add(<contenttweaker:yarn_hemp>);
+<ore:yarn>.add(<contenttweaker:yarn_golden>);
+<ore:yarn>.add(<contenttweaker:yarn_ender>);
+<ore:yarn>.add(<contenttweaker:yarn_invisibilia>);
+<ore:plateFabric>.add(<contenttweaker:fabric>);
+<ore:plateFabric>.add(<forestry:crafting_material:3>);
+<ore:plateFabric>.add(<hatchery:fiber_pad>);
+<ore:plateFabric>.add(<immersiveengineering:material:5>);
+<ore:plateFabric>.add(<tconstruct:materials:15>);
+<ore:platePulsatingMesh>.add(<forestry:crafting_material:1>);
+<ore:fabricHemp>.remove(<immersiveengineering:material:5>);

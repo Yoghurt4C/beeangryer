@@ -1,0 +1,76 @@
+{
+    "name": "Ender Lily Seeds",
+    "icon": "uniquecrops:seedenderlily",
+    "category": "uniquecrops",
+	"sortnum":6,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These ender lilies just love to have nearby empty farmland to teleport to. Sometimes they'll even swap places with other kinds of crops. Not crops of the same type as them, though...$(br2)Tip: If you throw a ender pearl near one of the fully grown Enderlilies, it will drop the enderpearl you threw, with a chance of dropping a second one, and resetting that crop's growth to the start."
+        },
+		{
+			"type":"multiblock",
+			"name":"Ender Lily Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropenderlily[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:quartz",
+			"corner":"uniquecrops:seedprecision",
+			"edge":"uniquecrops:seeddirigible",
+			"output":"uniquecrops:seedenderlily"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:5",
+			"link_recipe":true,
+			"text":"Dropped from Enderlily crops."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:enderlily_to_yarn",
+			"text":"Used to craft quite a lot of things." 
+		},
+		{
+			"header":"Pulsating Mesh",
+			"type":"use_on_block",
+			"input1":"contenttweaker:yarn_ender#6",
+			"input2":"contenttweaker:loom",
+			"output":"forestry:crafting_material:1",
+			"text":"Pulsated Meshes are crafted by using a Loom while holding at least six Balls of Enderlily Yarn in your hand." 
+		},
+		{
+			"type":"artisia",
+			"header":"Artisan Ender Pearls",
+			"center":"minecraft:snowball",
+			"corner":"forestry:crafting_material:1",
+			"edge":"forestry:crafting_material:1",
+			"output":"minecraft:ender_pearl#3"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:uniquecrops-generic_28-remodified",
+			"text":"Craftable from Enderlily and Invisibilia Yarn, this consumable item will teleport the player to the highest available block at their location. Good for caves and dungeons. Almost useless on a skyblock." 
+		},
+		{
+			"type":"crafting",
+			"anchor":"endersnooker",
+			"recipe":"crafttweaker:uniquecrops-endersnooker-modified",
+			"text":"Craftable from Enderlily Yarn and pearls, this is a tool you can use to swap positions between yourself and another mob you're looking at, or pick up Dark Blocks." 
+		}
+    ]
+}

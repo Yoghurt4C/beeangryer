@@ -5,6 +5,78 @@ recipes.addShaped("stonecauldron",<minecraft:cauldron>.withTag({display:{Name:"S
 [stone,null,stone],
 [stone,null,stone],
 [<quark:stone_wall>,<minecraft:stone_slab>,<quark:stone_wall>]]);
+var stickReuse=<minecraft:stick>.reuse()|<ore:stickTreatedWood>.reuse();
+
+recipes.addShaped("string_to_yarn",<contenttweaker:yarn>*2,[
+[null,<ore:string>,null],
+[<ore:string>,stickReuse,<ore:string>],
+[null,<ore:string>,null]]);
+recipes.addShapeless("yarn_to_wool",<minecraft:wool:0>,[
+<ore:yarn>,<ore:yarn>,<ore:yarn>,<ore:yarn>]);
+recipes.addShapeless("wool_to_yarn",<contenttweaker:yarn>*3,[<ore:blockWool>]);
+recipes.addShaped("silk_to_yarn",<contenttweaker:yarn_silk>*2,[
+[null,<forestry:crafting_material:2>,null],
+[<forestry:crafting_material:2>,stickReuse,<forestry:crafting_material:2>],
+[null,<forestry:crafting_material:2>,null]]);
+recipes.addShapeless("woven_silk_to_yarn",<contenttweaker:yarn_silk>*5,[<forestry:crafting_material:3>]);
+recipes.addShaped("fiber_to_yarn",<contenttweaker:yarn_feather>*2,[
+[null,<hatchery:feather_fiber>,null],
+[<hatchery:feather_fiber>,stickReuse,<hatchery:feather_fiber>],
+[null,<hatchery:feather_fiber>,null]]);
+recipes.addShapeless("pad_to_yarn",<contenttweaker:yarn_feather>*5,[<hatchery:fiber_pad>]);
+recipes.addShaped("hemp_to_yarn",<contenttweaker:yarn_hemp>*2,[
+[null,<immersiveengineering:material:4>,null],
+[<immersiveengineering:material:4>,stickReuse,<immersiveengineering:material:4>],
+[null,<immersiveengineering:material:4>,null]]);
+recipes.addShapeless("hemp_fabric_to_yarn",<contenttweaker:yarn_hemp>*5,[<immersiveengineering:material:5>]);
+recipes.addShaped("collis_to_yarn",<contenttweaker:yarn_golden>*1,[
+[null,<uniquecrops:generic:6>,null],
+[<uniquecrops:generic:6>,stickReuse,<uniquecrops:generic:6>],
+[null,<uniquecrops:generic:6>,null]]);
+recipes.addShaped("enderlily_to_yarn",<contenttweaker:yarn_ender>*2,[
+[null,<uniquecrops:generic:5>,null],
+[<uniquecrops:generic:5>,stickReuse,<uniquecrops:generic:5>],
+[null,<uniquecrops:generic:5>,null]]);
+recipes.addShaped("invisibilia_to_yarn",<contenttweaker:yarn_invisibilia>*2,[
+[null,<uniquecrops:generic:11>,null],
+[<uniquecrops:generic:11>,stickReuse,<uniquecrops:generic:11>],
+[null,<uniquecrops:generic:11>,null]]);
+mods.jei.JEI.addDescription(<contenttweaker:yarn>,"Can be woven from String and separated from Wool. Six of these can be crafted into a Swatch of Fabric by using a Loom.");
+mods.jei.JEI.addDescription(<contenttweaker:fabric>,"Crafted by using a Loom while holding at least six Balls of Yarn in your hand.");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_silk>,"Can be woven from Silk Wisp and separated from Woven Silk. Six of these can be crafted into a Woven Silk by using a Loom.");
+mods.jei.JEI.addDescription(<forestry:crafting_material:3>,"Crafted by using a Loom while holding at least six Balls of Silk Yarn in your hand.");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_feather>,"Can be woven from Feather Fibers and separated from Fiber Pads. Six of these can be crafted into a Fiber Pad by using a Loom.");
+game.setLocalization("jei.item.hatchery.fiber_pad","Crafted by using a Loom while holding at least six Balls of Fiber Yarn in your hand.");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_hemp>,"Can be woven from Hemp Fiber and separated from Hemp Fabric. Six of these can be crafted into a Swatch of Hemp Fabric by using a Loom.");
+mods.jei.JEI.addDescription(<immersiveengineering:material:5>,"Crafted by using a Loom while holding at least six Balls of Hemp Yarn in your hand.");
+game.setLocalization("item.immersiveengineering.material.hemp_fabric.name","Roll of Hemp Fabric");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_golden>,"Can be woven from Golden Rods. Six of these can be crafted into a Silky Cloth by using a Loom.");
+mods.jei.JEI.addDescription(<tconstruct:materials:15>,"Crafted by using a Loom while holding at least six Balls of Golden ''Yarn'' in your hand.");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_ender>,"Can be woven from Enderlily Twines. Six of these can be crafted into a Pulsating Mesh by using a Loom.");
+mods.jei.JEI.addDescription(<forestry:crafting_material:1>,"Crafted by using a Loom while holding at least six Balls of Enderlily Yarn in your hand.");
+mods.jei.JEI.addDescription(<contenttweaker:yarn_invisibilia>,"Can be woven from Invisibilia Twines. Six of these can be crafted into an Invisibilia Feather by using a Loom.");
+recipes.addShaped("loom",<contenttweaker:loom>,[
+[<ore:stickWood>,<ore:yarn>,<ore:stickWood>],
+[<ore:stickWood>,<ore:yarn>,<ore:stickWood>],
+[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
+mods.jei.JEI.addDescription(<contenttweaker:loom>,"Used to weave various fibers into fabric. Try using some Yarn on it!");
+
+recipes.replaceAllOccurences(<forestry:crafting_material:3>,<ore:plateFabric>, <*>.only(function(item) {
+    return !isNull(item) & !<forestry:alveary.sieve>.matches(item)& !<contenttweaker:yarn_silk>.matches(item);
+}));
+recipes.replaceAllOccurences(<immersiveengineering:material:5>,<ore:plateFabric>, <*>.only(function(item) {
+    return !isNull(item) & !<contenttweaker:yarn_hemp>.matches(item);
+}));
+recipes.replaceAllOccurences(<minecraft:wool:*>,<ore:plateFabric>|<ore:blockWool>, <*>.only(function(item) {
+    return !isNull(item) & !<minecraft:carpet:*>.matches(item) & !<minecraft:wool:*>.matches(item) & !<quark:quilted_wool:*>.matches(item) & !<chisel:cloud>.matches(item) & !<minecraft:torch>.matches(item) & !<contenttweaker:yarn>.matches(item);
+}));
+recipes.replaceAllOccurences(<minecraft:string>,<ore:yarn>, <*>.only(function(item) {
+    return !isNull(item) & !<realfilingcabinet:upgrade:4>.matches(item) & !<realfilingcabinet:emptyfolder:2>.matches(item) & !<immersiveengineering:tool:0>.matches(item) & !<tconstruct:materials:15>.matches(item) & !<botania:felpumpkin>.matches(item) & !<minecraft:wool:0>.matches(item) & !<contenttweaker:yarn>.matches(item);
+}));
+recipes.replaceAllOccurences(<uniquecrops:generic:5>,<contenttweaker:yarn_ender>, <*>.only(function(item) {
+    return !isNull(item) & !<realfilingcabinet:upgrade:4>.matches(item);
+}));
+recipes.replaceAllOccurences(<uniquecrops:generic:11>,<contenttweaker:yarn_invisibilia>);
 
 //mods.charset.Cauldron.addItemRecipe(inputstack, fluid*int, outputstack);
 //black chicken

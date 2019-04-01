@@ -8,6 +8,7 @@
 .minecraft/logs/
 .minecraft/local/ftbutilities/backups.json
 .minecraft/crash-reports/
+.minecraft/mods/
 .minecraft/mods/memory_repo/
 .minecraft/resources/botania/sounds/music
 .minecraft/resourcepacks/

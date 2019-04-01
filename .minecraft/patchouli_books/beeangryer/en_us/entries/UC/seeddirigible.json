@@ -1,0 +1,49 @@
+{
+    "name": "Dirigible Plum Seeds",
+    "icon": "uniquecrops:seeddirigible",
+    "category": "uniquecrops",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These dirigible plums seems to be filled with helium, that would explain why some fully grown plums keep flying away! Best to pick up the plums when they drop as soon as possible."
+        },
+		{
+			"type":"multiblock",
+			"name":"Dirigible Plum Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropdirigible[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:sugar",
+			"corner":"minecraft:pumpkin_seeds",
+			"edge":"uniquecrops:seedcollis",
+			"output":"uniquecrops:seeddirigible"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:2",
+			"link_recipe":true,
+			"text":"Dropped from Dirigible Plum crops. Used to craft Large Dirigible Plums."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:genericfood.largeplum",
+			"text":"Craftable from drops obtained from Dirigible Plums. Consuming one will give the player the Levitation potion effect for two seconds, or enough time to consume the next Large Plum to continue levitating higher until the player runs out of food, plummeting to their death." 
+		}
+    ]
+}

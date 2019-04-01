@@ -1,0 +1,469 @@
+{
+	"dependencies": "justenoughdimensions",
+	"priority": 100000000000,
+	"populate": {
+		"graveyard_soil": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generator": {
+				"block": [
+					{
+						"name": "tconstruct:soil",
+						"properties": {
+							"type": "graveyard"
+						},
+						"weight": 100
+					}
+				],
+				"material": "minecraft:grass",
+				"cluster-size": 64
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"dried_clay": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "tconstruct:dried_clay",
+						"weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"bones": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:bone_block",
+						"weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"chunk-chance": 3,
+			"min-height": 0,
+			"max-height": 30,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"livingroot": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:mossy_cobblestone",
+						"weight": 75
+					},
+					{
+						"name": "botania:root",
+						"weight": 25
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 5,
+			"chunk-chance": 3,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"hopeful_swampwater_fix": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "forestry:bog_earth",
+						"weight": 100
+					}
+				],
+				"material": "minecraft:water",
+				"cluster-size": 4096
+			},
+			"cluster-count": 512,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 68,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"river_loam": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generator": {
+				"block": [
+					{
+						"name": "forestry:loam",
+						"weight": 100
+					}
+				],
+				"material": ["minecraft:grass", "minecraft:clay"],
+				"cluster-size": 64
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 68,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "RIVER"
+					},
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"ocean_loam": {
+			"enabled": "true",
+			"distribution": "underwater",
+			"generator": {
+				"block": [
+					{
+						"name": "forestry:loam",
+						"weight": 100
+					}
+				],
+				"type":"cluster",
+				"material": "minecraft:clay",
+				"cluster-size": 5000
+			},
+			"cluster-count": 3000,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 68,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"punji": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generator": {
+				"block": [
+					{
+						"name": "tconstruct:punji",
+						"weight": 100
+					}
+				],
+				"type":"decoration",
+				"surface": "minecraft:sand",
+				"see-sky": false,
+				"material":"minecraft:air",
+				"cluster-size": 5
+			},
+			"cluster-count": 10,
+			"chunk-chance": 2,
+			"min-height": 0,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"deadbush": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:deadbush",
+						"weight": 100
+					}
+				],
+				"type":"decoration",
+				"surface": ["minecraft:dirt","minecraft:grass"],
+				"see-sky": true,
+				"material":"minecraft:air",
+				"cluster-size": 5
+			},
+			"cluster-count": 5,
+			"chunk-chance": 2,
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"flint_stick": {
+			"enabled": "true",
+			"distribution": "surface",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:flint",
+						"weight": 50
+					},
+					{
+						"name": "contenttweaker:stick",
+						"weight": 50
+					}
+				],
+				"type":"decoration",
+				"surface": ["minecraft:sand","minecraft:grass","minecraft:dirt","forestry:loam","forestry:bog_earth","minecraft:stone"],
+				"see-sky": false,
+				"material":"minecraft:air",
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"chunk-chance": 3,
+			"min-height": 32,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		},
+		"hieroglyphs": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "0"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "1"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "2"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "3"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "4"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "5"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "6"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "7"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "8"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "9"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "10"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "11"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "12"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "13"
+						},
+						"weight": 7
+					},{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "14"
+						},
+						"weight": 7
+					},
+					{
+						"name": "chisel:sandstone-scribbles",
+						"properties": {
+							"variation": "15"
+						},
+						"weight": 7
+					}
+				],
+				"material": "minecraft:sandstone",
+				"cluster-size": 32
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 20,
+			"max-height": 80,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					0,
+					1
+				]
+			}
+		}
+	}
+}

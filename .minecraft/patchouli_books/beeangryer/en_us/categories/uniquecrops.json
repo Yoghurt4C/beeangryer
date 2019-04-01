@@ -1,0 +1,6 @@
+{
+	"name": "Unique Crops",
+	"description": "An encyclopedia about Unique Crops: how to obtain them, what they produce, and the general outline of each crops growth cycle or function.<br>Some of these crops are necessary for progression; for example, you'll need $(l:uc/seedenderlily)Ender Lilies/$ to obtain an $(l:chickens/enderpearl_chicken)Ender Pearl Chicken/$.$(br2)Most of the descriptions are plucked from the $(l:https://github.com/bafomdad/uniquecrops/wiki)Unique Crops wiki/$, with minor adjustments.",
+	"icon": "uniquecrops:generic",
+	"sortnum":5
+}

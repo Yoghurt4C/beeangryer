@@ -1,0 +1,38 @@
+{
+    "name": "Hexis Seeds",
+    "icon": "uniquecrops:seedhexis",
+    "category": "uniquecrops",
+	"sortnum":24,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Experience crops are fairly straightforward; they will not grow at all unless given experience orbs. Once grown, glass bottles can be used to collect the experience with a right-click. By doing this, there is a 50/50 chance the crop's growth will be reset."
+        },
+		{
+			"type":"multiblock",
+			"name":"Hexis Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:crophexis[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedmalleatoris",
+			"corner":"minecraft:wooden_sword",
+			"edge":"minecraft:dye:4",
+			"output":"uniquecrops:seedhexis"
+		}
+    ]
+}

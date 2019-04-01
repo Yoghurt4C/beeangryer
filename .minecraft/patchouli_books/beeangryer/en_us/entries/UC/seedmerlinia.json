@@ -1,0 +1,59 @@
+{
+    "name": "Merlinia Seeds",
+    "icon": "uniquecrops:seedmerlinia",
+    "category": "uniquecrops",
+	"sortnum":13,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Like the classic book written by T.H. White, this crop appears to move backwards through time, starting at appearing fully planted, and working backwards to the youngest stage. This only happens when they're given a $(o)special/$ kind of bonemeal."
+        },
+		{
+			"type":"multiblock",
+			"name":"Merlinia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropmerlinia[age=0]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:pumpkin_seeds",
+			"corner":"uniquecrops:generic:10",
+			"edge":"uniquecrops:seedenderlily",
+			"output":"uniquecrops:seedmerlinia"
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_10",
+			"text":"Used to make Merlinia crops grow properly. Also can reverse crop growth on a few other crops as well." 
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:4",
+			"link_recipe":true,
+			"text":"Dropped from Merlinia crops. Used as crafting ingredient for Hourglass of Nostalgia, and brewing ingredient for Reversing Potions."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:hourglass",
+			"text":"If this block is left on the ground as an item (it doesn't despawn) or placed and powered with a redstone signal, it will then slowly transform the blocks around it to their ancient block variants. $(t:Cobblestone, Mossy Cobblestone, Grass, Gravel and Bricks.)$(9)Hover over this to see the list of applicable blocks./$" 
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:genericfood.reversepotion",
+			"text":"Brewed using Time Dust as one of the ingredients. When ingested, they will replace any active potion effects on one with their opposites, EG: Night Vision becomes Blindness, Speed becomes Slowness, Strength becomes Weakness, and vice-versa. Also has a splashable potion variant." 
+		}
+    ]
+}

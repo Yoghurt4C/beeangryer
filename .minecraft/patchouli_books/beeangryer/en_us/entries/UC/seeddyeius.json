@@ -1,0 +1,38 @@
+{
+    "name": "Dyeius Seeds",
+    "icon": "uniquecrops:seeddyeius",
+    "category": "uniquecrops",
+	"sortnum":16,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Dye plants! Instead of planting the respective dye plants and harvesting said plant for dyes, it is all condensed in one crop, its appearance and respective drops depending on the time of day or night."
+        },
+		{
+			"type":"multiblock",
+			"name":"Dyeius Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropdyeius[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:wool",
+			"corner":"minecraft:dye",
+			"edge":"uniquecrops:seedabstract",
+			"output":"uniquecrops:seeddyeius"
+		}
+    ]
+}

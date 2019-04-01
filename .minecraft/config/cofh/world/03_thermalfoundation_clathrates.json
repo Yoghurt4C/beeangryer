@@ -2,7 +2,7 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"redstone_clathrate": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -25,7 +25,7 @@
 			"chunk-chance": 12,
 			"min-height": 0,
 			"max-height": 20,
-			"retrogen": "true",
+			"retrogen": "false",
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -36,7 +36,7 @@
 			}
 		},
 		"glowstone_clathrate": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -59,7 +59,7 @@
 			"chunk-chance": 12,
 			"min-height": 10,
 			"max-height": 40,
-			"retrogen": "true",
+			"retrogen": "false",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -72,7 +72,7 @@
 			"dimension": "all"
 		},
 		"ender_clathrate": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -88,7 +88,7 @@
 			"chunk-chance": 4,
 			"min-height": 10,
 			"max-height": 80,
-			"retrogen": "true",
+			"retrogen": "false",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

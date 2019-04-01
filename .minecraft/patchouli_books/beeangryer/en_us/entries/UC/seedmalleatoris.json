@@ -1,0 +1,38 @@
+{
+    "name": "Malleatoris Seeds",
+    "icon": "uniquecrops:seedmalleatoris",
+    "category": "uniquecrops",
+	"sortnum":22,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Crafted using anvils as part of the seed recipe, these are the renewable versions of anvils. To grow, they must have items with durability nearby. The higher the durability of these items, the better the chance they'll advance a stage. This process will consume 10%% of that item's durability. Once fully grown, right clicking it with any repairable item will restore 50%% of that item's max durability."
+        },
+		{
+			"type":"multiblock",
+			"name":"Malleatoris Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropmalleatoris[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedprecision",
+			"corner":"minecraft:anvil",
+			"edge":"minecraft:iron_ingot",
+			"output":"uniquecrops:seedmalleatoris"
+		}
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Wafflonia Seeds",
+    "icon": "uniquecrops:seedwafflonia",
+    "category": "uniquecrops",
+	"sortnum":18,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These crops like to grow together with other crops of their type, in groups of even numbers. Any crop with an odd-numbered of friends, including themselves, will fail to grow. Harvesting them will yield waffles, part of a delicious breakfast diet."
+        },
+		{
+			"type":"multiblock",
+			"name":"Wafflonia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropwafflonia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:wheat_seeds",
+			"corner":"minecraft:bread",
+			"edge":"minecraft:sugar",
+			"output":"uniquecrops:seedwafflonia"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:genericfood.waffle",
+			"link_recipe":true,
+			"text":"Dropped from Wafflonia crops. Fairly sure this is a part of anyone's balanced breakfast diet."
+		}
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_shulker",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_shulker",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:shulker_shell",
+            "amount": 18,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond",
+            "amount": 2,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:purpur_block",
+            "amount": 32,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:chorus_flower",
+            "amount": 1,
+			"chance":0.05
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:purple_shulker_box",
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "superiorshields:vanilla_shield_endstone",
+            "amount": 1,
+			"chance":0.01
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:shulker"}, "display":{"Name": "Levitating Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

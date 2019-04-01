@@ -1,0 +1,9 @@
+setIcon(<fluidcows:stall>)
+setTitle("Lactic Industrialization")
+setDescription("If you don't want your Cows to run around all over the place, put them in these Stalls.")
+
+addParent("triumph:cows/cow_halter")
+setRequirements("all")
+
+criteria = addCriteria("stall", "minecraft:inventory_changed")
+criteria.addItem(<fluidcows:stall>)

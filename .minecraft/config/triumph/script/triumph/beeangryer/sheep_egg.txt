@@ -1,0 +1,9 @@
+setIcon(<minecraft:spawn_egg, meta:0, count:1, nbt:{EntityTag:{id:"minecraft:sheep"}}>)
+setTitle("Pleasant Fabric")
+setDescription("Mend a chicken Egg into a ''Wooly Egg''. §oBaa.")
+
+addParent("triumph:beeangryer/apothecary")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg, meta:0, count:1, nbt:{display:{Name:"Wooly Egg"},EntityTag:{id:"minecraft:sheep"}}>)

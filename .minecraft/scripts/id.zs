@@ -17,6 +17,10 @@ recipes.addShaped("wooden_basin",<integrateddynamics:drying_basin>.withTag({disp
 [<ore:logWood>,<ore:dyeBlack>,<ore:logWood>],
 [<ore:logWood>,null,<ore:logWood>],
 [<ore:fenceWood>,<ore:slabWood>,<ore:fenceWood>]]);
+recipes.addShaped("flopper",<flopper:flopper>,[
+[<contenttweaker:soggylime>,null,<contenttweaker:soggylime>],
+[<contenttweaker:soggylime>,<ore:blockGlass>,<contenttweaker:soggylime>],
+[null,<contenttweaker:soggylime>,null]]);
 
 for comb in <ore:beeComb>.items {
 Squeezer.addRecipe(comb,null,<liquid:for.honey>*50);

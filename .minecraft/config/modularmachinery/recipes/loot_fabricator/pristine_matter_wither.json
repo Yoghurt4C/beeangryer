@@ -1,0 +1,95 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_wither",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_wither",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:nether_star",
+            "amount": 1,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "quark:black_ash",
+            "amount": 6,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/agito_rust_true","SpecialAttackType":"2","isSealed":"1b","ModelName":"named/agito","TrueItemName":"flammpfeil.slashblade.named.orotiagito.seald","CurrentItemName":"flammpfeil.slashblade.named.orotiagito.rust","display":{"Name":"agito rust soul"},"CustomMaxDamage":"60","AttackAmplifier":"0.01f","baseAttackModifier":"5.0f","SB.SEffect":{},"StandbyRenderType":"2"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/yasha/yasha","SpecialAttackType":"4","ModelName":"named/yasha/yasha","isDefaultBewitched":"1b","IsNoStandDrop":"1b","CurrentItemName":"flammpfeil.slashblade.named.yasha","display":{"Name":"yasha soul"},"CustomMaxDamage":"70","AttackAmplifier":"0.01f","baseAttackModifier":"6.0f","SB.SEffect":{},"StandbyRenderType":"2"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/yasha/yasha","SpecialAttackType":"5","ModelName":"named/yasha/yashaTrue","isDefaultBewitched":"1b","CurrentItemName":"flammpfeil.slashblade.named.yashatrue","display":{"Name":"yasha soul"},"CustomMaxDamage":"70","AttackAmplifier":"0.01f","baseAttackModifier":"6.0f","SB.SEffect":{},"StandbyRenderType":"2"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/sange/black","SpecialAttackType":"4","WrapItem":{"id":"minecraft:wooden_sword","Count":"1b","Damage":"0s"},"ModelName":"named/sange/sange","TrueItemName":"flammpfeil.slashblade.named.fox.black","isDefaultBewitched":"1b","CurrentItemName":"flammpfeil.slashblade.named.fox.black","display":{"Name":"Crescent-Haze Fox- soul"},"isBroken":"0b","baseAttackModifier":"4.0f","SB.SEffect":{},"StandbyRenderType":"1"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/agito_rust","SpecialAttackType":"2","isSealed":"1b","ModelName":"named/agito","TrueItemName":"flammpfeil.slashblade.named.agito","CurrentItemName":"flammpfeil.slashblade.named.agito.rust","display":{"Name":"agito rust soul"},"CustomMaxDamage":"60","AttackAmplifier":"0.01f","baseAttackModifier":"5.0f","SB.SEffect":{},"StandbyRenderType":"2"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"named/sange/white","SpecialAttackType":"0","WrapItem":{"id":"minecraft:wooden_sword","Count":"1b","Damage":"0s"},"ModelName":"named/sange/sange","TrueItemName":"flammpfeil.slashblade.named.fox.white","isDefaultBewitched":"1b","CurrentItemName":"flammpfeil.slashblade.named.fox.white","display":{"Name":"Crescent-Weiss Fox- soul"},"isBroken":"0b","baseAttackModifier":"4.0f","SB.SEffect":{},"StandbyRenderType":"1"},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "flammpfeil.slashblade:proudsoul@4",
+			"nbt": {"TextureName":"BambooKatana","WrapItem":{"id":"minecraft:wooden_sword","Count":"1b","Damage":"0s"},"CurrentItemName":"wrap.BambooMod.katana","display":{"Name":"ruby-nameless- soul"},"baseAttackModifier":"4.0f","SB.SEffect":{}},
+            "amount": 1,
+			"chance":0.1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:pinkinator",
+            "amount": 1,
+			"chance":0.01
+        }
+    ]
+}

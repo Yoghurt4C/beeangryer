@@ -1,0 +1,125 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_guardian",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_guardian",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:prismarine_shard",
+            "amount": 32,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "prismarine_crystals",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:prismarine",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:prismarine@1",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:prismarine@2",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sea_lantern",
+            "amount": 4,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sponge",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sponge",
+            "amount": 8,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:fish",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:fish@1",
+            "amount": 6,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:fish@2",
+            "amount": 6,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:fish@3",
+            "amount": 4,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "extrabees:hive@0",
+            "amount": 3,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:guardian"}, "display":{"Name": "Prickly Egg"}},
+            "amount": 1,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:elder_guardian"}, "display":{"Name": "Annoying Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

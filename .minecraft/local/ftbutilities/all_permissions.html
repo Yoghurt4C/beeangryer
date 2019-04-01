@@ -938,6 +938,7 @@ false
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
 <tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
+<tr><td><code>command.betterbuilderswands.wandoops</code></td><td class='error' title='Invalid usage language key!'>/wandOops</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.bnbgaminglib.bnb</code></td><td>bnbgaminglib.cmd.item.usage</td></tr>
 <tr><td><code>command.botania.botania-open</code></td><td>&lt;entry&gt;</td></tr>
@@ -952,6 +953,7 @@ false
 <tr><td><code>command.charset.mutter</code></td><td class='error' title='Invalid usage language key!'>/mutter [--long] [--show-item] some text. Clears if empty</td></tr>
 <tr><td><code>command.clear</code></td><td>/clear [player] [item] [data] [maxCount] [dataTag]</td></tr>
 <tr><td><code>command.clone</code></td><td>/clone &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [maskMode] [cloneMode]</td></tr>
+<tr><td><code>command.cmdcam.cam-server</code></td><td class='error' title='Invalid usage language key!'>used to control the camera (server side)</td></tr>
 <tr><td><code>command.cofhcore.cofh</code></td><td class='error' title='Invalid usage language key!'>/cofh help</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.list</code></td><td>Lists all CoFHWorld features</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
@@ -959,8 +961,12 @@ false
 <tr><td><code>command.compactmachines3.compactmachines3</code></td><td>/compactmachines3 [subcommand, leave empty for list of commands]</td></tr>
 <tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | give | hand | help | inventory | jeiCategories | json | liquids | log | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | ticmat | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
+<tr><td><code>command.creativecore.creative-gui</code></td><td class='error' title='Invalid usage language key!'>opens a test gui</td></tr>
+<tr><td><code>command.cyclopscore.capabilityproxy</code></td><td class='error' title='Invalid usage language key!'>/capabilityproxy &lt;config | version&gt;</td></tr>
 <tr><td><code>command.cyclopscore.commoncapabilities</code></td><td class='error' title='Invalid usage language key!'>/commoncapabilities &lt;config | version&gt;</td></tr>
 <tr><td><code>command.cyclopscore.cyclopscore</code></td><td class='error' title='Invalid usage language key!'>/cyclopscore &lt;ignite | debug | reloadresources | config | version | recursion&gt;</td></tr>
+<tr><td><code>command.cyclopscore.energeticsheep</code></td><td class='error' title='Invalid usage language key!'>/energeticsheep &lt;config | version&gt;</td></tr>
+<tr><td><code>command.cyclopscore.flopper</code></td><td class='error' title='Invalid usage language key!'>/flopper &lt;config | version&gt;</td></tr>
 <tr><td><code>command.cyclopscore.integratedcrafting</code></td><td class='error' title='Invalid usage language key!'>/integratedcrafting &lt;config | version&gt;</td></tr>
 <tr><td><code>command.cyclopscore.integrateddynamics</code></td><td class='error' title='Invalid usage language key!'>/integrateddynamics &lt;networkdiagnostics | config | version | crash&gt;</td></tr>
 <tr><td><code>command.cyclopscore.integrateddynamicscompat</code></td><td class='error' title='Invalid usage language key!'>/integrateddynamicscompat &lt;config | version&gt;</td></tr>
@@ -1077,6 +1083,8 @@ false
 <tr><td><code>command.immersiveengineering.ie.mineral.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
 <tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
 <tr><td><code>command.immersivepetroleum.ip</code></td><td class='error' title='Invalid usage language key!'>/ip &lt;help|reservoir&gt;</td></tr>
+<tr><td><code>command.justenoughdimensions.jed</code></td><td>'/jed &lt;debug | defaultgamemode | difficulty | dimbuilder | gamerule | list-loaded-dimensions | list-registered-dimensions | load-dimension | register | reload | setworldspawn | time | unload-empty-dimensions ['unload-chunks' to try to unload chunks] | unregister | unregister-remove | weather | worldborder&gt; [dimension] ...'</td></tr>
+<tr><td><code>command.justenoughdimensions.tpj</code></td><td>'/tpj &lt;to-entity&gt;'<br>'/tpj &lt;entity&gt; &lt;to-entity&gt;'<br>'/tpj &lt;dimensionId&gt; [x y z] [yaw] [pitch]'<br>'/tpj &lt;entity&gt; &lt;dimensionId&gt; [x y z] [yaw] [pitch]'</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
 <tr><td><code>command.locate</code></td><td>/locate &lt;feature&gt;</td></tr>
 <tr><td><code>command.me</code></td><td>/me &lt;action ...&gt;</td></tr>
@@ -1085,13 +1093,13 @@ false
 <tr><td><code>command.morpheus.morpheus</code></td><td class='error' title='Invalid usage language key!'>/morpheus &lt;alert : version&gt; | /morpheus percent &lt;percentage&gt; | /morpheus disable &lt;dimension number&gt;</td></tr>
 <tr><td><code>command.nmsot.nmsot</code></td><td class='error' title='Invalid usage language key!'>/nmsot &lt;help|reload&gt;</td></tr>
 <tr><td><code>command.nutrition.nutrition</code></td><td class='error' title='Invalid usage language key!'>/nutrition &lt;get/set/add/subtract/reset/reload&gt; &lt;player&gt; &lt;nutrient&gt; &lt;value&gt;</td></tr>
-<tr><td><code>command.oreexcavation.undo_excavation</code></td><td class='error' title='Invalid usage language key!'>/undo_excavation</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.pewter.pewter</code></td><td class='error' title='Invalid usage language key!'>/pewter</td></tr>
 <tr><td><code>command.pipemaster.pipemaster</code></td><td>commands.pipemaster.usage</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
 <tr><td><code>command.quark.quarkconfig</code></td><td class='error' title='Invalid usage language key!'>&lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
+<tr><td><code>command.randomportals.rporeload</code></td><td>/rporeload</td></tr>
 <tr><td><code>command.randomtweaks.deletegamerule</code></td><td class='error' title='Invalid usage language key!'>/deletegamerule &lt;gamerule&gt;</td></tr>
 <tr><td><code>command.randomtweaks.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
 <tr><td><code>command.randomtweaks.hunger</code></td><td class='error' title='Invalid usage language key!'>/hunger &lt;player&gt; &lt;level&gt; [saturation]</td></tr>
@@ -1103,7 +1111,7 @@ false
 <tr><td><code>command.recipehandler.recipes_server</code></td><td>/recipes &lt;check &lt;result|ingredients|space 'width' 'height'&gt;|conflict|container &lt;true/false&gt;|dump|furnace|get &lt;by_held/by_item 'item-name'/by_name 'recipe-name'&gt;&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.rpreload</code></td><td class='error' title='Invalid usage language key!'>/rpreload</td></tr>
-<tr><td><code>command.sampler.sampler</code></td><td class='error' title='Invalid usage language key!'>/sampler help [&lt;command&gt;] | tps | counts [&lt;dim-id&gt;] [&lt;limit&gt;] | info | chunkloaders [&lt;dim-id&gt;] | loads show|hide | packettracker (start [--log=&lt;file&gt;] [--verbose])|stop|(results [--limit &lt;n&gt;] [--raw]) | report [&lt;filename&gt;] [--download] | start [--noClear] | stop | export [&lt;filename&gt;] [--download] | clear | trigger (((ticktime|frametime) &lt;ms&gt;)|login [--extraTicks=&lt;n&gt;]) [--output=&lt;dir&gt;] | memory [--gc] | gc | heapdump [&lt;filename&gt;] [--compress] [--download] [--sync] | threaddump [&lt;filename&gt;] [--download] | sampleinterval [&lt;µs&gt;] | includelinenumbers [yes/no] | find &lt;class&gt; [&lt;dimId&gt;] [--ticking] [--unloaded] [--countOnly/--chunkCounts] [--meta=&lt;n&gt;] [--filter=&lt;x&gt;] [--clear] | chunkinfo [&lt;x&gt; &lt;z&gt; [&lt;dimId&gt;]] | blockinfo [&lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;dimId&gt;]] [--clear] | nbtsize | registry [ list | list &lt;regName&gt; [domain] [--detail] | domains &lt;regName&gt; [--limit=&lt;n&gt;] | get &lt;regName&gt; (identifier | key | id | class) &lt;value&gt; ]</td></tr>
+<tr><td><code>command.sampler</code></td><td class='error' title='Invalid usage language key!'>/sampler help [&lt;command&gt;] | tps | counts [&lt;dim-id&gt;] [&lt;limit&gt;] | info | chunkloaders [&lt;dim-id&gt;] | loads show|hide | packettracker (start [--log=&lt;file&gt;] [--verbose])|stop|(results [--limit &lt;n&gt;] [--raw]) | report [&lt;filename&gt;] [--download] | start [--noClear] | stop | export [&lt;filename&gt;] [--download] | clear | trigger (((ticktime|frametime) &lt;ms&gt;)|login [--extraTicks=&lt;n&gt;]) [--output=&lt;dir&gt;] | memory [--gc] | gc | heapdump [&lt;filename&gt;] [--compress] [--download] [--sync] | threaddump [&lt;filename&gt;] [--download] | sampleinterval [&lt;µs&gt;] | includelinenumbers [yes/no] | find &lt;class&gt; [&lt;dimId&gt;] [--ticking] [--unloaded] [--countOnly/--chunkCounts] [--meta=&lt;n&gt;] [--filter=&lt;x&gt;] [--clear] | chunkinfo [&lt;x&gt; &lt;z&gt; [&lt;dimId&gt;]] | blockinfo [&lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;dimId&gt;]] [--clear] | nbtsize | registry [ list | list &lt;regName&gt; [domain] [--detail] | domains &lt;regName&gt; [--limit=&lt;n&gt;] | get &lt;regName&gt; (identifier | key | id | class) &lt;value&gt; ]</td></tr>
 <tr><td><code>command.say</code></td><td>/say &lt;message ...&gt;</td></tr>
 <tr><td><code>command.scavenge.scavenge</code></td><td class='error' title='Invalid usage language key!'>/scavenge Allows to reload the files</td></tr>
 <tr><td><code>command.scoreboard</code></td><td>/scoreboard &lt;objectives|players|teams&gt; ...</td></tr>
@@ -1127,6 +1135,7 @@ false
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
 <tr><td><code>command.topaddons.tophelmet</code></td><td class='error' title='Invalid usage language key!'>/tophelmet blacklist &lt;add/remove&gt;</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
+<tr><td><code>command.tps</code></td><td class='error' title='Invalid usage language key!'>/tps</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.voidislandcontrol.island</code></td><td>island</td></tr>
 <tr><td><code>command.voidislandcontrol.islandadmin</code></td><td>island</td></tr>

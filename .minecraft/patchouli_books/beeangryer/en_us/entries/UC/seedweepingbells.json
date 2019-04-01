@@ -1,0 +1,49 @@
+{
+    "name": "Weeping Bell Stalk",
+    "icon": "uniquecrops:seedweepingbells",
+    "category": "uniquecrops",
+	"sortnum":10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "They're quite shy, but quite in need of your attentions. Weeping bells will only grow when you're looking directly at them. Once fully grown, do not take your eyes off of them, lest you face their wrath from your attentions being divided elsewhere."
+        },
+		{
+			"type":"multiblock",
+			"name":"Weeping Bell Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropweepingbells[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:ghast_tear",
+			"corner":"minecraft:melon_seeds",
+			"edge":"uniquecrops:seedenderlily",
+			"output":"uniquecrops:seedweepingbells"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:15",
+			"link_recipe":true,
+			"text":"Dropped from Weeping Bells. Used as an ingredient in crafting of the Weeping Eye."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_16",
+			"text":"A throwable item that temporarily applies the glowing potion effect to all mobs near to where it landed." 
+		}
+    ]
+}

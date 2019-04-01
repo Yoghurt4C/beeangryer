@@ -1,0 +1,53 @@
+{
+    "name": "Abstract Seeds",
+    "icon": "uniquecrops:seedabstract",
+    "category": "uniquecrops",
+	"sortnum":17,
+    "pages": [
+        {
+            "type": "text",
+            "text": "I must admit, I cheated a little in order to snag a preview of one actually planted. These crops, being just an abstract concept, will not materialize into the world as a form of ''crops'', instead taking its concept of growth from the planter as the planter plays throughout their time on the world."
+        },
+		{
+			"type":"multiblock",
+			"name":"Abstract Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropabstract[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:reeds",
+			"corner":"minecraft:stained_hardened_clay",
+			"edge":"minecraft:wool",
+			"output":"uniquecrops:seedabstract"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:22",
+			"link_recipe":true,
+			"text":"''Dropped'' from Abstract crops. Used to craft Diet Pills, Abstract Barrels or more Abstract seeds."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:genericfood.dietpills",
+			"text":"Saturation is overrated." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:abstractbarrel",
+			"text":"Abstract barrels are simply chests with 100 slots to store items in. However, the caveat is you only see 4 slots to store items in at any time, and those 4 slots are randomized to any slot within its storage. $(t:So the item you stored in it may not appear again the next time you open up the storage GUI, but it is still in there. Breaking an abstract barrel will make it drop all of its contents, and hoppers/other things do a marvelous job of getting past the weird gimmick of its GUI.)$(9)Hover over this text for more info/$." 
+		}
+    ]
+}

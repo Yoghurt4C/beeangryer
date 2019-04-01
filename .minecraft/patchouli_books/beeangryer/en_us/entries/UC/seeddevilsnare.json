@@ -1,0 +1,38 @@
+{
+    "name": "Devil's Snare Seeds",
+    "icon": "uniquecrops:seeddevilsnare",
+    "category": "uniquecrops",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Thorny plants that grow well in darkness - they will shrink away from bright light sources. Additionally, they will try to spread to adjacent dirt/farmland once fully grown. Fully matured crops will snare and slow down any players that walk through them."
+        },
+		{
+			"type":"multiblock",
+			"name":"Devil's Snare Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropdevilsnare[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedpixelsius",
+			"corner":"minecraft:stick",
+			"edge":"minecraft:log",
+			"output":"uniquecrops:seeddevilsnare"
+		}
+    ]
+}

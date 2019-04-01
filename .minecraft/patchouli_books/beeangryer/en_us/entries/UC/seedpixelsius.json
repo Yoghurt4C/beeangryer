@@ -1,0 +1,49 @@
+{
+    "name": "Pixelsius Shoot",
+    "icon": "uniquecrops:seedpixelsius",
+    "category": "uniquecrops",
+	"sortnum":20,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Pixelly, pixelly pixel plants. Starting from the default 16x16 textures, these crops will gradually get more and more high definition™ as they grow."
+        },
+		{
+			"type":"multiblock",
+			"name":"Pixelsius Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:croppixelsius[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedwafflonia",
+			"corner":"minecraft:dye",
+			"edge":"minecraft:painting",
+			"output":"uniquecrops:seedpixelsius"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:26",
+			"link_recipe":true,
+			"text":"Dropped from Pixelsius crops. Used to craft Pixel Glasses."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:pixelglasses",
+			"text":"By wearing these, you can toggle into the pixels shader vision and back to normal. $(k:key.pixelglasses) is the currently assigned toggle keybind.$(br2) $(br2) $(o)$(7)         Far out!/$" 
+		}
+    ]
+}

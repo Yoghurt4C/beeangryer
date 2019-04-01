@@ -1,0 +1,55 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_spider",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_spider",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spider_eye",
+            "amount": 12,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:string",
+            "amount": 48,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:web",
+            "amount": 6,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:spider"}, "display":{"Name": "Webby Egg"}},
+            "amount": 1,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:spider"}, "display":{"Name": "Hissing Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

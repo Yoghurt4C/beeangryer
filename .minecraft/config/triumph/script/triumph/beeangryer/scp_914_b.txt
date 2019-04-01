@@ -8,7 +8,7 @@ setTitle("SCP-914-B, Assembled")
 setDescription("Right click the controller of SCP-914-B while it's set to any of the possible modes.")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("triumph:beeangryer/root")
+addParent("triumph:beeangryer/guidebook")
 setFrameType("CHALLENGE")
 
 criteria = addCriteria("Rough", "triumph:right_click_block")

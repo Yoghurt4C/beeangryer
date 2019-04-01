@@ -1,0 +1,49 @@
+{
+    "name": "Scientia Seeds",
+    "icon": "uniquecrops:seedknowledge",
+    "category": "uniquecrops",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Their thirst for knowledge knows no bounds, these crops will search for nearby bookshelves around them in a small radius, then look into any chest inventory above them for written books to eat letters from. It's good to note that they don't seem to like book copies, and won't eat from the same book twice."
+        },
+		{
+			"type":"multiblock",
+			"name":"Scientia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropknowledge[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:sugar",
+			"corner":"minecraft:enchanted_book",
+			"edge":"uniquecrops:seedinvisibilia",
+			"output":"uniquecrops:seedknowledge"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:1",
+			"link_recipe":true,
+			"text":"Dropped from Scientia/Knowledge crops. When applied to any tool in an anvil, they will reduce their repair cost by 5 levels. Also used as a crafting ingredient to make Upgrade Books."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_18",
+			"text":"This book can be combined with other tools and gear in an anvil to refine them, all the way up to +10. At +9, there is a 50/50 chance that the refinement will fail when refining it to +10, destroying the item. $(t:Refining upgradeable tools/gears to +10 will grant them extra abilities. Current items that can be upgraded: All precision tools, Comfy Poncho, 3D Glasses.)$(9)Hover over this text for more info/$." 
+		}
+    ]
+}

@@ -1,0 +1,14 @@
+setIcon(<botania:waterbowl, meta:0, count:1, nbt:{Fluid:{FluidName:"water",Amount:1000}}>)
+setTitle("Leftover Moisture")
+setDescription("If you opted out for starting in this dimension, you can't progress past a certain point (Panning) unless you find some water. Your best bet is to look for what's left of Oceans.")
+
+addParent("triumph:beeangryer/76")
+setAnnounceToChat(true)
+setShowToast(true)
+hiddenUnless("triumph:beeangryer/76")
+setRequirements("any")
+
+criteria = addCriteria("Found Ocean", "minecraft:location")
+criteria.setBiome("minecraft:ocean")
+criteria = addCriteria("Found Deep Ocean", "minecraft:location")
+criteria.setBiome("minecraft:deep_ocean")

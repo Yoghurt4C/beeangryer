@@ -1,0 +1,11 @@
+setIcon(<fluidcows:cow_halter>)
+setTitle("Bovine Management")
+setDescription("Because of their proportions, Cows are somewhat hard to manage manually. Thankfully, a Cow Halter and a Piggybackpack make handling them a breeze!")
+
+addParent("triumph:cows/root")
+setRequirements("all")
+
+criteria = addCriteria("Cow Halter", "minecraft:inventory_changed")
+criteria.addItem(<fluidcows:cow_halter>)
+criteria = addCriteria("Piggybackpack", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:piggybackpack>)

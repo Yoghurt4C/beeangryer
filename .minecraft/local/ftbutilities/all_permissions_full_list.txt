@@ -1,4 +1,4 @@
-8131 nodes in total
+8234 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -339,6 +339,10 @@ ftbutilities.claims.block.edit.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.edit.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.templatemanager: OP
+ftbutilities.claims.block.edit.capabilityproxy.capability_proxy: OP
+ftbutilities.claims.block.edit.capabilityproxy.entity_capability_proxy: OP
+ftbutilities.claims.block.edit.capabilityproxy.item_capability_proxy: OP
+ftbutilities.claims.block.edit.capabilityproxy.ranged_capability_proxy: OP
 ftbutilities.claims.block.edit.capsule.capsulemarker: OP
 ftbutilities.claims.block.edit.cathedral.basalt_block_carved: OP
 ftbutilities.claims.block.edit.cathedral.basalt_block_checkered: OP
@@ -708,10 +712,14 @@ ftbutilities.claims.block.edit.contenttweaker.enhanced_galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.edit.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.edit.contenttweaker.flint: OP
 ftbutilities.claims.block.edit.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.guidebook: OP
 ftbutilities.claims.block.edit.contenttweaker.koboldstone: OP
 ftbutilities.claims.block.edit.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.edit.contenttweaker.log_dry: OP
+ftbutilities.claims.block.edit.contenttweaker.log_rotten: OP
+ftbutilities.claims.block.edit.contenttweaker.loom: OP
 ftbutilities.claims.block.edit.contenttweaker.love: OP
 ftbutilities.claims.block.edit.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.reinforced_metal_molten: OP
@@ -719,6 +727,7 @@ ftbutilities.claims.block.edit.contenttweaker.salt: OP
 ftbutilities.claims.block.edit.contenttweaker.salt_block: OP
 ftbutilities.claims.block.edit.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.edit.contenttweaker.soggylime: OP
+ftbutilities.claims.block.edit.contenttweaker.stick: OP
 ftbutilities.claims.block.edit.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.edit.contenttweaker.titanium_molten: OP
 ftbutilities.claims.block.edit.contenttweaker.tungsten_molten: OP
@@ -729,26 +738,11 @@ ftbutilities.claims.block.edit.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.edit.deepmoblearning.machine_casing: OP
 ftbutilities.claims.block.edit.deepmoblearning.simulation_chamber: OP
 ftbutilities.claims.block.edit.deepmoblearning.trial_keystone: OP
-ftbutilities.claims.block.edit.engineersdecor.clinker_brick_block: OP
-ftbutilities.claims.block.edit.engineersdecor.clinker_brick_stairs: OP
-ftbutilities.claims.block.edit.engineersdecor.clinker_brick_wall: OP
-ftbutilities.claims.block.edit.engineersdecor.concrete_wall: OP
-ftbutilities.claims.block.edit.engineersdecor.iron_inset_light: OP
-ftbutilities.claims.block.edit.engineersdecor.metal_rung_ladder: OP
-ftbutilities.claims.block.edit.engineersdecor.metal_rung_steps: OP
-ftbutilities.claims.block.edit.engineersdecor.rebar_concrete: OP
-ftbutilities.claims.block.edit.engineersdecor.rebar_concrete_stairs: OP
-ftbutilities.claims.block.edit.engineersdecor.rebar_concrete_wall: OP
-ftbutilities.claims.block.edit.engineersdecor.slag_brick_block: OP
-ftbutilities.claims.block.edit.engineersdecor.slag_brick_stairs: OP
-ftbutilities.claims.block.edit.engineersdecor.treated_wood_crafting_table: OP
-ftbutilities.claims.block.edit.engineersdecor.treated_wood_ladder: OP
-ftbutilities.claims.block.edit.engineersdecor.treated_wood_pole: OP
-ftbutilities.claims.block.edit.engineersdecor.treated_wood_stool: OP
-ftbutilities.claims.block.edit.engineersdecor.treated_wood_table: OP
+ftbutilities.claims.block.edit.energeticsheep.energetic_wool: OP
 ftbutilities.claims.block.edit.extrabees.alveary: OP
 ftbutilities.claims.block.edit.extrabees.ectoplasm: OP
 ftbutilities.claims.block.edit.extrabees.hive: OP
+ftbutilities.claims.block.edit.flopper.flopper: OP
 ftbutilities.claims.block.edit.fluidcows.accelerator: OP
 ftbutilities.claims.block.edit.fluidcows.stall: OP
 ftbutilities.claims.block.edit.forestry.alveary.fan: OP
@@ -1872,6 +1866,41 @@ ftbutilities.claims.block.edit.quark.vertical_planks: OP
 ftbutilities.claims.block.edit.quark.vertical_stained_planks: OP
 ftbutilities.claims.block.edit.quark.world_stone_bricks: OP
 ftbutilities.claims.block.edit.quark.world_stone_pavement: OP
+ftbutilities.claims.block.edit.randomportals.black_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.black_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.blue_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.blue_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.brown_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.brown_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.cyan_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.cyan_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.gray_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.gray_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.green_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.green_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.light_blue_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.light_blue_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.lime_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.lime_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.magenta_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.magenta_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.orange_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.orange_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.pink_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.pink_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.purple_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.red_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.red_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.silver_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.silver_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.upside_down_end_portal: OP
+ftbutilities.claims.block.edit.randomportals.upside_down_end_portal_frame: OP
+ftbutilities.claims.block.edit.randomportals.vertical_end_portal: OP
+ftbutilities.claims.block.edit.randomportals.vertical_end_portal_frame: OP
+ftbutilities.claims.block.edit.randomportals.white_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.white_vertical_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.yellow_lateral_nether_portal: OP
+ftbutilities.claims.block.edit.randomportals.yellow_vertical_nether_portal: OP
 ftbutilities.claims.block.edit.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.edit.realfilingcabinet.modelcabinet: OP
 ftbutilities.claims.block.edit.roost.breeder: OP
@@ -2651,6 +2680,10 @@ ftbutilities.claims.block.interact.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.interact.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.templatemanager: OP
+ftbutilities.claims.block.interact.capabilityproxy.capability_proxy: OP
+ftbutilities.claims.block.interact.capabilityproxy.entity_capability_proxy: OP
+ftbutilities.claims.block.interact.capabilityproxy.item_capability_proxy: OP
+ftbutilities.claims.block.interact.capabilityproxy.ranged_capability_proxy: OP
 ftbutilities.claims.block.interact.capsule.capsulemarker: OP
 ftbutilities.claims.block.interact.cathedral.basalt_block_carved: OP
 ftbutilities.claims.block.interact.cathedral.basalt_block_checkered: OP
@@ -3020,10 +3053,14 @@ ftbutilities.claims.block.interact.contenttweaker.enhanced_galgadorian_molten: O
 ftbutilities.claims.block.interact.contenttweaker.enrichedexcitedsaplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.etchingacid: OP
 ftbutilities.claims.block.interact.contenttweaker.excitedsaplingslumgullion: OP
+ftbutilities.claims.block.interact.contenttweaker.flint: OP
 ftbutilities.claims.block.interact.contenttweaker.galgadorian_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.guidebook: OP
 ftbutilities.claims.block.interact.contenttweaker.koboldstone: OP
 ftbutilities.claims.block.interact.contenttweaker.liquidchicken: OP
+ftbutilities.claims.block.interact.contenttweaker.log_dry: OP
+ftbutilities.claims.block.interact.contenttweaker.log_rotten: OP
+ftbutilities.claims.block.interact.contenttweaker.loom: OP
 ftbutilities.claims.block.interact.contenttweaker.love: OP
 ftbutilities.claims.block.interact.contenttweaker.o_r&_f_p_m_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.reinforced_metal_molten: OP
@@ -3031,6 +3068,7 @@ ftbutilities.claims.block.interact.contenttweaker.salt: OP
 ftbutilities.claims.block.interact.contenttweaker.salt_block: OP
 ftbutilities.claims.block.interact.contenttweaker.saplingslumgullion: OP
 ftbutilities.claims.block.interact.contenttweaker.soggylime: OP
+ftbutilities.claims.block.interact.contenttweaker.stick: OP
 ftbutilities.claims.block.interact.contenttweaker.sub_block_holder_0: OP
 ftbutilities.claims.block.interact.contenttweaker.titanium_molten: OP
 ftbutilities.claims.block.interact.contenttweaker.tungsten_molten: OP
@@ -3041,26 +3079,11 @@ ftbutilities.claims.block.interact.deepmoblearning.infused_ingot_block: OP
 ftbutilities.claims.block.interact.deepmoblearning.machine_casing: OP
 ftbutilities.claims.block.interact.deepmoblearning.simulation_chamber: OP
 ftbutilities.claims.block.interact.deepmoblearning.trial_keystone: OP
-ftbutilities.claims.block.interact.engineersdecor.clinker_brick_block: OP
-ftbutilities.claims.block.interact.engineersdecor.clinker_brick_stairs: OP
-ftbutilities.claims.block.interact.engineersdecor.clinker_brick_wall: OP
-ftbutilities.claims.block.interact.engineersdecor.concrete_wall: OP
-ftbutilities.claims.block.interact.engineersdecor.iron_inset_light: OP
-ftbutilities.claims.block.interact.engineersdecor.metal_rung_ladder: OP
-ftbutilities.claims.block.interact.engineersdecor.metal_rung_steps: OP
-ftbutilities.claims.block.interact.engineersdecor.rebar_concrete: OP
-ftbutilities.claims.block.interact.engineersdecor.rebar_concrete_stairs: OP
-ftbutilities.claims.block.interact.engineersdecor.rebar_concrete_wall: OP
-ftbutilities.claims.block.interact.engineersdecor.slag_brick_block: OP
-ftbutilities.claims.block.interact.engineersdecor.slag_brick_stairs: OP
-ftbutilities.claims.block.interact.engineersdecor.treated_wood_crafting_table: OP
-ftbutilities.claims.block.interact.engineersdecor.treated_wood_ladder: OP
-ftbutilities.claims.block.interact.engineersdecor.treated_wood_pole: OP
-ftbutilities.claims.block.interact.engineersdecor.treated_wood_stool: OP
-ftbutilities.claims.block.interact.engineersdecor.treated_wood_table: OP
+ftbutilities.claims.block.interact.energeticsheep.energetic_wool: OP
 ftbutilities.claims.block.interact.extrabees.alveary: OP
 ftbutilities.claims.block.interact.extrabees.ectoplasm: OP
 ftbutilities.claims.block.interact.extrabees.hive: OP
+ftbutilities.claims.block.interact.flopper.flopper: OP
 ftbutilities.claims.block.interact.fluidcows.accelerator: OP
 ftbutilities.claims.block.interact.fluidcows.stall: OP
 ftbutilities.claims.block.interact.forestry.alveary.fan: OP
@@ -4184,6 +4207,41 @@ ftbutilities.claims.block.interact.quark.vertical_planks: OP
 ftbutilities.claims.block.interact.quark.vertical_stained_planks: OP
 ftbutilities.claims.block.interact.quark.world_stone_bricks: OP
 ftbutilities.claims.block.interact.quark.world_stone_pavement: OP
+ftbutilities.claims.block.interact.randomportals.black_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.black_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.blue_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.blue_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.brown_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.brown_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.cyan_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.cyan_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.gray_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.gray_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.green_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.green_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.light_blue_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.light_blue_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.lime_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.lime_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.magenta_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.magenta_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.orange_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.orange_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.pink_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.pink_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.purple_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.red_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.red_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.silver_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.silver_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.upside_down_end_portal: OP
+ftbutilities.claims.block.interact.randomportals.upside_down_end_portal_frame: OP
+ftbutilities.claims.block.interact.randomportals.vertical_end_portal: OP
+ftbutilities.claims.block.interact.randomportals.vertical_end_portal_frame: OP
+ftbutilities.claims.block.interact.randomportals.white_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.white_vertical_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.yellow_lateral_nether_portal: OP
+ftbutilities.claims.block.interact.randomportals.yellow_vertical_nether_portal: OP
 ftbutilities.claims.block.interact.realfilingcabinet.manacabinet: OP
 ftbutilities.claims.block.interact.realfilingcabinet.modelcabinet: OP
 ftbutilities.claims.block.interact.roost.breeder: OP
@@ -4751,6 +4809,10 @@ ftbutilities.claims.item.appliedenergistics2.wireless_access_point: ALL
 ftbutilities.claims.item.appliedenergistics2.wireless_terminal: ALL
 ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
+ftbutilities.claims.item.betterbuilderswands.wanddiamond: ALL
+ftbutilities.claims.item.betterbuilderswands.wandiron: ALL
+ftbutilities.claims.item.betterbuilderswands.wandstone: ALL
+ftbutilities.claims.item.betterbuilderswands.wandunbreakable: ALL
 ftbutilities.claims.item.binniecore.cylinder: ALL
 ftbutilities.claims.item.binniecore.field_kit: ALL
 ftbutilities.claims.item.binniecore.genesis: ALL
@@ -5116,6 +5178,10 @@ ftbutilities.claims.item.buildinggadgets.destructiontool: ALL
 ftbutilities.claims.item.buildinggadgets.exchangertool: ALL
 ftbutilities.claims.item.buildinggadgets.template: ALL
 ftbutilities.claims.item.buildinggadgets.templatemanager: ALL
+ftbutilities.claims.item.capabilityproxy.capability_proxy: ALL
+ftbutilities.claims.item.capabilityproxy.entity_capability_proxy: ALL
+ftbutilities.claims.item.capabilityproxy.item_capability_proxy: ALL
+ftbutilities.claims.item.capabilityproxy.ranged_capability_proxy: ALL
 ftbutilities.claims.item.capsule.capsule: ALL
 ftbutilities.claims.item.capsule.capsulemarker: ALL
 ftbutilities.claims.item.cathedral.basalt_block_carved: ALL
@@ -5524,11 +5590,16 @@ ftbutilities.claims.item.compactmachines3.wallbreakable: ALL
 ftbutilities.claims.item.contenttweaker.bowl_snow_chicken: ALL
 ftbutilities.claims.item.contenttweaker.crushedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.eggshells: ALL
+ftbutilities.claims.item.contenttweaker.fabric: ALL
 ftbutilities.claims.item.contenttweaker.firedeggshells: ALL
 ftbutilities.claims.item.contenttweaker.firestarter: ALL
+ftbutilities.claims.item.contenttweaker.flint: ALL
 ftbutilities.claims.item.contenttweaker.golden_egg: ALL
 ftbutilities.claims.item.contenttweaker.guidebook: ALL
 ftbutilities.claims.item.contenttweaker.koboldstone: ALL
+ftbutilities.claims.item.contenttweaker.log_dry: ALL
+ftbutilities.claims.item.contenttweaker.log_rotten: ALL
+ftbutilities.claims.item.contenttweaker.loom: ALL
 ftbutilities.claims.item.contenttweaker.material_part: ALL
 ftbutilities.claims.item.contenttweaker.menril_propolis: ALL
 ftbutilities.claims.item.contenttweaker.mutandis: ALL
@@ -5536,8 +5607,16 @@ ftbutilities.claims.item.contenttweaker.nether_star_shard: ALL
 ftbutilities.claims.item.contenttweaker.salt_block: ALL
 ftbutilities.claims.item.contenttweaker.salt_cube: ALL
 ftbutilities.claims.item.contenttweaker.soggylime: ALL
+ftbutilities.claims.item.contenttweaker.stick: ALL
 ftbutilities.claims.item.contenttweaker.sub_block_holder_0: ALL
 ftbutilities.claims.item.contenttweaker.water_bowl_chicken: ALL
+ftbutilities.claims.item.contenttweaker.yarn: ALL
+ftbutilities.claims.item.contenttweaker.yarn_ender: ALL
+ftbutilities.claims.item.contenttweaker.yarn_feather: ALL
+ftbutilities.claims.item.contenttweaker.yarn_golden: ALL
+ftbutilities.claims.item.contenttweaker.yarn_hemp: ALL
+ftbutilities.claims.item.contenttweaker.yarn_invisibilia: ALL
+ftbutilities.claims.item.contenttweaker.yarn_silk: ALL
 ftbutilities.claims.item.deepmoblearning.creative_model_learner: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blank: ALL
 ftbutilities.claims.item.deepmoblearning.data_model_blaze: ALL
@@ -5597,23 +5676,8 @@ ftbutilities.claims.item.effortlessbuilding.randomizer_bag: ALL
 ftbutilities.claims.item.effortlessbuilding.reach_upgrade1: ALL
 ftbutilities.claims.item.effortlessbuilding.reach_upgrade2: ALL
 ftbutilities.claims.item.effortlessbuilding.reach_upgrade3: ALL
-ftbutilities.claims.item.engineersdecor.clinker_brick_block: ALL
-ftbutilities.claims.item.engineersdecor.clinker_brick_stairs: ALL
-ftbutilities.claims.item.engineersdecor.clinker_brick_wall: ALL
-ftbutilities.claims.item.engineersdecor.concrete_wall: ALL
-ftbutilities.claims.item.engineersdecor.iron_inset_light: ALL
-ftbutilities.claims.item.engineersdecor.metal_rung_ladder: ALL
-ftbutilities.claims.item.engineersdecor.metal_rung_steps: ALL
-ftbutilities.claims.item.engineersdecor.rebar_concrete: ALL
-ftbutilities.claims.item.engineersdecor.rebar_concrete_stairs: ALL
-ftbutilities.claims.item.engineersdecor.rebar_concrete_wall: ALL
-ftbutilities.claims.item.engineersdecor.slag_brick_block: ALL
-ftbutilities.claims.item.engineersdecor.slag_brick_stairs: ALL
-ftbutilities.claims.item.engineersdecor.treated_wood_crafting_table: ALL
-ftbutilities.claims.item.engineersdecor.treated_wood_ladder: ALL
-ftbutilities.claims.item.engineersdecor.treated_wood_pole: ALL
-ftbutilities.claims.item.engineersdecor.treated_wood_stool: ALL
-ftbutilities.claims.item.engineersdecor.treated_wood_table: ALL
+ftbutilities.claims.item.energeticsheep.energetic_shears: ALL
+ftbutilities.claims.item.energeticsheep.energetic_wool: ALL
 ftbutilities.claims.item.extrabees.alveary: ALL
 ftbutilities.claims.item.extrabees.dictionary: ALL
 ftbutilities.claims.item.extrabees.ectoplasm: ALL
@@ -5636,6 +5700,7 @@ ftbutilities.claims.item.flammpfeil.slashblade.slashbladesilverbamboolight: ALL
 ftbutilities.claims.item.flammpfeil.slashblade.slashbladewhite: ALL
 ftbutilities.claims.item.flammpfeil.slashblade.slashbladewood: ALL
 ftbutilities.claims.item.flammpfeil.slashblade.slashbladewrapper: ALL
+ftbutilities.claims.item.flopper.flopper: ALL
 ftbutilities.claims.item.fluidcows.accelerator: ALL
 ftbutilities.claims.item.fluidcows.cow_displayer: ALL
 ftbutilities.claims.item.fluidcows.cow_halter: ALL
@@ -6525,6 +6590,8 @@ ftbutilities.claims.item.minecraft.enchanted_book: ALL
 ftbutilities.claims.item.minecraft.enchanting_table: ALL
 ftbutilities.claims.item.minecraft.end_bricks: ALL
 ftbutilities.claims.item.minecraft.end_crystal: OP
+ftbutilities.claims.item.minecraft.end_gateway: ALL
+ftbutilities.claims.item.minecraft.end_portal: ALL
 ftbutilities.claims.item.minecraft.end_portal_frame: ALL
 ftbutilities.claims.item.minecraft.end_rod: ALL
 ftbutilities.claims.item.minecraft.end_stone: ALL
@@ -6672,6 +6739,7 @@ ftbutilities.claims.item.minecraft.piston: ALL
 ftbutilities.claims.item.minecraft.planks: ALL
 ftbutilities.claims.item.minecraft.poisonous_potato: ALL
 ftbutilities.claims.item.minecraft.porkchop: ALL
+ftbutilities.claims.item.minecraft.portal: ALL
 ftbutilities.claims.item.minecraft.potato: ALL
 ftbutilities.claims.item.minecraft.potion: ALL
 ftbutilities.claims.item.minecraft.prismarine: ALL
@@ -7168,6 +7236,41 @@ ftbutilities.claims.item.quark.vertical_stained_planks: ALL
 ftbutilities.claims.item.quark.witch_hat: ALL
 ftbutilities.claims.item.quark.world_stone_bricks: ALL
 ftbutilities.claims.item.quark.world_stone_pavement: ALL
+ftbutilities.claims.item.randomportals.black_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.black_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.blue_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.blue_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.brown_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.brown_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.cyan_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.cyan_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.gray_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.gray_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.green_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.green_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.light_blue_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.light_blue_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.lime_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.lime_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.magenta_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.magenta_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.orange_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.orange_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.pink_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.pink_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.purple_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.red_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.red_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.silver_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.silver_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.upside_down_end_portal: ALL
+ftbutilities.claims.item.randomportals.upside_down_end_portal_frame: ALL
+ftbutilities.claims.item.randomportals.vertical_end_portal: ALL
+ftbutilities.claims.item.randomportals.vertical_end_portal_frame: ALL
+ftbutilities.claims.item.randomportals.white_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.white_vertical_nether_portal: ALL
+ftbutilities.claims.item.randomportals.yellow_lateral_nether_portal: ALL
+ftbutilities.claims.item.randomportals.yellow_vertical_nether_portal: ALL
 ftbutilities.claims.item.realfilingcabinet.debugger: ALL
 ftbutilities.claims.item.realfilingcabinet.dyedfolder: ALL
 ftbutilities.claims.item.realfilingcabinet.emptydyedfolder: ALL
@@ -8144,6 +8247,7 @@ command.base.base.recipes.reload
 command.baubles.baubles
 command.bdlib.dumpregistry
 command.bdlib.oredistribution
+command.betterbuilderswands.wandoops
 command.blockdata
 command.bnbgaminglib.bnb
 command.botania.botania-open
@@ -8158,6 +8262,7 @@ command.charset.charset
 command.charset.mutter
 command.clear
 command.clone
+command.cmdcam.cam-server
 command.cofhcore.cofh
 command.cofhworld.cofhworld.list
 command.cofhworld.cofhworld.reload
@@ -8165,8 +8270,12 @@ command.cofhworld.cofhworld.version
 command.compactmachines3.compactmachines3
 command.crafttweaker.crafttweaker
 command.crafttweaker.ctgui
+command.creativecore.creative-gui
+command.cyclopscore.capabilityproxy
 command.cyclopscore.commoncapabilities
 command.cyclopscore.cyclopscore
+command.cyclopscore.energeticsheep
+command.cyclopscore.flopper
 command.cyclopscore.integratedcrafting
 command.cyclopscore.integrateddynamics
 command.cyclopscore.integrateddynamicscompat
@@ -8283,6 +8392,8 @@ command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
 command.immersivepetroleum.ip
+command.justenoughdimensions.jed
+command.justenoughdimensions.tpj
 command.kill
 command.locate
 command.me
@@ -8291,13 +8402,13 @@ command.modularmachinery.mm-syntax
 command.morpheus.morpheus
 command.nmsot.nmsot
 command.nutrition.nutrition
-command.oreexcavation.undo_excavation
 command.particle
 command.pewter.pewter
 command.pipemaster.pipemaster
 command.playsound
 command.publish
 command.quark.quarkconfig
+command.randomportals.rporeload
 command.randomtweaks.deletegamerule
 command.randomtweaks.give
 command.randomtweaks.hunger
@@ -8309,7 +8420,7 @@ command.recipe
 command.recipehandler.recipes_server
 command.replaceitem
 command.rpreload
-command.sampler.sampler
+command.sampler
 command.say
 command.scavenge.scavenge
 command.scoreboard
@@ -8333,6 +8444,7 @@ command.title
 command.toggledownfall
 command.topaddons.tophelmet
 command.tp
+command.tps
 command.trigger
 command.voidislandcontrol.island
 command.voidislandcontrol.islandadmin

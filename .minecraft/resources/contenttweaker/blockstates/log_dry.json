@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal":	{ "model": "contenttweaker:log_dry" },
+		"inventory":	{ "model": "contenttweaker:log_dry" }
+	}
+}

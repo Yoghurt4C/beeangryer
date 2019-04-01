@@ -1,0 +1,54 @@
+{
+    "name": "Precision Seeds",
+    "icon": "uniquecrops:seedprecision",
+    "category": "uniquecrops",
+	"sortnum":2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These bright sparkers are quite precise! So precise, that there is only a small window where they can be successfully harvested to drop anything useful. Take cues from the growth visuals."
+        },
+		{
+			"type":"multiblock",
+			"name":"Precision Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropprecision[age=6]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:quartz",
+			"corner":"uniquecrops:seedcollis",
+			"edge":"uniquecrops:seedinvisibilia",
+			"output":"uniquecrops:seedprecision"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:7",
+			"link_recipe":true,
+			"text":"Dropped from Precision crops. Used to craft Precision Gems."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_8",
+			"text":"Crafted from Precision Nuggets, they are used to craft the Precision tools and swords." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:precisionpick",
+			"text":"Ultimately the real yield from the Precision crops, they are essentially diamond-tier tools. They will automatically have Silk Touch on them once crafted, with the sword getting a Looting I enchant. $(t:+10 Precision Axe: This will apply beheading capabilities to the Axe. +10 Precision Pickaxe: Will let one be able to pick up silverfish blocks and mob spawners. +10 Precision Shovel: Will apply anti-gravity effects to all sand and gravel near to the digger, causing them to not fall at all. +10 Precision Sword: Will ignore mercy invincibility of any mob that it is hit with.)$(9)Hover over this text for more info/$." 
+		}
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_dragon",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_dragon",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dragon_breath",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "quark:enderdragon_scale",
+            "amount": 2,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:chorus_fruit",
+            "amount": 16,
+			"chance":0.05
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "quark:biotite",
+            "amount": 32,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "forestry:beehives@4",
+            "amount": 3,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@895",
+            "amount": 3,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:skull@5",
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:endermite"}, "display":{"Name": "Pest Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

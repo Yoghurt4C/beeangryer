@@ -1,0 +1,49 @@
+{
+    "name": "Feroxia Spores",
+    "icon": "uniquecrops:seedferoxia",
+    "category": "uniquecrops",
+	"sortnum":28,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Much like breaking in wild horses, these savage plants all have different ways of being grown. Once planted or harvested manually, you'll have to use the ''Guide to Unique Crops'' to keep track of their demands for each stage of crop growth. These crops seem to be locked to the players who planted them, so one may have to be ingame in order for them to grow."
+        },
+		{
+			"type":"multiblock",
+			"name":"Feroxia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropferoxia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:clay_ball",
+			"corner":"uniquecrops:seedknowledge",
+			"edge":"uniquecrops:seedweepingbells",
+			"output":"uniquecrops:seedferoxia"
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_0",
+			"text":"You'll need it to actually grow a Feroxia!$(br2)Tip: If your Feroxia crop demands lily pads around it, but it has to be grown in the nether, you can use Lava Lilies from Unique Crops and lava." 
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:9",
+			"link_recipe":true,
+			"text":"Dropped from Feroxia crops. Used to craft 16 different things, as allowed by dyes."
+		}
+    ]
+}

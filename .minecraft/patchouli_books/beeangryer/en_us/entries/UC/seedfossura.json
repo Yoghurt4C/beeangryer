@@ -1,0 +1,38 @@
+{
+    "name": "Fossura Seeds",
+    "icon": "uniquecrops:seedquarry",
+    "category": "uniquecrops",
+	"sortnum":25,
+    "pages": [
+        {
+            "type": "text",
+            "text": "One must mine this hard crop a few times to get it to grow. Once it is grown, it will start to mine out the chunk it is in, starting at the level it is planted on. If there is no chest above it to collect the mined blocks, it will spawn one of the blocks above it and wait until it is air."
+        },
+		{
+			"type":"multiblock",
+			"name":"Fossura Crop",
+			"enable_visualize":false,
+			"text":"This crop requires wheat crops to be planted around it, so it can then steal their attempts to grow for mining.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropquarry[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:diamond_pickaxe",
+			"corner":"uniquecrops:seedpetramia",
+			"edge":"uniquecrops:seedhexis",
+			"output":"uniquecrops:seedquarry"
+		}
+    ]
+}

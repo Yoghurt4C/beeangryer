@@ -1,0 +1,38 @@
+{
+    "name": "Lacusia Seeds",
+    "icon": "uniquecrops:seedlacusia",
+    "category": "uniquecrops",
+	"sortnum":23,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lacusia crops will transport items from A to B along a flat surface. When a crop next to an inventory is given an RS signal, it will extract any items from that inventory and transport them until it finds a valid inventory. Upon reaching a junction, it will loop through S-W-N-E directions for the first valid crop/inventory to insert into, and will reverse the direction to search in when given an RS signal."
+        },
+		{
+			"type":"multiblock",
+			"name":"Lacusia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:croplacusia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:hopper",
+			"corner":"uniquecrops:seednormal",
+			"edge":"minecraft:redstone",
+			"output":"uniquecrops:seedlacusia"
+		}
+    ]
+}

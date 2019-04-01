@@ -1,0 +1,9 @@
+setIcon(<fluidcows:cow_displayer, nbt:{fluid:"bronze"}>)
+setTitle("Bronze Cow")
+setDescription("See Guidebook for more information.")
+
+addParent("triumph:cows/copper_cow")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<fluidcows:cow_displayer, nbt:{fluid:"bronze"}>)

@@ -6,4 +6,4 @@ addParent("triumph:beeangryer/wheat")
 setRequirements("any")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:wheat>)
+criteria.addItem(<contenttweaker:firestarter>)

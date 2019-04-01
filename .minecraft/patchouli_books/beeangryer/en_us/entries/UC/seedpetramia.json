@@ -1,0 +1,44 @@
+{
+    "name": "Petramia Shoot",
+    "icon": "uniquecrops:seedpetramia",
+    "category": "uniquecrops",
+	"sortnum":21,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Very bedrocky crops, these can only be planted and grown at below 10y. Once fully grown, they will gradually transform all Obsidian around and below them into Dark Blocks, which can be picked up by shift-rightclicking them with an $(l:uc/seedenderlily#endersnooker)Ender Snooker/$. The dark blocks have potential use for recipes, and are also very good witherproof blocks."
+        },
+		{
+			"type":"multiblock",
+			"name":"Petramia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:croppetramia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedcobblonia",
+			"corner":"minecraft:obsidian",
+			"edge":"minecraft:cobblestone",
+			"output":"uniquecrops:seedpetramia"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:darkblock",
+			"link_recipe":true,
+			"text":"Wither-proof blocks that are also used as a crafting ingredient for Emblems. They are otherwise unbreakable once placed, the only way to pick them up again is to shift-click one with an $(l:uc/seedenderlily#endersnooker)Ender Snooker/$."
+		}
+    ]
+}

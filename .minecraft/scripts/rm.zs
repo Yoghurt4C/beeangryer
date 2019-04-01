@@ -104,7 +104,8 @@ val rmSpecArray=[
 <modularmachinery:blockinputbus:1>,
 <modularmachinery:blockoutputbus:1>,
 <modularmachinery:blockfluidinputhatch:0>,
-<modularmachinery:blockfluidoutputhatch:0>
+<modularmachinery:blockfluidoutputhatch:0>,
+<uniquecrops:generic:12>
 ] as IItemStack[];
 for item in rmSpecArray {recipes.remove(item);}
 val scrapbox=[
@@ -219,7 +220,17 @@ val rmIDArray=[
 "forestry:wood_pile",
 "botania:felpumpkin",
 "uniquecrops:ender_pearl",
-"appliedenergistics2:network/blocks/inscribers"
+"appliedenergistics2:network/blocks/inscribers",
+"flopper:flopper",
+"minecraft:string_to_wool",
+"hatchery:fiberpad_recipe",
+"hatchery:string_recipe",
+"hatchery:wool_recipe",
+"forestry:silk_to_string",
+"immersiveengineering:material/string",
+"immersiveengineering:material/hemp_fabric",
+"tconstruct:tools/materials/silky_cloth",
+"minecraft:bone_meal_from_block"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}
@@ -280,3 +291,4 @@ val mobStringArray as string[]=[
 ];
 for entry in mobStringArray{
 mods.jei.JEI.hide(<minecraft:spawn_egg>.withTag({EntityTag: {id: entry}}));}
+for portal in loadedMods["randomportals"].items{mods.jei.JEI.hide(portal);}

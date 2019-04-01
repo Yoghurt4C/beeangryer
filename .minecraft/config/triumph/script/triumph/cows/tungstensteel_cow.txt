@@ -1,0 +1,9 @@
+setIcon(<fluidcows:cow_displayer, nbt:{fluid:"tungstensteel"}>)
+setTitle("Tungsten Cow")
+setDescription("See Guidebook for more information.")
+
+addParent("triumph:cows/tungsten_cow")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<fluidcows:cow_displayer, nbt:{fluid:"tungstensteel"}>)

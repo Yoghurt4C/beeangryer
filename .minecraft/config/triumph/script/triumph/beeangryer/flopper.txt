@@ -1,0 +1,9 @@
+setIcon(<flopper:flopper>)
+setTitle("Flip Flap")
+setDescription("A hopper... for fluids! This thing can be used to funnel liquids in and out of cauldrons. Especially useful in crafting Chicken Stock using the Cauldron.")
+
+addParent("triumph:beeangryer/soggylime")
+setRequirements("all")
+
+criteria = addCriteria("Flopper Crafted", "minecraft:inventory_changed")
+criteria.addItem(<flopper:flopper>)

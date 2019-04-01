@@ -1,0 +1,11 @@
+setIcon(<contenttweaker:log_rotten>)
+setTitle("Otherside")
+setDescription("(OPTIONAL) Let the humming of a strange portal beckon you into another dimension. Now you're stuck there. Good luck!")
+
+addParent("triumph:beeangryer/root")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_76", "minecraft:location")
+criteria.setDimID(76)
+addRewardItem(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:beeangryer"}>)

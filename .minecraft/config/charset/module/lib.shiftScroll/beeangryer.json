@@ -1,0 +1,9 @@
+[
+  {
+    "items": [
+      "minecraft:end_portal_frame",
+  	  "randomportals:vertical_end_portal_frame",
+   	  "randomportals:upside_down_end_portal_frame"
+	]
+  }
+]

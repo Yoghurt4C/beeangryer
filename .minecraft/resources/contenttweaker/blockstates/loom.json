@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal":	{ "model": "contenttweaker:loom" },
+		"inventory":	{ "model": "contenttweaker:loom" }
+	}
+}

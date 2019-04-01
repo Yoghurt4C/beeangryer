@@ -157,6 +157,15 @@
 		"forestry:bee_house@4",
 		"forestry:bee_house@5"
 	],
+	"loot_bus":[
+		"modularmachinery:blockinputbus@3",
+		"modularmachinery:blockinputbus@5",
+		"modularmachinery:blockinputbus@6",
+		"modularmachinery:blockoutputbus@3",
+		"modularmachinery:blockoutputbus@5",
+		"modularmachinery:blockoutputbus@6",
+		"modularmachinery:blockcasing@4"
+	],
 	"greenpurple_businput":[
 		"modularmachinery:blockinputbus@5",
 		"modularmachinery:blockinputbus@6",

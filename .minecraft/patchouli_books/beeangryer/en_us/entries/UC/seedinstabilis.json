@@ -1,0 +1,38 @@
+{
+    "name": "Instabilis Seeds",
+    "icon": "uniquecrops:seedinstabilis",
+    "category": "uniquecrops",
+	"sortnum":26,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The metastable crops exist in a state where delicate harvesting is needed to handle them. Bring shears, lest you yield nothing when the whole crops break. They need to be surrounded by each other in order to grow."
+        },
+		{
+			"type":"multiblock",
+			"name":"Instabilis Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropinstabilis[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"uniquecrops:seedprecision",
+			"corner":"minecraft:tnt",
+			"edge":"minecraft:redstone",
+			"output":"uniquecrops:seedinstabilis"
+		}
+    ]
+}

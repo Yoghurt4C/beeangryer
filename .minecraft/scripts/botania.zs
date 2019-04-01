@@ -67,9 +67,9 @@ Apothecary.addRecipe("marimorphosis",[
 	<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalGreen>,<ore:petalRed>,<ore:petalRed>,<botania:manaresource:6>]);
 	Lexicon.removePage("botania.entry.marimorphosis", 2);
 	Lexicon.addPetalPage("Now with 100% less runes", "botania.entry.marimorphosis", 2, [<botania:specialflower>.withTag({type: "marimorphosis"})],[[<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalGreen>,<ore:petalRed>,<ore:petalRed>,<botania:manaresource:6>]]);
-Apothecary.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}),
+Apothecary.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"},display:{Name: "Bovine Egg"}}),
  [<ore:petalBrown>,<ore:petalBrown>,<ore:petalBrown>,<ore:petalGray>,<ore:petalGray>,<ore:petalGray>,<minecraft:leather>,<minecraft:leather>,<minecraft:leather>,<contenttweaker:crushedeggshells>,<contenttweaker:crushedeggshells>,<contenttweaker:crushedeggshells>,<ore:egg>]);
-Apothecary.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"}}),
+Apothecary.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"},display:{Name: "Wooly Egg"}}),
  [<ore:petalLightGray>,<ore:petalLightGray>,<ore:petalLightGray>,<ore:petalPink>,<ore:petalPink>,<ore:petalPink>,<minecraft:wool:*>,<minecraft:wool:*>,<minecraft:wool:*>,<contenttweaker:crushedeggshells>,<contenttweaker:crushedeggshells>,<contenttweaker:crushedeggshells>,<ore:egg>]);
 
 ManaInfusion.removeRecipe(<minecraft:stone:5>);
@@ -94,7 +94,7 @@ RuneAltar.addRecipe(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker
 <botania:manaresource:8>
 ],32500);
 //aminals
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:bat"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:bat"},display:{Name: "Batty Egg"}}),[
 <ore:petalBlack>,
 <ore:petalBlack>,
 <ore:petalBlack>,
@@ -109,7 +109,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ba
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:chicken"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:chicken"},display:{Name: "Emergency Chicken Deployer"}}),[
 <ore:petalWhite>,
 <ore:petalWhite>,
 <ore:petalWhite>,
@@ -121,7 +121,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ch
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:donkey"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:donkey"},display:{Name: "Asinine Egg"}}),[
 <ore:petalBrown>,
 <ore:petalBrown>,
 <ore:petalBrown>,
@@ -136,22 +136,22 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:do
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:endermite"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:endermite"},display:{Name: "Pest Egg"}}),[
 <ore:petalBlack>,
 <ore:petalBlack>,
 <ore:petalBlack>,
 <ore:petalGray>,
 <ore:petalGray>,
 <ore:petalGray>,
-<uniquecrops:generic:5>,
+<contenttweaker:yarn_ender>,
 <minecraft:ender_eye>,
-<uniquecrops:generic:5>,
+<contenttweaker:yarn_ender>,
 <contenttweaker:crushedeggshells>,
 <contenttweaker:crushedeggshells>,
 <contenttweaker:crushedeggshells>,
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:silverfish"}})
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:horse"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:horse"},display:{Name: "Equine Egg"}}),[
 <ore:petalYellow>,
 <ore:petalYellow>,
 <ore:petalYellow>,
@@ -166,7 +166,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ho
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:llama"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:llama"},display:{Name: "Drool-Covered Egg"}}),[
 <ore:petalYellow>,
 <ore:petalYellow>,
 <ore:petalYellow>,
@@ -181,7 +181,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ll
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mooshroom"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mooshroom"},display:{Name: "Fungal Bovine Egg"}}),[
 <ore:petalRed>,
 <ore:petalRed>,
 <ore:petalRed>,
@@ -196,7 +196,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mo
 <contenttweaker:crushedeggshells>,
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}})
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mule"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mule"},display:{Name: "Hardy Egg"}}),[
 <ore:petalBrown>,
 <ore:petalBrown>,
 <ore:petalBrown>,
@@ -211,16 +211,16 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:mu
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ocelot"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ocelot"},display:{Name: "Feline Egg"}}),[
 <ore:petalYellow>,
 <ore:petalYellow>,
 <ore:petalYellow>,
 <ore:petalBlack>,
 <ore:petalBlack>,
 <ore:petalBlack>,
-<ore:string>,
+<ore:yarn>,
 <ore:fish>,
-<ore:string>,
+<ore:yarn>,
 <contenttweaker:crushedeggshells>,
 <contenttweaker:crushedeggshells>,
 <contenttweaker:crushedeggshells>,
@@ -281,7 +281,7 @@ RuneAltar.addRecipe(<quark:parrot_egg:4>,[
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pig"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pig"},display:{Name: "Hoggy Egg"}}),[
 <ore:petalPink>,
 <ore:petalPink>,
 <ore:petalPink>,
@@ -296,10 +296,10 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pi
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:polar_bear"}}),[
-<uniquecrops:generic:11>,
-<uniquecrops:generic:11>,
-<uniquecrops:generic:11>,
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:polar_bear"},display:{Name: "Ursine Egg"}}),[
+<contenttweaker:yarn_invisibilia>,
+<contenttweaker:yarn_invisibilia>,
+<contenttweaker:yarn_invisibilia>,
 <ore:petalLightGray>,
 <ore:petalLightGray>,
 <ore:petalLightGray>,
@@ -311,7 +311,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:po
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:rabbit"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:rabbit"},display:{Name: "Leporine Egg"}}),[
 <ore:petalOrange>,
 <ore:petalOrange>,
 <ore:petalOrange>,
@@ -326,7 +326,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:ra
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:silverfish"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:silverfish"},display:{Name: "Skittish Egg"}}),[
 <ore:petalLightGray>,
 <ore:petalLightGray>,
 <ore:petalLightGray>,
@@ -341,7 +341,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:si
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:squid"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:squid"},display:{Name: "Cephalopod Egg"}}),[
 <ore:petalCyan>,
 <ore:petalCyan>,
 <ore:petalCyan>,
@@ -356,13 +356,13 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sq
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"},display:{Name: "Nosy Egg"}}),[
 <ore:petalBrown>,
 <ore:petalBrown>,
 <ore:petalBrown>,
+<ore:fabric>,
 <minecraft:emerald>,
-<minecraft:emerald>,
-<minecraft:emerald>,
+<ore:fabric>,
 <ore:cropWheat>,
 <ore:cropCarrot>,
 <ore:cropPotato>,
@@ -371,7 +371,7 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:vi
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:wolf"}}),[
+RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:wolf"},display:{Name: "Canine Egg"}}),[
 <ore:petalWhite>,
 <ore:petalWhite>,
 <ore:petalWhite>,
@@ -386,7 +386,29 @@ RuneAltar.addRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:wo
 <contenttweaker:crushedeggshells>,
 <ore:egg>
 ],6250);
-
+val mobEggs as string[string]={
+"minecraft:cow":"Bovine Egg",
+"minecraft:sheep":"Wooly Egg",
+"minecraft:bat":"Batty Egg",
+"minecraft:chicken":"Emergency Chicken Deployer",
+"minecraft:donkey":"Asinine Egg",
+"minecraft:endermite":"Pest Egg",
+"minecraft:horse":"Equine Egg",
+"minecraft:llama":"Drool-Covered Egg",
+"minecraft:mooshroom":"Fungal Bovine Egg",
+"minecraft:mule":"Hardy Egg",
+"minecraft:ocelot":"Feline Egg",
+"minecraft:pig":"Hoggy Egg",
+"minecraft:polar_bear":"Ursine Egg",
+"minecraft:rabbit":"Leporine Egg",
+"minecraft:silverfish":"Skittish Egg",
+"minecraft:squid":"Cephalopod Egg",
+"minecraft:villager":"Nosy Egg",
+"minecraft:wolf":"Canine Egg",
+};
+for mob, mobname in mobEggs{
+mods.jei.JEI.addItem(<minecraft:spawn_egg>.withTag({EntityTag: {id: mob},display:{Name: mobname}}));
+}
 PureDaisy.removeRecipe(<botania:livingwood>);
 PureDaisy.removeRecipe(<botania:livingrock>);
 PureDaisy.removeRecipe(<minecraft:cobblestone>);
@@ -422,3 +444,5 @@ for ore in orechidRm{Orechid.removeOre(ore);}
 mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);
 mods.botania.OrechidIgnem.removeOre(<ore:oreArdite>);
 mods.botania.OrechidIgnem.removeOre(<ore:oreCobalt>);
+
+game.setLocalization("item.botania:redString.name","Ball of Red String Yarn");

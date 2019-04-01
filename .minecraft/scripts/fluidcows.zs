@@ -42,7 +42,7 @@ val fluidCowTagArray as string[]=[
 for tag in fluidCowTagArray{
 	recipes.addShapeless(<fluidcows:cow_displayer>.withTag({fluid: tag}),
 	[<fluidcows:cow_halter>.withTag({t_fluid: tag}).giveBack(<fluidcows:cow_halter>),
-	<tconstruct:piggybackpack>]);}
+	<tconstruct:piggybackpack>.transformDamage(1)]);}
 	
 recipes.addShaped("cow_halter",<fluidcows:cow_halter>,[
 [null,<hatchery:plastic>,<minecraft:wheat>],

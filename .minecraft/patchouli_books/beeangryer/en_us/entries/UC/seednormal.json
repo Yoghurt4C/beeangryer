@@ -1,0 +1,30 @@
+{
+    "name": "Normie Seeds",
+    "icon": "uniquecrops:seednormal",
+    "category": "uniquecrops",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Normalish crops. They can be grown like any other vanilla crops. Aside from being one of the ingredients used to craft this book, there is nothing special about them. Randomly drops vanilla crop produce when harvested."
+        },
+		{
+			"type":"multiblock",
+			"name":"Normie Crop",
+			"enable_visualize":false,
+			"text":"Break tallgrass to obtain some of these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropnormal[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		}
+    ]
+}

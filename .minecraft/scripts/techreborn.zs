@@ -201,7 +201,7 @@ blastFurnace.addRecipe(
 <fluidcows:cow_displayer>.withTag({fluid: "chrome"}),
 null,
 <fluidcows:cow_displayer>.withTag({fluid: "titanium"}),
-<ore:dyePink>*16,
+<ore:dyePink>.firstItem*16,
 4420, 120,1700);
 blastFurnace.addRecipe(
 <fluidcows:cow_displayer>.withTag({fluid: "tungsten"}),

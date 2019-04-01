@@ -1,0 +1,54 @@
+{
+    "name": "Succo Seeds",
+    "icon": "uniquecrops:seedsucco",
+    "category": "uniquecrops",
+	"sortnum":27,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These crops suck, but that doesn't mean they are useless. By setting up a mirror that faces a farmland plot, one can plant/harvest vampire crops by clicking on the Mirror. They will only reveal themselves through the Mirror's reflection, and will only grow during a new moon."
+        },
+		{
+			"type":"multiblock",
+			"name":"Succo Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropsucco[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:potion{Potion:'minecraft:healing'}",
+			"corner":"minecraft:ghast_tear",
+			"edge":"uniquecrops:seedinvisibilia",
+			"output":"uniquecrops:seedsucco"
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:mirror",
+			"text":"A curious mirror. One that shows the world and everything in it, except the player. Perhaps this mirror can be used to reveal the true appearance of a certain vampiric crop?" 
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:vampiric_ointment",
+			"link_recipe":true,
+			"text":"A drop from the Succo crops. Rightclicking any non-player and non-boss mob with it will bind them to it. The bound item can then be added to a goblet, so that any damage you take will be redirected to that mob. The goblet will empty itself when the mob dies, or the block is broken."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:goblet",
+			"text":"Every dabbling vampire needs a goblet to drink their blood from, and this goblet is no different. Either clicking or throwing a (tagged) Vampiric Ointment at the cup will fill it up with blood." 
+		}
+    ]
+}

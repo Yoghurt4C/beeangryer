@@ -1,0 +1,49 @@
+{
+    "name": "Collis Seeds",
+    "icon": "uniquecrops:seedcollis",
+    "category": "uniquecrops",
+	"sortnum":7,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These crops likes being planted in high places, usually on mountains. Also, the higher up they're planted, the faster they can grow when receiving growth ticks.$(br2)Can only be planted at y=100 and higher."
+        },
+		{
+			"type":"multiblock",
+			"name":"Collis Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropcollis[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:sugar",
+			"corner":"uniquecrops:seednormal",
+			"edge":"uniquecrops:seedcinderbella",
+			"output":"uniquecrops:seedcollis"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:6",
+			"link_recipe":true,
+			"text":"Dropped from Goldenrods/Collis crops. Used to craft Golden Bread."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:genericfood.goldenbread",
+			"text":"Consuming this bread restores about the same amount of saturation and hunger as regular bread, but also applies the Luck effect for some time." 
+		}
+    ]
+}

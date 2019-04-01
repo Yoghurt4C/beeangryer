@@ -1,0 +1,53 @@
+{
+    "name": "Artisia Seeds",
+    "icon": "uniquecrops:seedartisia",
+    "category": "uniquecrops",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These plants are pretty crafty! They're the next step you need to get to in order to craft the other seeds. You'll need 9 of them in a 3x3 square, with the center one being grown last. After that, it is just a matter of dropping the desired ingredients on top of the center plant, upon which it will automatically try crafting the output once all 9 plants have the ingredients."
+        },
+		{
+			"type":"multiblock",
+			"name":"Artisia Crop",
+			"enable_visualize":false,
+			"text":"Technically a multiblock!<br>Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropartisia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:seedartisia",
+			"text":"Crafted in any Crafting Table." 
+		},
+		{
+			"type":"multiblock",
+			"name":"Artisia Crop Crafting",
+			"enable_visualize":false,
+			"text":"This is what the ''crafting-ready'' Artisia crops should look like.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropartisia[age=7]",
+				"C":"uniquecrops:cropartisia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["CCC","C0C","CCC"],
+					["FFF","FFF","FFF"]
+				],
+				"symmetrical":false
+			}
+		}
+    ]
+}

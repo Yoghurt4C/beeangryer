@@ -114,7 +114,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:lea
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:rottenchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:saltchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:brownchicken", Gain: 1, Strength: 1}),
-	<hatchery:fiber_pad>*2],
+	<ore:plateFabric>*2],
 	true);
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:soulsandchicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
@@ -149,7 +149,7 @@ FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:end
 	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:emeraldchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:fluixchicken", Gain: 1, Strength: 1}),
 	<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:snowballchicken", Gain: 1, Strength: 1}),
-	<uniquecrops:generic:5>*16],
+	<contenttweaker:yarn_ender>*6],
 	true);
 FluidToItem.transform(<roost:chicken>.withTag({Growth: 1, Chicken: "chickens:ghastchicken", Gain: 1, Strength: 1}), 
 	<liquid:chickenstock>,[
@@ -396,7 +396,7 @@ FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "copper"}),
 	<minecraft:clay_ball>*16,
 	<minecraft:snowball>*16,
 	<ore:dyeOrange>*16,
-	<ore:dyePink>*16],
+	stockCow],
 	true);
 FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "nickel"}), 
 	<liquid:chocolatemilk>,[
@@ -520,7 +520,7 @@ FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "galgadorian"}),
 FluidToItem.transform(<fluidcows:cow_displayer>.withTag({fluid: "enhanced_galgadorian"}), 
 	<liquid:chocolatemilk>,[
 	<fluidcows:cow_displayer>.withTag({fluid: "galgadorian"}),
-	<fluidcows:cow_displayer>.withTag({fluid: "reinforcedmetal"}),
+	<fluidcows:cow_displayer>.withTag({fluid: "reinforced_metal"}),
 	<tconstruct:edible:3>*16,
 	<stevescarts:modulecomponents:45>*4],
 	true);
@@ -566,7 +566,7 @@ FluidToItem.transform(<capsule:capsule:5>.withTag({color: 11633073, size: 13, is
 	[<minecraft:obsidian>*288,
 	<minecraft:purpur_block>*31,
 	<modularmachinery:blockcontroller>,
-	<uniquecrops:generic:5>*6], 
+	<contenttweaker:yarn_ender>*6], 
 	true);
 	mods.jei.JEI.addItem(<capsule:capsule:5>.withTag({color: 11633073, size: 13, isReward: 1 as byte, oneUse: 1 as byte, structureName: "minecraft:config/capsule/rewards/the tenebrous egg", author: "§kdoot", display: {color: 1446175, Lore:["Facing North"]}, label: "The Tenebrous Egg"}));
 //eggshells

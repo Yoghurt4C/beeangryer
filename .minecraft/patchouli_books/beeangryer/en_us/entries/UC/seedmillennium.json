@@ -1,0 +1,54 @@
+{
+    "name": "Millennium Seeds",
+    "icon": "uniquecrops:seedmillennium",
+    "category": "uniquecrops",
+	"sortnum":5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This crop takes a very long time to grow; quite literally a millennia! I'm not even sure what they'll drop. Growth accelerators from other mods are a must."
+        },
+		{
+			"type":"multiblock",
+			"name":"Millennium Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropmillennium[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:clock",
+			"corner":"minecraft:pumpkin_seeds",
+			"edge":"uniquecrops:seedmerlinia",
+			"output":"uniquecrops:seedmillennium"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:17",
+			"link_recipe":true,
+			"text":"Dropped from Millennium crops. Can be used to craft either the Totem of Sneaky Mobs or the Egg Upgrade. Necessary in obtaining the Acceleration Wand."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:totemhead",
+			"text":"When placed, it will then randomly grant invisibility to all mobs near to the totem. Once the potion effect is applied, it will keep applying the effect as long as the mobs are near the totem." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:uniquecrops-generic_19-modified",
+			"text":"You can rightclick an adult chicken with this to give them an ''egg upgrade'', consuming the item. Chickens upgraded this way will lay eggs much faster. Killing a upgraded chicken will drop the Egg Upgrade." 
+		}
+    ]
+}

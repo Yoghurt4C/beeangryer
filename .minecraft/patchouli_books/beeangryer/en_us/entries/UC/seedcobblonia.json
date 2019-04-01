@@ -1,0 +1,40 @@
+{
+    "name": "Cobblonia Seeds",
+    "icon": "uniquecrops:seedcobblonia",
+    "category": "uniquecrops",
+	"sortnum":15,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hardy plants! They may look a little rocky, but they can prove to be quite useful in some circumstances. Once fully grown, you may have water on one side of the soil it is on and lava on the opposite side for free cobble being given out at random."
+        },
+		{
+			"type":"multiblock",
+			"name":"Cobblonia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropcobblonia[age=7]",
+				"F":"minecraft:farmland",
+				"W":"minecraft:water",
+				"L":"minecraft:lava"
+				},
+				"pattern":[
+					["_","0","_"],
+					["W","F","L"],
+					["_","_","_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:cobblestone",
+			"corner":"minecraft:stonebrick",
+			"edge":"uniquecrops:seednormal",
+			"output":"uniquecrops:seedcobblonia"
+		}
+    ]
+}

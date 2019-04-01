@@ -46,10 +46,6 @@
 							"type": "crude_oil_gravel"
 						},
 						"weight": 80
-					},
-					{
-						"name": "minecraft:coal_ore",
-						"weight": 20
 					}
 				],
 				"material": [

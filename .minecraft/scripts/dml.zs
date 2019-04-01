@@ -2,6 +2,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+<deepmoblearning:extraction_chamber>.addTooltip(format.red(format.bold("Dysfunctional!")));
+<deepmoblearning:extraction_chamber>.addTooltip(format.aqua(format.italic("Also part of a multiblock.")));
+mods.jei.JEI.addDescription(<deepmoblearning:extraction_chamber>,"Doesn't do anything on its own, but used as part of the Improved™ Loot Fabricator multiblock.");
+
 var TEDust=<thermalfoundation:material:1025>|<thermalfoundation:material:1026>|<thermalfoundation:material:1027>;
 
 val dataModelArray as IItemStack[IIngredient]={

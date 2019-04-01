@@ -1,0 +1,54 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_creeper",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_creeper",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:gunpowder",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:skull@4",
+            "amount": 3,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@25",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@24",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:creeper"}, "display":{"Name": "Creeping Egg"}},
+            "amount": 1,
+			"chance":0.15
+        }
+    ]
+}

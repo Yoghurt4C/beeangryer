@@ -1,0 +1,72 @@
+{
+    "name": "Invisibilia Seeds",
+    "icon": "uniquecrops:seedinvisibilia",
+    "category": "uniquecrops",
+	"sortnum":8,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Once planted, these sneaky crops will be completely invisible to anyone that doesn't happen to be wearing a certain kind of eyewear. They can be harvested normally once you can see them."
+        },
+		{
+			"type":"multiblock",
+			"name":"Invisibilia Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropinvisibilia[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:sugar",
+			"corner":"minecraft:glass",
+			"edge":"uniquecrops:seedcinderbella",
+			"output":"uniquecrops:seedinvisibilia"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:11",
+			"link_recipe":true,
+			"text":"Dropped from Invisibilia crops. Can be woven into Balls of Invisibilia Yarn."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:invisibilia_to_yarn",
+			"text":"Used to create Invisibilia Feathers." 
+		},
+		{
+			"header":"Invisibilia Feather",
+			"type":"use_on_block",
+			"input1":"contenttweaker:yarn_invisibilia#6",
+			"input2":"contenttweaker:loom",
+			"output":"uniquecrops:generic:12",
+			"text":"Crafted by using a Loom while holding at least six Balls of Invisibilia Yarn in your hand. These feathers are used to craft Upgrade Books, or the Comfy Poncho." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:uniquecrops-invisiglass-modified",
+			"text":"This glass is completely invisible to those without special eyewear. It's so convincing that you can't even interact with it, even though you know it's there! Or do you?" 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:uniquecrops-thunderpants-modified",
+			"text":"A pair of thundering pants. If one shuffles around on carpet while wearing them, they will slowly build up static electricity that will discharge if they get hit by melee damage." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:poncho",
+			"text":"Poncho that doesn't have much in the way of durability or protection, but is light enough to allow one to fall at the same speed as chickens, and therefore glide. Most mobs ignore the wearer when upgraded +10." 
+		}
+    ]
+}

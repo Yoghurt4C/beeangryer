@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal":	{ "model": "contenttweaker:log_rotten" },
+		"inventory":	{ "model": "contenttweaker:log_rotten" }
+	}
+}

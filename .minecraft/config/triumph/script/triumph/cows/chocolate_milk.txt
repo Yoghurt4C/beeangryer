@@ -1,0 +1,11 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"chocolatemilk",Amount:1000}>)
+setTitle("Down The Drain")
+setDescription("Prepare Chocolate Milk and place it in the world using any bucket. See Guidebook for a recipe.")
+
+addParent("triumph:cows/cow_halter")
+setRequirements("any")
+
+criteria = addCriteria("Iron Bucket filled with Chocolate Milk", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"chocolatemilk",Amount:1000}>)
+criteria = addCriteria("Clay Bucket filled with Chocolate Milk", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket, meta:0, count:1, nbt:{fluids:{FluidName:"chocolatemilk",Amount:1000}}>)

@@ -23,6 +23,13 @@ recipes.addShaped("brimstone",<quark:biome_cobblestone>*8,[
 recipes.addShaped("permafrost",<quark:biome_cobblestone:1>*8,[
 [<ore:cobblestone>,<forestry:pollen:1>],
 [<forestry:pollen:1>,<ore:cobblestone>]]);
+recipes.addShaped("smoker",<quark:smoker>,[
+[null,<simplyjetpacks:metaitem:2>,null],
+[<ore:dustRedstone>,<ore:netherrack>,<ore:dustRedstone>]]);
+
+recipes.addShapeless("vertical_end_portal_frame",<randomportals:vertical_end_portal_frame>,[<minecraft:end_portal_frame>]);
+recipes.addShapeless("upside_down_end_portal_frame",<randomportals:upside_down_end_portal_frame>,[<randomportals:vertical_end_portal_frame>]);
+recipes.addShapeless("lateral_end_portal_frame",<minecraft:end_portal_frame>,[<randomportals:upside_down_end_portal_frame>]);
 
 recipes.addShaped("ash_brick",<forestry:ash_brick>*3,[
 [<ore:dustAsh>,<ore:dustClay>,<ore:dustAsh>],

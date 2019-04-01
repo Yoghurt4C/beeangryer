@@ -1,0 +1,38 @@
+{
+    "name": "Musical Plant Seeds",
+    "icon": "uniquecrops:seedmusica",
+    "category": "uniquecrops",
+	"sortnum":11,
+    "pages": [
+        {
+            "type": "text",
+            "text": "These crops will grow by dancing to the beat, note block songs, specifically. What kind of songs they'll like is completely up to you. Drops a random music disc."
+        },
+		{
+			"type":"multiblock",
+			"name":"Musical Plant Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropmusica[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:jukebox",
+			"corner":"uniquecrops:seednormal",
+			"edge":"uniquecrops:seedmaryjane",
+			"output":"uniquecrops:seedmusica"
+		}
+    ]
+}

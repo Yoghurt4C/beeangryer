@@ -1,0 +1,69 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_zombie",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_zombie",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:rotten_flesh",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:feather",
+            "amount": 8,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:carrot",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:potato",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:skull@2",
+            "amount": 3,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:zombie"}, "display":{"Name": "Rotten Egg"}},
+            "amount": 1,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"quark:dweller"}, "display":{"Name": "Stale Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

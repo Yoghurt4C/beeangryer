@@ -1,0 +1,54 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_slime",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_slime",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:slime_ball",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:slime",
+            "amount": 2,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "tconstruct:slime_dirt@0",
+            "amount": 4,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "tconstruct:slime_congealed@0",
+            "amount": 4,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"minecraft:slime"}, "display":{"Name": "Slimy Egg"}},
+            "amount": 1,
+			"chance":0.15
+        }
+    ]
+}

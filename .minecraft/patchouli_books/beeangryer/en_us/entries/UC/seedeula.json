@@ -1,0 +1,49 @@
+{
+    "name": "EULA Seeds",
+    "icon": "uniquecrops:seedeula",
+    "category": "uniquecrops",
+	"sortnum":14,
+    "pages": [
+        {
+            "type": "text",
+            "text": "They are quite possibly the most legal crops you can get. Of course, once you get past all the legal mumbo jumbo when planting every single one of them, that is."
+        },
+		{
+			"type":"multiblock",
+			"name":"EULA Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropeula[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:paper",
+			"corner":"minecraft:book",
+			"edge":"uniquecrops:seedcobblonia",
+			"output":"uniquecrops:seedeula"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:23",
+			"link_recipe":true,
+			"text":"Dropped from EULA crops. Used to craft EULA books."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:generic_24",
+			"text":"A heavy book full of legal mumbo-jumbo. Can also double as a throwable item which, if it hits another player, will force-open the GUI full of legal stuff on them." 
+		}
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Mary Jane Seeds",
+    "icon": "uniquecrops:seedmaryjane",
+    "category": "uniquecrops",
+	"sortnum":9,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Blazing plants! These prefer the hellish environment of the Nether. Not much to say about their looks other than that they can emit a small amount of light. Once fully grown, these crops will only be successfully harvested when the harvester is on fire, else the plants themselves burst into flames and leave nothing behind."
+        },
+		{
+			"type":"multiblock",
+			"name":"Mary Jane Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropmaryjane[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:blaze_rod",
+			"corner":"minecraft:blaze_powder",
+			"edge":"uniquecrops:seedcollis",
+			"output":"uniquecrops:seedmaryjane"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:3",
+			"link_recipe":true,
+			"text":"Dropped from Mary Jane crops. They can be used to craft a handful of torches, a Lava Lily, or be used as furnace fuel, giving the equivalent of a block of coal as burn time."
+		},
+		{
+			"type":"crafting",
+			"recipe":"uniquecrops:lavalily",
+			"text":"Placeable on lava instead of water, these lava lilies are a good way to burn one's items if it falls onto it, and the player as well if they happen to not be wearing any footgear." 
+		}
+    ]
+}

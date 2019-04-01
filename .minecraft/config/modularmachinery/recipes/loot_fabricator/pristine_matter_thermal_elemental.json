@@ -1,0 +1,84 @@
+{
+    "machine": "loot_fabricator",
+    "registryName": "pristine_matter_thermal_elemental",
+    "recipeTime": 300,
+    "requirements": [
+		{
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":100
+		},
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "deepmoblearning:pristine_matter_thermal_elemental",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@20100",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2052",
+            "amount": 8,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2048",
+            "amount": 8,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2051",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2053",
+            "amount": 16,
+			"chance":0.15
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2049",
+            "amount": 16,
+			"chance":0.15
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"thermalfoundation:blitz"}, "display":{"Name": "Blitzy Egg"}},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"thermalfoundation:basalz"}, "display":{"Name": "Basalzy Egg"}},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:spawn_egg",
+			"nbt": {"EntityTag":{"id":"thermalfoundation:blizz"}, "display":{"Name": "Blizzy Egg"}},
+            "amount": 1,
+			"chance":0.05
+        }
+    ]
+}

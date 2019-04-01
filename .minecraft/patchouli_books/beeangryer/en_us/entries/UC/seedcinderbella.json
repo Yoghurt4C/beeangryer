@@ -1,0 +1,49 @@
+{
+    "name": "Cinderbella Seeds",
+    "icon": "uniquecrops:seedcinderbella",
+    "category": "uniquecrops",
+	"sortnum":12,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Based on the old folktale, these crops are quite magical: They must be planted between midnight and dawn, while surrounded on all 4 sides by pumpkins. Can only be planted from dawn to dusk. If grown but not harvested before midnight, it withers away."
+        },
+		{
+			"type":"multiblock",
+			"name":"Cinderbella Crop",
+			"enable_visualize":false,
+			"text":"Flip the page to see the recipe for these seeds.",
+			"multiblock":{
+				"mapping":{
+				"0":"uniquecrops:cropcinderbella[age=7]",
+				"F":"minecraft:farmland"
+				},
+				"pattern":[
+					["0"],
+					["F"],
+					["_"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"artisia",
+			"header":"Obtaining Seeds",
+			"center":"minecraft:sugar",
+			"corner":"minecraft:wheat_seeds",
+			"edge":"uniquecrops:seednormal",
+			"output":"uniquecrops:seedcinderbella"
+		},
+		{
+			"type":"spotlight",
+			"item":"uniquecrops:generic:14",
+			"link_recipe":true,
+			"text":"Dropped from Cinderbella crops. Can be combined into a pair of Glass Slippers."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:slippers",
+			"text":"Wearing these grants immunity to damage sitting on top of cactus, and the effects of the Devil's Snare. Aside from that, not much use is seen in them. Hey, that reminds me of that Cinder-something in that didney movie!" 
+		}
+    ]
+}

@@ -1,8 +1,8 @@
 {
   "generateTechRebornFeatures": true,
-  "generateOres": true,
+  "generateOres": false,
   "retroGenOres": false,
-  "overworldOresInModdedDims": true,
+  "overworldOresInModdedDims": false,
   "overworldOres": [
     {
       "blockName": "tile.techreborn.ore",
@@ -170,7 +170,7 @@
     }
   ],
   "rubberTreeConfig": {
-    "shouldSpawn": true,
+    "shouldSpawn": false,
     "chance": 75,
     "clusterSize": 7,
     "sapRarity": 10,

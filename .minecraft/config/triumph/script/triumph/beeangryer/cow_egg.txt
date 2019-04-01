@@ -1,0 +1,9 @@
+setIcon(<minecraft:spawn_egg, meta:0, count:1, nbt:{EntityTag:{id:"minecraft:cow"}}>)
+setTitle("The Milky Way")
+setDescription("Mend a chicken Egg into a ''Bovine Egg''. This advancement unlocks a new tab dedicated to Cows.")
+
+addParent("triumph:beeangryer/apothecary")
+setRequirements("any")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:spawn_egg, meta:0, count:1, nbt:{display:{Name:"Bovine Egg"},EntityTag:{id:"minecraft:cow"}}>)
