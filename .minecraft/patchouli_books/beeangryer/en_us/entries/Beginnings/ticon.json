@@ -1,0 +1,64 @@
+{
+    "name": "Tinker's Lament",
+    "icon": "tconstruct:book",
+    "category": "beginnings",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"This entry could be of use to those in pursuit of some modular tools, which might stem from the fact it's impossible to craft the ''usual'' stuff.$(br2)This entry does not contain any valuable information other than the starting necessities and example multiblock layouts. If you're wondering about metal tool parts or Steel, check out $(l)this entry/$!"
+		},
+		{
+			"type":"crafting",
+			"recipe":"tconstruct:common/book",
+			"text":"All of the info about materials and modifiers is, as always, contained in the booklet titled ''$(4)$(o)Materials and You/$'', which also contains some flavor descriptions for Tinker's Construct and Complement multiblocks."
+		},
+		{
+			"type":"crafting",
+			"recipe":"tconstruct:tools/table/stencil_table",
+			"text":"Before you start making your own tools, you will need a Stencil Table to draft some Patterns of the Tool Parts you want."
+		},
+		{
+			"type":"crafting",
+			"recipe":"tconstruct:tools/table/chest/pattern_simple",
+			"text":"A Pattern Chest can hold large amounts of various Patterns and Casts, and can be placed next to a Part Builder for quick access."
+		},
+		{
+			"type":"crafting",
+			"recipe":"tconstruct:tools/table/part_builder",
+			"text":"After you've drafted out some Patterns, you need to use the Pattern Builder in order to shape your desired material into Tool Parts.<br>This should be obvious, but you can't shape metal Parts in this table."
+		},
+		{
+			"type":"crafting",
+			"recipe":"tconstruct:tools/table/tool_station",
+			"text":"When you have all of the Tool Parts you need, you can use the Tool Station to craft your own, modular tools.<br>And, if you don't know which Parts you need, this Station can give you some visual hints!"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:unfired_porcelain",
+			"text":"The Porcelain Melter is the first ''traditional'' Tinker's Construct-style fluid operator you can use to melt things into fluid counterparts, and cast the fluids onto things.<br>$(l)This will be necessary to perform Metalworking!"
+		},
+		{
+			"type":"multiblock",
+			"name":"Example Melter",
+			"anchor":"melter",
+			"enable_visualize":false,
+			"text":"Shown above: a functional Melter powered by a Heater, with two taps pointed at a Casting Table and a Basin.",
+			"multiblock":{
+				"mapping":{
+				"0":"tcomplement:porcelain_melter[type=heater,active=true,facing=east]",
+				"M":"tcomplement:porcelain_melter[type=melter,active=true,facing=east]",
+				"F":"ceramics:faucet[facing=north]",
+				"f":"ceramics:faucet[facing=south]",
+				"T":"tcomplement:porcelain_casting[type=table]",
+				"B":"tcomplement:porcelain_casting[type=basin]"
+				},
+				"pattern":[
+					["fMF"],
+					["T0B"]
+				],
+				"symmetrical":false
+			}
+		}
+    ]
+}

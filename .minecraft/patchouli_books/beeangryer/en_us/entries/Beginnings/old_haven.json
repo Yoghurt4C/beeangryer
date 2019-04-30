@@ -1,0 +1,80 @@
+{
+    "name": "Old Haven",
+    "icon": "contenttweaker:log_rotten",
+    "category": "beginnings",
+	"sortnum":1,
+    "pages": [
+		{
+			"type":"text",
+			"text":"This entry is of little interest to those who don't particularly care for playing in an ''overworld'' dimension.$(br2)But, if you're interested in exploring an overbearingly brown environment, figuring out how to actually get started there, or just visiting later on, this might be of help."
+		},
+		{
+			"type":"multiblock",
+			"name":"Old Haven Portal",
+			"enable_visualize":false,
+			"text":"The above portal can be found at the spawning island in the void dimension, and used to enter and leave Old Haven.",
+			"multiblock":{
+				"mapping":{
+				"0":"contenttweaker:log_rotten",
+				"L":"contenttweaker:log_rotten",
+				"P":"randomportals:brown_vertical_nether_portal[axis=z]"
+				},
+				"pattern":[
+					["_____"],
+					["_LLL_"],
+					["LPPPL"],
+					["LPPPL"],
+					["LPPPL"],
+					["_L0L_"],
+					["_____"]
+				],
+				"symmetrical":false
+			}
+		},
+		{
+			"type":"image",
+			"images":["patchouli:textures/gui/loose_flint.png"],
+			"title":"Loose Flint & Sticks",
+			"text":"The first thing you'll want to do once inside is scavenge for Loose Flint and Sticks.",
+			"border":true
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:flint_chisel",
+			"text":"Next, you'll want to craft a makeshift Chisel to forgo using various tool stations."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:pick_head_flint",
+			"text":"Now that you have a Chisel, you can carve some rather primitive tool parts!"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:tool_binding_wood",
+			"text":"$(7)Sticks within sticks"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:pickaxe_flint",
+			"text":"After you've done some heinous microcrafting, you can finally craft the first pickaxe, which you'll be putting to good use $(o)very/$ soon."
+		},
+		{
+			"type":"spotlight",
+			"item":"botania:root",
+			"text":"To get your first sapling, you'll need Livingroot. Livingroot can be 'blindly' located underground in clumps of Mossy Cobblestone, or pinpointed by ''Fairy Rings'' on the surface; flip the page to see an example picture of them.<br>When you find some, you can read through $(l:beginnings/garden_of_glass)$(2)the first entry/$ for some explanations."
+		},
+		{
+			"type":"image",
+			"images":["patchouli:textures/gui/fairy_ring.png"],
+			"title":"Fairy Ring",
+			"text":"Be advised that the Livingroot clumps located under these are located very deep down!",
+			"border":true
+		},
+		{
+			"type":"spotlight",
+			"item":"minecraft:potion{Potion:'minecraft:water'}",
+			"title":"About Water",
+			"text":"In Old Haven, water is almost non-existant. All of the rivers are dry, and the same applies to most of the oceans. However, water can still be found in the remains of Deep Oceans...$(br2)You'll have to find one to progress past $(l:beginnings/eggshells)Panning/$."
+		}
+    ]
+}

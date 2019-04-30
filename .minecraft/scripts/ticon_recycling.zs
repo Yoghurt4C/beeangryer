@@ -173,7 +173,11 @@ static trashGarbageRecycling as IIngredient[string][string]={
 		misc:<immersivepetroleum:upgrades:1>,
 		misc1:<immersivepetroleum:upgrades>,
 		misc2:<immersiveengineering:material:16>,
-		sheetmetal:<immersiveengineering:sheetmetal:8>
+		sheetmetal:<immersiveengineering:sheetmetal:8>,
+		boots:<tcomplement:steel_boots>,
+		legs:<tcomplement:steel_leggings>,
+		chest:<tcomplement:steel_chestplate>,
+		head:<tcomplement:steel_helmet>
 	},
 	tin:{
 		liquid:<liquid:tin>,

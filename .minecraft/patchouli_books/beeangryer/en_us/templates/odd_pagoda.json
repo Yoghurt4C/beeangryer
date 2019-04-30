@@ -132,6 +132,7 @@
 		{
 			"type": "item",
 			"item": "#outputstack",
+			"link_recipe":true,
 			"framed":true,
 			"x": 90,
 			"y": 92

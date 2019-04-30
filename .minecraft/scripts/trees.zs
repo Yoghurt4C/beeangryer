@@ -8,6 +8,7 @@ dry.setGenFrequency(3);
 dry.setGenAttempts(8);
 dry.setMinHeight(1);
 dry.setExtraHeight(4);
+dry.setDimWhitelist(76);
 dry.register();
 
 var rotten = TreeFactory.createTree("rotten");
@@ -18,17 +19,19 @@ rotten.setGenFrequency(3);
 rotten.setMinHeight(1);
 rotten.setExtraHeight(3);
 rotten.setGenBiomeByTag("SWAMP");
+rotten.setDimWhitelist(76);
 rotten.register();
 
 var stone_jape = TreeFactory.createTree("stone_jape"); 
-stone_jape.setLog("minecraft:monster_egg:1"); 
+stone_jape.setLog("minecraft:cobblestone"); 
 stone_jape.setLeaf("contenttweaker:koboldstone"); 
 stone_jape.setTreeType("ACACIA"); 
 stone_jape.setMinHeight(2);
 stone_jape.setExtraHeight(4); 
 stone_jape.setGenAttempts(3);
 stone_jape.setGenBiomeByTag("MOUNTAIN"); 
-stone_jape.setBaseBlock("minecraft:stone"); 
+stone_jape.setBaseBlock("minecraft:stone");
+stone_jape.setDimWhitelist(76); 
 stone_jape.register();
 
 var stone_flower = TreeFactory.createTree("stone_flower"); 
@@ -40,7 +43,8 @@ stone_flower.setExtraHeight(5);
 stone_flower.setGenAttempts(1);
 stone_flower.setGenFrequency(80);
 stone_flower.setGenBiomeByTag("MOUNTAIN"); 
-stone_flower.setBaseBlock("minecraft:stone"); 
+stone_flower.setBaseBlock("minecraft:stone");
+stone_flower.setDimWhitelist(76);
 stone_flower.register();
 
 var stone_flower_2 = TreeFactory.createTree("stone_flower_2"); 
@@ -52,7 +56,8 @@ stone_flower_2.setExtraHeight(5);
 stone_flower_2.setGenAttempts(1);
 stone_flower_2.setGenFrequency(80);
 stone_flower_2.setGenBiomeByTag("MOUNTAIN"); 
-stone_flower_2.setBaseBlock("minecraft:stone"); 
+stone_flower_2.setBaseBlock("minecraft:stone");
+stone_flower_2.setDimWhitelist(76);
 stone_flower_2.register();
 
 var cold_flower = TreeFactory.createTree("cold_flower"); 
@@ -64,17 +69,19 @@ cold_flower.setExtraHeight(5);
 cold_flower.setGenAttempts(1);
 cold_flower.setGenFrequency(80);
 cold_flower.setGenBiomeByTag("CONIFEROUS"); 
+cold_flower.setDimWhitelist(76);
 cold_flower.register();
 
 var cold_flower_2 = TreeFactory.createTree("cold_flower_2"); 
 cold_flower_2.setLog("botania:petalblock:9"); 
-cold_flower_2.setLeaf("botania:petalblock:11"); 
+cold_flower_2.setLeaf("botania:petalblock:3"); 
 cold_flower_2.setTreeType("BRAIDED"); 
 cold_flower_2.setMinHeight(10);
 cold_flower_2.setExtraHeight(5); 
 cold_flower_2.setGenAttempts(1);
 cold_flower_2.setGenFrequency(80);
-cold_flower_2.setGenBiomeByTag("CONIFEROUS"); 
+cold_flower_2.setGenBiomeByTag("CONIFEROUS");
+cold_flower_2.setDimWhitelist(76);
 cold_flower_2.register();
 
 var plain_flower = TreeFactory.createTree("plain_flower"); 
@@ -86,6 +93,7 @@ plain_flower.setExtraHeight(5);
 plain_flower.setGenAttempts(1);
 plain_flower.setGenFrequency(120);
 plain_flower.setGenBiomeByTag("PLAINS"); 
+plain_flower.setDimWhitelist(76);
 plain_flower.register();
 
 var plain_flower_2 = TreeFactory.createTree("plain_flower_2"); 
@@ -97,6 +105,7 @@ plain_flower_2.setExtraHeight(5);
 plain_flower_2.setGenAttempts(1);
 plain_flower_2.setGenFrequency(120);
 plain_flower_2.setGenBiomeByTag("PLAINS"); 
+plain_flower_2.setDimWhitelist(76);
 plain_flower_2.register();
 
 var plain_flower_3 = TreeFactory.createTree("plain_flower_3"); 
@@ -108,6 +117,7 @@ plain_flower_3.setExtraHeight(5);
 plain_flower_3.setGenAttempts(1);
 plain_flower_3.setGenFrequency(120);
 plain_flower_3.setGenBiomeByTag("PLAINS"); 
+plain_flower_3.setDimWhitelist(76);
 plain_flower_3.register();
 
 var forest_flower = TreeFactory.createTree("forest_flower"); 
@@ -119,6 +129,7 @@ forest_flower.setExtraHeight(5);
 forest_flower.setGenAttempts(1);
 forest_flower.setGenFrequency(120);
 forest_flower.setGenBiomeByTag("FOREST"); 
+forest_flower.setDimWhitelist(76);
 forest_flower.register();
 
 var forest_flower_2 = TreeFactory.createTree("forest_flower_2"); 
@@ -129,7 +140,8 @@ forest_flower_2.setMinHeight(10);
 forest_flower_2.setExtraHeight(5); 
 forest_flower_2.setGenAttempts(1);
 forest_flower_2.setGenFrequency(120);
-forest_flower_2.setGenBiomeByTag("PLAINS"); 
+forest_flower_2.setGenBiomeByTag("FOREST"); 
+forest_flower_2.setDimWhitelist(76);
 forest_flower_2.register();
 
 var forest_flower_3 = TreeFactory.createTree("forest_flower_3"); 
@@ -140,7 +152,8 @@ forest_flower_3.setMinHeight(10);
 forest_flower_3.setExtraHeight(5); 
 forest_flower_3.setGenAttempts(1);
 forest_flower_3.setGenFrequency(120);
-forest_flower_3.setGenBiomeByTag("PLAINS"); 
+forest_flower_3.setGenBiomeByTag("FOREST"); 
+forest_flower_3.setDimWhitelist(76);
 forest_flower_3.register();
 
 var swamp_flower = TreeFactory.createTree("swamp_flower"); 
@@ -150,8 +163,9 @@ swamp_flower.setTreeType("BRAIDED");
 swamp_flower.setMinHeight(7);
 swamp_flower.setExtraHeight(5); 
 swamp_flower.setGenAttempts(1);
-swamp_flower.setGenFrequency(20);
+swamp_flower.setGenFrequency(80);
 swamp_flower.setGenBiomeByTag("SWAMP"); 
+swamp_flower.setDimWhitelist(76);
 swamp_flower.register();
 
 var desert_flower = TreeFactory.createTree("desert_flower"); 
@@ -161,9 +175,10 @@ desert_flower.setTreeType("BRAIDED");
 desert_flower.setMinHeight(7);
 desert_flower.setExtraHeight(5); 
 desert_flower.setGenAttempts(1);
-desert_flower.setGenFrequency(20);
+desert_flower.setGenFrequency(80);
 desert_flower.setGenBiomeByTag("SANDY");
 desert_flower.setBaseBlock("minecraft:sand");
+desert_flower.setDimWhitelist(76);
 desert_flower.register();
 
 var factory = TreeFactory.createTree("factory");
@@ -174,6 +189,7 @@ factory.setGenFrequency(15);
 factory.setGenAttempts(3);
 factory.setMinHeight(5);
 factory.setExtraHeight(2);
+factory.setDimWhitelist(76);
 factory.register();
 
 var factory_2 = TreeFactory.createTree("factory_2");
@@ -184,6 +200,7 @@ factory_2.setGenFrequency(15);
 factory_2.setGenAttempts(3);
 factory_2.setMinHeight(5);
 factory_2.setExtraHeight(2);
+factory_2.setDimWhitelist(76);
 factory_2.register();
 
 var factory_3 = TreeFactory.createTree("factory_3");
@@ -194,6 +211,7 @@ factory_3.setGenFrequency(15);
 factory_3.setGenAttempts(3);
 factory_3.setMinHeight(5);
 factory_3.setExtraHeight(2);
+factory_3.setDimWhitelist(76);
 factory_3.register();
 
 var factory_4 = TreeFactory.createTree("factory_4");
@@ -204,6 +222,7 @@ factory_4.setGenFrequency(120);
 factory_4.setGenAttempts(1);
 factory_4.setMinHeight(14);
 factory_4.setExtraHeight(6);
+factory_4.setDimWhitelist(76);
 factory_4.register();
 
 var factory_5 = TreeFactory.createTree("factory_5");
@@ -215,6 +234,7 @@ factory_5.setGenAttempts(3);
 factory_5.setMinHeight(5);
 factory_5.setExtraHeight(2);
 factory_5.setGenBiomeByTag("CONIFEROUS");
+factory_5.setDimWhitelist(76);
 factory_5.register();
 
 var factory_beach = TreeFactory.createTree("factory_beach");
@@ -227,6 +247,7 @@ factory_beach.setMinHeight(5);
 factory_beach.setExtraHeight(3);
 factory_beach.setGenBiomeByTag("BEACH");
 factory_beach.setBaseBlock("minecraft:sand");
+factory_beach.setDimWhitelist(76);
 factory_beach.register();
 
 var tyrian = TreeFactory.createTree("tyrian");
@@ -238,25 +259,28 @@ tyrian.setGenAttempts(3);
 tyrian.setMinHeight(5);
 tyrian.setExtraHeight(2);
 tyrian.setGenBiomeByTag("SWAMP");
+tyrian.setDimWhitelist(76);
 tyrian.register();
 
 var tyrian_2 = TreeFactory.createTree("tyrian_2");
 tyrian_2.setTreeType("LARGE_CANOPY");
 tyrian_2.setLog("chisel:tyrian:2");
 tyrian_2.setLeaf("chisel:tyrian:4");
-tyrian_2.setGenFrequency(15);
+tyrian_2.setGenFrequency(10);
 tyrian_2.setGenAttempts(3);
 tyrian_2.setMinHeight(14);
 tyrian_2.setExtraHeight(6);
 tyrian_2.setGenBiomeByTag("JUNGLE");
+tyrian_2.setDimWhitelist(76);
 tyrian_2.register();
 
 var voidstone = TreeFactory.createTree("voidstone");
 voidstone.setTreeType("BRAIDED");
 voidstone.setLog("chisel:energizedvoidstone:7");
 voidstone.setLeaf("chisel:energizedvoidstone:0");
-voidstone.setGenFrequency(192);
+voidstone.setGenFrequency(400);
 voidstone.setGenAttempts(1);
 voidstone.setMinHeight(40);
 voidstone.setExtraHeight(20);
+voidstone.setDimWhitelist(76);
 voidstone.register();

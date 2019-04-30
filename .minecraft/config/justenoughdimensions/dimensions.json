@@ -5,6 +5,23 @@
   },
   "dimensions": [
     {
+      "dim": 0,
+	  "override":true,
+      "dimensiontype": {
+        "id": 0,
+        "name": "Skyblock",
+		"vanilladimensiontype":true,
+        "suffix": "_dim0",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+		"require_exact_match":true
+	  },
+	  "jed":{
+		"SkyColor":"50FFFC",
+		"FogColor":"27A2FC"
+	  }
+    },
+    {
       "dim": 76,
       "dimensiontype": {
         "id": 76,
@@ -31,7 +48,14 @@
             { "biome_regex": "minecraft:.*","color": "6B6239" }
           ]
 	    }
-	  }
+	  },
+	  "spawn_structure": {
+         "name": "76portal_out.nbt",
+         "rotation": "none",
+         "mirror": "none",
+         "centered": true,
+         "offset": [0, -1, -2]
+      }
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+    "name": "Enigmatic Appliances",
+    "icon": "hatchery:plastic",
+    "category": "beginnings",
+	"sortnum":3,
+    "pages": [
+    	{
+    		"type":"text",
+    		"text":"Since you've held out long enough to consider reading this entry, you should already be able to handle the inane logic of what comes next.$(br2)Don't put too much thought into how it's supposed to work."
+    	},
+		{
+			"type":"burning",
+			"anchor":"plastic",
+			"header":"Organic Plastic",
+			"input1":"hatchery:feather_fiber#2",
+			"time":"10 sec",
+			"output":"hatchery:plastic",
+			"text":"Your first step into working with arbitrary multiblocks should be burning or smelting Feather Fibers into Organic Plastic. Using a Furnace is twice as efficient!"
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:badchickencircuitboard",
+			"text":"Next, you'll want to craft an Organic Circuit Board. You can use $(l:uc/seedcollis)Golden Rods/$ in place of Wheat to get more Circuit Boards!" 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_blockcasing",
+			"link_recipe":true,
+			"text":"Machine Casings are the most basic block involved in creation of arbitrary multiblocks. Mainly used as a crafting component for the lower ''tier'' of multiblock components." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_controller",
+			"link_recipe":true,
+			"text":"The Machine Controller is the heart of arbitrary multiblocks, which simply can't function without a Controller.<br>$(o)You can use Organic Plastic to craft a Computer Monitor."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_inputbus_lv",
+			"link_recipe":true,
+			"text":"The Input Buses let you provide items to arbitrary multiblocks. If the multiblock definition allows multiple placement positions, you can use more than one Bus! They are also upgradeable, although you will need the Carpenter to craft the better variants." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_outputbus_lv",
+			"link_recipe":true,
+			"text":"The Output Buses are the opposite of Input Buses, and let multiblocks actually procure items!$(br)$(l)IMPORTANT/$: multiblocks will not function if there is not enough space in the bus to handle $(l)all/$ of the possible outputs at once./$" 
+		},
+		{
+			"type":"crafting",
+			"anchor":"blockfluidinputhatch",
+			"recipe":"crafttweaker:mm_inputhatch_ulv",
+			"link_recipe":true,
+			"text":"The Fluid Input Hatches let you provide fluids to arbitrary multiblocks, if necessary. You will need a Pipette, a Flopper or some kind of fluid pipes to operate this particular hatch, because it can only accept and hold 100mL of fluid!" 
+		},
+		{
+			"type":"carpenter",
+			"header":"Tiny Energy Input Hatch",
+			"i4":"thermaldynamics:duct_0",
+			"i5":"modularmachinery:blockcasing",
+			"output":"modularmachinery:blockenergyinputhatch",
+			"liquid":"&6Honey","amount":"&7500mL",
+			"text":"The Energy Input Hatches act as a FE/RF interface for arbitrary multiblocks, if necessary. Note that you need a Carpenter to craft all of these, and their recipes are cascading!"
+		},
+		{
+			"type":"carpenter",
+			"anchor":"blockbiomedetector",
+			"header":"Biome Detector",
+			"i2":"forestry:habitat_locator",
+			"i5":"modularmachinery:blockcasing",
+			"output":"modulardiversity:blockbiomedetector",
+			"liquid":"&6Honey","amount":"&7500mL",
+			"text":"The Biome Detector provides information about the biome - and, by extension, dimension - that the arbitrary multiblock resides in. Some of the multiblocks will not work without a Biome Detector!"
+		},
+		{
+			"type":"carpenter",
+			"anchor":"blockmanainputhatch",
+			"header":"Mana Input Hatch",
+			"i2":"botania:manadetector",
+			"i5":"modularmachinery:blockcasing",
+			"i8":"botania:pool",
+			"output":"modulardiversity:blockmanainputhatch",
+			"liquid":"&6Honey","amount":"&71L",
+			"text":"The Mana Input Hatch acts as a Mana interface for arbitrary multiblocks, if necessary. Doesn't accept sparks and has to be fed via Spreaders.<br>It is a bit buggy, but it's not going to be used a whole lot, so that shouldn't be a problem."
+		}
+    ]
+}

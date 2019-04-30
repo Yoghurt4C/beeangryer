@@ -1,5 +1,5 @@
 setIcon(<minecraft:spawn_egg, meta:0, count:1, nbt:{EntityTag:{id:"minecraft:sheep"}}>)
-setTitle("Pleasant Fabric")
+setTitle("A Bleating Moment")
 setDescription("Mend a chicken Egg into a ''Wooly Egg''. §oBaa.")
 
 addParent("triumph:beeangryer/apothecary")

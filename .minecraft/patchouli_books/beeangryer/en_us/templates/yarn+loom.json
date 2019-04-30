@@ -1,0 +1,152 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-6
+		},
+		{
+			"type": "item",
+			"item": "#corner",
+			"framed":false,
+			"x": 15,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#corner",
+			"framed":false,
+			"x": 53,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#corner",
+			"framed":false,
+			"x": 15,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#corner",
+			"framed":false,
+			"x": 53,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#edge",
+			"framed":false,
+			"x": 34,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#edge",
+			"framed":false,
+			"x": 15,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#edge",
+			"framed":false,
+			"x": 53,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#edge",
+			"framed":false,
+			"x": 34,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#center",
+			"framed":false,
+			"x": 34,
+			"y": 34
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":128,
+			"height":64,
+			"u":0,
+			"v":0,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 10,
+			"y": 10,
+			"scale":1
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":false,
+			"link_recipe":true,
+			"x": 91,
+			"y": 34
+		},
+		{
+			"type":"header",
+			"text":"#header2",
+			"x":-1,
+			"y":4
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":true,
+			"x": 5,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed":false,
+			"x": 50,
+			"y": 80
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 25,
+			"y": 78,
+			"scale":1.25
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":16,
+			"height":16,
+			"u":35,
+			"v":75,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 72,
+			"y": 78,
+			"scale":1.25
+		},
+		{
+			"type": "item",
+			"item": "#output2",
+			"framed":true,
+			"x": 95,
+			"y": 80
+		},
+		{
+			"type":"text",
+			"text":"#text",
+			"y":100
+		}
+	]
+}

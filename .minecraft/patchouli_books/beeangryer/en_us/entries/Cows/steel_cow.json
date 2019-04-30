@@ -1,0 +1,24 @@
+{
+    "name": "Molten Steel Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'steel'}",
+    "category": "cows",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a test entry, but it should show up!"
+        },
+        {
+            "type":"ticon_steel_casting+entity",
+            "header":"Basin Casting",
+            "input1":"fluidcows:cow_displayer{fluid:'milk'}",
+            "output":"fluidcows:cow_displayer{fluid:'steel'}",
+            "text":"Punished Daisy can turn a Chicken into a Snowball Chicken when provided with some water.",
+            "fluid":"&8Molten Steel", "amount":"&73600 mL",
+            "entity":"fluidcows:fluidcow{t_fluid:'steel'}",
+            "cow":"Molten Steel Cow",
+            "entitytooltip":"&7Molten Steel",
+            "outputstack":"forge:bucketfilled{FluidName:'steel',Amount:1000}"
+        }
+    ]
+}

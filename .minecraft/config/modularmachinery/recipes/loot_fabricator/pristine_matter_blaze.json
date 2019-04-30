@@ -52,6 +52,14 @@
 		{
             "type": "item",
             "io-type": "output",
+            "item": "minecraft:skull@3",
+			"nbt": {"SkullOwner":"MHF_Blaze"},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
             "item": "minecraft:spawn_egg",
 			"nbt": {"EntityTag":{"id":"minecraft:blaze"}, "display":{"Name": "Blazing Egg"}},
             "amount": 1,

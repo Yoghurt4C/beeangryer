@@ -1,0 +1,12 @@
+setIcon(<minecraft:grass>)
+setTitle("dummy thick")
+setDescription("You shouldn't be able to see this.")
+
+addParent("triumph:beeangryer/functionalflowers_all")
+setAnnounceToChat(false)
+setShowToast(false)
+alwaysHidden()
+setRequirements("any")
+
+criteria = addCriteria("Found Stump Portal", "minecraft:enter_block")
+criteria.setBlock(<randomportals:lime_vertical_nether_portal, meta:1, state:{"axis":"x","user_placed":"false"}>)

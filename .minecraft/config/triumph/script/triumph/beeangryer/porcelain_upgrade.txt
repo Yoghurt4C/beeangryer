@@ -1,0 +1,13 @@
+setIcon(<tcomplement:porcelain_tank>)
+setTitle("Upping The Ante")
+setDescription("Craft a Porcelain Tank, Gauge or Window to reach higher temperatures in your Melter by using Lava or Pyrotheum.")
+
+addParent("triumph:beeangryer/porcelain")
+setRequirements("any")
+
+criteria = addCriteria("Porcelain Tank Crafted", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_tank, meta:0>)
+criteria = addCriteria("Porcelain Gauge Crafted", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_tank, meta:1>)
+criteria = addCriteria("Porcelain Window Crafted", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_tank, meta:2>)

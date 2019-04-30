@@ -45,6 +45,22 @@
 		{
             "type": "item",
             "io-type": "output",
+            "item": "minecraft:skull@3",
+			"nbt": {"SkullOwner":"MHF_Slime"},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:skull@3",
+			"nbt": {"SkullOwner":"MHF_LavaSlime"},
+            "amount": 1,
+			"chance":0.01
+        },
+		{
+            "type": "item",
+            "io-type": "output",
             "item": "minecraft:spawn_egg",
 			"nbt": {"EntityTag":{"id":"minecraft:slime"}, "display":{"Name": "Slimy Egg"}},
             "amount": 1,

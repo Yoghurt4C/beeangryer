@@ -1,0 +1,59 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-1
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":false,
+			"x": 13,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":false,
+			"link_recipe":true,
+			"x": 85,
+			"y": 15
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":94,
+			"height":22,
+			"u":12,
+			"v":72,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 10,
+			"y": 12,
+			"scale":1
+		},
+		{
+			"type": "item",
+			"item": "contenttweaker:firestarter",
+			"framed":false,
+			"x": 41,
+			"y": 15
+		},
+		{
+			"type":"tooltip",
+			"tooltip":["#time"],
+			"width":15,
+			"height":15,
+			"x":53,
+			"y":16
+			
+		},
+		{
+			"type":"text",
+			"text":"#text",
+			"y":40
+		}
+	]
+}

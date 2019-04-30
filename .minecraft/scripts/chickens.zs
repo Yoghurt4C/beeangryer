@@ -29,65 +29,33 @@ mods.jei.JEI.addDescription(<roost:chicken>.withTag({Growth: 1, Chicken: "chicke
 
 game.setLocalization("item.hatchery.circuit_board.name","Organic Circuit Board");
 game.setLocalization("item.hatchery.plastic.name","Organic Plastic");
-recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*2,[
+recipes.addShaped("badchickencircuitboard",<hatchery:circuit_board>*1,[
 [<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
 [<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBlue>],
 [plastic,plastic,plastic]]);
+recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*3,[
+[<uniquecrops:generic:6>,<uniquecrops:generic:6>,<uniquecrops:generic:6>],
+[<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBlue>],
+[plastic,plastic,plastic]]);
 
-//feather processing
-mods.thermalexpansion.Pulverizer.addRecipe(<hatchery:feather_fiber>, 
-<minecraft:feather>, 
-1500, 
-feather_meal, 25);
-mods.immersiveengineering.Crusher.addRecipe(<hatchery:feather_fiber>, 
-<minecraft:feather>, 
-1500, 
-feather_meal, 0.25);
-mods.techreborn.grinder.addRecipe(<hatchery:feather_fiber>*2,
-<minecraft:feather>, 
-75, 20);
-mods.appliedenergistics2.Grinder.addRecipe(<hatchery:feather_fiber>, 
-<minecraft:feather>, 
-3, 
-feather_meal, 0.25);
-mods.thermalexpansion.Pulverizer.addRecipe(feather_meal, 
-<hatchery:feather_fiber>, 
-1500);
-mods.immersiveengineering.Crusher.addRecipe(feather_meal, 
-<hatchery:feather_fiber>, 
-1500);
-mods.techreborn.grinder.addRecipe(feather_meal,
-<hatchery:feather_fiber>, 
-75, 20);
-mods.appliedenergistics2.Grinder.addRecipe(feather_meal, 
-<hatchery:feather_fiber>, 
-3);
+var waterContainer=<minecraft:water_bucket>|<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})|<forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})|<botania:waterbowl>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).giveBack(<minecraft:bowl>)|<chickens:liquid_egg:0>;
 
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
+recipes.addShapeless("feather_pulp",<hatchery:feather_pulp>*4,[
 feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<minecraft:water_bucket>]);
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
-feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})]);
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
-feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
-feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
-feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()]);
-recipes.addShapeless(<hatchery:feather_pulp>*4,[
-feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
-<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
-
+waterContainer]);
+recipes.addShapeless("sawdust_paper",<minecraft:paper>*2,[
+<ore:pulpWood>,<ore:pulpWood>,<ore:pulpWood>,<ore:pulpWood>,waterContainer]);
+recipes.addShapeless("feather_meal",feather_meal,[<minecraft:feather>,<minecraft:feather>,<botania:pestleandmortar>.reuse()]);
 
 recipes.remove(<hatchery:nest>);
 recipes.addShaped("nest",<hatchery:nest>,[
 [<ore:cropWheat>,null,<ore:cropWheat>],
 [null,<ore:cropWheat>]]);
-recipes.replaceAllOccurences(<ore:plankWood>,<minecraft:planks:0>,<chickens:henhouse>);
+recipes.remove(<chickens:henhouse:0>);
+recipes.addShaped("henhouse",<chickens:henhouse:0>,[
+[<minecraft:planks:0>,<minecraft:planks:0>,<minecraft:planks:0>],
+[<minecraft:planks:0>,<minecraft:hay_block>,<minecraft:planks:0>],
+[<minecraft:planks:0>,<minecraft:planks:0>,<minecraft:planks:0>]]);
 recipes.remove(<roost:collector>);
 var henhouse = <chickens:henhouse>|<chickens:henhouse_acacia>|<chickens:henhouse_birch>|<chickens:henhouse_dark_oak>|<chickens:henhouse_jungle>|<chickens:henhouse_spruce>;
 recipes.addShaped("collector",<roost:collector>,[

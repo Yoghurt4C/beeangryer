@@ -230,18 +230,27 @@ val rmIDArray=[
 "immersiveengineering:material/string",
 "immersiveengineering:material/hemp_fabric",
 "tconstruct:tools/materials/silky_cloth",
-"minecraft:bone_meal_from_block"
+"minecraft:bone_meal_from_block",
+"quark:bark",
+"quark:bark_1",
+"quark:bark_2",
+"quark:bark_3",
+"quark:bark_4",
+"quark:bark_5",
+"thermalfoundation:paper"
 //"compactmachines3:fieldprojector"
 ]as string[];
 for name in rmIDArray{recipes.removeByRecipeName(name);}
 //furnace rm
-val rmFurnaceArray=[
+val rmFurnaceODArray=[
 <ore:nuggetIron>,
 <ore:nuggetGold>,
 <ore:blockGlass>,
-<ore:itemSilicon>
+<ore:itemSilicon>,
+<ore:ingotBrickSeared>,
+<ore:charcoal>
 ] as IOreDictEntry[];
-for item in rmFurnaceArray{furnace.remove(item);}
+for item in rmFurnaceODArray{furnace.remove(item);}
 //ticon alloying
 val rmTiConAlloyArray=[
 <liquid:constantan>,

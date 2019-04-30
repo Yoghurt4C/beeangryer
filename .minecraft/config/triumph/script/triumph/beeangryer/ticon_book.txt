@@ -1,0 +1,9 @@
+setIcon(<tconstruct:book>)
+setTitle("A Guide To Jury Rigging")
+setDescription("Obtain a copy of ''Materials And You'' to read up on material part descriptions, TiCon multiblocks and modifiers.")
+
+addParent("triumph:beeangryer/porcelain")
+setRequirements("any")
+
+criteria = addCriteria("placeholder", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:book, meta:0, count:1>)

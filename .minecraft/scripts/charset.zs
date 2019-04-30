@@ -244,7 +244,7 @@ Cauldron.addItemRecipe(
 <liquid:for.honey>*1000, 
 <roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:manurechicken", Gain: 1, Strength: 1}));
 
-furnace.addRecipe(<charset:shard>,<ore:sand>,0.1);
+furnace.addRecipe(<quark:glass_shards>,<ore:sand>,0.1);
 
 mods.jei.JEI.addDescription(<contenttweaker:soggylime>,[
 "Necessary for progression, and somewhat of a pain to obtain. See Guidebook for an in-depth breakdown, or look at the tooltip."]);

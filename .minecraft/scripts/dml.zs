@@ -29,5 +29,8 @@ val dataModelArray as IItemStack[IIngredient]={
 
 for item, datamodel in dataModelArray{
 	recipes.remove(datamodel);
-	recipes.addShapeless(datamodel.withTag({tier: 1}),[<deepmoblearning:data_model_blank>,item]);
+	recipes.addShaped(datamodel.definition.id.split(":")[1],datamodel.withTag({tier: 1}),[
+	[null,item,null],
+	[item,<deepmoblearning:data_model_blank>,item],
+	[null,item,null]]);
 }

@@ -2,7 +2,7 @@
     "name": "Odd Pagoda",
     "icon": "botania:manabottle",
     "category": "beginnings",
-	"sortnum":3,
+	"sortnum":6,
     "pages": [
         {
             "type": "text",

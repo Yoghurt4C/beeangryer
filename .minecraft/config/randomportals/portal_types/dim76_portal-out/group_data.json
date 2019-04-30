@@ -1,0 +1,9 @@
+{
+	"blacklistAllUndefinedActivationDimensions": false,
+	"activationDimensionIDBlacklist": [
+		-1,
+		1
+	],
+	"defaultDimensionID": 76,
+	"zombiePigmanSpawnRates": {}
+}

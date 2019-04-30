@@ -180,6 +180,7 @@ waterbowlchicken.setBlockHardness(0.5);
 waterbowlchicken.setToolLevel(0);
 waterbowlchicken.setGravity(true);
 waterbowlchicken.setFullBlock(false);
+waterbowlchicken.setLightOpacity(0);
 waterbowlchicken.setBlockSoundType(<soundtype:wood>);
 waterbowlchicken.register();
 
@@ -190,7 +191,8 @@ bowlsnowchicken.setBlockHardness(0.5);
 bowlsnowchicken.setToolLevel(0);
 bowlsnowchicken.setGravity(true);
 bowlsnowchicken.setFullBlock(false);
-bowlsnowchicken.setBlockLayer("TRANSLUCENT");
+bowlsnowchicken.setLightOpacity(0);
+bowlsnowchicken.setBlockLayer("CUTOUT");
 bowlsnowchicken.setBlockSoundType(<soundtype:wood>);
 bowlsnowchicken.setDropHandler(function(drops, world, position, state,fortune) {
 	drops.clear();
@@ -224,6 +226,7 @@ loom.setToolClass("axe");
 loom.setBlockHardness(1);
 loom.setToolLevel(0);
 loom.setGravity(true);
+loom.setLightOpacity(0);
 loom.setFullBlock(false);
 loom.setBlockSoundType(<soundtype:wood>);
 loom.register();
@@ -246,7 +249,7 @@ log_rotten.setFullBlock(true);
 log_rotten.setBlockSoundType(<soundtype:wood>);
 log_rotten.register();
 
-var flint = VanillaFactory.createBlock("flint", <blockmaterial:cake>);
+var flint = VanillaFactory.createBlock("flint", <blockmaterial:plants>);
 flint.setAxisAlignedBB(AxisAlignedBB.create(0.250,0,0.250,0.750,0.0625,0.750));
 flint.setBlockHardness(0.1);
 flint.setToolLevel(0);
@@ -254,6 +257,7 @@ flint.setGravity(false);
 flint.setFullBlock(false);
 flint.setBlockSoundType(<soundtype:stone>);
 flint.setPassable(true);
+flint.setLightOpacity(0);
 flint.setBlockLayer("CUTOUT");
 flint.setTranslucent(true);
 flint.setDropHandler(function(drops, world, position, state,fortune) {
@@ -263,7 +267,7 @@ flint.setDropHandler(function(drops, world, position, state,fortune) {
 });
 flint.register();
 
-var stick = VanillaFactory.createBlock("stick", <blockmaterial:cake>);
+var stick = VanillaFactory.createBlock("stick", <blockmaterial:plants>);
 stick.setAxisAlignedBB(AxisAlignedBB.create(0.250,0,0.250,0.750,0.0625,0.750));
 stick.setBlockHardness(0.1);
 stick.setToolLevel(0);
@@ -271,6 +275,7 @@ stick.setGravity(false);
 stick.setFullBlock(false);
 stick.setBlockSoundType(<soundtype:wood>);
 stick.setPassable(true);
+stick.setLightOpacity(0);
 stick.setBlockLayer("CUTOUT");
 stick.setTranslucent(true);
 stick.setDropHandler(function(drops, world, position, state,fortune) {

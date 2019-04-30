@@ -7,6 +7,19 @@
         {
             "type": "text",
             "text": "This is a test entry, but it should show up!"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Egg Dipping",
+            "input1":"minecraft:spawn_egg{EntityTag:{id:'minecraft:cow'}}",
+            "liquid":"forestry:textures/blocks/liquid/milk_still.png",
+            "liquidname":"Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'milk'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'steel'}",
+            "chicken":"Milk Cow",
+            "entitytooltip":"&7Milk",
+            "outputstack":"minecraft:milk_bucket"
         }
     ]
 }

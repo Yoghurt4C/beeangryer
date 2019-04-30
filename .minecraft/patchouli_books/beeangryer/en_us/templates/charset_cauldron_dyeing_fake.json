@@ -155,6 +155,7 @@
 			"type": "item",
 			"item": "#outputstack",
 			"framed":true,
+			"link_recipe":true,
 			"x": 90,
 			"y": 92
 		}

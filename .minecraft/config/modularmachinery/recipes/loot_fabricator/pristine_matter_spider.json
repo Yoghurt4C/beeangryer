@@ -38,6 +38,22 @@
 		{
             "type": "item",
             "io-type": "output",
+            "item": "minecraft:skull@3",
+			"nbt": {"SkullOwner":"MHF_Spider"},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:skull@3",
+			"nbt": {"SkullOwner":"MHF_CaveSpider"},
+            "amount": 1,
+			"chance":0.05
+        },
+		{
+            "type": "item",
+            "io-type": "output",
             "item": "minecraft:spawn_egg",
 			"nbt": {"EntityTag":{"id":"minecraft:spider"}, "display":{"Name": "Webby Egg"}},
             "amount": 1,

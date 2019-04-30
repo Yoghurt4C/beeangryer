@@ -1,0 +1,81 @@
+{
+    "machine": "golden_hen",
+    "registryName": "acceleration_wand",
+    "recipeTime": 12000,
+    "requirements": [
+        {
+			"type":"energy",
+			"io-type":"input",
+			"energyPerTick":30
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "uniquecrops:generic@4",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "uniquecrops:generic@17",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:potion",
+            "nbt":{"Potion":"minecraft:long_swiftness"},
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:potion",
+            "nbt":{"Potion":"cofhcore:haste2"},
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalexpansion:augment@128",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "techreborn:upgrades@0",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "hatchery:speed_upgrade@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@30",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "stevescarts:upgrade@3",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "for.honey",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "notenoughwands:acceleration_wand",
+			"nbt":{},
+            "amount": 1
+        }
+    ]
+}

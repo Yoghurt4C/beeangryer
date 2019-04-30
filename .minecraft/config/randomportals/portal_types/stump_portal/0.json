@@ -1,0 +1,82 @@
+{
+	"frame": {
+		"type": "LATERAL_OR_VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 5,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "minecraft:stained_hardened_clay",
+				"meta": 5,
+				"minimumAmount": 0
+			}
+		],
+		"requiredCorner": "ANY_NON_AIR",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": false
+	},
+	"activation": {
+		"canBeActivatedByFire": true,
+		"activators": [],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": true,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"LIME"
+		],
+		"dyeBehavior": "ONLY_DEFINED_COLORS"
+	},
+	"destination": {
+		"dimensionID": 0,
+		"teleportToPortal": false,
+		"oneWay": true,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": true
+}

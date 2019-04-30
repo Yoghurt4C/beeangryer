@@ -26,9 +26,9 @@
 		},
 		{
 			"type":"spotlight",
-			"item":"botania:manaresource:20",
+			"item":"botania:root",
 			"title":"",
-			"link_recipe":false,
+			"link_recipe":true,
 			"text":"Upon closer inspection, the bark of the rotting tree stump seems to be something called ''$(2)Living Root/$'', a material with unnatural growth-inducing properties. Putting some untangled $(2)Living Root/$ inside dirt makes it convert into $(2)Grass/$, which, with the help of another $(2)Living Root/$, grows ''tall'' grass."
 		},
 		{

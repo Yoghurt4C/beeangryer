@@ -28,35 +28,30 @@
 				"minimumAmount": 0
 			}
 		],
-		"requiredCorner": "SAME",
+		"requiredCorner": "ANY_NON_AIR",
 		"cornerBlocksContributeToMinimumAmount": true,
-		"doGeneratedFramesDrop": true
+		"doGeneratedFramesDrop": false
 	},
 	"activation": {
-		"canBeActivatedByFire": false,
-		"activators": [
-			{
-				"registryName": "ore:plateFabric",
-				"meta": 32767
-			}
-		],
+		"canBeActivatedByFire": true,
+		"activators": [],
 		"activatorConsumeBehavior": "CONSUME",
-		"spawnFireBeforeActivating": false,
+		"spawnFireBeforeActivating": true,
 		"activationSounds": [
 			"botania:enchanterenchant"
 		]
 	},
 	"color": {
 		"colors": [
-			"BROWN"
+			"GREEN"
 		],
-		"dyeBehavior": "ENABLE"
+		"dyeBehavior": "ONLY_DEFINED_COLORS"
 	},
 	"destination": {
-		"dimensionID": 76,
-		"teleportToPortal": true,
-		"oneWay": false,
-		"generatePortalIfNotFound": true,
+		"dimensionID": 0,
+		"teleportToPortal": false,
+		"oneWay": true,
+		"generatePortalIfNotFound": false,
 		"portalGenerationBehavior": "CLONE",
 		"generatedFrameType": "SAME",
 		"generatedFrameSize": {

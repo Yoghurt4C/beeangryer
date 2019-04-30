@@ -1,0 +1,62 @@
+{
+    "name": "Feathery Prospects",
+    "icon": "minecraft:feather",
+    "category": "beginnings",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"spotlight",
+			"item":"minecraft:feather",
+			"title":"Feather",
+			"link_recipe":false,
+			"text":"Feathers: mostly useless, sparse when necessary, abundant when unneeded. Wait, ''mostly useless''?$(br2)If you don't sit well with this narrow-minded cultural assumption, there is quite a lot of things you can $(o)(and coincidentally will have to)/$ do with Feathers."
+		},
+		{
+			"type":"crafting",
+			"recipe":"cathedral:gargoyle_demon_stone",
+			"text":"For example, you can use them to craft decorative Gargoyle statues, which come in many varieties and can be mounted on the floor, on walls, and even on the ceiling! If decorating isn't your thing, just turn the page to see some more applicable uses." 
+		},
+		{
+			"type":"spotlight",
+			"item":"hatchery:feather_fiber",
+			"title":"Feather Fibers",
+			"link_recipe":false,
+			"text":"First off, we have Feather Fibers. Obtainable from $(l:beginnings/eggshells)Panning/$, and, later on, from Grinding, Pulverizing or Macerating regular Feathers, these Fibers can be used to craft Fiber Yarn, and can be burned or smelted into Organic Plastic - which will be necessary in $(l)stub/$."
+		},
+		{
+			"type":"yarn+loom",
+			"header":"Ball of Fiber Yarn",
+			"center":"minecraft:stick",
+			"corner":"minecraft:air",
+			"edge":"hatchery:feather_fiber",
+			"output":"contenttweaker:yarn_feather#2",
+			"header2":"Fiber Pad",
+			"input1":"contenttweaker:yarn_feather#6",
+			"input2":"contenttweaker:loom",
+			"output2":"hatchery:fiber_pad",
+			"text":"Fiber Pads can be crafted by using a Loom while holding at least six Balls of Fiber Yarn. These pads can substitute Wool in a lot of recipes." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:feather_meal",
+			"title":"Feather Meal",
+			"link_recipe":false,
+			"text":"Feather Meal is obtained by using a mortar with some Feathers, or reprocessing Feather Fibers through the machinery you'd use to get them in the first place. Not particularly useful in this state."
+		},
+		{
+			"type":"crafting",
+			"recipe":"hatchery:seeds_1_recipe",
+			"text":"One of the uses for Feather Meal is crafting Chicken Feed, which, for whatever reason, can't be $(o)fed/$ to chickens. Its one and only purpose is being funneled into ''$(6)Chicken Feeders/$'', which can speed up the general activity of both baby and adult chickens." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:feather_pulp",
+			"text":"Now this is what Feather Meal is actually useful for when you're just starting out!"
+		},
+		{
+			"type":"smelting",
+			"recipe":"hatchery:feather_pulp",
+			"text":"Feather Pulp can be smelted into Paper if you don't have access to Sugar Cane or Sawdust." 
+		}
+    ]
+}

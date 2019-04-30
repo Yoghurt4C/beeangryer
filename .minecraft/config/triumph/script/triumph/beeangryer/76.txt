@@ -1,10 +1,11 @@
 setIcon(<contenttweaker:log_rotten>)
 setTitle("Otherside")
-setDescription("(OPTIONAL) Let the humming of a strange portal beckon you into another dimension. Now you're stuck there. Good luck!")
+setDescription("(OPTIONAL) Let a strange portal beckon you into another dimension. Enjoy your stay.")
 
 addParent("triumph:beeangryer/root")
 setAnnounceToChat(true)
 setShowToast(true)
+setHidden(true)
 
 criteria = addCriteria("entered_76", "minecraft:location")
 criteria.setDimID(76)

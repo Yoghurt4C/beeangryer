@@ -1,6 +1,6 @@
 setIcon(<flopper:flopper>)
 setTitle("Flip Flap")
-setDescription("A hopper... for fluids! This thing can be used to funnel liquids in and out of cauldrons. Especially useful in crafting Chicken Stock using the Cauldron.")
+setDescription("A hopper... for fluids! The Flopper can be used to funnel liquids in and out of cauldrons. Especially useful in crafting Chicken Stock using the Cauldron.")
 
 addParent("triumph:beeangryer/soggylime")
 setRequirements("all")

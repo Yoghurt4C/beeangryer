@@ -1,5 +1,5 @@
 {
-    "name": "Chicken",
+    "name": "Chickens & Roosts",
     "icon": "roost:chicken{Chicken:'minecraft:chicken'}",
     "category": "chickens",
 	"sortnum":0,
@@ -13,7 +13,32 @@
 			"entity":"minecraft:chicken",
 			"default_rotation":-45,
 			"rotate":true,
-			"text":"Shown above: a regular Chicken. May sporadically change its colour."
+			"text":"Shown above: a regular Chicken. Flip the page to check out the Chicken Catcher."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:chicken_catcher",
+			"text":"You will need one of these to manage your chickens and use them in crafting! Simply look at a chicken and use the Catcher on it. ''Itemized'' chickens can be stacked, put into Roosts, or let back into the world to roam as usual." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"roost:roost",
+			"text":"A Roost can be used to contain a Chicken (or even a number of Chickens) in a single block-space, and passively collect their main Lay Item without unwanted clutter." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"roost:breeder",
+			"text":"Chicken Breeders let your Chickens have some quality private time behind closed curtains for as long as the Breeder is stocked with Seeds, and has space for more... descendants." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:henhouse",
+			"text":"Just in case you want to let some Chickens run around unsupervised, a Henhouse allows one to collect the main Lay Items of Chickens in a 9x9x9 radius around the Henhouse; however, it must be supplied with Hay Bale in order to function." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:collector",
+			"text":"When you've amassed walls upon walls of Roosts, extracting the produce from them can get somewhat awkward. The Collector lets you forgo resource-heavy pipe and hopper setups by extracting materials from Roosts within a certain range around it." 
 		}
     ]
 }

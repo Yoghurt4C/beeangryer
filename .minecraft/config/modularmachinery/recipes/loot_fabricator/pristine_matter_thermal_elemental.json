@@ -17,7 +17,7 @@
 		{
             "type": "item",
             "io-type": "output",
-            "item": "thermalfoundation:material@20100",
+            "item": "thermalfoundation:material@2050",
             "amount": 8,
 			"chance":0.15
         },

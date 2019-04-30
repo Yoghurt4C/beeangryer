@@ -1,0 +1,167 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-3
+		},
+		{
+			"type": "item",
+			"item": "#i1",
+			"framed":false,
+			"x": 15,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#i3",
+			"framed":false,
+			"x": 53,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#i7",
+			"framed":false,
+			"x": 15,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#i9",
+			"framed":false,
+			"x": 53,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#i2",
+			"framed":false,
+			"x": 34,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#i4",
+			"framed":false,
+			"x": 15,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#i6",
+			"framed":false,
+			"x": 53,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#i8",
+			"framed":false,
+			"x": 34,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#i5",
+			"framed":false,
+			"x": 34,
+			"y": 34
+		},
+		{
+			"type": "image",
+			"image": "forestry:textures/blocks/storage/bronze.png",
+			"width":48,
+			"height":48,
+			"u":0,
+			"v":0,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 13,
+			"y": 13,
+			"scale":1.2
+		},
+		{
+			"type": "image",
+			"image": "forestry:textures/blocks/storage/bronze.png",
+			"width":16,
+			"height":16,
+			"u":0,
+			"v":0,
+			"texture_width":16,
+			"texture_height":16,
+			"x": 89,
+			"y": 32,
+			"scale":1.2
+		},
+		{
+			"type": "image",
+			"image": "forestry:textures/blocks/liquid/for.honey_still.png",
+			"width":60,
+			"height":16,
+			"u":0,
+			"v":0,
+			"texture_width":16,
+			"texture_height":512,
+			"x": 81,
+			"y": 55,
+			"scale":0.6
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/carpenter.png",
+			"width":60,
+			"height":18,
+			"u":0,
+			"v":0,
+			"texture_width":60,
+			"texture_height":18,
+			"x": 81,
+			"y": 54,
+			"scale":0.6
+		},
+		{
+			"type":"tooltip",
+			"tooltip":["#liquid","#amount"],
+			"width":36,
+			"height":10.8,
+			"x":81,
+			"y":54,
+			"scale":0.6
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":128,
+			"height":64,
+			"u":0,
+			"v":0,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 10,
+			"y": 10,
+			"scale":1
+		},
+		{
+			"type": "item",
+			"item": "forestry:carpenter",
+			"x": 91,
+			"y": 16,
+			"scale":1
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":false,
+			"link_recipe":true,
+			"x": 91,
+			"y": 34
+		},
+		{
+			"type":"text",
+			"text":"#text",
+			"y":75
+		}
+	]
+}

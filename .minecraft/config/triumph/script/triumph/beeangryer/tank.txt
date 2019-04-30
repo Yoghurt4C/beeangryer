@@ -1,6 +1,6 @@
 setIcon(<charset:fluidtank>)
 setTitle("Stackable Jars")
-setDescription("Useful for temporary plumbing-compliant fluid storage. Almost necessary for manual Chicken Stock crafting. While not required, getting Glass Chickens to craft these is arguably faster than squeezing sand...")
+setDescription("Charset Tanks are useful for temporary plumbing-compliant fluid storage. §oAlmost§r necessary for manual Chicken Stock crafting. While not required, getting Glass Chickens to craft these is arguably faster than squeezing sand...")
 
 addParent("triumph:beeangryer/chickens")
 setRequirements("all")

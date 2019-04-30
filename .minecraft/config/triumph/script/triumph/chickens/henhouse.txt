@@ -1,6 +1,6 @@
 setIcon(<chickens:henhouse>)
 setTitle("Poultry Vacuum")
-setDescription("One of these could be useful if you want to let some of your productive chickens run amok.")
+setDescription("A Henhouse could be useful if you want to let some of your productive chickens run amok.")
 
 addParent("triumph:chickens/root")
 setRequirements("any")

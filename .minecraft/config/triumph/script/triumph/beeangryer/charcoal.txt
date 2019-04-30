@@ -1,5 +1,5 @@
 setIcon(<quark:charcoal_block>)
-setTitle("Barbeque Shoes: On")
+setTitle("Barbecue Shoes: On")
 setDescription("Cobble together a Block of Charcoal with drops obtained from a Charcoal Pile. See Guidebook for more information.")
 
 addParent("triumph:beeangryer/firestarter")
@@ -8,3 +8,4 @@ setRequirements("any")
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem(<quark:charcoal_block>)
+addRewardItem(<minecraft:leather_boots, nbt:{ench:[{lvl:1s,id:1s}],display:{Name:"§6Barbecue Shoes",color:4673362},"Quark:RuneColor":14,"Quark:RuneAttached":1b}>)

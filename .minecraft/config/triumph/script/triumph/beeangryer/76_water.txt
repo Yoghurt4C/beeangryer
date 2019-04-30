@@ -1,0 +1,14 @@
+setIcon(<botania:waterbowl, meta:0, count:1, nbt:{Fluid:{FluidName:"water",Amount:1000}}>)
+setTitle("Leftover Moisture")
+setDescription("If you opted out for starting in this dimension, you can't progress past a certain point (Panning) unless you find some water. Your best bet is to look for what's left of Deep Oceans, then dip your toes into it to prove you did, I guess.")
+
+addParent("triumph:beeangryer/76")
+setAnnounceToChat(true)
+setShowToast(true)
+visibleIf("triumph:beeangryer/76")
+setRequirements("all")
+
+criteria = addCriteria("Found Water", "minecraft:enter_block")
+criteria.setBlock(<minecraft:water>)
+criteria = addCriteria("Entered the Old Haven", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:beeangryer/76")

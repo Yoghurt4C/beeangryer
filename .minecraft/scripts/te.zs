@@ -82,3 +82,8 @@ for chest in <ore:chestWood>.items{
 Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 11 as short}]}),
 <minecraft:book>, chest, 12000, 1000, false);}
 recipes.replaceAllOccurences(<ore:gearIron>,<immersiveengineering:mold:1>,<thermalexpansion:augment:337>);
+
+game.setLocalization("item.thermalfoundation.util.wrench0.name","Skookum Choocher");
+game.setLocalization("info.thermalfoundation.util.wrench.1","Thumb Detecting Swedish Nut Lathe!");
+<thermalfoundation:wrench>.addTooltip(format.italic(format.darkPurple("Formerly Crescent Hammer.")));
+<ore:wrench>.add(<thermalfoundation:wrench>);

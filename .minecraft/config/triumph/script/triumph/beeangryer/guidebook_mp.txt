@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:guidebook>)
+setTitle("I Want To Read Too!")
+setDescription("Punch another bloke (player) to make him share the Guidebook with you. §8If you're all alone and just want the achievement, punch a chicken instead.")
+
+addParent("triumph:beeangryer/guidebook")
+setRequirements("any")
+
+criteria = addCriteria("§8Punch a chicken", "minecraft:player_hurt_entity")
+criteria.setEntityType("minecraft:chicken")
+criteria = addCriteria("Punch a bloke", "minecraft:player_hurt_entity")
+criteria.setEntityType("minecraft:player")
+
+addRewardItem(<patchouli:guide_book, meta:0, count:1, nbt:{"patchouli:book":"patchouli:beeangryer"}>)

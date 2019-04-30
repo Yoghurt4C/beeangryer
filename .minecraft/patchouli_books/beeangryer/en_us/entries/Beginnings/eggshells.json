@@ -9,7 +9,7 @@
 			"item":"contenttweaker:eggshells",
 			"title":"Some Egg Shells",
 			"link_recipe":true,
-			"text":"In order to advance from your status of a stump clapper, you'll need to get some eggshells. In order to obtain them, it's necessary to have a renewable source of $(9)Sand/$ ($(5)$(o)Integrated Dynamics Squeezer/$) and a $(9)Bowl/$.<br>Be careful not to replace the water block, or you'll be left stranded with no way to get back on track, $(o)forever/$."
+			"text":"In order to advance from your status of a stump clapper, you'll need to get some eggshells. In order to obtain them, it's necessary to have a renewable source of $(9)Sand/$ ($(5)$(o)Integrated Dynamics Squeezer/$) and a $(9)Bowl/$.<br>Be careful not to replace the water block, or you'll be completely stuck; that is, unless you $(o)start over/$..."
 		},
 		{
 			"type":"image",
@@ -25,7 +25,7 @@
 			"input1":"contenttweaker:eggshells",
 			"time":"10 sec",
 			"output1":"contenttweaker:firedeggshells",
-			"text":"Egg Shells can be burned (or smelted) into Fired Egg Shells, which are a necessary component in creating Lime.",
+			"text":"Egg Shells can be burned (or smelted) into Fired Egg Shells, which are a necessary component in creating $(l:beginnings/the_great_egg)Lime.",
 			"header2":"Soggy Lime",
 			"input3":"contenttweaker:firedeggshells",
 			"input4":"ore:dustSmallClay",

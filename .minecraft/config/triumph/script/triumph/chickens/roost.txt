@@ -1,6 +1,6 @@
 setIcon(<roost:roost>)
 setTitle("Fowl Calaboose")
-setDescription("Space Efficient, Cheap Chicken Confinement For Complex Industrialization!")
+setDescription("Space Efficient, Cheap Chicken Confinement For Complex Industrialization: Roost!")
 
 addParent("triumph:chickens/root")
 setRequirements("all")

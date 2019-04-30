@@ -1,0 +1,94 @@
+{
+    "name": "Charcoal Pits And You",
+    "icon": "minecraft:coal:1",
+    "category": "beginnings",
+	"sortnum":2,
+    "pages": [
+    	{
+    		"type":"text",
+    		"text":"Imagine a situation where you put some logs into a furnace, but just can't get the fire going, which means you're about to meet ends with your mortality if you don't do $(o)something/$.<br>Actually, you don't even need to imagine it, because that is simply destined to happen. Although you won't - shouldn't - die, stagnation is argued to be a lot worse."
+    	},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:wood_pile",
+			"text":"Before you set off making a Charcoal Pit, you'll want to amass some Wood Piles. The ''conversion'' process takes a very long time regardless of their total amount inside a Pit, so it's probably better to make a whole bunch." 
+		},
+		{
+			"type":"burning",
+			"anchor":"ash",
+			"header":"Getting Ashes",
+			"input1":"minecraft:log#6",
+			"time":"10 sec",
+			"output":"forestry:ash#4",
+			"text":"In case you want to get a small bonus from the Charcoal Pile, you can craft some Ash Bricks, for which you will need Ash. Thankfully, even though you can't specifically burn logs into charcoal, they'll still burn on their own."
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:ash_brick",
+			"link_recipe":true,
+			"text":"The amount of Charcoal you can get from a Pit is governed directly by the blocks surrounding and covering the Wood Piles inside: technically, you can use any solid block, but some specific blocks artificially increase the average yield." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_controller",
+			"link_recipe":true,
+			"text":"The Machine Controller is the heart of arbitrary multiblocks, which simply can't function without a Controller.<br>$(o)You can use Organic Plastic to craft a Computer Monitor."
+		},
+		{
+			"type":"image",
+			"images":["patchouli:textures/gui/woodpile/charcoalpit1.png","patchouli:textures/gui/woodpile/charcoalpit2.png","patchouli:textures/gui/woodpile/charcoalpit3.png","patchouli:textures/gui/woodpile/charcoalpit4.png","patchouli:textures/gui/woodpile/charcoalpit5.png","patchouli:textures/gui/woodpile/charcoalpit6.png"],
+			"title":"The Art of Panning",
+			"text":"Place the Sand under $(o)$(l)flowing/$ Water, hold $(k:key.sneak), and use the Bowl on the placed Sand.",
+			"border":true
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_inputbus_lv",
+			"link_recipe":true,
+			"text":"The Input Buses let you provide items to arbitrary multiblocks. If the multiblock definition allows multiple placement positions, you can use more than one Bus! They are also upgradeable, although you will need the Carpenter to craft the better variants." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:mm_outputbus_lv",
+			"link_recipe":true,
+			"text":"The Output Buses are the opposite of Input Buses, and let multiblocks actually procure items!$(br)$(l)IMPORTANT/$: multiblocks will not function if there is not enough space in the bus to handle $(l)all/$ of the possible outputs at once./$" 
+		},
+		{
+			"type":"crafting",
+			"anchor":"blockfluidinputhatch",
+			"recipe":"crafttweaker:mm_inputhatch_ulv",
+			"link_recipe":true,
+			"text":"The Fluid Input Hatches let you provide fluids to arbitrary multiblocks, if necessary. You will need a Pipette, a Flopper or some kind of fluid pipes to operate this particular hatch, because it can only accept and hold 100mL of fluid!" 
+		},
+		{
+			"type":"carpenter",
+			"header":"Tiny Energy Input Hatch",
+			"i4":"thermaldynamics:duct_0",
+			"i5":"modularmachinery:blockcasing",
+			"output":"modularmachinery:blockenergyinputhatch",
+			"liquid":"&6Honey","amount":"&7500mL",
+			"text":"The Energy Input Hatches act as a FE/RF interface for arbitrary multiblocks, if necessary. Note that you need a Carpenter to craft all of these, and their recipes are cascading!"
+		},
+		{
+			"type":"carpenter",
+			"anchor":"blockbiomedetector",
+			"header":"Biome Detector",
+			"i2":"forestry:habitat_locator",
+			"i5":"modularmachinery:blockcasing",
+			"output":"modulardiversity:blockbiomedetector",
+			"liquid":"&6Honey","amount":"&7500mL",
+			"text":"The Biome Detector provides information about the biome - and, by extension, dimension - that the arbitrary multiblock resides in. Some of the multiblocks will not work without a Biome Detector!"
+		},
+		{
+			"type":"carpenter",
+			"anchor":"blockmanainputhatch",
+			"header":"Mana Input Hatch",
+			"i2":"botania:manadetector",
+			"i5":"modularmachinery:blockcasing",
+			"i8":"botania:pool",
+			"output":"modulardiversity:blockmanainputhatch",
+			"liquid":"&6Honey","amount":"&71L",
+			"text":"The Mana Input Hatch acts as a Mana interface for arbitrary multiblocks, if necessary. Doesn't accept sparks and has to be fed via Spreaders.<br>It is a bit buggy, but it's not going to be used a whole lot, so that shouldn't be a problem."
+		}
+    ]
+}

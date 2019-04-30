@@ -1,7 +1,8 @@
 {
     "name": "The Great Egg",
     "icon": "minecraft:egg",
-    "category": "multiblocks",
+    "category": "beginnings",
+    "sortnum":5,
     "pages": [
 		{
             "type": "text",
