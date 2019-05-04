@@ -1,0 +1,28 @@
+{
+    "name": "Molten Gold Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'gold'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Gold Cows are a metallic species of Cows. Their rich yellow luster is more than enough to make most people do very stupid things!<br>Dairy: Molten Gold.$(br2)But, what good is Gold in a world without barter?"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:rotten_flesh#16",
+            "input2":"minecraft:dye:11#16",
+            "input3":"minecraft:dye:0#16",
+            "input4":"fluidcows:cow_displayer{fluid:'pigiron'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'gold'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'gold'}",
+            "chicken":"Molten Gold Cow",
+            "entitytooltip":"&7Molten Gold",
+            "outputstack":"forge:bucketfilled{FluidName:'gold',Amount:1000}"
+        }
+    ]
+}

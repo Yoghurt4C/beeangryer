@@ -1,0 +1,28 @@
+{
+    "name": "Molten Copper Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'copper'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Copper Cows are a metallic species of Cows. Painfully orange, and softer than a ''regular'' metallic cow.<br>Dairy: Molten Copper.$(br2)Being orange doesn't mean its dairy would taste orange too, so don't try it. $(o)Don't let this hold you, though./$"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:clay_ball#16",
+            "input2":"minecraft:snowball#16",
+            "input3":"minecraft:dye:14#16",
+            "input4":"fluidcows:cow_displayer{fluid:'milk'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'copper'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'copper'}",
+            "chicken":"Molten Copper Cow",
+            "entitytooltip":"&7Molten Copper",
+            "outputstack":"forge:bucketfilled{FluidName:'copper',Amount:1000}"
+        }
+    ]
+}

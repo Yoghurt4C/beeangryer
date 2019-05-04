@@ -1,0 +1,23 @@
+{
+    "name": "Molten Bronze Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'bronze'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Bronze Cows are a species of ''alloy'' Cows. Their classy dull orange colour is familiar to every hobbyist and steam enthusiast.<br>Dairy: Molten Bronze.$(br2)Even though steam is mentioned, you don't actually get to do a whole lot with it - particularly with Bronze..."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'copper'}",
+			"input2":"fluidcows:cow_displayer{fluid:'tin'}",
+			"output":"fluidcows:cow_displayer{fluid:'bronze'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'bronze'}",
+            "cow":"Molten Bronze Cow",
+            "entitytooltip":"&7Molten Bronze",
+            "outputstack":"forge:bucketfilled{FluidName:'bronze',Amount:1000}"
+		}
+    ]
+}

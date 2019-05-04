@@ -1,0 +1,23 @@
+{
+    "name": "Molten Invar Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'invar'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Invar Cows are a species of ''alloy'' Cows. Theoretically, these can withstand all of your mean jokes about its dull and slightly yellowish gray appearance.<br>Dairy: Molten Invar.$(br2)Too lazy to get back at you, and you should be thankful for that."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'iron'}",
+			"input2":"fluidcows:cow_displayer{fluid:'nickel'}",
+			"output":"fluidcows:cow_displayer{fluid:'invar'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'invar'}",
+            "cow":"Molten Invar Cow",
+            "entitytooltip":"&7Molten Invar",
+            "outputstack":"forge:bucketfilled{FluidName:'invar',Amount:1000}"
+		}
+    ]
+}

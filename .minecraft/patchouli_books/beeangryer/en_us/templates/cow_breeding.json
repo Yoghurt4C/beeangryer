@@ -1,0 +1,77 @@
+{
+	"components": [
+		{
+			"type":"header",
+			"text":"#header",
+			"x":-1,
+			"y":-3
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed":false,
+			"x": 26,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed":false,
+			"x": 69,
+			"y": 20
+		},
+		{
+			"type":"image",
+			"image":"patchouli:textures/gui/cow_breeding.png",
+			"width":82,
+			"height":54,
+			"texture_width":82,
+			"texture_height":54,
+			"x":16,
+			"y":10
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed":false,
+			"x": 48,
+			"y": 40
+		},
+		{
+			"type":"entity",
+			"entity":"#entity",
+			"render_size":40,
+			"x":57,
+			"y":100
+		},
+		{
+			"type": "image",
+			"image": "patchouli:textures/gui/crafting.png",
+			"width":22,
+			"height":22,
+			"u":78,
+			"v":21,
+			"texture_width":128,
+			"texture_height":128,
+			"x": 31,
+			"y": 74,
+			"scale":2.4
+		},
+		{
+			"type": "tooltip",
+			"tooltip":["#cow","&8Dairy:","#entitytooltip"],
+			"width":52.8,
+			"height":52.8,
+			"x": 31,
+			"y": 74
+		},
+		{
+			"type": "item",
+			"item": "#outputstack",
+			"framed":true,
+			"link_recipe":false,
+			"x": 90,
+			"y": 92
+		}
+	]
+}

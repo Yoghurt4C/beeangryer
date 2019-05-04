@@ -1,0 +1,23 @@
+{
+    "name": "Primal Mana Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'mana'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Primal Mana Cows are a species of ''alloy'' Cows. Despite their composition, they appear in a mute, dull deep blue colour and, even though they might look interesting, they're rather pointless to keep around.<br>Dairy: Primal Mana.$(br2)Pitiful, is what it is."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'platinum'}",
+			"input2":"fluidcows:cow_displayer{fluid:'manasteel'}",
+			"output":"fluidcows:cow_displayer{fluid:'mana'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'mana'}",
+            "cow":"Primal Mana Cow",
+            "entitytooltip":"&7Primal Mana",
+            "outputstack":"forge:bucketfilled{FluidName:'mana',Amount:1000}"
+		}
+    ]
+}

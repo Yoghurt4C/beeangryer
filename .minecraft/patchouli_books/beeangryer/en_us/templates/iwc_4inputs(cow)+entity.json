@@ -169,7 +169,7 @@
 		{
 			"type": "item",
 			"item": "#outputstack",
-			"link_recipe":true,
+			"link_recipe":false,
 			"framed":true,
 			"x": 90,
 			"y": 92

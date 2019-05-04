@@ -6,14 +6,13 @@
     "pages": [
         {
             "type": "text",
-            "text": "This is a test entry, but it should show up!"
+            "text": "Molten Steel Cows are a species of ''alloy'' Cows. Due to its relative durability to cost ratio, it's a base component in most of the advanced industry available on the market.<br>Dairy: Molten Steel.$(br2)You will need a High Oven to obtain this Cow."
         },
         {
             "type":"ticon_steel_casting+entity",
             "header":"Basin Casting",
             "input1":"fluidcows:cow_displayer{fluid:'milk'}",
             "output":"fluidcows:cow_displayer{fluid:'steel'}",
-            "text":"Punished Daisy can turn a Chicken into a Snowball Chicken when provided with some water.",
             "fluid":"&8Molten Steel", "amount":"&73600 mL",
             "entity":"fluidcows:fluidcow{t_fluid:'steel'}",
             "cow":"Molten Steel Cow",

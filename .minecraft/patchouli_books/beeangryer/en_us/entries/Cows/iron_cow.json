@@ -1,0 +1,28 @@
+{
+    "name": "Molten Iron Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'iron'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Iron Cows are a metallic species of Cows. Their overly red outside appearance may lead one to think that they're extremely hot to the touch, but in reality that doesn't seem to be the case.<br>Dairy: Molten Iron.$(br2)We may never know the real answer for this preposterous disparity..."
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:flint#16",
+            "input2":"techreborn:dust:8#16",
+            "input3":"minecraft:coal#2",
+            "input4":"fluidcows:cow_displayer{fluid:'milk'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'iron'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'iron'}",
+            "chicken":"Molten Iron Cow",
+            "entitytooltip":"&7Molten Iron",
+            "outputstack":"forge:bucketfilled{FluidName:'iron',Amount:1000}"
+        }
+    ]
+}

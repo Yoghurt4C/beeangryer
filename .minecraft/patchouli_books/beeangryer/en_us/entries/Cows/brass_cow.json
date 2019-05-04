@@ -1,0 +1,23 @@
+{
+    "name": "Molten Brass Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'brass'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Brass Cows are a species of ''alloy'' Cows. Their classy tame yellow colour is familiar to every enthusiast and steam hobbyist.<br>Dairy: Molten Brass.$(br2)Wait, something isn't right with this entry. But, it's just about Molten Brass Cows, so... Who cares?	"
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'copper'}",
+			"input2":"fluidcows:cow_displayer{fluid:'zinc'}",
+			"output":"fluidcows:cow_displayer{fluid:'brass'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'brass'}",
+            "cow":"Molten Brass Cow",
+            "entitytooltip":"&7Molten Brass",
+            "outputstack":"forge:bucketfilled{FluidName:'brass',Amount:1000}"
+		}
+    ]
+}

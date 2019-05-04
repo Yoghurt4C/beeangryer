@@ -1,0 +1,23 @@
+{
+    "name": "Molten Aluminium Brass Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'alubrass'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Aluminium Brass Cows are a species of ''alloy'' Cows. Yellowish and moderately shiny, this Cow is mainly useful to tinkering enthusiasts.<br>Dairy: Molten Aluminium Brass.$(br2)There's also some hidden potential, if you put your mind to it..."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'aluminum'}",
+			"input2":"fluidcows:cow_displayer{fluid:'copper'}",
+			"output":"fluidcows:cow_displayer{fluid:'alubrass'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'alubrass'}",
+            "cow":"Molten Aluminium Brass Cow",
+            "entitytooltip":"&7Molten Aluminium Brass",
+            "outputstack":"forge:bucketfilled{FluidName:'alubrass',Amount:1000}"
+		}
+    ]
+}

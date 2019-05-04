@@ -1,0 +1,28 @@
+{
+    "name": "Molten Tin Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'tin'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Tin Cows are a metallic species of Cows. Somewhat brittle in their dull, light grayness. One should be advised to keep them away from cold.<br>Dairy: Molten Tin.$(br2)...But does that really matter if they're, err, ''Molten''?"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:flint#16",
+            "input2":"minecraft:log#16",
+            "input3":"minecraft:dye:10#16",
+            "input4":"fluidcows:cow_displayer{fluid:'milk'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'tin'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'tin'}",
+            "chicken":"Molten Tin Cow",
+            "entitytooltip":"&7Molten Tin",
+            "outputstack":"forge:bucketfilled{FluidName:'tin',Amount:1000}"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Molten Knightslime Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'knightslime'}",
+    "category": "cows",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Knightslime Cows are a species of ''alloy'' Cows. Quite unappealing and overly weird in their dull purpleness, especially in such a liquid state.<br>Dairy: Molten Knightslime.$(br2)It would be wise to refrain from consuming this, unless you $(o)really/$ like experimenting."
+        },
+        {
+            "type":"ticon_knightslime_casting+entity",
+            "header":"Basin Casting",
+            "input1":"fluidcows:cow_displayer{fluid:'milk'}",
+            "output":"fluidcows:cow_displayer{fluid:'knightslime'}",
+            "fluid":"&8Molten Knightslime", "amount":"&73600 mL",
+            "entity":"fluidcows:fluidcow{t_fluid:'knightslime'}",
+            "cow":"Molten Knightslime Cow",
+            "entitytooltip":"&7Molten Knightslime",
+            "outputstack":"forge:bucketfilled{FluidName:'knightslime',Amount:1000}"
+        }
+    ]
+}

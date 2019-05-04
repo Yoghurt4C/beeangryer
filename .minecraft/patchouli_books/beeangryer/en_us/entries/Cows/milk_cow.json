@@ -1,12 +1,12 @@
 {
-    "name": "cow",
+    "name": "Milk Cow",
     "icon": "fluidcows:cow_displayer{fluid:'milk'}",
     "category": "cows",
 	"sortnum":0,
     "pages": [
         {
             "type": "text",
-            "text": "This is a test entry, but it should show up!"
+            "text": "Milk Cows aren't all that different from ''regular'' Cows, save for their rather pronounced creamy appearance and their ability to work inside Stalls.<br>Dairy: Milk.$(br2)I hope you weren't expecting something overly eccentric."
         },
         {
             "type":"iwc_4inputs(cow)+entity",

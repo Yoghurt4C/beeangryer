@@ -41,7 +41,9 @@
 			"texture_width":96,
 			"texture_height":192,
 			"x": 2,
-			"y": 14
+			"y": 14,
+			"u":0,
+			"v":55
 		},
 		{
 			"type": "tooltip",

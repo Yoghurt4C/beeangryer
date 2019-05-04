@@ -1,0 +1,23 @@
+{
+    "name": "Molten Manyullyn Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'manyullyn'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Manyullyn Cows are a species of ''alloy'' Cows. A purple amalgamation of esoteric metals, Molten Manyullyn can now be obtained from your livestock.<br>Dairy: Molten Manyullyn.$(br2)Not quite magic crops, but still just as stupid."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'cobalt'}",
+			"input2":"fluidcows:cow_displayer{fluid:'ardite'}",
+			"output":"fluidcows:cow_displayer{fluid:'manyullyn'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'manyullyn'}",
+            "cow":"Molten Manyullyn Cow",
+            "entitytooltip":"&7Molten Manyullyn",
+            "outputstack":"forge:bucketfilled{FluidName:'manyullyn',Amount:1000}"
+		}
+    ]
+}

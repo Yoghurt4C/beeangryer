@@ -1,0 +1,23 @@
+{
+    "name": "Molten Pig Iron Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'pigiron'}",
+    "category": "cows",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Pig Iron Cows are a species of ''alloy'' Cows. Slightly inferior to what would be a ''Beef Cow'', but its pink tint is still visibly appetizing; and the rich iron content compensates for it.<br>Dairy: Molten Pig Iron.$(br2)Thankfully, it doesn't oink. At least, no has ever heard that..."
+        },
+        {
+            "type":"ticon_pigiron_casting+entity",
+            "header":"Basin Casting",
+            "input1":"fluidcows:cow_displayer{fluid:'milk'}",
+            "output":"fluidcows:cow_displayer{fluid:'pigiron'}",
+            "fluid":"&8Molten Pig Iron", "amount":"&73600 mL",
+            "entity":"fluidcows:fluidcow{t_fluid:'pigiron'}",
+            "cow":"Molten Pig Iron Cow",
+            "entitytooltip":"&7Molten Pig Iron",
+            "outputstack":"forge:bucketfilled{FluidName:'pigiron',Amount:1000}"
+        }
+    ]
+}

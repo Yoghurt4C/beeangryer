@@ -1,0 +1,23 @@
+{
+    "name": "Molten Electrum Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'electrum'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Electrum Cows are a species of ''alloy'' Cows. Despite a seemingly lucrative composition, their bleak and sickly-yellow tint doesn't seem that attractive.<br>Dairy: Molten Electrum.$(br2)Surely, there is a way to get traction out of these?"
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'silver'}",
+			"input2":"fluidcows:cow_displayer{fluid:'gold'}",
+			"output":"fluidcows:cow_displayer{fluid:'electrum'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'electrum'}",
+            "cow":"Molten Electrum Cow",
+            "entitytooltip":"&7Molten Electrum",
+            "outputstack":"forge:bucketfilled{FluidName:'electrum',Amount:1000}"
+		}
+    ]
+}

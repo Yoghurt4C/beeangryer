@@ -1,0 +1,23 @@
+{
+    "name": "Molten Constantan Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'constantan'}",
+    "category": "cows",
+	"sortnum":2,
+    "pages": [
+		{
+			"type":"text",
+			"text":"Molten Constantan Cows are a species of ''alloy'' Cows. Originally mainly utilized in engineering, this brownish-red metal started its ''career climb'' as a tool component quite some time ago.<br>Dairy: Molten Constantan.$(br2)Or, you could just stamp it out into plates; the Cow won't mind as long as it's not next in queue."
+		},
+		{
+			"type":"cow_breeding",
+			"header":"Breeding",
+			"input1":"fluidcows:cow_displayer{fluid:'copper'}",
+			"input2":"fluidcows:cow_displayer{fluid:'nickel'}",
+			"output":"fluidcows:cow_displayer{fluid:'constantan'}",
+			"entity":"fluidcows:fluidcow{t_fluid:'constantan'}",
+            "cow":"Molten Constantan Cow",
+            "entitytooltip":"&7Molten Constantan",
+            "outputstack":"forge:bucketfilled{FluidName:'constantan',Amount:1000}"
+		}
+    ]
+}
