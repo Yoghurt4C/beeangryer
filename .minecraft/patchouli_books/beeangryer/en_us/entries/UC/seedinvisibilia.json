@@ -55,18 +55,23 @@
 		},
 		{
 			"type":"crafting",
-			"recipe":"crafttweaker:uniquecrops-invisiglass-modified",
+			"recipe":"crafttweaker:invisiglass",
 			"text":"This glass is completely invisible to those without special eyewear. It's so convincing that you can't even interact with it, even though you know it's there! Or do you?" 
 		},
 		{
 			"type":"crafting",
-			"recipe":"crafttweaker:uniquecrops-thunderpants-modified",
+			"recipe":"uniquecrops:thunderpants",
 			"text":"A pair of thundering pants. If one shuffles around on carpet while wearing them, they will slowly build up static electricity that will discharge if they get hit by melee damage." 
 		},
 		{
 			"type":"crafting",
 			"recipe":"uniquecrops:poncho",
 			"text":"Poncho that doesn't have much in the way of durability or protection, but is light enough to allow one to fall at the same speed as chickens, and therefore glide. Most mobs ignore the wearer when upgraded +10." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:3dglasses",
+			"text":"If you can't take the pressure of implied self-research and are in dire need of a divine intervention, these are the glasses required for interactions with Invisibilia.<br>When upgraded +10, gives Night Vision while in low light." 
 		}
     ]
 }

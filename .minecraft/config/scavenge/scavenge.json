@@ -409,8 +409,6 @@
 				"name":"rustic:marsh_mallow"}
 			]
 		},
-		
-		
 		{
 		"name":"MutandisSaplings",
 		"type":{
@@ -446,6 +444,10 @@
 						{
 						"name":"rustic:sapling",
 						"meta":1
+						},
+						{
+						"name":"rustic:wildberry_bush",
+						"meta":0
 						}
 				]},
 		"clicktype":"rightclick",
@@ -496,7 +498,12 @@
 				"type":"consume_block",
 				"chance":15,
 				"name":"rustic:sapling",
-				"meta":1}
+				"meta":1},
+				{
+				"type":"consume_block",
+				"chance":15,
+				"name":"rustic:wildberry_bush",
+				"meta":0}
 			]
 		}
 	]

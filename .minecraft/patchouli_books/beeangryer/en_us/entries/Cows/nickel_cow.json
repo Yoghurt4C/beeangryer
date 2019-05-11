@@ -1,0 +1,28 @@
+{
+    "name": "Molten Nickel Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'nickel'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Nickel Cows are a metallic species of Cows, which somehow carry a certain pale creamy-yellow aura of minor material wealth with them.<br>Dairy: Molten Nickel.$(br2)Perhaps keeping a few around would attract prosperity?"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:flint#16",
+            "input2":"minecraft:dye:2#16",
+            "input3":"minecraft:dye:15#16",
+            "input4":"fluidcows:cow_displayer{fluid:'iron'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'nickel'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'nickel'}",
+            "chicken":"Molten Nickel Cow",
+            "entitytooltip":"&7Molten Nickel",
+            "outputstack":"forge:bucketfilled{FluidName:'nickel',Amount:1000}"
+        }
+    ]
+}

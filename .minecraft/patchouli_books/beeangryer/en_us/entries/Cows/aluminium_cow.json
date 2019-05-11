@@ -1,0 +1,28 @@
+{
+    "name": "Molten Aluminium Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'aluminum'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Aluminium Cows are a metallic species of Cows. Their pale and slightly pinkish Dairy is visibly inconsistent with the metal cast from it.<br>Dairy: Molten Aluminium.$(br2)That's pretty much the only unique and notable thing about this species!.."
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:dye:12#16",
+            "input2":"minecraft:dye:6#16",
+            "input3":"fluidcows:cow_displayer{fluid:'iron'}",
+            "input4":"fluidcows:cow_displayer{fluid:'tin'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'aluminum'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'aluminum'}",
+            "chicken":"Molten Aluminium Cow",
+            "entitytooltip":"&7Molten Aluminium",
+            "outputstack":"forge:bucketfilled{FluidName:'aluminum',Amount:1000}"
+        }
+    ]
+}

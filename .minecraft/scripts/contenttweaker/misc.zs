@@ -31,6 +31,9 @@ var netherstarshard = VanillaFactory.createItem("nether_star_shard");
 	
 var saltcube = VanillaFactory.createItem("salt_cube");
 	saltcube.register();
+
+var tiny_biomass = VanillaFactory.createItem("tiny_biomass");
+	tiny_biomass.register();
 	
 var yarn = VanillaFactory.createItem("yarn");
 	yarn.onItemUse = function(player, world, pos, hand, facing, blockHit) {
@@ -144,6 +147,22 @@ var firestarter = VanillaFactory.createItem("firestarter");
 				return ActionResult.pass();
 				};
 firestarter.register();
+
+var plunger = VanillaFactory.createItem("plunger");
+			plunger.maxDamage = 1;
+			plunger.maxStackSize = 1;
+			plunger.creativeTab = <creativetab:tools>;
+			plunger.setItemUseAction("BOW");
+			plunger.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+					if (world.getBlockState(pos)==<block:integrateddynamics:squeezer:0>|world.getBlockState(pos)==<block:integrateddynamics:squeezer:7> & player.isSneaking as bool) {
+					world.setBlockState(<block:rustic:crushing_tub>, pos);
+					Commands.call("/particle witchMagic "+pos.getX()+" "+pos.getY()+" "+pos.getZ()+" 1 1 1 1 50",player,world,false,true);
+					player.getHeldItem(hand).damage(2, player);
+					return ActionResult.success();
+					}
+				return ActionResult.pass();
+				};
+plunger.register();
 
 var soggylime = VanillaFactory.createBlock("soggylime", <blockmaterial:clay>);
 soggylime.setToolClass("shovel");

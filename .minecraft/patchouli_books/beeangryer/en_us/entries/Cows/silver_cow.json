@@ -1,0 +1,28 @@
+{
+    "name": "Molten Silver Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'silver'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Silver Cows are a metallic species of Cows. Their lustrous and reflective light blueish-gray coating should be very appealing to one's eyes.<br>Dairy: Molten Silver.$(br2)Highly demanded in exorcisms and gastronomy."
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:dye:7#16",
+            "input2":"minecraft:dye:12#16",
+            "input3":"fluidcows:cow_displayer{fluid:'zinc'}",
+            "input4":"fluidcows:cow_displayer{fluid:'gold'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'silver'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'silver'}",
+            "chicken":"Molten Silver Cow",
+            "entitytooltip":"&7Molten Silver",
+            "outputstack":"forge:bucketfilled{FluidName:'silver',Amount:1000}"
+        }
+    ]
+}

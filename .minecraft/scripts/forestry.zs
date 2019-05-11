@@ -21,9 +21,9 @@ var nsshard=<contenttweaker:nether_star_shard>;
 var grafter=<forestry:grafter>.anyDamage().transformDamage(1);
 var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);
 
-recipes.replaceAllOccurences(<thermalfoundation:material:257>,<extrabees:misc:0>, <*>.only(function(item) {
+/*recipes.replaceAllOccurences(<thermalfoundation:material:257>,<extrabees:misc:0>, <*>.only(function(item) {
     return !isNull(item) & !<thermalexpansion:dynamo:2>.matches(item)& !<thermalexpansion:augment:288>.matches(item)& !<thermalexpansion:augment:432>.matches(item);
-}));
+}));*/
 
 //forestry
 recipes.addShaped(<forestry:bee_house>,[

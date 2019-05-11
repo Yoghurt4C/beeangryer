@@ -15,6 +15,7 @@ item.contenttweaker.firedeggshells.name=Fired Egg Shells
 item.contenttweaker.crushedeggshells.name=Crushed Egg Shells
 item.contenttweaker.golden_egg.name=Golden Egg
 item.contenttweaker.firestarter.name=Firestarter
+item.contenttweaker.plunger.name=Questionably Mystical Plunger
 item.contenttweaker.menril_propolis.name=Menril Propolis
 item.contenttweaker.nether_star_shard.name=Sharded Nether Star
 item.contenttweaker.salt_cube.name=Salt Cube
@@ -26,6 +27,7 @@ item.contenttweaker.yarn_golden.name=Ball of Golden ''Yarn''
 item.contenttweaker.yarn_ender.name=Ball of Enderlily Yarn
 item.contenttweaker.yarn_invisibilia.name=Ball of Invisibilia Yarn
 item.contenttweaker.fabric.name=Swatch of Fabric
+item.contenttweaker.tiny_biomass.name=Tiny Biomass Pulp
 
 tile.contenttweaker.soggylime.name=Soggy Lime
 tile.contenttweaker.salt_block.name=Big Salt Cube

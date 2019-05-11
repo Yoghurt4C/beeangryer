@@ -8,17 +8,34 @@ val toolRod = <ore:stickWood>|<ore:stickTreatedWood>;
 var condiment = <ore:rusticFlora>;
 val steelplate = <tconstruct:large_plate>.withTag({Material:"steel"});
 val steelsignplate = <tconstruct:sign_head>.withTag({Material:"steel"});
+val steelplates=steelplate|steelsignplate;
+val ironplates=<tconstruct:sign_head>.withTag({Material:"iron"})|<tconstruct:large_plate>.withTag({Material:"iron"});
+val copperplates=<tconstruct:sign_head>.withTag({Material:"copper"})|<tconstruct:large_plate>.withTag({Material:"copper"});
+val aluminiumplates=<tconstruct:sign_head>.withTag({Material:"aluminum"})|<tconstruct:large_plate>.withTag({Material:"aluminum"});
 val steelrod = <tconstruct:tool_rod>.withTag({Material: "steel"});
 val steeltrod = <tconstruct:tough_tool_rod>.withTag({Material:"steel"});
 val steeltbinding = <tconstruct:tough_binding>.withTag({Material:"steel"});
+val cHammer=<immersiveengineering:tool:0>;
+val cCutter=<immersiveengineering:tool:1>;
 
 game.setLocalization("item.immersiveengineering.tool.hammer.name","Limited Edition Engineer's Hammer");
 recipes.addShaped("IE_hammer",<immersiveengineering:tool:0>.withTag({multiblockInterdiction:["IE:AlloySmelter", "IE:BlastFurnace", "IE:BlastFurnaceAdvanced"]}),[
 [null,<ore:ingotIron>,<ore:yarn>],
 [null,toolRod,<ore:ingotIron>],
 [toolRod,null,null]]);
-recipes.replaceAllOccurences(<ore:plateIron>,<ore:ingotIron>,<immersiveengineering:material:8>);
-recipes.replaceAllOccurences(<ore:plateSteel>,<tconstruct:sign_head>.withTag({Material:"steel"})|<tconstruct:large_plate>.withTag({Material:"steel"}),<immersiveengineering:material:9>);
+
+recipes.addShaped("iron_mechanical_component",<immersiveengineering:material:8>*1,[
+[<ore:ingotIron>,cHammer,<ore:ingotIron>],
+[null,<ore:ingotCopper>],
+[<ore:ingotIron>,cCutter,<ore:ingotIron>]]);
+recipes.addShaped("iron_mechanical_component_alt",<immersiveengineering:material:8>*3,[
+[ironplates,cHammer,ironplates],
+[null,copperplates],
+[ironplates,cCutter,ironplates]]);
+recipes.addShaped("steel_mechanical_component",<immersiveengineering:material:9>*2,[
+[steelplates,cHammer,steelplates],
+[null,copperplates],
+[steelplates,cCutter,steelplates]]);
 recipes.addShaped("steel_scaffolding",<immersiveengineering:metal_decoration1:1>*8,[
 [steeltrod,steeltrod,steeltrod],
 [steeltrod,steeltbinding,steeltrod],
@@ -28,16 +45,20 @@ recipes.addShaped("steel_fence",<immersiveengineering:metal_decoration1:0>*6,[
 [steeltrod,steelrod,steeltrod]]);
 recipes.addShaped("heavy_engineering",<immersiveengineering:metal_decoration0:5>*3,[
 [steelplate|steelsignplate,<immersiveengineering:material:9>,steelplate|steelsignplate],
-[<minecraft:piston>,<tconstruct:sign_head>.withTag({Material:"electrum"})|<tconstruct:large_plate>.withTag({Material:"electrum"})|<ore:ingotElectrum>,<minecraft:piston>],
+[<minecraft:piston>,<tconstruct:sign_head>.withTag({Material:"electrum"})|<tconstruct:large_plate>.withTag({Material:"electrum"}),<minecraft:piston>],
 [steelplate|steelsignplate,<immersiveengineering:material:9>,steelplate|steelsignplate]]);
 mods.immersiveengineering.Blueprint.addRecipe("molds", 
 <immersiveengineering:mold:0>, 
 [<tconstruct:large_plate>.withTag({Material: "steel"}), 
 <immersiveengineering:tool:1>]);
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}),[
-[<immersiveengineering:tool>,<ore:ingotSteel>|steelplate|steelsignplate,<ore:ingotSteel>|steelplate|steelsignplate],
+recipes.addShaped("metal_press_molds",<immersiveengineering:blueprint>.withTag({blueprint: "molds"}),[
+[<immersiveengineering:tool>,steelplates,steelplates],
 [<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
+recipes.addShaped("crafting_components",<immersiveengineering:blueprint>.withTag({blueprint: "components"}),[
+[<ore:plateCopper>|copperplates,<ore:plateAluminum>|aluminiumplates,<ore:plateIron>|ironplates],
+[<ore:dyeBlye>,<ore:dyeBlue>,<ore:dyeBlue>],
 [<minecraft:paper>,<minecraft:paper>,<minecraft:paper>]]);
 
 mods.immersiveengineering.Squeezer.removeByInput(<minecraft:rotten_flesh>);

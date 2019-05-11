@@ -63,13 +63,13 @@
 		},
 		{
 			"type":"crafting",
-			"recipe":"crafttweaker:uniquecrops-generic_28-remodified",
+			"recipe":"crafttweaker:escape_rope",
 			"text":"Craftable from Enderlily and Invisibilia Yarn, this consumable item will teleport the player to the highest available block at their location. Good for caves and dungeons. Almost useless on a skyblock." 
 		},
 		{
 			"type":"crafting",
 			"anchor":"endersnooker",
-			"recipe":"crafttweaker:uniquecrops-endersnooker-modified",
+			"recipe":"crafttweaker:endersnooker",
 			"text":"Craftable from Enderlily Yarn and pearls, this is a tool you can use to swap positions between yourself and another mob you're looking at, or pick up Dark Blocks." 
 		}
     ]

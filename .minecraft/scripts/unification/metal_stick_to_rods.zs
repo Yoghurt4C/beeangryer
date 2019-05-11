@@ -63,3 +63,4 @@ for pair in metalStickPairs {
 <ore:plateFabric>.add(<tconstruct:materials:15>);
 <ore:platePulsatingMesh>.add(<forestry:crafting_material:1>);
 <ore:fabricHemp>.remove(<immersiveengineering:material:5>);
+<ore:gearScented>.add(<extrabees:misc:0>);

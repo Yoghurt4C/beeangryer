@@ -44,6 +44,19 @@
 			"type":"crafting",
 			"recipe":"uniquecrops:genericfood.goldenbread",
 			"text":"Consuming this bread restores about the same amount of saturation and hunger as regular bread, but also applies the Luck effect for some time." 
+		},
+		{
+			"type":"crafting",
+			"recipe":"crafttweaker:collis_to_yarn",
+			"text":"Golden ''Yarn'' can be woven into Silky Cloth, or used in a number of recipes as string substitute, if need be." 
+		},
+		{
+			"header":"Silky Cloth",
+			"type":"use_on_block",
+			"input1":"contenttweaker:yarn_golden#6",
+			"input2":"contenttweaker:loom",
+			"output":"tconstruct:materials:15",
+			"text":"Silky Cloth is crafted by using a Loom while holding at least six Balls of Golden ''Yarn'' in your hand." 
 		}
     ]
 }

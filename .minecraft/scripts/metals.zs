@@ -40,11 +40,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	if (metalPartName=="gear" & metalItems[metalName].nugget as bool & metalItems[metalName].plate as bool){
 		recipes.addShaped("gear_"+metalName, preferredMetalItem,[
 		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]],
-		[metalItems[metalName].plate.items[0],grafter,metalItems[metalName].plate.items[0]],
-		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]]]);
-		recipes.addShaped("gear_"+metalName+"+", preferredMetalItem,[
-		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]],
-		[metalItems[metalName].plate.items[0],grafterProven,metalItems[metalName].plate.items[0]],
+		[metalItems[metalName].plate.items[0],grafter|grafterProven,metalItems[metalName].plate.items[0]],
 		[metalItems[metalName].nugget.items[0],metalItems[metalName].plate.items[0],metalItems[metalName].nugget.items[0]]]);
 	}
 	//ticon
@@ -229,6 +225,31 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		mods.forestry.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,preferredMetalItem%100],metalItems[metalName].comb.items[0],10);
 		mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax>%50,<forestry:honey_drop>%25,preferredMetalItem%100],metalItems[metalName].comb.items[0],null,2000);
 	}}
+	//bad thermalfoundation recipes
+	if (metalItems[metalName].bow as bool & metalPartName=="ingot"){
+		recipes.removeByRecipeName("thermalfoundation:tool.bow_"+metalName);
+		recipes.removeByRecipeName("thermalfoundation:tool.fishing_rod_"+metalName);
+		
+		recipes.addShaped(metalName+"_bow",metalItems[metalName].bow.items[0],[
+		[null,preferredMetalItem,<ore:yarn>],
+		[<ore:stickWood>|<ore:stickTreatedWood>,null,<ore:yarn>],
+		[null,preferredMetalItem,<ore:yarn>]]);
+		recipes.addShaped(metalName+"_fishing_rod",metalItems[metalName].fishing_rod.items[0],[
+		[null,null,preferredMetalItem],
+		[null,preferredMetalItem,<ore:yarn>],
+		[<ore:stickWood>|<ore:stickTreatedWood>,null,<ore:yarn>]]);
+		if(metalName!="iron"&metalName!="gold"){
+			recipes.removeByRecipeName("thermalfoundation:horse_armor_"+metalName);
+			recipes.addShaped(metalName+"_horse_armor",itemUtils.getItem("thermalfoundation:horse_armor_"+metalName),[
+			[metalItems[metalName].plate.items[0],null,metalItems[metalName].plate.items[0]],
+			[<ore:yarn>,<ore:plateFabric>,<ore:yarn>],
+			[preferredMetalItem,null,preferredMetalItem]]);
+		}
+	}
+	//ae
+	if (metalPartName=="dust" & metalItems[metalName].dust as bool){
+		mods.appliedenergistics2.Grinder.addRecipe(preferredMetalItem,metalItems[metalName].ingot.items[0],4);
+	}
 	
 } //don't touch this
 	

@@ -203,6 +203,17 @@ false
 <p>AFK Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.back</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /back is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.cooldown</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>3m</code></td>
@@ -211,6 +222,17 @@ false
 0s to &infin; 
 '>
 <p>/back Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.home</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /home is used</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.back.infinite</code></td>
@@ -223,6 +245,49 @@ false
 <p>Allow to use 'back' command infinite times</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.respawn</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last death point</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.rtp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /rtp is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.spawn</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /spawn is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.tpa</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /tpa is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.warmup</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>5s</code></td>
@@ -233,12 +298,33 @@ false
 <p>/back Warmup Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.warp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /warp is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.badge</code></td>
 <td><code>string</code></td>
 <td class='other' colspan='2'><code>""</code></td>
 <td title='
 '>
 <p>Badge</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.formatting</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allows to use **bold**, *italic* and ~~striketrough~~ in chat</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.chat.name_format</code></td>
@@ -357,6 +443,24 @@ true
 false 
 '>
 <p>Permission for blocks that players can right-click within claimed chunks</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.cactusmod.cactus_crafting_table</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.cactusmod.cactus_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
 </td></tr>
 <tr>
 <td><code>ftbutilities.claims.block.interact.cathedral.dwemer_door_normal</code></td>
@@ -1120,6 +1224,10 @@ false
 <tr><td><code>command.botania_tweaks.botaniatweaks-reset-stats</code></td><td>/botaniatweaks-reset-stats [flowerName | all]</td></tr>
 <tr><td><code>command.buildinggadgets.deleteblockmaps</code></td><td class='error' title='Invalid usage language key!'>DeleteBlockMaps &lt;player&gt;</td></tr>
 <tr><td><code>command.buildinggadgets.findblockmaps</code></td><td class='error' title='Invalid usage language key!'>FindBlockMaps &lt;player&gt;</td></tr>
+<tr><td><code>command.caliper.caliper.count</code></td><td class='error' title='Invalid usage language key!'>/caliper count entity|tile|ticktile|chunk</td></tr>
+<tr><td><code>command.caliper.caliper.recipe</code></td><td class='error' title='Invalid usage language key!'>/caliper recipe book|bookall|normal|normalall</td></tr>
+<tr><td><code>command.caliper.caliper.tp</code></td><td class='error' title='Invalid usage language key!'>/caliper tp &lt;player&gt; &lt;dimension&gt;</td></tr>
+<tr><td><code>command.caliper.caliper.tps</code></td><td class='error' title='Invalid usage language key!'>/caliper tps</td></tr>
 <tr><td><code>command.capsule.capsule</code></td><td class='error' title='Invalid usage language key!'>/capsule &lt;giveEmpty|exportHeldItem|exportSeenBlock|fromExistingReward|fromHeldCapsule|fromStructure|giveRandomLoot|reloadLootList|setAuthor|setBaseColor|setMaterialColor&gt;</td></tr>
 <tr><td><code>command.charset.charset</code></td><td class='error' title='Invalid usage language key!'>/charset [help, hand, at, gateTickLength]</td></tr>
 <tr><td><code>command.charset.mutter</code></td><td class='error' title='Invalid usage language key!'>/mutter [--long] [--show-item] some text. Clears if empty</td></tr>
@@ -1270,8 +1378,9 @@ false
 <tr><td><code>command.pewter.pewter</code></td><td class='error' title='Invalid usage language key!'>/pewter</td></tr>
 <tr><td><code>command.pipemaster.pipemaster</code></td><td>commands.pipemaster.usage</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
+<tr><td><code>command.progressivebosses.progressivebosses</code></td><td>Sets or gets wither and dragon counter for player.</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
-<tr><td><code>command.quark.quarkconfig</code></td><td class='error' title='Invalid usage language key!'>&lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
+<tr><td><code>command.quark.quarkconfig</code></td><td>/quarkconfig &lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
 <tr><td><code>command.randomportals.rporeload</code></td><td>/rporeload</td></tr>
 <tr><td><code>command.randomtweaks.deletegamerule</code></td><td class='error' title='Invalid usage language key!'>/deletegamerule &lt;gamerule&gt;</td></tr>
 <tr><td><code>command.randomtweaks.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
@@ -1306,7 +1415,7 @@ false
 <tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.title</code></td><td>/title &lt;player&gt; title|subtitle|actionbar|clear|reset|times ...</td></tr>
 <tr><td><code>command.togetherforever.tfdebug</code></td><td>tfdebug</td></tr>
-<tr><td><code>command.togetherforever.togetherforever</code></td><td class='error' title='Invalid usage language key!'>Usage: /tf &lt;help|invite|accept|decline|kick|leave|info|forcesync&gt;</td></tr>
+<tr><td><code>command.togetherforever.togetherforever</code></td><td class='error' title='Invalid usage language key!'>Usage: /tofe &lt;help|invite|accept|decline|kick|leave|info|forcesync&gt;</td></tr>
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
 <tr><td><code>command.topaddons.tophelmet</code></td><td class='error' title='Invalid usage language key!'>/tophelmet blacklist &lt;add/remove&gt;</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>

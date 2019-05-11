@@ -1,6 +1,6 @@
 setIcon(<rustic:crushing_tub>)
 setTitle("Seasoned Jumpman")
-setDescription("A manual Squeezer is great fun in moderation, but it's not a good tool for industrialization. Take some load off your limbs by getting a Crushing Tub.")
+setDescription("A manual Squeezer is great fun in moderation, but it's not a good tool for industrialization. Take some load off your limbs by either crafting a Crushing Tub or using a Questionably Mystical Plunger on your Squeezer!")
 
 addParent("triumph:beeangryer/id_basics")
 setRequirements("all")

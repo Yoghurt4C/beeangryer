@@ -27,7 +27,11 @@
     "AcceleratorRadius": "Accelerator working radius",
     "AcceleratorSubstancePerCow": "Accelerator one substance per one cow",
     "AcceleratorMultiplier": "Accelerator speed up multiplier",
-    "AcceleratorWaterPerConvert": "Accelerator water per one substance convert"
+    "AcceleratorWaterPerConvert": "Accelerator water per one substance convert",
+    "BlackListDimIds": "In what dim Id cow not spawn",
+    "EnableConvertCowToDisplayer": "If true u can convert cow into displayer via halter",
+    "BlackListCowToDisplayer": "TODO",
+    "FeederBlackList": "TODO"
   },
   "General": {
     "BreedingItemWork": false,
@@ -47,7 +51,11 @@
     "AcceleratorRadius": 5,
     "AcceleratorSubstancePerCow": 1,
     "AcceleratorMultiplier": 5,
-    "AcceleratorWaterPerConvert": 10
+    "AcceleratorWaterPerConvert": 10,
+    "BlackListDimIds": [],
+    "EnableConvertCowToDisplayer": true,
+    "BlackListCowToDisplayer": [],
+    "FeederBlackList": []
   },
   "glass": {
     "SpawnRate": 0,

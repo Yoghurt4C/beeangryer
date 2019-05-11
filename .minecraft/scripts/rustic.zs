@@ -1,14 +1,13 @@
 import crafttweaker.item.IItemStack;
 
-recipes.addShaped("stonebound_crushing_tub",<rustic:crushing_tub>.withTag({display:{Name:"Stone-bound Crushing Tub"}}),[
-[<ore:slabWood>,null,<ore:slabWood>],
-[<ore:rodStone>,null,<ore:rodStone>],
-[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]]);
-
 for seed in <ore:seed>.items{mods.rustic.CrushingTub.addRecipe(<liquid:seed.oil>*10, null, seed);}
 
 <rustic:grape_stem>.addTooltip(format.green("Rarely harvested from "+format.italic("Vines")+" by using"));
 <rustic:grape_stem>.addTooltip(format.green("Hoes(Iron/Diamond), Mattocks and Kamas"));
+
+<contenttweaker:plunger>.addTooltip(format.darkPurple(format.italic("The tag somehow has ''Turns your Squeezers")));
+<contenttweaker:plunger>.addTooltip(format.darkPurple(format.italic("into Crushing Tubs!'' written on it.")));
+<contenttweaker:plunger>.addShiftTooltip(format.darkPurple(format.italic("The other side of the tag simply reads ''25¢''.")));
 
 game.setLocalization("item.rustic.honeycomb.name","Deviate Honeycomb");
 game.setLocalization("item.rustic.beeswax.name","Deviate Beeswax");
@@ -50,5 +49,6 @@ val saplings=[
 <minecraft:sapling:3>,
 <minecraft:sapling:4>,
 <minecraft:sapling:5>,
-<rustic:sapling>,<rustic:sapling:1>]as IItemStack[];
+<rustic:sapling>,<rustic:sapling:1>,
+<rustic:wildberry_bush>]as IItemStack[];
 for sapling in saplings{mods.jei.JEI.addDescription(sapling,["You can obtain some exotic flora by using Mutandis on Saplings."]);}

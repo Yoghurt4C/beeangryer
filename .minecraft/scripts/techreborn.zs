@@ -17,8 +17,10 @@ var dustAluminum=<immersiveengineering:metal:10>;
 var dustIron=<immersiveengineering:metal:18>;
 furnace.remove(refinedIron);
 
-recipes.replaceAllOccurences(<techreborn:smalldust:62>,<minecraft:glowstone_dust>,<techreborn:nanosaber>);
-
+recipes.addShaped("nanosaber",<techreborn:nanosaber>.withTag({energy:0 as int}),[
+[<ore:plateDiamond>,<ore:plateCarbon>],
+[<ore:plateDiamond>,<ore:plateCarbon>],
+[<minecraft:glowstone_dust>,<ore:lapotronCrystal>,<minecraft:glowstone_dust>]]);
 recipes.addShapeless(<immersiveengineering:metal:10>,[<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>,<techreborn:smalldust:1>]);
 <techreborn:iron_furnace>.addTooltip(format.blue(format.italic("More sophisticated than a limestone Furnace,")));
 <techreborn:iron_furnace>.addTooltip(format.blue(format.italic("but lacks the ability to be heated externally.")));
@@ -27,7 +29,6 @@ recipes.addShaped("plastic_monitor",<techreborn:part:24>,[
 [plastic,<ore:dye>,plastic],
 [<ore:dye>,<ore:paneGlass>,<ore:dye>],
 [plastic,<ore:dye>,plastic]]);
-//recipes.replaceAllOccurences(<ore:ingotAluminum>,<ore:plateAluminum>,<techreborn:part:24>);
 recipes.addShaped(<techreborn:machine_frame>,[
 [refinedIron,<ore:blockGlassOrange>,refinedIron],
 [<ore:blockGlassOrange>,<extrabees:misc:0>,<ore:blockGlassOrange>],

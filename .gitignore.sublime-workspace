@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"addShaped",
+				"addShaped\tmods.vctweaker"
+			],
+			[
+				"condi",
+				"condition"
+			],
+			[
 				"feather",
 				"feather_fiber"
 			],
@@ -47,7 +55,6 @@
 			"settings":
 			{
 				"buffer_size": 2566,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -64,7 +71,88 @@
 			"file": ".minecraft/scripts/ticon.zs",
 			"settings":
 			{
-				"buffer_size": 6609,
+				"buffer_size": 6812,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 41 files for \"replaceAllOccurences\"\n\nC:\\Users\\yoghu_000\\Desktop\\modding shit\\MultiMC\\instances\\beeangrier\\.minecraft\\scripts\\charset.zs:\n   67  mods.jei.JEI.addDescription(<contenttweaker:loom>,\"Used to weave various fibers into fabric. Try using some Yarn on it!\");\n   68  \n   69: /*recipes.replaceAllOccurences(<forestry:crafting_material:3>,<ore:plateFabric>, <*>.only(function(item) {\n   70      return !isNull(item) & !<forestry:alveary.sieve>.matches(item)& !<contenttweaker:yarn_silk>.matches(item);\n   71  }));\n   72: recipes.replaceAllOccurences(<immersiveengineering:material:5>,<ore:plateFabric>, <*>.only(function(item) {\n   73      return !isNull(item) & !<contenttweaker:yarn_hemp>.matches(item);\n   74  }));\n   75: recipes.replaceAllOccurences(<minecraft:wool:*>,<ore:plateFabric>|<ore:blockWool>, <*>.only(function(item) {\n   76      return !isNull(item) & !<minecraft:carpet:*>.matches(item) & !<minecraft:wool:*>.matches(item) & !<quark:quilted_wool:*>.matches(item) & !<chisel:cloud>.matches(item) & !<minecraft:torch>.matches(item) & !<contenttweaker:yarn>.matches(item);\n   77  }));\n   78: recipes.replaceAllOccurences(<minecraft:string>,<ore:yarn>, <*>.only(function(item) {\n   79      return !isNull(item) & !<realfilingcabinet:upgrade:4>.matches(item) & !<realfilingcabinet:emptyfolder:2>.matches(item) & !<immersiveengineering:tool:0>.matches(item) & !<tconstruct:materials:15>.matches(item) & !<botania:felpumpkin>.matches(item) & !<minecraft:wool:0>.matches(item) & !<contenttweaker:yarn>.matches(item);\n   80  }));\n   81: recipes.replaceAllOccurences(<uniquecrops:generic:5>,<contenttweaker:yarn_ender>, <*>.only(function(item) {\n   82      return !isNull(item) & !<realfilingcabinet:upgrade:4>.matches(item);\n   83  }));\n   84: recipes.replaceAllOccurences(<uniquecrops:generic:11>,<contenttweaker:yarn_invisibilia>);*/\n   85  recipes.addShaped(\"lead\",<minecraft:lead>*2,[\n   86  [yarn,yarn],\n\nC:\\Users\\yoghu_000\\Desktop\\modding shit\\MultiMC\\instances\\beeangrier\\.minecraft\\scripts\\forestry.zs:\n   22  var grafterProven=<forestry:grafter_proven>.anyDamage().transformDamage(1);\n   23  \n   24: /*recipes.replaceAllOccurences(<thermalfoundation:material:257>,<extrabees:misc:0>, <*>.only(function(item) {\n   25      return !isNull(item) & !<thermalexpansion:dynamo:2>.matches(item)& !<thermalexpansion:augment:288>.matches(item)& !<thermalexpansion:augment:432>.matches(item);\n   26  }));*/\n   ..\n  185  <contenttweaker:menril_propolis>];\n  186  for item in propolis{<ore:propolis>.add(item);}\n  187: recipes.replaceAllOccurences(<forestry:propolis:*>,<ore:propolis>);\n  188  \n  189  val seed=itemUtils.getItemsByRegexRegistryName(\".*uniquecrops:seed.*\");\n\n8 matches across 2 files\n\n\nSearching 42 files for \"ore:fabric\"\n\nC:\\Users\\yoghu_000\\Desktop\\modding shit\\MultiMC\\instances\\beeangrier\\.minecraft\\scripts\\unification\\metal_stick_to_rods.zs:\n   63  <ore:plateFabric>.add(<tconstruct:materials:15>);\n   64  <ore:platePulsatingMesh>.add(<forestry:crafting_material:1>);\n   65: <ore:fabricHemp>.remove(<immersiveengineering:material:5>);\n   66  <ore:gearScented>.add(<extrabees:misc:0>);\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 3144,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": ".minecraft/scripts/charset.zs",
+			"settings":
+			{
+				"buffer_size": 27798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/techreborn.zs",
+			"settings":
+			{
+				"buffer_size": 14437,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/ie.zs",
+			"settings":
+			{
+				"buffer_size": 5564,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/misc.zs",
+			"settings":
+			{
+				"buffer_size": 9437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/fluidcows.zs",
+			"settings":
+			{
+				"buffer_size": 991,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/forestry.zs",
+			"settings":
+			{
+				"buffer_size": 10014,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/chickens.zs",
+			"settings":
+			{
+				"buffer_size": 12445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/botania.zs",
+			"settings":
+			{
+				"buffer_size": 19793,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -73,7 +161,77 @@
 			"file": ".minecraft/scripts/rm.zs",
 			"settings":
 			{
-				"buffer_size": 9261,
+				"buffer_size": 13521,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/ae.zs",
+			"settings":
+			{
+				"buffer_size": 1120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/resources/contenttweaker/lang/en_us.lang",
+			"settings":
+			{
+				"buffer_size": 2034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/contenttweaker/misc.zs",
+			"settings":
+			{
+				"buffer_size": 11624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/modularmachinery.zs",
+			"settings":
+			{
+				"buffer_size": 7849,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/uniquecrops.zs",
+			"settings":
+			{
+				"buffer_size": 13686,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/patchouli_books/beeangryer/en_us/entries/UC/seedmillennium.json",
+			"settings":
+			{
+				"buffer_size": 1752,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/metals.zs",
+			"settings":
+			{
+				"buffer_size": 11121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/te.zs",
+			"settings":
+			{
+				"buffer_size": 6631,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -83,6 +241,24 @@
 			"settings":
 			{
 				"buffer_size": 2410,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/yoghu_000/Desktop/mc assets/megadoot.json",
+			"settings":
+			{
+				"buffer_size": 919,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".minecraft/scripts/rustic.zs",
+			"settings":
+			{
+				"buffer_size": 2186,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -128,126 +304,157 @@
 	},
 	"expanded_folders":
 	[
-		"/C/multimc/instances/beeangrier/.minecraft",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates"
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/chickens",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/scavenge",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/UC",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/resources",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/resources/contenttweaker",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/resources/contenttweaker/lang",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/contenttweaker",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/unification"
 	],
 	"file_history":
 	[
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/copper_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_data.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/cow_breeding.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/constantan_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/invar_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/tin_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/gold_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/manyullyn_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/mana_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/iron_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/iwc_4inputs(cow)+entity.json",
-		"/C/multimc/instances/instgroups.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/bronze_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/electrum_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/ticon_pigiron_casting+entity.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/steel_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/pigiron_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/knightslime_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/alubrass_cow.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/brass_cow.json",
-		"/C/multimc/accounts.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/ticon_steel_casting+entity.json",
-		"/C/multimc/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/ticon_knightslime_casting+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/dulcedeleche.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/durabilityviewer.json",
-		"/W/aofserver/config/dulcedeleche.json",
-		"/W/aofserver/crusher.json",
-		"/W/aofserver/config/battle-towers/battle-towers.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO4E22813D/crusher.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8D628588/gold_ingot_from_dust.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/easierchests.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/sodden.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/ding.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO42221EE2/.modlist.json",
-		"/C/Users/yoghu_000/Downloads/crash-2019-04-25_19.45.08-client.txt",
-		"/C/Users/yoghu_000/Desktop/git/GT6/src/main/java/gregapi/data/MT.java",
-		"/C/Users/yoghu_000/Desktop/git/GT6/src/main/java/gregtech/GT_Mod.java",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO0F353A5B/modid.client.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO0F33FF4B/mod.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zO0F35F5FB/treestumps-fabric-refmap.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC77C2841/en_us.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC7F73070/mobs with model.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/ytp+/README.TXT",
-		"/C/Users/yoghu_000/Desktop/fabric-server/dl/eula.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/crash-reports/crash-2019-04-10_06.21.09-client.txt",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zOCA8D0195/Readme.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/test rockchem/.minecraft/scripts/ticon.zs",
-		"/C/Users/yoghu_000/Desktop/modding shit/ebin paste.txt",
-		"/C/Users/yoghu_000/Desktop/NUT.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/New Text Document.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/forestry/modules.cfg",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/the_tenebrous_egg.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/carpenter.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/ticon_steel_casting+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/golden_hen.json",
-		"/C/Users/yoghu_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/yoghu_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/yarn+loom.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/burning.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/modularmachinery/recipes/loot_fabricator/pristine_matter_wither.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/use_on_block.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/charset_cauldron_dyeing_fake.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/burning+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/charset_cauldron.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/charset_cauldron_dyeing.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/chicken_breeding.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/daisy+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/drying_basin.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/fake_multiblock.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/iwc_4inputs(cow)+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/iwc_4inputs+entity.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/odd_pagoda.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/runic_altar.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/terraplate.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/tr_cr.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/tr_ibf.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/templates/use_on_chicken.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/contenttweaker/ticon.zs",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/the_great_egg.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/eggshells.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/cow.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Chickens/chicken.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/mana_injector.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/ticon.json",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC6D3981B/README.txt",
-		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC6DAA76A/README.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Chickens/ghast_chicken.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Beginnings/garden_of_glass.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/cofh/world/04_old_haven_features.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/voidislandcontrol.cfg",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/porcelain_upgrade.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/limestone.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/ticon_book.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/porcelain.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/book.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/tconstruct.cfg",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/vic_createisland.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/flopper.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/nest.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/tank.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/chickens/roost.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/chickens/henhouse.txt",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Chickens/dye_chickens.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/charset/modules.cfg",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/stevescarts.cfg",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/resources/contenttweaker/lang/en_us.lang",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO461B88D2/ops.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/metalItems.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/chickens/chickens.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/stumpserb4/.minecraft/scripts/pay2play.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/rm.zs",
 		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/charset.zs",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/dml.zs",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/modularmachinery/recipes/loot_fabricator/pristine_matter_thermal_elemental.json",
-		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/misc.zs"
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/uniquecrops.zs",
+		"/C/Users/yoghu_000/Downloads/sieve.json",
+		"/C/Users/yoghu_000/Downloads/gregtania.json",
+		"/C/Users/yoghu_000/Downloads/MineTweakerRecipeMaker.zs",
+		"/C/Users/yoghu_000/Downloads/fixes.zs",
+		"/C/Users/yoghu_000/Downloads/thermalexpansion.zs",
+		"/C/Users/yoghu_000/Downloads/mods.zs",
+		"/C/Users/yoghu_000/Downloads/steeltank.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/unification/metal_stick_to_rods.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/contenttweaker/misc.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/UC/seedcollis.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/nickel_cow.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/lead_cow.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/silver_cow.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/platinum_cow.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/misc.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/Cows/aluminium_cow.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/crushing_tub.txt",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/metals.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/unification/metal_rod_recipe_fix.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/unification/chisel_separation.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/UC/seedinvisibilia.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/test rockchem/.minecraft/scripts/ds.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/test rockchem/.minecraft/scripts/doot.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_books/beeangryer/en_us/entries/UC/seedenderlily.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/triumph/script/triumph/beeangryer/chickens.txt",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/scavenge/scavenge.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/scripts/ie.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/config/cactusmod.cfg",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/test rockchem/.minecraft/scripts/ticon.zs",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/patchouli_data.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO46AD5B1A/ReadMe.txt",
+		"/Y/gems/GTA San Andreas/modloader/skygfx/README.txt",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO80556D6C/readme.txt",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8580159B/crop_like.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/datapacks/torcherino_recipe/data/torcherino/recipes/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8D00B4A8/nickel_block.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC22E48A5/exclude_recipes.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8460BBAD/sweed_soil.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8464364E/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8461AE1E/sweed_seeds.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO84654DFF/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO82145916/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO858EF849/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO846B1ECB/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8463877A/displaceable.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO846D43B7/sweed_seeds.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO846EB5E7/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8467E406/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO84687CC7/sweed_soil.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8460B766/crop_like.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO846D8D66/sweed_soil.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO846A30B6/sweed_seeds.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8462C886/sweed.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/datapacks/torcherino_recipe/data/torcherino/recipes/torcherino.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO843E66E8/coal_dust.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO8B25AD96/impermeable.json",
+		"/W/aofserver/config/easyexcavate.json",
+		"/W/aofserver/config/harvest.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO05A12550/harvest.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO4BA74880/harvest.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/harvest.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO05A7F070/harvest.json",
+		"/W/aofserver/config/sweed.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/easierchests.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO837C045E/torcherino.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC264752D/torcherino.json",
+		"/W/aofserver/config/vanilladeathchest.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/sweed.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/datapacks/torcherino_recipe/data/torcherino/recipes/lanterino.json",
+		"/W/aofserver/config/moenchantconfig.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO840E291C/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO840938CB/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO840E20EB/en_us.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/waila/waila.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/loot_tables/blocks/sweed.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/saves/New World (1)/datapacks/sweed/data/sweed/loot_tables/blocks/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO00FBC9CA/sweed.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/NUT.txt",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/LICENSE",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A18B07/wheat.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87AC8F37/turtle_egg.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/recipes/sweed.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A81EA8/armor_dye.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87AB4048/banner_duplicate.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A94908/tipped_arrow.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A8B44A/farmer_gift.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87AD8DB9/village_armorer.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A49677/village_fisher.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/resourcepacks/porg/pack.mcmeta",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/beeangrier/.minecraft/resources/mmmm.gredit.txt",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A563E2/dandelion.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/sweed_3.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/sweed_2.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/saves/New World/datapacks/bumble/data/wool/recipes/fan.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/saves/New World/datapacks/bumble/pack.mcmeta",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/sweed_1.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/sweed_0.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/sweed_seeds.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87A0DED5/wheat_seeds.json",
+		"/C/Users/yoghu_000/Desktop/mc assets/sweed/wheat_stage0.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO87AF8DB2/grass.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO40CBB76B/dandelion.json",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zO40C1C5FA/pack.mcmeta",
+		"/C/Users/yoghu_000/AppData/Local/Temp/7zOC5E19C37/DOTHESE.txt",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/easyexcavate.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/mods/.modlist.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/miners-horizon/miners-horizon.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/sandstone_step.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/andesite_platform.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/andesite_step.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/cobblestone_platform.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/cobblestone_step.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/diorite_platform.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/diorite_step.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/granite_platform.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/granite_step.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/sandstone_platform.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/andesite_post.json",
+		"/C/Users/yoghu_000/Desktop/modding shit/MultiMC/instances/All.of.Fabric.1.3.0/.minecraft/config/dulcedeleche.json",
+		"/C/Users/yoghu_000/Desktop/git/ThisAndThat/src/main/resources/data/thisandthat/recipes/acacia_post.json"
 	],
 	"find":
 	{
@@ -258,6 +465,8 @@
 		"height": 102.0,
 		"where_history":
 		[
+			"C:\\Users\\yoghu_000\\Desktop\\modding shit\\MultiMC\\instances\\beeangrier\\.minecraft\\scripts",
+			""
 		]
 	},
 	"find_state":
@@ -265,32 +474,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"10",
+			"20",
+			"menrilpropolis",
+			"ore:fabric",
+			"\t",
+			"replaceAllOccurences",
+			"rodIron",
+			"recipes.replaceAllOccurences",
+			"Iron",
+			"silver",
+			"Molten Silver",
+			"lead",
+			"Molten Lead",
 			"iron",
 			"Molten Iron",
 			"iron",
 			"Molten Iron",
+			"wireLogicInsulatedFreestanding",
+			"tconstruct:edible:1",
+			"minecraft:slime_ball",
+			"crushertubconverter",
 			"iron",
 			"Molten Iron",
-			"Milk",
-			"bronze",
-			"Molten Bronze",
-			"Molten Constantan",
-			"bronze",
-			"Molten Bronze",
-			"bronze",
-			"Molten Bronze",
-			"bronze",
-			"Molten Bronze",
-			"bronze",
-			"Molten Bronze",
-			"bronze",
-			"Molten Bronze",
-			"electrum",
-			"Molten Electrum",
-			"Slime Chicken",
-			"pigiron",
-			"Molten Pig Iron",
-			"Molten Steel",
+			"firestarter",
 			"\"cupronickel\"",
 			"tin",
 			"steel",
@@ -302,32 +509,27 @@
 		"regex": false,
 		"replace_history":
 		[
-			"copper",
-			"Molten Copper",
-			"tin",
-			"Molten Tin",
-			"gold",
-			"Molten Gold",
-			"Molten Iron",
-			"constantan",
-			"Molten Constantan",
-			"invar",
-			"Molten Invar",
-			"manyullyn",
-			"Molten Manyullyn",
-			"mana",
-			"Primal Mana",
-			"brass",
-			"Molten Brass",
-			"alubrass",
-			"Molten Aluminium Brass",
-			"bronze",
-			"Molten Bronze",
-			"Electrum Cow",
-			"knightslime",
-			"Molten Knightslime",
-			"Molten Pig Iron",
-			"Molten Pigiron",
+			"0.1",
+			"0.2",
+			"tiny_biomass",
+			"immersiveengineering",
+			"rodSteel",
+			"Gold",
+			"platinum",
+			"Molten Platinum",
+			"silver",
+			"Molten Silver",
+			"lead",
+			"Molten Lead",
+			"aluminum",
+			"Molten Aluminium",
+			"wireLogicInsulatedGrounded",
+			"tconstruct:edible:1",
+			"tconstruct:edible",
+			"plunger",
+			"nickel",
+			"Molten Nickel",
+			"crushertubconverter",
 			"covetedHoney"
 		],
 		"reverse": false,
@@ -339,7 +541,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 17,
 			"sheets":
 			[
 				{
@@ -483,46 +685,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -533,6 +720,21 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -544,10 +746,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -691,61 +893,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -754,7 +956,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -930,7 +1132,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -946,8 +1148,8 @@
 						"selection":
 						[
 							[
-								2566,
-								2566
+								2558,
+								2558
 							]
 						],
 						"settings":
@@ -960,437 +1162,24 @@
 								{
 									"1":
 									[
-										2053,
-										2054
+										4522,
+										4523
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1614,
-										1615
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										2565,
-										2566
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 452.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": ".minecraft/scripts/contenttweaker/ticon.zs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2387,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1074,
-								1074
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1088,
-										1089
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1071,
-										1072
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1088,
-										1089
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1071,
-										1072
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": ".minecraft/scripts/ticon.zs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6609,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6472,
-								6472
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										6604,
-										6605
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										6526,
-										6527
+										128,
+										129
 									]
 								},
 								"unmatched":
@@ -1461,6 +1250,331 @@
 								{
 									"1":
 									[
+										2557,
+										2558
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2069,
+										2070
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".minecraft/scripts/contenttweaker/ticon.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										755,
+										756
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										580,
+										581
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										755,
+										756
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										580,
+										581
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".minecraft/scripts/ticon.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
 										6481,
 										6482
 									]
@@ -1485,13 +1599,106 @@
 								{
 								}
 							},
-							"bracket_highlighter.regions":
+							"bracket_highlighter.clone_regions":
 							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1507,36 +1714,16 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1547,27 +1734,185 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2178.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": ".minecraft/scripts/rm.zs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9261,
+						"buffer_size": 3144,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										302,
+										322
+									],
+									[
+										544,
+										564
+									],
+									[
+										748,
+										768
+									],
+									[
+										1129,
+										1149
+									],
+									[
+										1568,
+										1588
+									],
+									[
+										1775,
+										1795
+									],
+									[
+										2142,
+										2162
+									],
+									[
+										2546,
+										2566
+									],
+									[
+										3016,
+										3026
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2721,
+								2721
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										1883,
+										1884
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".minecraft/scripts/charset.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7769,
-								7769
+								1854,
+								1854
 							]
 						],
 						"settings":
@@ -1626,21 +1971,21 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1653,24 +1998,24 @@
 								{
 									"1":
 									[
-										7770,
-										7771
+										1890,
+										1891
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"region.bluish"
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										7656,
-										7657
+										1803,
+										1804
 									]
 								},
 								"unmatched":
@@ -1679,11 +2024,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1699,11 +2064,2576 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": ".minecraft/scripts/techreborn.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1404,
+								1404
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".minecraft/scripts/ie.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1257,
+								1257
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": ".minecraft/scripts/misc.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": ".minecraft/scripts/fluidcows.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										781,
+										782
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										580,
+										581
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": ".minecraft/scripts/forestry.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1029,
+								1029
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": ".minecraft/scripts/chickens.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5049,
+								5049
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 891.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": ".minecraft/scripts/botania.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17267,
+								17267
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										17544,
+										17545
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17200,
+										17201
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": ".minecraft/scripts/rm.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										10561,
+										10562
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": ".minecraft/scripts/ae.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1117,
+										1118
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1060,
+										1061
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"spell_check": true,
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": ".minecraft/resources/contenttweaker/lang/en_us.lang",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1439,
+								1439
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": ".minecraft/scripts/contenttweaker/misc.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1133
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5000,
+										5001
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4984,
+										4985
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 186.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": ".minecraft/scripts/modularmachinery.zs",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 42,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": ".minecraft/scripts/uniquecrops.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1160,
+								1160
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": ".minecraft/patchouli_books/beeangryer/en_us/entries/UC/seedmillennium.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1518,
+								1518
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1771,
+										1772
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1518,
+										1519
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1493,
+										1494
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": ".minecraft/scripts/metals.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10579,
+								10477
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										10805,
+										10806
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										10800,
+										10801
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1714,38 +4644,343 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										10581,
+										10582
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										10473,
+										10474
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3951.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 23,
+					"file": ".minecraft/scripts/te.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1023,
+								1023
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1052,
+										1053
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1019,
+										1020
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": ".minecraft/patchouli_books/beeangryer/en_us/templates/carpenter.json",
 					"semi_transient": false,
 					"settings":
@@ -1757,8 +4992,8 @@
 						"selection":
 						[
 							[
-								2401,
-								2401
+								533,
+								533
 							]
 						],
 						"settings":
@@ -1859,8 +5094,8 @@
 								{
 									"1":
 									[
-										2404,
-										2405
+										615,
+										616
 									]
 								},
 								"icon":
@@ -1875,8 +5110,215 @@
 								{
 									"1":
 									[
-										2353,
-										2354
+										532,
+										533
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 53.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/yoghu_000/Desktop/mc assets/megadoot.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										918,
+										919
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										57,
+										58
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										918,
+										919
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										57,
+										58
 									]
 								},
 								"unmatched":
@@ -1920,11 +5362,114 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": ".minecraft/scripts/rustic.zs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1221,
+										1222
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1079,
+										1080
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1935,20 +5480,122 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1221,
+										1222
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1079,
+										1080
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/User/ZenScript-Highlighter-0.5.2/ZenScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2195.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1993,7 +5640,7 @@
 	"project": ".gitignore.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 71.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2031,7 +5678,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 300.0,
+	"side_bar_width": 299.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

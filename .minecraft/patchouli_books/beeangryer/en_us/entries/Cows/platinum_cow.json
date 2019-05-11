@@ -1,0 +1,28 @@
+{
+    "name": "Molten Platinum Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'platinum'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Platinum Cows are a metallic species of Cows. Lustrous, highly valuable, noble, blindingly light-blue and very performant. At least, the metal is...<br>Dairy: Molten Platinum.$(br2)Normally, it's also very scarce, but that's not much of an issue now, is it?"
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:dye:7#16",
+            "input2":"minecraft:dye:12#16",
+            "input3":"fluidcows:cow_displayer{fluid:'zinc'}",
+            "input4":"fluidcows:cow_displayer{fluid:'gold'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'platinum'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'platinum'}",
+            "chicken":"Molten Platinum Cow",
+            "entitytooltip":"&7Molten Platinum",
+            "outputstack":"forge:bucketfilled{FluidName:'platinum',Amount:1000}"
+        }
+    ]
+}

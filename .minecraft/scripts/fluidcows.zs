@@ -40,7 +40,7 @@ val fluidCowTagArray as string[]=[
 	"zinc"
 	];
 for tag in fluidCowTagArray{
-	recipes.addShapeless(<fluidcows:cow_displayer>.withTag({fluid: tag}),
+	recipes.addShapeless("molten_"+tag+"_cow",<fluidcows:cow_displayer>.withTag({fluid: tag}),
 	[<fluidcows:cow_halter>.withTag({t_fluid: tag}).giveBack(<fluidcows:cow_halter>),
 	<tconstruct:piggybackpack>.transformDamage(1)]);}
 	

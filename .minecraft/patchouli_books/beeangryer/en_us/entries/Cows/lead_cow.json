@@ -1,0 +1,28 @@
+{
+    "name": "Molten Lead Cow",
+    "icon": "fluidcows:cow_displayer{fluid:'lead'}",
+    "category": "cows",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten Lead Cows are a metallic species of Cows with a slick, dark purple exterior.<br>Dairy: Molten Lead.$(br2)Probably not the crowd you want to hang out with for too long."
+        },
+        {
+            "type":"iwc_4inputs(cow)+entity",
+            "header":"Chocolate Milk ''Dipping''",
+            "input1":"minecraft:spider_eye#16",
+            "input2":"techreborn:dust:11#16",
+            "input3":"minecraft:dye:4#16",
+            "input4":"fluidcows:cow_displayer{fluid:'iron'}",
+            "liquid":"contenttweaker:textures/blocks/fluid.chocolatemilk.still.png",
+            "liquidname":"Chocolate Milk",
+            "liquidtooltip":"&7Needs to be placed in-world",
+            "output":"fluidcows:cow_displayer{fluid:'lead'}",
+            "entity":"fluidcows:fluidcow{t_fluid:'lead'}",
+            "chicken":"Molten Lead Cow",
+            "entitytooltip":"&7Molten Lead",
+            "outputstack":"forge:bucketfilled{FluidName:'lead',Amount:1000}"
+        }
+    ]
+}

@@ -43,12 +43,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:dye",
-      "metaID": 15
+      "itemID": "quark:root_dye",
+      "metaID": 2
     },
     "drop_item": {
-      "itemID": "thermalfoundation:dye",
-      "metaID": 15
+      "itemID": "quark:root_dye",
+      "metaID": 2
     },
     "spawn_type": "NONE",
     "parent_1": "",
@@ -75,12 +75,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "thermalfoundation:dye",
-      "metaID": 4
+      "itemID": "quark:root_dye",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "thermalfoundation:dye",
-      "metaID": 4
+      "itemID": "quark:root_dye",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "",

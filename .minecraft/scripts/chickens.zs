@@ -7,7 +7,6 @@ var plastic=<hatchery:plastic>;
 var feather_meal=<hatchery:feather_meal>;
 
 <ore:egg>.add(<contenttweaker:golden_egg>);
-recipes.replaceAllOccurences(<minecraft:egg>,<ore:egg>);
 <contenttweaker:golden_egg>.addTooltip(format.italic("Hold SHIFT for details..."));
 <contenttweaker:golden_egg>.addShiftTooltip(format.gray("Can be thrown into "+format.darkRed("''Etching'' Acid")+" to skim the ''gold'' off."));
 
@@ -39,6 +38,7 @@ recipes.addShaped("chickencircuitboard",<hatchery:circuit_board>*3,[
 [plastic,plastic,plastic]]);
 
 var waterContainer=<minecraft:water_bucket>|<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})|<forestry:can:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<forestry:capsule:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<forestry:refractory:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).noReturn()|<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})|<botania:waterbowl>.withTag({Fluid: {FluidName: "water", Amount: 1000}}).giveBack(<minecraft:bowl>)|<chickens:liquid_egg:0>;
+var milkContainer=<minecraft:milk_bucket>|<ceramics:clay_bucket>.withTag({fluids: {FluidName: "milk", Amount: 1000}})|<forestry:can:1>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).noReturn()|<forestry:capsule:1>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).noReturn()|<forestry:refractory:1>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).noReturn()|<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "milk", Amount: 1000}});
 
 recipes.addShapeless("feather_pulp",<hatchery:feather_pulp>*4,[
 feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,feather_meal,
@@ -68,6 +68,17 @@ recipes.addShaped("chicken_catcher",<roost:catcher>,[
 [<minecraft:feather>,<ore:stickWood>,<hatchery:plastic>],
 [<ore:stickWood>,<minecraft:feather>,null]]);
   
+recipes.addShaped("cake",<minecraft:cake>,[
+[milkContainer,milkContainer,milkContainer],
+[<minecraft:sugar>,<ore:egg>,<minecraft:sugar>],
+[<ore:cropWheat>,<ore:cropWheat>,<ore:cropWheat>]]);
+recipes.addShapeless("chicken_analyzer",<chickens:analyzer>,[
+<ore:egg>,<minecraft:compass>|<binniecore:field_kit>.anyDamage()]);
+recipes.addShaped("lucky_egg_machine",<hatchery:chicken_machine>,[
+[<ore:dye>,<ore:plankWood>,<ore:dye>],
+[<minecraft:concrete:1>,<ore:egg>,<minecraft:concrete:1>],
+[<minecraft:concrete:1>,<hatchery:circuit_board>,<minecraft:concrete:1>]]);
+
 val squeezingChickens ={
 	<liquid:liquidchicken>:<minecraft:chicken>
 	}as IItemStack[ILiquidStack];

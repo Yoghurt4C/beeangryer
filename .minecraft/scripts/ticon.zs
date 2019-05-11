@@ -1,14 +1,18 @@
 <ceramics:faucet>.addTooltip("Drains liquids from Melters and other things");
 recipes.addShapeless("unfired_porcelain",<ceramics:unfired_clay:4>*2,[<minecraft:clay_ball>,<minecraft:clay_ball>,<ore:dyeWhite>]);
 
-recipes.replaceAllOccurences(<minecraft:vine>,<ore:vine>, <*>.only(function(item) {
-    return !isNull(item) & !<gendustry:apiary.upgrade:18>.matches(item);
-}));
+recipes.addShapeless("mossy_stone_bricks",<minecraft:stonebrick:1>,[
+<ore:bricksStone>,<ore:vine>]);
+recipes.addShapeless("mossy_cobblestone",<minecraft:mossy_cobblestone>,[
+<ore:cobblestone>,<ore:vine>]);
+recipes.addShaped("vineball",<botania:vineball>,[
+[<ore:vine>,<ore:vine>,<ore:vine>],
+[<ore:vine>,<ore:vine>,<ore:vine>],
+[<ore:vine>,<ore:vine>,<ore:vine>]]);
 
 recipes.addShaped("flint_chisel",<tcomplement:chisel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 393, HarvestLevel: 1, Attack: 2.9 as float}, chiseldata: {}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 393, HarvestLevel: 1, Attack: 2.9 as float}, Special: {Categories: ["aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}], Traits: ["ecological", "crude2"]}),[
 [null,<minecraft:flint>],
 [<minecraft:stick>,null]]);
-
 var chisel=<chisel:chisel_iron>.anyDamage().transformDamage(1)|<chisel:chisel_diamond>.anyDamage().transformDamage(1)|<chisel:chisel_hitech>.anyDamage().transformDamage(1)|<tcomplement:chisel>.anyDamage().transformDamage(1)|<tcomplement:chisel>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 393, HarvestLevel: 1, Attack: 2.9 as float}, chiseldata: {}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 393, HarvestLevel: 1, Attack: 2.9 as float}, Special: {Categories: ["aoe", "tool", "weapon"]}, TinkerData: {Materials: ["wood", "flint"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "crude", color: -9868951, level: 2, crude2: 1 as byte}], Traits: ["ecological", "crude2"]}).anyDamage().transformDamage(1);
 
 recipes.addShaped("pick_head_flint",<tconstruct:pick_head>.withTag({Material: "flint"}),[

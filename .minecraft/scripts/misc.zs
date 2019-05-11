@@ -5,12 +5,17 @@ var limestone=<ore:stoneLimestone>;
 var plastic=<hatchery:plastic>;
 var circuitOrganic=<hatchery:circuit_board>;
 var monitor=<techreborn:part:24>;
+val toolRod = <ore:stickWood>|<ore:stickTreatedWood>;
 recipes.addShaped("firestarter",<contenttweaker:firestarter>,[
 [null,<ore:stickWood>],
 [<ore:stickWood>,<minecraft:wheat>]]);
 <contenttweaker:firestarter>.addTooltip(format.red(format.italic("Very cheap flint and steel alternative.")));
 <contenttweaker:firestarter>.addShiftTooltip(format.red(format.italic("Not very reliable.")));
 <quark:charcoal_block>.addTooltip(format.red(format.italic("Burns forever, like netherrack!")));
+recipes.addShaped("plunger",<contenttweaker:plunger>,[
+[null,<ore:petalOrange>,<minecraft:leather>|<techreborn:part:32>],
+[<ore:yarn>,toolRod,<ore:petalOrange>],
+[toolRod,<ore:paper>,null]]);
 
 recipes.addShaped("salt_block",<contenttweaker:salt_block>,[
 [<contenttweaker:salt_cube>,<contenttweaker:salt_cube>,<contenttweaker:salt_cube>],

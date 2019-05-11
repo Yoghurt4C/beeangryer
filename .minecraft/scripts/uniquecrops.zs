@@ -1,8 +1,28 @@
 import mods.uniquecrops.SeedCrafting;
 import mods.jei.JEI;
 
+var yarn_ender=<contenttweaker:yarn_ender>;
+var yarn_invisibilia=<contenttweaker:yarn_invisibilia>;
+<ore:cropWheat>.add(<uniquecrops:generic:6>);
+
 recipes.addShaped("slippers",<uniquecrops:slippers>,[
 [<uniquecrops:generic:14>,<uniquecrops:generic:14>]]);
+recipes.addShaped("endersnooker",<uniquecrops:endersnooker>,[
+[yarn_ender,<minecraft:ender_pearl>,yarn_ender],
+[<minecraft:ender_pearl>,<ore:stickWood>,<minecraft:ender_pearl>],
+[yarn_ender,<minecraft:ender_pearl>,yarn_ender]]);
+recipes.addShaped("escape_rope",<uniquecrops:generic:28>,[
+[yarn_ender,yarn_invisibilia],
+[yarn_invisibilia,yarn_ender],
+[yarn_ender,yarn_invisibilia]]);
+recipes.addShaped("invisiglass",<uniquecrops:invisiglass>*6,[
+[yarn_invisibilia,<ore:blockGlassColorless>,yarn_invisibilia],
+[<ore:blockGlassColorless>,yarn_invisibilia,<ore:blockGlassColorless>],
+[yarn_invisibilia,<ore:blockGlassColorless>,yarn_invisibilia]]);
+recipes.addShaped("egg_upgrade",<uniquecrops:generic:19>,[
+[<ore:ingotIron>,<ore:egg>,<ore:ingotIron>],
+[<ore:egg>,<uniquecrops:generic:17>,<ore:egg>],
+[<ore:ingotIron>,<ore:egg>,<ore:ingotIron>]]);
 
 JEI.hide(<uniquecrops:seedimperia>);
 JEI.hide(<uniquecrops:seedindustria>);

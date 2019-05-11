@@ -5,13 +5,44 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.InductionSmelter;
 import mods.thermalexpansion.Enchanter;
 
-recipes.replaceAllOccurences(<minecraft:iron_ingot>,<ore:ingotSteel>,<thermalexpansion:frame>);
-recipes.replaceAllOccurences(<ore:blockGlass>,<ore:blockGlassOrange>,<thermalexpansion:frame>);
+var honeyGlass=<ore:blockGlassOrange>;
+var plateSteel=<ore:plateSteel>;
+var plateLead=<ore:plateLead>;
+var plateRedstone=<ore:plateRedstone>;
+var gearScented=<extrabees:misc:0>;
+var rodIron=<ore:rodIron>;
+var rodSteel=<ore:rodSteel>;
+var piston=<minecraft:piston>;
+var redstoneServo=<thermalfoundation:material:512>;
+var moldGear=<immersiveengineering:mold:1>;
+
+recipes.addShaped("biomass",<thermalfoundation:material:816>,[
+[<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>],
+[<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>],
+[<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>,<contenttweaker:tiny_biomass>]]);
+recipes.addShaped("tiny_biomass",<contenttweaker:tiny_biomass>*9,[[<thermalfoundation:material:816>]]);
+
+recipes.remove(<thermalexpansion:frame>);
+recipes.addShaped("machine_frame_te",<thermalexpansion:frame>,[
+[plateSteel,honeyGlass,plateSteel],
+[honeyGlass,gearScented|<ore:gearSteel>,honeyGlass],
+[plateSteel,honeyGlass,plateSteel]]);
+
+recipes.addShaped("redstone_servo",<thermalfoundation:material:512>*1,[
+[plateRedstone,rodSteel,plateRedstone],
+[null,plateSteel],
+[plateRedstone,rodSteel,plateRedstone]]);
+
 recipes.remove(<thermalexpansion:machine:5>);
 recipes.addShaped("te_compactor",<thermalexpansion:machine:5>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}),[
 [<immersiveengineering:mold>.reuse(),<minecraft:piston>,null],
 [<ore:ingotBronze>,<thermalexpansion:frame:0>,<ore:ingotBronze>],
 [<ore:ingotCopper>,<thermalfoundation:material:513>,<ore:ingotCopper>]]);
+
+recipes.addShaped("gearworking_die",<thermalexpansion:augment:337>,[
+[rodSteel,moldGear,rodSteel],
+[plateLead,redstoneServo,plateLead],
+[rodSteel,piston,rodSteel]]);
 
 Pulverizer.removeRecipe(<thermaldynamics:duct_16>);
 Pulverizer.removeRecipe(<thermaldynamics:duct_16:1>);
@@ -81,9 +112,21 @@ Enchanter.removeRecipe(<minecraft:book>, <minecraft:chest>);
 for chest in <ore:chestWood>.items{
 Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: 11 as short}]}),
 <minecraft:book>, chest, 12000, 1000, false);}
-recipes.replaceAllOccurences(<ore:gearIron>,<immersiveengineering:mold:1>,<thermalexpansion:augment:337>);
 
 game.setLocalization("item.thermalfoundation.util.wrench0.name","Skookum Choocher");
 game.setLocalization("info.thermalfoundation.util.wrench.1","Thumb Detecting Swedish Nut Lathe!");
 <thermalfoundation:wrench>.addTooltip(format.italic(format.darkPurple("Formerly Crescent Hammer.")));
 <ore:wrench>.add(<thermalfoundation:wrench>);
+
+recipes.addShaped("iron_horse_armor_te",<minecraft:iron_horse_armor>,[
+[<ore:plateIron>,null,<ore:plateIron>],
+[<ore:yarn>,<ore:plateFabric>,<ore:yarn>],
+[<ore:ingotIron>,null,<ore:ingotIron>]]);
+recipes.addShaped("golden_horse_armor",<minecraft:golden_horse_armor>,[
+[<ore:plateGold>,null,<ore:plateGold>],
+[<ore:yarn>,<ore:plateFabric>,<ore:yarn>],
+[<ore:ingotGold>,null,<ore:ingotGold>]]);
+recipes.addShaped("diamond_horse_armor",<minecraft:diamond_horse_armor>,[
+[<ore:plateDiamond>,null,<ore:plateDiamond>],
+[<ore:yarn>,<ore:plateFabric>,<ore:yarn>],
+[<ore:gemDiamond>,null,<ore:gemDiamond>]]);
